@@ -1,552 +1,552 @@
-# Section: Introducing Open Source Business Models
+# 섹션: 오픈 소스 비즈니스 모델 소개
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will provide definitions of several important open source business models, as well as comparisons between them. We will also discuss the relative strengths and weaknesses of each approach, and highlight which models can be used in which business scenarios.
+이 섹션에서는 몇 가지 중요한 오픈 소스 비즈니스 모델의 정의와 이들 간의 비교를 제공합니다. 또한 각 접근 방식의 상대적인 강점과 약점에 대해 논의하고 어떤 비즈니스 시나리오에서 어떤 모델을 사용할 수 있는지 강조할 것입니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Define the most often used open source business models.
+- 가장 자주 사용되는 오픈 소스 비즈니스 모델을 정의합니다.
 
-- Explain the differences and similarities among these business models.
+- 이러한 비즈니스 모델의 차이점과 유사점을 설명하십시오.
 
-- Understand which models work best with which business scenarios.
+- 어떤 모델이 어떤 비즈니스 시나리오에서 가장 잘 작동하는지 이해합니다.
 
-## Lesson: Definitions
+## 강의: 정의
 
-### What are the Major Open Source Business Models?
+### 주요 오픈 소스 비즈니스 모델은 무엇입니까?
 
-There are two ways to slice the notion of open source business models - those companies who consume open source (most organizations), vs. those who primarily produce open source. Let’s tackle the consumption side first.
+오픈 소스 비즈니스 모델의 개념을 분할하는 두 가지 방법이 있습니다. 즉, 오픈 소스를 사용하는 회사(대부분의 조직)와 주로 오픈 소스를 생산하는 회사입니다. 먼저 사용 측면을 살펴보자.
 
-**Consumption**
+**사용**
 
-![Moving to Strategic use of Open Source](strategic-use.png)
+![오픈소스의 전략적 활용](strategic-use.png)
 
-A recent Gartner study, highlighted above, showed that best in class software and technology organizations consume roughly 80% of the software they use in their products from open source, and then build the remaining 20% of their value add on top of that software stack to provide products to their customers. Doing this allows them to focus limited engineering resources on differentiated value while sharing the development costs of common code with the rest of the open source ecosystem.
+위에서 강조한 최근 Gartner 연구에 따르면 동급 최고의 소프트웨어 및 기술 조직은 고객에게 제품을 제공하기 위해 제품에 사용하는 소프트웨어의 약 80%를 오픈 소스로 사용하고 나머지 20%의 부가가치를 해당 소프트웨어 스택 위에 구축합니다. 이를 통해 제한된 엔지니어링 리소스를 차별화된 가치에 집중하는 동시에 나머지 오픈 소스 생태계와 공통 코드의 개발 비용을 공유할 수 있습니다.
 
-Those companies producing open source code generally fall into the following types of business models (though they also likely strategically consume open source as well):
+오픈 소스 코드를 생산하는 회사는 일반적으로 다음과 같은 유형의 비즈니스 모델에 속합니다(하지만 전략적으로도 오픈 소스를 사용할 가능성도 있음).
 
-**Licensing**
+**라이선스**
 
-This model relies on dual-licensing software under both a commercial license as well as an open source license, usually resulting in a ‘community edition’ and an ‘enterprise edition’ of the product that customers can choose depending upon what features they may need in the product. An example is the Oracle MySQL database, licensed under both a commercial license and the GNU Public License (later modules will cover licenses in more detail).
+이 모델은 상용 라이선스와 오픈 소스 라이선스 모두에 따른 이중 라이선스 소프트웨어에 의존하며, 일반적으로 고객이 필요한 기능에 따라 제품의 '커뮤니티 에디션'과 '엔터프라이즈 에디션'을 선택할 수 있습니다. 제품. 예를 들어 상용 라이선스와 GNU 공용 라이선스에 따라 라이선스가 부여된 Oracle MySQL 데이터베이스가 있습니다(이후 모듈에서 라이선스에 대해 더 자세히 다룰 예정임).
 
-**Hosting**
+**호스팅**
 
-In this model, companies provide the open source product in a Cloud-hosted SaaS (Software as a Service model). The primary examples of this are companies such as Amazon (Amazon Web Services) and Google (Google Cloud) that host open source technologies in hardened, scalable, enterprise-grade configurations.
+이 모델에서 기업은 클라우드 호스팅 SaaS(Software as a Service 모델)에서 오픈 소스 제품을 제공합니다. 이에 대한 주요 예는 강화되고 확장 가능한 엔터프라이즈급 구성으로 오픈 소스 기술을 호스팅하는 Amazon(Amazon Web Services) 및 Google(Google Cloud)과 같은 회사입니다.
 
-**Support**
+**기술 지원**
 
-Enterprises often want to take advantage of the technological innovation provided by open source, but are more concerned with running their business on open source products. In this case, they turn to companies like RedHat and IBM, who offer support, technical guidance, professional services and training to help enterprises run business applications on top of an open source platform.
+기업은 종종 오픈 소스가 제공하는 기술 혁신을 활용하기를 원하지만 오픈 소스 제품에서 비즈니스를 운영하는 데 더 관심이 있습니다. 이 경우 기업이 오픈 소스 플랫폼에서 비즈니스 애플리케이션을 실행할 수 있도록 지원, 기술 지침, 전문 서비스 및 교육을 제공하는 RedHat 및 IBM과 같은 회사를 찾습니다.
 
-**Open Core**
+**오픈 코어**
 
-This typically involves a capable core product which is free and open source. Around the core, a commercial entity provides closed source software that adds to or extends its capabilities. These add-ons are then sold as commercial software, and they can also be combined with the support model to provide training and technical support of the extensions.
+여기에는 일반적으로 무료 및 오픈 소스인 유능한 핵심 제품이 포함됩니다. 핵심을 중심으로 상업 주체는 기능을 추가하거나 확장하는 폐쇄형 소스 소프트웨어를 제공합니다. 그런 다음 이러한 추가 기능은 상용 소프트웨어로 판매되며 지원 모델과 결합하여 확장에 대한 교육 및 기술 지원을 제공할 수도 있습니다.
 
-### Comparing Open Source Business Models
+### 오픈 소스 비즈니스 모델 비교
 
-In comparing these open source business models, it’s important to note that different businesses have different reasons for choosing a particular model, and as noted above, there are sometimes cases where models are combined (e.g. Open Core & Support). Here are some primary reasons why businesses choose each model:
+이러한 오픈 소스 비즈니스 모델을 비교할 때, 비즈니스마다 특정 모델을 선택하는 이유가 다르며 위에서 언급한 것처럼 모델이 결합되는 경우(예: Open Core 및 지원)가 있다는 점에 유의하는 것이 중요합니다. 기업이 각 모델을 선택하는 몇 가지 주요 이유는 다음과 같습니다.
 
-**Consumption**
+**사용**
 
-When your business has differentiated intellectual property but needs to reduce cost and complexity, strategically consuming open source software and building your product or service on top of that open source base platform gives you access to shared innovation that you can leverage to build compelling products without having to build everything yourself.
+귀하의 비즈니스에 차별화된 지적 재산이 있지만 비용과 복잡성을 줄여야 하는 경우, 오픈 소스 소프트웨어를 전략적으로 사용하고 해당 오픈 소스 기반 플랫폼 위에 제품 또는 서비스를 구축하면 모든 것을 직접 구축하지 않고도 매력적인 제품을 구축하는 데 활용할 수 있는 공유 혁신에 접근할 수 있습니다.
 
-**Licensing**
+**라이선스**
 
-Utilizing a dual-licensing strategy gives you the opportunity to get the value of consumption and shared input for a ‘community’ version of your product, while selling an ‘enterprise’ version of the product to realize revenue and continue to fund work on the ‘community’ version. It also gives you the ability to let customers ‘try before they buy’ and potentially grow their business to require access to your paid enterprise version.
+이중 라이선스 전략을 사용하면 제품의 '커뮤니티' 버전에 대한 사용 가치와 공유 입력을 얻을 수 있는 기회를 제공하는 동시에 '엔터프라이즈' 버전의 제품을 판매하여 수익을 실현하고 '커뮤니티' 버전. 또한 고객이 '구매하기 전에 사용해 보고' 유료 엔터프라이즈 버전에 대한 액세스를 요구하도록 비즈니스를 성장시킬 수 있는 기능도 제공합니다.
 
-**Hosting**
+**호스팅**
 
-Providing a hosted solution of an open source project/product allows companies that have built infrastructure to support code for their own benefit to offer that same software as a service for their customers. Similar to the licensing model, this allows organizations to derive revenue for the software, which in terms helps fund their hosting infrastructure and also allows them to continue development of the open source project.
+오픈 소스 프로젝트/제품의 호스팅 솔루션을 제공하면 자체 이익을 위해 코드를 지원하는 인프라를 구축한 기업이 고객에게 동일한 소프트웨어를 서비스로 제공할 수 있습니다. 라이선스 모델과 유사하게 이를 통해 조직은 소프트웨어에 대한 수익을 얻을 수 있으며, 이는 호스팅 인프라에 자금을 지원하고 오픈 소스 프로젝트의 개발을 계속할 수 있게 해줍니다.
 
-**Support**
+**기술 지원**
 
-If a technology company has in-house expertise and a reputation for contributing to one or more open source projects, providing a ‘hardened’ enterprise version of those projects that is bundled with technical support and training allows them to continue their work in that open source project and lets them provide their customers with a solid base platform that they can then run business software on reliably. Stock markets running on RedHat Enterprise Linux are a great example of this model.
+기술 회사가 사내 전문 지식과 하나 이상의 오픈 소스 프로젝트에 기여한 것으로 명성이 있는 경우 기술 지원 및 교육과 함께 번들로 제공되는 해당 프로젝트의 '강화' 엔터프라이즈 버전을 제공하면 해당 오픈 소스에서 작업을 계속할 수 있습니다. 프로젝트를 통해 고객에게 비즈니스 소프트웨어를 안정적으로 실행할 수 있는 견고한 기반 플랫폼을 제공할 수 있습니다. RedHat Enterprise Linux에서 실행되는 주식 시장은 이 모델의 좋은 예입니다.
 
-**Open Core**
+**오픈 코어**
 
-This business model can work very well, but it also can develop a poor reputation for an organization if the community feels that the closed source extensions provided on top of the open source code should rightfully be part of the open source core. This model requires a delicate balance of providing added value that large enterprises are willing to pay for while still allowing the free community version of a project to be useful to individuals, as well as small to medium businesses.
+이 비즈니스 모델은 매우 잘 작동할 수 있지만 커뮤니티에서 오픈 소스 코드 위에 제공된 폐쇄 소스 확장이 공개 소스 핵심의 일부가 되어야 한다고 생각하는 경우 조직에 대한 평판이 좋지 않을 수도 있습니다. 이 모델은 대기업이 지불할 의향이 있는 부가가치를 제공하는 동시에 개인과 중소기업 모두에게 프로젝트의 무료 커뮤니티 버전이 유용하도록 허용하는 섬세한 균형이 필요합니다.
 
-# Section: Developing an Open Source Strategy
+# 섹션: 오픈 소스 전략 개발하기
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will show how to create an organizational open source strategy, discuss the value and need for doing so, and then discuss considerations for how the strategy will affect the implementation of open source policies.
+이 섹션에서는 조직의 오픈 소스 전략을 만드는 방법을 보여주고 그렇게 하는 데 필요한 가치와 필요성을 논의한 다음 전략이 오픈 소스 정책의 구현에 미치는 영향에 대한 고려 사항을 논의합니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다.
 
-- Explain the need and value for creating an organizational open source strategy
+- 조직적 오픈소스 전략 수립의 필요성과 가치 설명
 
-- Describe the different types of strategies an organization might utilize
+- 조직이 활용할 수 있는 다양한 유형의 전략 설명
 
-- Articulate a phased implementation plan to help turn the strategy into organizational policies
+- 전략을 조직적 정책으로 전환하는 데 도움이 되는 단계적 구현 계획을 명확히 합니다.
 
-## Lesson: Overview of an Open Source Strategy
+## 강의: 오픈 소스 전략 개요
 
-### What is an Open Source Strategy?
+### 오픈 소스 전략이란 무엇입니까?
 
-Strategy is a very broad term that we could discuss (or argue about) for hours, but we mean something very specific when we talk about Open Source:
+전략은 몇 시간 동안 논의(또는 논쟁)할 수 있는 매우 광범위한 용어이지만 오픈 소스에 대해 이야기할 때는 매우 구체적인 것을 의미합니다:
 
-- A concise, high level document
+- 간결하고 높은 수준의 문서
 
-- Based on the organization’s business objectives
+- 조직의 비즈니스 목표를 기반으로
 
-- Maps business objectives to open source software use and management directives
+- 비즈니스 목표를 오픈 소스 소프트웨어 사용 및 관리 지침에 매핑
 
-The strategy must be understandable to everyone that participates in open source related activities. It becomes the reference document for establishing agreement on future open source policies and processes. On an ongoing basis, it is an important tool for making new decisions, and for establishing program buy-in and commitment.
+전략은 오픈 소스 관련 활동에 참여하는 모든 사람이 이해할 수 있어야 합니다. 향후 오픈소스 정책 및 프로세스에 대한 합의를 위한 참고자료가 됩니다. 지속적으로 이것은 새로운 결정을 내리고 프로그램 동의 및 약속을 수립하기 위한 중요한 도구입니다.
 
-Many organizations also use an Open Source strategy as a vehicle to establish a mandate for implementing open source best practices and policies.
+많은 조직은 또한 오픈 소스 모범 사례 및 정책을 구현하기 위한 권한을 설정하기 위한 수단으로 오픈 소스 전략을 사용합니다.
 
-### Major Questions to Ask
+### 주요 질문
 
-In creating a practical open source strategy, three major questions must be answered. (The first two questions can be addressed in either order.)
+실용적인 오픈 소스 전략을 세울 때 세 가지 주요 질문에 답해야 합니다. (처음 두 질문은 어느 순서로든 해결할 수 있습니다.)
 
-**Where does the organization want to use Open Source?**
+**조직은 어디에서 오픈 소스를 사용하기를 원합니까?**
 
-This question is critically important because the best practices for managing open source are quite different for various use cases. For instance, using open source tools internally poses little-to-no risk and does not require any license compliance regimen, but embedding open source in software that is distributed requires much more consideration and enabling elements.
+오픈 소스 관리에 대한 모범 사례는 다양한 사용 사례에 따라 상당히 다르기 때문에 이 질문은 매우 중요합니다. 예를 들어, 오픈 소스 도구를 사용하면 내부적으로 위험이 거의 또는 전혀 발생하지 않으며 라이선스 준수 계획이 필요하지 않지만 배포되는 소프트웨어에 오픈 소스를 포함하려면 훨씬 더 많은 고려 사항과 활성화 요소가 필요합니다.
 
-**What business objectives are met by using Open Source?**
+**오픈 소스를 사용하면 어떤 비즈니스 목표를 달성할 수 있습니까?**
 
-We’ve already talked about why companies use open source software. Getting clarity and buy-in as to which of these are important will greatly facilitate decision making on the next levels of detail.
+우리는 기업이 오픈 소스 소프트웨어를 사용하는 이유에 대해 이미 이야기했습니다. 이들 중 어느 것이 중요한지에 대한 명확성과 동의를 얻으면 다음 단계의 세부 사항에 대한 의사 결정을 크게 촉진할 것입니다.
 
-**What will your organization do to ensure achieving Open Source business objectives?**
+**귀하의 조직은 오픈 소스 비즈니스 목표를 달성하기 위해 무엇을 할 것입니까?**
 
-These are the decisions that create a mandate for an open source management program. Ideally they reflect industry best practices for getting the greatest advantage from open source while efficiently managing accompanying risks.
+이는 오픈 소스 관리 프로그램에 대한 권한을 부여하는 결정입니다. 이상적으로는 수반되는 위험을 효율적으로 관리하면서 오픈 소스를 최대한 활용하기 위한 업계 모범 사례를 반영합니다.
 
-## Lesson: The Value of an Open Source Strategy
+## 강의: 오픈 소스 전략의 가치
 
-### Climbing the Open Source Ladder
+### 오픈 소스 사다리 오르기
 
-Open Source can be a complex topic, when you factor in everything from licensing to community dynamics, talent acquisition and business dynamics. There are several stops on a typical organization’s journey in open source:
+라이선스에서 커뮤니티 역학, 인재 확보 및 비즈니스 역학에 이르기까지 모든 것을 고려할 때 오픈 소스는 복잡한 주제가 될 수 있습니다. 오픈 소스에서 일반적인 조직의 여정에는 몇 가지 단계가 있습니다.
 
-![Climbing the Open Source Ladder](os-ladder.png)
+![오픈 소스 사다리 오르기](os-ladder.png)
 
-Let’s take each of these and break them down:
+각각을 가져와서 분해해 보겠습니다.
 
-**Consumer**
+**사용자**
 
-The most common starting point for organizations is as an open source software user in their commercial products. Aggressively consuming open source components will increase your ability to differentiate and reduce overall time and cost to deliver commercial products. Here are the necessary components of the open source consumption strategy:
+조직의 가장 일반적인 출발점은 상용 제품의 오픈 소스 소프트웨어 사용자입니다. 오픈 소스 구성 요소를 적극적으로 사용하면 차별화 능력이 향상되고 상용 제품을 제공하는 데 소요되는 전체 시간과 비용을 줄일 수 있습니다. 오픈 소스 사용 전략의 필수 구성 요소는 다음과 같습니다:
 
-- A strategic classification scheme to guide decisions on what open source software to consume
+- 어떤 오픈 소스 소프트웨어를 사용할지 결정하는 데 도움이 되는 전략적 분류 체계
 
-- Ensure the company meets all obligations of its use of open source software
+- 회사가 오픈 소스 소프트웨어 사용에 대한 모든 의무를 충족하는지 확인합니다.
 
-- Deploy automated workflow software for evaluating/approving open source usage
+- 오픈 소스 사용 평가/승인을 위한 자동화된 워크플로 소프트웨어 배포
 
-- Establish an Open Source Review Board (OSRB) to serve as a clearinghouse for all Open Source activities
+- 모든 오픈 소스 활동에 대한 정보 센터 역할을 하는 오픈 소스 검토 위원회(OSRB; Open Source Review Board) 설립
 
-- Create incremental investment in headcount and infrastructure in engineering, product management, and legal to manage a mix of closed source / open source software
+- 폐쇄 소스/오픈 소스 소프트웨어의 혼합을 관리하기 위해 엔지니어링, 제품 관리 및 법률 분야의 인력 및 인프라에 대한 추가 투자 창출
 
-**Participant**
+**참가자**
 
-Once your company is successfully using open source software in products or services, you can expand your strategy to participate in the open source community. Unless you have already hired experienced developers from the community, you will first need to engage more closely with the community to increase your visibility and to begin attracting the talent you need. Here are the necessary components of the open source participation strategy:
+회사가 제품 또는 서비스에서 오픈 소스 소프트웨어를 성공적으로 사용하고 나면 오픈 소스 커뮤니티에 참여하도록 전략을 확장할 수 있습니다. 커뮤니티에서 이미 경험 많은 개발자를 고용하지 않은 경우 먼저 커뮤니티와 더 긴밀하게 협력하여 가시성을 높이고 필요한 인재를 유치해야 합니다. 오픈 소스 참여 전략의 필수 구성 요소는 다음과 같습니다:
 
-- Monitor community communication platforms like chat servers, mailing lists, forums, and websites to stay informed about project developments
+- 채팅 서버, 메일링 리스트, 포럼 및 웹사이트와 같은 커뮤니티 커뮤니케이션 플랫폼을 모니터링하여 프로젝트 개발에 대한 정보를 유지합니다.
 
-- Attend relevant conferences and meetups to establish a relationship with the community
+- 관련 컨퍼런스 및 밋업에 참석하여 지역사회와의 관계 구축
 
-- Sponsor project events and foundations to improve visibility within the community
+- 커뮤니티 내에서 가시성을 향상시키기 위해 프로젝트 이벤트 및 재단 후원
 
-- Educate developers on how to participate in and contribute to open source projects
+- 오픈 소스 프로젝트에 참여하고 기여하는 방법에 대한 개발자 교육
 
-**Contributor**
+**기부자**
 
-As your company’s participation increases and you begin contributing code to an open source project, you need to selectively engage with targeted projects and communities to drive your
+회사의 참여가 증가하고 오픈 소스 프로젝트에 코드를 제공하기 시작하면 회사의 요구 사항을 주도하기 위해 대상 프로젝트 및 커뮤니티에 선택적으로 참여해야 합니다.
 
-company’s needs. Contributing to strategic open source projects can help your organization gain additional value as code contributions can help shape future features in the project that meet a company’s needs.
+전략적 오픈 소스 프로젝트에 기여하는 것은 코드 기여가 회사의 요구를 충족하는 프로젝트의 미래 기능을 형성하는 데 도움이 될 수 있으므로 조직이 추가 가치를 얻는 데 도움이 될 수 있습니다.
 
-Here are the necessary components of the open source contribution strategy:
+오픈 소스 기여 전략의 필수 구성 요소는 다음과 같습니다:
 
-- Hire a staff director to lead open source strategy and manage the OSRB
+- 오픈 소스 전략을 이끌고 OSRB를 관리할 스태프 디렉터를 고용합니다.
 
-- Hire contributors and committers to key open source communities that are critical to your products
+- 제품에 중요한 주요 오픈 소스 커뮤니티에 기여자와 커미터를 고용합니다.
 
-- Deploy open source collaboration tools to support open source usage and contributions
+- 오픈 소스 사용 및 기여를 지원하는 오픈 소스 협업 도구 배포
 
-- Add open source developer resources
+- 오픈 소스 개발자 리소스 추가
 
-- Incrementally invest in engineering, product management, and legal to engage with existing external communities
+- 기존 외부 커뮤니티에 참여하기 위해 엔지니어링, 제품 관리 및 법률 분야에 점진적으로 투자
 
-**Leader**
+**리더**
 
-If a piece of open source technology becomes critical to your business or product, you’ll likely want a say in the strategic and technical direction of that project. Unlike traditional software however, you cannot necessarily ‘buy’ your way into or influence the leadership simply with money. In open source projects, those who do the work are the ones who get to help set the direction.
+오픈 소스 기술의 일부가 비즈니스 또는 제품에 중요하게 되면 해당 프로젝트의 전략 및 기술 방향에 대한 발언권이 필요할 것입니다. 그러나 기존 소프트웨어와 달리 단순히 돈으로 리더십을 '구매'하거나 영향력을 행사할 수는 없습니다. 오픈 소스 프로젝트에서 작업을 수행하는 사람은 방향을 설정하는 데 도움이 되는 사람입니다.
 
-The final step in the open source strategy ladder is leadership. This scenario builds on all of the prior scenarios to capitalize on emerging trends in technology to establish a leadership position.
+오픈 소스 전략 사다리의 마지막 단계는 리더십입니다. 이 시나리오는 기술의 새로운 트렌드를 활용하여 리더십 위치를 확립하기 위해 이전의 모든 시나리오를 기반으로 합니다.
 
-Leadership roles in existing open source communities are earned by establishing trust with the project members and by maintaining a high level of continuous contribution to the project.
+기존 오픈 소스 커뮤니티에서 리더십 역할은 프로젝트 구성원과의 신뢰를 구축하고 프로젝트에 대한 높은 수준의 지속적인 기여를 유지함으로써 얻을 수 있습니다.
 
-This scenario requires significant investment in targeted open source communities and consortia
+이 시나리오에는 대상 오픈 소스 커뮤니티 및 컨소시엄에 상당한 투자가 필요합니다.
 
-to establish a leadership agenda. Here are the necessary components of the open source leadership strategy:
+리더십 의제를 설정합니다. 오픈 소스 리더십 전략의 필수 구성 요소는 다음과 같습니다:
 
-- Increase engagement with targeted open source communities
+- 타겟 오픈 소스 커뮤니티와의 참여 증대
 
-- Selectively engage with open standards to drive the company’s needs
+- 회사의 요구 사항을 주도하기 위해 개방형 표준에 선택적으로 참여
 
-- Engage with open source foundations
+- 오픈 소스 재단에 참여
 
-- Establish an open source project, organization, or foundation
+- 오픈 소스 프로젝트, 조직 또는 재단 설립
 
-- Significant investment primarily in engineering, product management, and legal to establish leadership in external communities and industry consortia
+- 외부 커뮤니티 및 산업 컨소시엄에서 리더십을 구축하기 위해 주로 엔지니어링, 제품 관리 및 법률 분야에 상당한 투자
 
-### Consider Your Current and Future Needs
+### 현재와 미래의 요구 사항 고려
 
-As you can see, the natural evolution of an open source strategy is built on a series of steps that require an increased investment over time. It’s important to note that the decision for what role your organization should take is different for every open source project or codebase that you use.
+보시다시피 오픈 소스 전략의 자연스러운 진화는 시간이 지남에 따라 투자를 늘려야 하는 일련의 단계를 기반으로 합니다. 조직에서 수행해야 하는 역할에 대한 결정은 사용하는 모든 오픈 소스 프로젝트 또는 코드베이스에 따라 다릅니다.
 
-In some cases, it may be acceptable to be a simple consumer of a small, solidly maintained open source project, but in other cases, if the open source project becomes a core element of your product or technology, you may need to consider being an active participant and/or contributor.
+어떤 경우에는 소규모의 견고하게 유지 관리되는 오픈 소스 프로젝트의 단순한 사용자로 받아들일 수 있지만, 다른 경우에는 오픈 소스 프로젝트가 제품 또는 기술의 핵심 요소가 된다면 적극적인 참가자 및/또는 기여자.
 
-If the open source project is fundamental to your business and products, it’s a good idea to strive to be a leader for that effort, especially if it’s an open source project your organization helped to start.
+오픈 소스 프로젝트가 비즈니스 및 제품의 기본이라면, 특히 조직이 시작하는 데 도움이 된 오픈 소스 프로젝트인 경우 해당 노력의 리더가 되기 위해 노력하는 것이 좋습니다.
 
-Another important element to consider is that the level of involvement your organization may have in a project will change over time. Building a strategy is not a ‘one and done’ event. Be prepared to periodically review your open source strategy at regular intervals (6 months - 1 year is the typical time frame) to determine if you need to adjust your participation based on business or economic factors.
+고려해야 할 또 다른 중요한 요소는 조직이 프로젝트에 참여할 수 있는 수준이 시간이 지남에 따라 변한다는 것입니다. 전략을 수립하는 것은 '한 번만 끝내면 되는' 이벤트가 아닙니다. 정기적인 간격(6개월 - 1년은 일반적인 기간)으로 오픈 소스 전략을 주기적으로 검토하여 비즈니스 또는 경제적 요인에 따라 참여를 조정해야 하는지 여부를 결정할 준비를 하십시오.
 
-![Involvement increases over time](involvement-over-time.png)
+![시간이 지남에 따라 참여도 증가](involvement-over-time.png)
 
-## Lesson: Implementation Considerations
+## 강의: 구현 고려 사항
 
-### Phased Implementation
+### 단계적 구현
 
-Open Source has an often quoted phrase ‘release early, release often.’ In the context of coding, this translates to many small changes that build upon each other over time, allowing for complete and easy code review of all changes, as well as more robust code because the changes provided are easier to test and debug.
+오픈 소스에는 '일찍 릴리스, 자주 릴리스'라는 문구가 자주 인용됩니다. 코딩의 맥락에서 이것은 시간이 지남에 따라 서로를 기반으로 하는 많은 작은 변경으로 변환되어 모든 변경 사항에 대한 완전하고 쉬운 코드 검토는 물론 제공된 변경 사항이 테스트 및 디버그하기 더 쉽기 때문에 보다 강력한 코드를 허용합니다.
 
-The same model can and should be used when developing your open source strategy. By starting with a basic strategy that is tied to your short-to-medium term goals, you can begin to engage with open source projects and communities and then adjust your strategy (and the ensuing policies you’ll need to develop) as your organization becomes more comfortable and confident with the ways of open source.
+오픈 소스 전략을 개발할 때 동일한 모델을 사용할 수 있고 사용해야 합니다. 단기 및 중기 목표와 연결된 기본 전략으로 시작하여 오픈 소스 프로젝트 및 커뮤니티에 참여하기 시작한 다음 조직에 따라 전략(및 개발해야 할 후속 정책)을 조정할 수 있습니다. 오픈 소스 방식으로 더욱 편안하고 자신감을 갖게 됩니다.
 
-In general, the phased approach usually follows the ladder graphic shown previously:
+일반적으로 단계적 접근 방식은 일반적으로 이전에 표시된 사다리 그래픽을 따릅니다:
 
-- Build a strategy (and policies) for consuming open source in an effective and efficient way
+- 효과적이고 효율적인 방식으로 오픈 소스를 사용하기 위한 전략(및 정책) 구축
 
-- Begin to participate in open source projects and communities by interacting/asking questions, reporting bugs, etc.
+- 상호작용/질문, 버그 보고 등을 통해 오픈 소스 프로젝트 및 커뮤니티에 참여하기 시작합니다.
 
-- Make small contributions at first (even if they are not code - documentation is a great way to get started)
+- 처음에는 작은 기여를 하십시오(코드가 아니더라도 - 문서화는 시작하기에 좋은 방법입니다)
 
-- As you become more familiar and dependent upon an open source project, increase your contributions
+- 오픈 소스 프로젝트에 더 익숙해지고 의존하게 됨에 따라 기여도를 높입니다.
 
-- If you need a ‘seat at the table’ (or you helped start a project), make sustained and valuable contributions and investments in the open source project
+- '좌석'이 필요한 경우(또는 프로젝트 시작을 도운 경우) 오픈 소스 프로젝트에 지속적이고 가치 있는 기여와 투자를 하십시오.
 
-### Implementation Considerations of Your Strategy
+### 전략의 구현 고려 사항
 
-While we will cover the creation of open source organizational policies in the next section, this is a good opportunity to consider the ramifications of your strategy on policies you’ll be putting in place to implement your strategy.
+다음 섹션에서 오픈 소스 조직 정책 생성에 대해 다루겠지만, 이는 전략을 구현하기 위해 배치할 정책에 대한 전략의 영향을 고려할 수 있는 좋은 기회입니다.
 
-The biggest considerations you’ll need to think about are time and money. How much time do you have to use when implementing your strategy? And how much resources (money and staff) are you prepared to put towards implementation of your chosen strategy?
+당신이 생각해야 할 가장 큰 고려 사항은 시간과 돈입니다. 전략을 실행할 때 얼마나 많은 시간을 사용해야 합니까? 그리고 선택한 전략을 실행하기 위해 얼마나 많은 자원(돈과 직원)을 투입할 준비가 되어 있습니까?
 
-**Time**
+**시간**
 
-Like almost anything else in technology, working effectively with open source takes an investment of time - this is both in terms of human resources (staff) as well as effectively understanding and planning for the release cycles of the open source projects you’ll be using. Not every project has the same release cadence, and you’ll need to be cognizant of that as you put policies in place to determine which versions of code you consume, and when.
+기술의 다른 거의 모든 것과 마찬가지로 오픈 소스를 효과적으로 사용하려면 시간 투자가 필요합니다. 이는 인적 자원(직원)의 관점에서뿐만 아니라 사용할 오픈 소스 프로젝트의 릴리스 주기를 효과적으로 이해하고 계획하는 것입니다. 모든 프로젝트에 동일한 릴리스 주기가 있는 것은 아니므로 사용하는 코드 버전과 사용 시기를 결정하기 위해 정책을 적용할 때 이를 인식해야 합니다.
 
-While we’ll cover security and keeping up-to-date with new open source releases in other modules, be aware that you’ll have to consider what time frames you’ll make decisions in regarding both consumption and staff participation in open source projects.
+다른 모듈에서 보안을 다루고 새로운 오픈 소스 릴리스를 최신 상태로 유지하는 동안 오픈 소스 프로젝트에 대한 사용 및 직원 참여와 관련하여 결정을 내릴 시간 프레임을 고려해야 합니다.
 
-**Money**
+**돈**
 
-In the Open Source Introduction course, we briefly covered that open source may be ‘free’ from a licensing cost, but by no means does that mean that it doesn’t have other costs associated with it.
+오픈 소스 소개 과정에서 우리는 오픈 소스가 라이선스 비용에서 '무료'일 수 있다는 것을 간략하게 다루었지만, 그렇다고 해서 오픈 소스와 관련된 다른 비용이 없다는 것을 의미하지는 않습니다.
 
-Effectively participating in open source, whether simply consuming it effectively and strategically, or driving a particular standard costs money, primarily in the staffing area. You don’t need to start with a giant staff (more on that later), but you should be considering the needs you’ll have both in terms of software engineers and support staff (legal, business, project management) as you begin to put policies into place to help govern your organization’s open source efforts.
+단순히 효율적이고 전략적으로 사용하거나 특정 표준을 추진하는 것과 상관없이 오픈 소스에 효과적으로 참여하는 것은 주로 인력 영역에서 비용이 듭니다. 대규모 직원으로 시작할 필요는 없지만(나중에 자세히 설명), 소프트웨어 엔지니어와 지원 직원(법률, 비즈니스, 프로젝트 관리)의 측면에서 모두 필요로 하는 사항을 고려해야 합니다. 조직의 오픈 소스 노력을 관리하는 데 도움이 되는 정책을 마련하십시오.
 
-Considering time and money elements (and starting slowly with sensible plans to adjust over time) is the best method of making sure that the policies derived from your open source strategy succeed in the long run.
+시간과 비용 요소를 고려하고 시간이 지남에 따라 합리적인 계획으로 천천히 시작하는 것이 오픈 소스 전략에서 파생된 정책이 장기적으로 성공하도록 하는 가장 좋은 방법입니다.
 
-### Strategic Objective Examples
+### 전략적 목표의 예
 
-Here are some examples of objectives you may define as you go through the process of building your strategy - this is by no means an exhaustive list - your organization may have all of these, or potentially others not included in this list:
+다음은 전략 수립 프로세스를 진행하면서 정의할 수 있는 몇 가지 목표의 예입니다. 이것은 완전한 목록이 결코 아닙니다. 조직에는 이 목록이 모두 있거나 이 목록에 포함되지 않은 잠재적으로 다른 목표가 있을 수 있습니다:
 
-- Increase innovation through collaboration with technology leaders
+- 기술 리더와의 협업을 통한 혁신 증대
 
-- Speed deployment by using already developed and tested code
+- 이미 개발 및 테스트된 코드를 사용하여 배포 속도 향상
 
-- Lower development costs by using free, already debugged code
+- 이미 디버깅된 무료 코드를 사용하여 개발 비용 절감
 
-- Lower deployment cost by using free alternatives to commercial tools and components
+- 상용 도구 및 구성 요소에 대한 무료 대안을 사용하여 배포 비용 절감
 
-- Lower code maintenance costs by taking advantage of community maintenance
+- 커뮤니티 유지보수를 활용하여 코드 유지보수 비용 절감
 
-- Offer interoperability with other open source software
+- 다른 오픈 소스 소프트웨어와의 상호 운용성 제공
 
-- Facilitate the creation of new capabilities by partners or customers
+- 파트너 또는 고객의 새로운 기능 생성 촉진
 
-- Establish new markets or de facto standards
+- 새로운 시장 또는 사실상의 표준 수립
 
-- Recruit and retain top technical talent
+- 최고의 기술 인재를 채용하고 유지
 
-### Examples of Actions To Take
+### 취해야 할 조치의 예
 
-While we will go into more detail about how to define open source policies in the next section, here are some sample actions you could take in support of the objectives you define while building your strategy:
+다음 섹션에서 오픈 소스 정책을 정의하는 방법에 대해 자세히 설명하겠지만 전략을 구축하는 동안 정의한 목표를 지원하기 위해 취할 수 있는 몇 가지 샘플 작업은 다음과 같습니다:
 
-- An evaluation policy and acquisition process that
+- 평가 정책 및 획득 프로세스
 
-  - Chooses well among open source, available commercial and internal development options
+  - 오픈 소스, 사용 가능한 상용 및 내부 개발 옵션 중에서 잘 선택
 
-  - Insures licensing terms compatible with your use and IP strategy
+  - 귀하의 사용 및 IP 전략과 호환되는 라이선스 조건을 보장합니다.
 
-  - Considers support and lifecycle costs
+  - 지원 및 수명 주기 비용 고려
 
-- A code tracking policy and process that provides accurate knowledge of what software is used where
+- 어떤 소프트웨어가 어디에 사용되는지에 대한 정확한 지식을 제공하는 코드 추적 정책 및 프로세스
 
-- An audit process that insures that you follow set policies
+- 설정된 정책을 준수하는지 확인하는 감사 프로세스
 
-- A compliance process that insures that all OSS license requirements are consistently met
+- 모든 OSS 라이선스 요구 사항이 일관되게 충족되도록 보장하는 규정 준수 프로세스
 
-Action is where "the rubber hits the road" in an open source strategy. Targeting specific objectives creates the mandate for and shapes the open source management program.
+액션은 오픈 소스 전략에서 "고무가 길을 치는 곳"입니다. 특정 목표를 목표로 하는 것은 오픈 소스 관리 프로그램에 대한 권한을 생성하고 형성합니다.
 
-The actions above are the most basic elements of a full open source management program; however, some organizations may not need all of these elements. For instance, an organization that never distributes open source in its products does not usually need to implement a license compliance process. Some organizations add other actions such as: software support and maintenance, steps to insure software security, objectives around open source contributions or leadership, or a specific mandate for executive involvement.
+위의 작업은 전체 오픈 소스 관리 프로그램의 가장 기본적인 요소입니다. 그러나 일부 조직에서는 이러한 요소가 모두 필요하지 않을 수 있습니다. 예를 들어, 제품에 오픈 소스를 배포하지 않는 조직은 일반적으로 라이선스 준수 프로세스를 구현할 필요가 없습니다. 일부 조직에서는 소프트웨어 지원 및 유지 관리, 소프트웨어 보안을 보장하기 위한 단계, 오픈 소스 기여 또는 리더십에 대한 목표 또는 경영진 참여에 대한 특정 권한과 같은 다른 조치를 추가합니다.
 
-Some organizations will prioritize the actions in their strategy statement to indicate urgency or order of execution. Some organizations find it useful to assign owners to the individual actions.
+일부 조직은 긴급성 또는 실행 순서를 나타내기 위해 전략 성명서에서 작업의 우선 순위를 지정합니다. 일부 조직에서는 개별 작업에 소유자를 할당하는 것이 유용합니다.
 
-As the development of your open source management program moves to the next phases, these action statements are driven into the policy and processes that implement this strategy.
+오픈 소스 관리 프로그램의 개발이 다음 단계로 이동함에 따라 이러한 행동 지침은 이 전략을 구현하는 정책 및 프로세스에 적용됩니다.
 
-# Section: Developing Open Source Policies
+# 섹션: 오픈 소스 정책 개발
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will discuss how to develop open source policies that set the framework for executing your chosen open source strategy. Special emphasis will be given to key factors that affect the success and organizational adoption of these policies.
+이 섹션에서는 선택한 오픈 소스 전략을 실행하기 위한 프레임워크를 설정하는 오픈 소스 정책을 개발하는 방법에 대해 설명합니다. 이러한 정책의 성공과 조직적 채택에 영향을 미치는 핵심 요소에 특히 중점을 둘 것입니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Describe the process for implementing open source policies that drive the execution of your chosen strategy
+- 선택한 전략의 실행을 주도하는 오픈 소스 정책을 구현하는 프로세스를 설명합니다.
 
-- Understand what key considerations you need to consider when defining your policies
+- 정책을 정의할 때 고려해야 할 주요 고려 사항 이해
 
-- Explain how you can best design policies that encourage widespread adoption in your organization
+- 조직에서 광범위한 채택을 장려하는 정책을 가장 잘 설계할 수 있는 방법을 설명합니다.
 
-- Articulate the role of industry best practices to open source policy development
+- 오픈 소스 정책 개발을 위한 업계 모범 사례의 역할 명시
 
-## Lesson: Overview of Open Source Policy Areas
+## 강의: 오픈 소스 정책 영역 개요
 
-### What Should My Open Source Policy Focus On?
+### 내 오픈 소스 정책은 무엇에 중점을 두어야 합니까?
 
-Organizations starting on their journey of open source sometimes get bogged down in the minutia of defining policies from the perspective of ‘FUD’ (Fear, Uncertainty, and Doubt). While there will be more detailed coverage of areas like open source compliance in future modules, we’d like to give a general overview of the areas that should be considered by all organizations in crafting their open source policies from the perspective of more effective utilization, not just avoidance of risk.
+오픈 소스의 여정을 시작하는 조직은 때때로 'FUD'(두려움, 불확실성, 의심)의 관점에서 정책을 정의해야 하는 작은 부분에서 수렁에 빠집니다. 향후 모듈에서 오픈 소스 규정 준수와 같은 영역에 대한 더 자세한 내용을 다루게 되지만, 위험 회피뿐만 아니라 보다 효과적인 활용의 관점에서 오픈 소스 정책을 수립할 때 모든 조직이 고려해야 하는 영역에 대한 일반적인 개요를 제공하고자 합니다.
 
-We’ll also try to address how you can consider both which policies you should focus on first, as well as how to socialize these policies across your organization for maximum effect.
+또한 가장 먼저 집중해야 하는 정책과 최대 효과를 위해 조직 전체에서 이러한 정책을 사회화하는 방법을 모두 고려할 수 있는 방법을 설명하려고 합니다.
 
-To do this, we’ll first present the elements that should be in any organizations open source policies - note that this isn’t necessarily an exhaustive list, and there could be additional items depending on your specific business situation:
+이를 위해 먼저 모든 조직의 오픈 소스 정책에 있어야 하는 요소를 제시합니다. 이것이 반드시 완전한 목록은 아니며 특정 비즈니스 상황에 따라 추가 항목이 있을 수 있습니다:
 
-- **Discovery**
+- **발견**
 
-- **Review & Approval**
+- **검토 및 승인**
 
-- **Commercial Procurement**
+- **상업 조달**
 
-- **Code Management & Maintenance**
+- **코드 관리 및 유지보수**
 
-- **Community Interaction**
+- **커뮤니티 상호작용**
 
-- **Compliance**
+- **규정 준수**
 
-- **Executive Engagement**
+- **경영진 참여**
 
-### Discovery
+### 발견
 
-Open Source Discovery and Evaluation covers how and where your team finds open source software of interest and by what criteria that software is vetted for inclusion in your organization’s software portfolio. Discovery should not be a hit or miss endeavor. Starting with the right direction and criteria (vs. ad hoc) streamlines this sometimes difficult process and avoids problems down the road.
+오픈 소스 검색 및 평가에서는 팀이 관심 있는 오픈 소스 소프트웨어를 찾는 방법과 위치, 그리고 해당 소프트웨어가 조직의 소프트웨어 포트폴리오에 포함되도록 심사된 기준을 다룹니다. 발견은 성공하거나 실패한 노력이 되어서는 안 됩니다. 올바른 방향과 기준(임시와 비교)으로 시작하면 때때로 어려운 이 프로세스를 간소화하고 향후 문제를 피할 수 있습니다.
 
-Discovering useful open source seldom starts from a blank slate. Most organizations already use at least some open source software and this code can form the basis of an internal (approved) repository. When looking outside the existing portfolio, there is a temptation for engineers to get creative, but to reduce risk and increase efficiency, best practices dictate establishing a set of trusted sources, either through commercial supplier distributions (organizations like Red Hat, Google or others), or through software foundations like Cloud Native Computing Foundation.
+유용한 오픈 소스를 발견하는 것은 거의 백지 상태에서 시작되지 않습니다. 대부분의 조직은 이미 일부 오픈 소스 소프트웨어를 사용하고 있으며 이 코드는 내부(승인된) 저장소의 기반을 형성할 수 있습니다. 기존 포트폴리오 외부를 볼 때 엔지니어는 창의력을 발휘할 수 있지만 위험을 줄이고 효율성을 높이려면 모범 사례에 따라 상용 공급업체 배포(Red Hat, Google 또는 기타 조직)를 통해 신뢰할 수 있는 소스 집합을 설정해야 합니다. , 또는 Cloud Native Computing Foundation과 같은 소프트웨어 기반을 통해.
 
-Moreover, a range of community, government and commercial tools exist for finding and choosing appropriate open source project code and versions. For example, OpenHub provides excellent metadata on thousands of popular projects, and Github itself offers dashboard info on project releases. Key security info can be gleaned from the NIST vulnerability database and the open source vulnerability database project.
+또한 적절한 오픈 소스 프로젝트 코드 및 버전을 찾고 선택하기 위한 다양한 커뮤니티, 정부 및 상업용 도구가 존재합니다. 예를 들어 OpenHub는 수천 개의 인기 있는 프로젝트에 대한 우수한 메타데이터를 제공하고 Github 자체는 프로젝트 릴리스에 대한 대시보드 정보를 제공합니다. 주요 보안정보는 NIST 취약점 데이터베이스와 오픈소스 취약점 데이터베이스 프로젝트에서 얻을 수 있다.
 
-It’s important to engage all levels of the organization in developing these discovery policies - simply telling engineers that they cannot use open source except from specific internal repositories without further explanation, and without involving them in the decision process, will likely lead to ‘creative’ attempts to circumvent this policy, which makes compliance harder later on.
+이러한 검색 정책을 개발하는 데 조직의 모든 수준을 참여시키는 것이 중요합니다. 엔지니어에게 추가 설명 없이 특정 내부 저장소를 제외하고는 오픈 소스를 사용할 수 없다고 말하고 의사 결정 프로세스에 참여시키지 않으면 '창의적인' 시도로 이어질 가능성이 높습니다. 나중에 규정 준수를 더 어렵게 만드는 이 정책을 우회합니다.
 
-### Review & Approval
+### 검토 및 승인
 
-No matter how careful or diligent your discovery process, the real test faced by open source code must come from your review and approval processes. Approval and review are your first lines of defense against security, legal and operational risk that can accompany open source.
+검색 프로세스가 아무리 조심스럽거나 부지런하더라도 오픈 소스 코드가 직면한 실제 테스트는 검토 및 승인 프로세스에서 시작되어야 합니다. 승인 및 검토는 오픈 소스에 수반될 수 있는 보안, 법률 및 운영 위험에 대한 첫 번째 방어선입니다.
 
-As with discovery, leveraging previously-vetted code can speed up this process, so if your open source team has not already done so, best practices dictate creating lists of approved components and versions, reviewed and approved license types, and previously-employed evaluation rationale and results.
+검색과 마찬가지로 이전에 검증된 코드를 활용하면 이 프로세스의 속도를 높일 수 있으므로 오픈 소스 팀이 아직 수행하지 않은 경우 모범 사례에 따라 승인된 구성 요소 및 버전 목록, 검토 및 승인된 라이선스 유형, 이전에 사용한 평가 근거 생성이 필요합니다. 그리고 결과.
 
-Building clear criteria (and involving all stakeholders from engineers to program managers) avoids issues during discovery and speeds review. Additionally, it’s important to consider building shortcuts in this policy for low risk approvals that can speed up this process, reduce cost, and provide more incentive for engineering teams to adhere to these policies.
+명확한 기준을 구축하고(엔지니어에서 프로그램 관리자에 이르기까지 모든 이해 관계자를 포함) 발견 중 문제를 방지하고 검토 속도를 높입니다. 또한 이 프로세스의 속도를 높이고 비용을 절감하며 엔지니어링 팀이 이러한 정책을 준수하도록 더 많은 인센티브를 제공할 수 있는 저위험 승인을 위해 이 정책에서 바로 가기를 구축하는 것을 고려하는 것이 중요합니다.
 
-### Commercial Procurement
+### 상업 조달
 
-When you first think of discovering and integrating open source code, it’s natural to think primarily of code acquired freely over the Internet. But a substantial amount of open source code makes its way into organizations through commercial sourcing. Open source often accompanies and/or is an integral part of commercial applications and also frequently finds its way into deliverables from contracted development.
+오픈 소스 코드를 발견하고 통합하는 것을 처음 생각할 때 주로 인터넷을 통해 무료로 획득한 코드를 생각하는 것이 당연합니다. 그러나 상당한 양의 오픈 소스 코드가 상업적 소싱을 통해 조직에 침투합니다. 오픈 소스는 종종 상용 응용 프로그램과 함께 제공되거나 필수적인 부분이며 계약 개발에서 결과물로 자주 찾아옵니다.
 
-The risks and compliance obligations that accompany commercially-sourced open source are no different from those that come with directly acquired open source. The big difference is that rather than reaching out and downloading open source code directly, your organization receives that code implicitly, even silently, usually through long-standing conventional procurement processes.
+상업적으로 소싱된 오픈 소스에 수반되는 위험 및 규정 준수 의무는 직접 획득한 오픈 소스와 함께 제공되는 위험 및 준수 의무와 다르지 않습니다. 가장 큰 차이점은 조직에서 오픈 소스 코드를 직접 다운로드하여 다운로드하는 대신 일반적으로 오랜 기간 지속되는 기존 조달 프로세스를 통해 암시적으로, 심지어 조용히 해당 코드를 수신한다는 것입니다.
 
-For commercially-sourced open source, industry best practices dictate working with your organization’s supply chain and sourcing personnel to establish and enforce policies for:
+상업적으로 소싱되는 오픈 소스의 경우 업계 모범 사례는 조직의 공급망 및 소싱 담당자와 협력하여 다음에 대한 정책을 수립하고 시행하도록 지시합니다:
 
-- Reporting the presence of open source elements in 3rd party code
+- 타사 코드에 오픈 소스 요소의 존재 보고
 
-- IP verification, and where appropriate, indemnification
+- IP 확인 및 적절한 경우 배상
 
-- Code scanning and review of supplier governance programs to supplement reporting (if any)
+- 보고를 보완하기 위한 공급업체 거버넌스 프로그램의 코드 스캔 및 검토(있는 경우)
 
-- Documentation and integration with downstream component tracking, release audit and other compliance activities
+- 다운스트림 구성 요소 추적, 릴리스 감사 및 기타 규정 준수 활동과의 문서화 및 통합
 
-### Code Management & Maintenance
+### 코드 관리 및 유지보수
 
-The concept of "code ownership" emanates from the practices of scores of companies working with open source over the last decade and a half. At the highest level, the practice gives open source code “a face” within your organization, a “go to” person who is close to the code and to the community that develops and maintains it. Also typically included under the code ownership role is coordinating support for that code, directly or through third parties.
+"코드 소유권"이라는 개념은 지난 10년 반 동안 오픈 소스로 작업한 수십 개의 회사 관행에서 비롯되었습니다. 가장 높은 수준에서 이 관행은 조직 내에서 오픈 소스 코드에 "얼굴"을 제공하고 코드와 코드를 개발하고 유지 관리하는 커뮤니티에 "가까운" 사람을 제공합니다. 또한 일반적으로 코드 소유권 역할에는 직접 또는 제3자를 통해 해당 코드에 대한 조정 지원이 포함됩니다.
 
-The need for "ownership" arises from the “self-service” nature of open source. Management policy should dictate what type of stewardship these components require and the code owner’s roles and responsibilities.
+"소유권"의 필요성은 오픈 소스의 "셀프 서비스" 특성에서 비롯됩니다. 관리 정책은 이러한 구성 요소에 필요한 관리 유형과 코드 소유자의 역할 및 책임을 지정해야 합니다.
 
-Other tasks associated with code management and maintenance are
+코드 관리 및 유지 관리와 관련된 기타 작업은 다음과 같습니다:
 
-- Archiving externally sourced open source
+- 외부 소스 오픈 소스 아카이빙
 
-- Creating a current master copy (including updates, patches, etc.) for internal use, as the basis for sharing and reuse
+- 공유 및 재사용을 위한 기반으로 내부 사용을 위한 현재 마스터 사본(업데이트, 패치 등 포함) 생성
 
-- Tracking ownership, approvals and other decisions with an audit trail
+- 감사 추적으로 소유권, 승인 및 기타 결정 추적
 
-The accompanying support model must be flexible, scalable and sustainable, with low risk and overhead. Options include:
+함께 제공되는 지원 모델은 위험과 오버헤드가 적으면서 유연하고 확장 가능하며 지속 가능해야 합니다. 옵션에는 다음이 포함됩니다:
 
-- Internal support (if resources are available, expertise is strong and risk is low)
+- 내부 지원(자원이 있는 경우 전문성이 강하고 위험이 낮음)
 
-- Commercial support aggregator
+- 상업 지원 수집기
 
-- Focused vendor support for business-critical components and/or platforms for technically complex components or those with high business/technical risk
+- 기술적으로 복잡한 구성 요소 또는 높은 비즈니스/기술적 위험이 있는 구성 요소를 위한 비즈니스 크리티컬 구성 요소 및/또는 플랫폼에 대한 집중 공급업체 지원
 
-### Community Interaction
+### 커뮤니티 상호 작용
 
-Open source software is typically created and maintained by communities of like-minded developers. Participation in those communities confers a range of benefits on organizations that integrate and deploy their open source software, ranging from education to support to bug fixes and beyond.
+오픈 소스 소프트웨어는 일반적으로 같은 생각을 가진 개발자 커뮤니티에서 만들고 유지 관리합니다. 이러한 커뮤니티에 참여하면 교육에서 지원, 버그 수정 등에 이르기까지 오픈 소스 소프트웨어를 통합하고 배포하는 조직에 다양한 혜택이 주어집니다.
 
-Community interaction is not a binary decision. Participation is, instead, a continuum. You and your colleagues can choose to participate in a variety of roles across a range of activities, from a modest start as consumers of OSS up through ongoing involvement and even leadership. While the level of participation can evolve organically, it is always best if the level of community interaction is aligned with organization business goals and based upon a cost-benefit analysis.
+커뮤니티 상호 작용은 이진 결정이 아닙니다. 참여는 대신 연속체입니다. 당신과 당신의 동료들은 OSS의 사용자로서의 소박한 시작부터 지속적인 참여와 리더십에 이르기까지 다양한 활동에 걸쳐 다양한 역할에 참여하도록 선택할 수 있습니다. 참여 수준은 유기적으로 발전할 수 있지만 커뮤니티 상호 작용 수준이 조직의 비즈니스 목표와 일치하고 비용-편익 분석을 기반으로 하는 경우 항상 가장 좋습니다.
 
-Here are some levels of interaction to consider:
+고려해야 할 몇 가지 상호 작용 수준은 다음과 같습니다:
 
-1. No Participation (not recommended)
-2. Participate as individuals
-   - No tie to company allowed
-3. Participate in a community on your company’s behalf
+1. 불참(권장하지 않음)
+2. 개인으로 참여
+   - 회사와의 결속은 불가
+3. 회사를 대신하여 커뮤니티에 참여
 
-   1. No IP conveyance
+   1. IP 전송 없음
 
-   2. Contribute requirements or bug fixes
+   2. 요구 사항 또는 버그 수정 기여
 
-   3. Convey company-developed binaries, libraries, etc.
+   3. 자체 개발한 바이너리, 라이브러리 등을 전달
 
-4. Provide sponsorship or support to a community
+4. 커뮤니티에 후원 또는 지원 제공
 
-5. Release company IP as OSS and establish a company-managed open source project
+5. 기업 IP를 OSS로 공개하고 기업이 관리하는 오픈소스 프로젝트 구축
 
-### Compliance
+### 규정 준수
 
-Compliance focuses on observance of open source policy and open source license terms. License compliance is the most visible part of Open Source Management for organizations that distribute software, and often provides the impetus for the establishment of open source program offices (more on this in the next lesson module).
+규정 준수는 오픈 소스 정책 및 오픈 소스 라이선스 조건 준수에 중점을 둡니다. 라이선스 준수는 소프트웨어를 배포하는 조직을 위한 오픈 소스 관리에서 가장 눈에 띄는 부분이며 종종 오픈 소스 프로그램 오피스을 설립하기 위한 추진력을 제공합니다(자세한 내용은 다음 강의 모듈 참조).
 
-However, compliance is not the "be all" or ”end all” of good governance – no one uses open source software primarily for the privilege of complying with its licenses. Compliance should be treated on a par with the other dimensions of open source management, and not as a “police action”.
+그러나 규정 준수는 좋은 거버넌스의 "전부" 또는 "완전한 것"이 아닙니다. 아무도 라이센스 준수의 특권을 위해 주로 오픈 소스 소프트웨어를 사용하지 않습니다. 규정 준수는 "경찰 조치"가 아니라 오픈 소스 관리의 다른 차원과 동등하게 취급되어야 합니다.
 
-For organizations that do not distribute software, compliance is focused on ensuring that the open source policy and processes are followed in order to assure the security, reliability and supportability of the software systems and applications.
+소프트웨어를 배포하지 않는 조직의 경우 소프트웨어 시스템 및 애플리케이션의 보안, 안정성 및 지원 가능성을 보장하기 위해 오픈 소스 정책 및 프로세스를 준수하는지 확인하는 데 규정 준수가 중점을 둡니다.
 
-Compliance policy needs to be explicit and detailed, with rules spelled out for complying both with organizational policy and with the terms of open source licenses. The need for compliance highlights the requirement to be able to identify and catalogue third-party code (including open source) in each release, together with accompanying terms (e.g., source code disclosure, attribution, etc.).
+규정 준수 정책은 명시적이고 상세해야 하며 조직 정책과 오픈 소스 라이선스 조건을 모두 준수하기 위한 규칙이 명시되어 있어야 합니다. 규정 준수의 필요성은 수반되는 용어(예: 소스 코드 공개, 속성 등)와 함께 각 릴리스에서 제3자 코드(오픈 소스 포함)를 식별하고 카탈로그화할 수 있는 요구 사항을 강조합니다.
 
-### Executive Engagement
+### 경영진 참여
 
-Open Source Management is not solely the province of developers who actually touch the code. Nor is it uniquely under the purview of corporate lawyers concerned with protecting intellectual property (IP). Successful open source management is a collaborative effort, requiring participation from many roles and disciplines.
+오픈 소스 관리는 실제로 코드를 만지는 개발자만의 영역이 아닙니다. 또한 지적 재산권(IP) 보호와 관련된 기업 변호사의 권한 하에 있는 것도 아닙니다. 성공적인 오픈 소스 관리는 많은 역할과 분야의 참여를 요구하는 공동 작업입니다.
 
-One often ignored set of participants is the organization’s executives. Executives may initially think of open source technology as merely a detail of technical implementation, and be content to participate in open source management through the chain of command. Enlightened executives will perceive the risk/benefit balance in open source and its potential for innovation and differentiation, resulting in greater executive participation in key decisions around open source management policy.
+종종 무시되는 참가자 집합 중 하나는 조직의 임원입니다. 경영진은 처음에 오픈 소스 기술을 단순히 기술 구현의 세부 사항으로 생각할 수 있으며 명령 체인을 통해 오픈 소스 관리에 참여하는 것으로 만족할 수 있습니다. 깨달은 경영진은 오픈 소스의 위험/이익 균형과 혁신 및 차별화의 잠재력을 인식하여 오픈 소스 관리 정책과 관련된 주요 결정에 경영진의 참여도를 높일 것입니다.
 
-It’s important for executives to consider their role in the following policy areas:
+경영진은 다음 정책 영역에서 자신의 역할을 고려하는 것이 중요합니다:
 
-- Involvement with overall open source policy creation and evolution
+- 전반적인 오픈소스 정책 수립 및 발전에 참여
 
-- Participation in open source review and approval
+- 오픈소스 검토 및 승인 참여
 
-  - Typically through legal and lines of business
+  - 일반적으로 법률 및 비즈니스 라인을 통해
 
-- Participation in high-level decisions about open source contributions, project sponsorship, etc.
+- 오픈소스 기여, 프로젝트 후원 등에 관한 고위급 의사결정 참여
 
-- Receiving and reviewing regular reports on open source activity
+- 오픈소스 활동에 대한 정기 보고서 접수 및 검토
 
-## Lesson: Policy Implementation Considerations
+## 강의: 정책 구현 고려 사항
 
-### Human Factors in Policy Creation
+### 정책 생성의 인적 요소
 
-Policy creation in relation to open source has some interesting human dynamics at play that are different from traditional HR or other policies that your organization might be used to creating. The collaborative and ‘community-led’ nature of open source focuses more on getting work done than it does on a set of rigid or formal processes.
+오픈 소스와 관련된 정책 생성에는 조직에서 생성하는 데 사용할 수 있는 기존 HR 또는 기타 정책과 다른 몇 가지 흥미로운 인적 역학이 있습니다. 오픈 소스의 협업 및 '커뮤니티 주도' 특성은 일련의 엄격하거나 형식적인 프로세스보다 작업을 완료하는 데 더 중점을 둡니다.
 
-Collaboration is the key element here. Rather than considering these policies strictly as punitive or ways to eliminate risk, they also need to be considered opportunities for different groups, including engineers, program managers, legal experts, and even executives to have transparent and frank discussions about how to get the most out of the organization’s engagement in open source.
+협업은 여기에서 핵심 요소입니다. 이러한 정책을 징벌적이거나 위험을 제거하는 방법으로 엄밀히 고려하기보다는 엔지니어, 프로그램 관리자, 법률 전문가, 심지어 경영진을 포함한 다양한 그룹이 최대한 활용하는 방법에 대해 투명하고 솔직한 토론을 할 수 있는 기회도 고려해야 합니다. 오픈 소스에 대한 조직의 참여.
 
-It’s true that in some cases, management may have to make decisions about policies that aren’t always in agreement with other groups (usually engineering), but in giving everyone a voice in how policies are created, it will make it easier for everyone to comply and see how the policies make sense for the organization.
+경우에 따라 경영진이 다른 그룹(일반적으로 엔지니어링)과 항상 일치하지 않는 정책에 대한 결정을 내려야 할 수도 있지만 모든 사람에게 정책 생성 방식에 대한 의견을 제공하면 모든 사람이 더 쉽게 규정을 준수하고 정책이 조직에 어떻게 의미가 있는지 확인합니다.
 
-### Economic and Productivity Considerations
+### 경제 및 생산성 고려 사항
 
-Another element to consider when crafting your open source policies is how their implementation will affect working productivity, and therefore, indirectly, the economic impact to your organization.
+오픈 소스 정책을 작성할 때 고려해야 할 또 다른 요소는 정책 구현이 작업 생산성에 영향을 미치고 따라서 간접적으로 조직에 미치는 경제적 영향입니다.
 
-Building completely ‘bulletproof’ policies that cover every possible case, and require a massive human and technological infrastructure can seem like the ‘safest’ approach, but those can have unintended consequences, including making software development slow, unwieldy and so unpleasant that you run the risk of losing critical software talent to organizations without such rigid policies.
+가능한 모든 경우를 포괄하고 방대한 인적 및 기술적 인프라를 필요로 하는 완전히 '방탄' 정책을 구축하는 것은 '가장 안전한' 접근 방식처럼 보일 수 있지만, 이는 소프트웨어 개발을 느리고 다루기 힘들고 불쾌하게 만드는 등 의도하지 않은 결과를 초래할 수 있습니다. 엄격한 정책이 없는 조직은 중요한 소프트웨어 인재를 잃을 위험이 있습니다.
 
-Additionally, building out the necessary process infrastructure for such heavyweight policies has economic cost both in tools and in detailed human oversight. The best approach to combat the temptation to build the ‘perfect policies’ is to consider the oft-repeated open source mantra of ‘release early, release often.’ Consider what minimum set of policies you need to implement your open source strategy, and then build on those as both your management team and development organization progress up the ladder of open source engagement.
+또한, 이러한 무거운 정책에 필요한 프로세스 인프라를 구축하는 것은 도구와 상세한 인적 감독 모두에서 경제적인 비용이 듭니다. '완벽한 정책'을 구축하려는 유혹에 맞서 싸우는 가장 좋은 방법은 '일찍 릴리스, 자주 릴리스'라는 자주 반복되는 오픈 소스 만트라를 고려하는 것입니다. 오픈 소스 전략을 구현하는 데 필요한 최소한의 정책 집합을 고려하고 관리 팀과 개발 조직이 오픈 소스 참여의 사다리를 올라감에 따라 이를 기반으로 구축하십시오.
 
-# Section: Introducing the Open Source Program Office
+# 섹션: 오픈 소스 프로그램 오피스 소개
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will discuss the role that the Open Source Program Office (OSPO) plays in helping define strategy, implementing associated policies, and guiding an organization's involvement in open source. There will be a more detailed coverage of how to set up and run an OSPO in a later course in this series.
+이 섹션에서는 전략을 정의하고, 관련 정책을 구현하고, 조직의 오픈 소스 참여를 안내하는 데 있어 OSPO(Open Source Program Office)가 수행하는 역할에 대해 설명합니다. 이 시리즈의 뒷부분에서 OSPO를 설정하고 실행하는 방법에 대해 더 자세히 다룰 것입니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Define the characteristics of an Open Source Program office
+- 오픈소스 프로그램 사무국의 특성 정의
 
-- Explain the role of an Open Source Program Office in guiding an organization's open source efforts
+- 조직의 오픈 소스 노력을 안내하는 오픈 소스 프로그램 사무소의 역할을 설명합니다.
 
-- Articulate some ways an Open Source Program Office can help define metrics for open source success
+- 오픈 소스 프로그램 오피스가 오픈 소스 성공에 대한 메트릭을 정의하는 데 도움이 될 수 있는 몇 가지 방법을 명확히 합니다.
 
-## Lesson: Overview of Open Source Program Office (OSPO)
+## 강의: OSPO(Open Source Program Office) 개요
 
-### What is an OSPO and Why Does My Organization Need One?
+### OSPO란 무엇이며 내 조직에 OSPO가 필요한 이유는 무엇입니까?
 
-A central open source program office is a designated place where open source is supported, nurtured, shared, explained, and grown inside a company. With such an office in place, businesses can establish and execute on their open source strategies in clear terms, giving their leaders, developers, marketers, and other staff the tools they need to make open source a success within their operations.
+중앙 오픈 소스 프로그램 오피스는 회사 내에서 오픈 소스를 지원, 육성, 공유, 설명 및 성장하는 지정된 장소입니다. 이러한 오피스가 있으면 기업은 명확한 용어로 오픈 소스 전략을 수립하고 실행할 수 있으며 리더, 개발자, 마케팅 담당자 및 기타 직원에게 운영 내에서 오픈 소스를 성공시키는 데 필요한 도구를 제공할 수 있습니다.
 
-One of the biggest differences between traditional software development and open source development is the highly collaborative nature used in open source. For many businesses, the needed change in philosophy when approaching open source use doesn’t come easily or naturally.
+전통적인 소프트웨어 개발과 오픈 소스 개발의 가장 큰 차이점 중 하나는 오픈 소스에서 사용되는 고도로 협업적인 특성입니다. 많은 기업에서 오픈 소스 사용에 접근할 때 필요한 철학의 변화는 쉽거나 자연스럽게 오지 않습니다.
 
-That’s where the creation of an open source program can be a major boon. By creating an open source program office, businesses can enable, streamline and organize the use of open source in ways that tie it directly to a company’s long-term business plans. An open source program office is designed to be the center of the universe for a company’s open source operations and structure, helping to bring all the needed components together.
+바로 이 부분에서 오픈 소스 프로그램을 만드는 것이 큰 도움이 될 수 있습니다. 오픈 소스 프로그램 오피스을 만들어 기업은 회사의 장기 사업 계획과 직접적으로 연결되는 방식으로 오픈 소스 사용을 활성화, 간소화 및 구성할 수 있습니다. 오픈 소스 프로그램 오피스는 회사의 오픈 소스 운영 및 구조를 위한 우주의 중심으로 설계되어 필요한 모든 구성 요소를 하나로 모으는 데 도움이 됩니다.
 
-This can include setting code use, distribution, selection, auditing and other policies, as well as training developers, ensuring legal compliance and promoting and building community engagement. The office can also provide advocacy and communications about all things open source inside and outside the company.
+여기에는 코드 사용, 배포, 선택, 감사 및 기타 정책 설정, 개발자 교육, 법규 준수 보장, 커뮤니티 참여 촉진 및 구축이 포함될 수 있습니다. 오피스는 또한 회사 내부 및 외부의 모든 오픈 소스에 대한 옹호 및 커뮤니케이션을 제공할 수 있습니다.
 
-### The Role of an OSPO
+### OSPO의 역할
 
-Ultimately, a well-organized open source program office is valuable because it can advance open source use, contribution, and creation inside companies for strategic advantage.
+궁극적으로 잘 조직된 오픈 소스 프로그램 오피스는 전략적 이점을 위해 회사 내부에서 오픈 소스 사용, 기여 및 생성을 촉진할 수 있기 때문에 가치가 있습니다.
 
-A successful office can greatly benefit corporate open source use by establishing processes that enable developers and their teams. It encourages standard coding and organizational practices, processes, and toolsets. At the same time, a program office can help avoid or remove unneeded, rigid processes which creative developers may circumvent or ignore anyway, threatening security and other aspects of projects.
+성공적인 오피스는 개발자와 팀을 지원하는 프로세스를 구축하여 기업의 오픈 소스 사용에 큰 이점을 줄 수 있습니다. 표준 코딩 및 조직적 관행, 프로세스 및 도구 집합을 권장합니다. 동시에 프로그램 오피스는 창의적 개발자가 어쨌든 우회하거나 무시할 수 있는 불필요하고 경직된 프로세스를 피하거나 제거하여 프로젝트의 보안 및 기타 측면을 위협할 수 있습니다.
 
-The responsibilities of a program office are varied. These include:
+프로그램 오피스의 책임은 다양합니다. 여기에는 다음이 포함됩니다:
 
-- Clearly communicating the open source strategy within and outside the company
+- 사내외 오픈소스 전략을 명확하게 전달
 
-- Owning and overseeing the execution of the strategy
+- 전략 실행을 소유 및 감독
 
-- Facilitating the effective use of open source in commercial products and services
+- 상용 제품 및 서비스에서 오픈 소스의 효과적인 사용 촉진
 
-- Ensuring high-quality and frequent releases of code to open source communities
+- 오픈 소스 커뮤니티에 고품질의 빈번한 코드 릴리스 보장
 
-- Engaging with developer communities and seeing that the company contributes back to other projects effectively
+- 개발자 커뮤니티에 참여하고 회사가 다른 프로젝트에 효과적으로 기여하는지 확인
 
-- Fostering an open source culture within an organization
+- 조직 내 오픈소스 문화 조성
 
-- Maintaining open source license compliance reviews and oversight
+- 오픈 소스 라이선스 준수 검토 및 감독 유지
 
-For every company, the role of the open source program office will likely be custom-configured based on its business, products, and goals. There is no broad template for building an open source program that applies across all industries — or even across all companies in a single industry. That can make its creation a challenge, but you can learn lessons from other companies and bring them together to fit your own organization’s requirements.
+모든 회사에서 오픈 소스 프로그램 오피스의 역할은 비즈니스, 제품 및 목표에 따라 맞춤 구성될 것입니다. 모든 산업 또는 단일 산업의 모든 회사에 적용되는 오픈 소스 프로그램을 구축하기 위한 광범위한 템플릿은 없습니다. 그렇게 하면 생성이 어려울 수 있지만 다른 회사에서 교훈을 배우고 조직의 요구 사항에 맞게 통합할 수 있습니다.
 
-Another key role for the open source program office is to bring substance and facts to the conversation when business units begin to consider open source in their plans so there is a full understanding of why it is being considered, what the consequences will be, and what is needed to reach its goals. It’s often a matter of framing the conversation so that stakeholders know where to start and what to think about as they weigh their decision.
+오픈 소스 프로그램 사무소의 또 다른 핵심 역할은 사업부가 계획에서 오픈 소스를 고려하기 시작할 때 대화에 실체와 사실을 가져와서 고려되는 이유, 결과 및 결과에 대한 완전한 이해가 있도록 하는 것입니다. 목표를 달성하기 위해 필요합니다. 이해 관계자가 결정을 내릴 때 어디서부터 시작하고 무엇을 생각해야 하는지 알 수 있도록 대화를 구성하는 것이 중요한 경우가 많습니다.
 
-### The OSPO’s Role in Defining Success Metrics
+### 성공 지표 정의에서 OSPO의 역할
 
-Open source program managers must demonstrate the return on investment (ROI) of their efforts. Let’s take a look at how an OSPO helps define some of the standard ways that organizations evaluate their open source programs, projects, and contributions.
+오픈 소스 프로그램 관리자는 자신의 노력에 대한 투자 수익(ROI)을 입증해야 합니다. OSPO가 조직이 오픈 소스 프로그램, 프로젝트 및 기여를 평가하는 몇 가지 표준 방법을 정의하는 데 어떻게 도움이 되는지 살펴보겠습니다.
 
-Learning what to measure, how to define success, and how to best use this information to advance your open source program objectives, demonstrate effectiveness, and gain support is a critical function of any OSPO.
+측정할 대상, 성공을 정의하는 방법, 이 정보를 사용하여 오픈 소스 프로그램 목표를 발전시키고 효율성을 입증하며 지원을 얻는 방법을 배우는 것은 모든 OSPO의 중요한 기능입니다.
 
-The goals you set, and metrics you track, will vary according to the reasons you’re investing in open source – whether it’s to recruit developers, bring in new ideas and technologies through open innovation, achieve faster time to market, lower development costs, or myriad other reasons.
+설정한 목표와 추적하는 지표는 개발자 모집, 개방형 혁신을 통한 새로운 아이디어 및 기술 도입, 시장 출시 기간 단축, 개발 비용 절감, 또는 무수히 많은 다른 이유.
 
-It’s important to set goals according to your unique strategy – and seek buy-in from the executive team to ensure that the open source strategy aligns with the overall business strategy. An OSPO can provide that neutral place to help your organization think about these items strategically.
+고유한 전략에 따라 목표를 설정하고 오픈 소스 전략이 전체 비즈니스 전략과 일치하도록 경영진의 동의를 구하는 것이 중요합니다. OSPO는 조직이 이러한 항목에 대해 전략적으로 생각하는 데 도움이 되는 중립적인 장소를 제공할 수 있습니다.
 
-Experienced OSPO staff generally consider the following when building metrics:
+숙련된 OSPO 직원은 일반적으로 메트릭을 작성할 때 다음을 고려합니다.
 
-- Their developers’ participation and level of influence in external open source projects
+- 외부 오픈 소스 프로젝트에 대한 개발자의 참여 및 영향력 수준
 
-- Their organization’s reputation in open source communities
+- 오픈 소스 커뮤니티에서 조직의 명성
 
-- Their ability to recruit and retain talented developers
+- 재능 있는 개발자를 모집하고 유지하는 능력
 
-- The general health of the organization’s own open source projects and the business-critical projects its developers contribute to
+- 조직의 자체 오픈 소스 프로젝트 및 개발자가 기여하는 비즈니스 크리티컬 프로젝트의 일반적인 상태
 
-- How well they manage open source license compliance
+- 오픈 소스 라이선스 규정 준수를 얼마나 잘 관리하는지
 
-### Final Thoughts on OSPO Creation
+### OSPO 생성에 대한 최종 생각
 
-There are many other aspects to building and running an effective OSPO. So many, in fact, that we will have a dedicated section and lessons on this in later course modules in this series. For now, the most important thing to consider is that as you continue your journey up the leadership/participation ladder of open source engagement, you’ll eventually need some form of an OSPO.
+효과적인 OSPO를 구축하고 실행하는 데에는 다른 많은 측면이 있습니다. 사실 너무 많아서 이 시리즈의 이후 과정 모듈에서 이에 대한 전용 섹션과 강의를 제공할 것입니다. 현재로서는 가장 중요한 고려 사항은 오픈 소스 참여의 리더십/참여 사다리를 계속 올라가면서 결국에는 어떤 형태의 OSPO가 필요하다는 것입니다.
 
-As with strategy and policy definition, it’s important to remember the ‘release early, release often’ adage quoted earlier. You don’t need to staff an OSPO with hundreds of people right away to be effective. Starting with an open source leader with enough experience to help guide your organization, and a small staff that can assist them, is usually a good enough start for most organizations.
+전략 및 정책 정의와 마찬가지로 앞서 인용한 '일찍 출시, 자주 출시'라는 격언을 기억하는 것이 중요합니다. 효과적이기 위해 즉시 수백 명의 직원을 OSPO에 배치할 필요는 없습니다. 조직을 안내하는 데 도움이 될 충분한 경험을 가진 오픈 소스 리더와 그들을 도울 수 있는 소규모 직원으로 시작하는 것이 일반적으로 대부분의 조직에 충분한 시작입니다.
 
-What you will find naturally is that well-functioning OSPO’s engage many different stakeholders (engineering, product management, and even executives) in ways that multiply their effectiveness despite their small size. We’ll talk more about finding and building open source leadership for an OSPO in future modules.
+잘 작동하는 OSPO는 작은 규모에도 불구하고 효율성을 배가시키는 방식으로 다양한 이해관계자(엔지니어링, 제품 관리, 심지어 경영진까지)를 참여시킵니다. 우리는 차후의 모듈에서 OSPO를 위한 오픈 소스 리더십을 찾고 구축하는 것에 대해 더 많이 이야기할 것입니다.
