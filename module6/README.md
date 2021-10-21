@@ -1,472 +1,472 @@
-# Understanding Upstream Open Source Projects
+# 업스트림 오픈 소스 프로젝트 이해
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we'll explain what upstream means in the context of open source projects and discuss governance models, and their effect on your contribution strategies.
+이 섹션에서는 오픈 소스 프로젝트의 맥락에서 업스트림이 무엇을 의미하는지 설명하고 거버넌스 모델과 기여 전략에 미치는 영향에 대해 논의합니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Describe what an upstream open source project is and why it's important
-- Explain some typical governance models and strategies for successful contributions
+- 업스트림 오픈 소스 프로젝트가 무엇이며 왜 중요한지 설명
+- 성공적인 기여를 위한 몇 가지 일반적인 거버넌스 모델 및 전략 설명
 
-## Lesson: Introduction to Upstream Open Source
+## 강의: 업스트림 오픈 소스 소개
 
-### What Do We Mean by Upstream?
+### 업스트림이란 무엇을 의미합니까?
 
-We've used the term _upstream_ already in this module, but what do we mean by that?
+우리는 이미 이 모듈에서 _upstream_이라는 용어를 사용했지만 이것이 의미하는 바는 무엇입니까?
 
-Here's a quick definition:
+다음은 간단한 정의입니다:
 
-**Upstream (noun)**
+**업스트림 (명사)**
 
-The originating open source software project upon which a derivative is built
+파생 상품이 구축되는 원래의 오픈 소스 소프트웨어 프로젝트
 
-This term comes from the idea that water and the goods it carries float downstream and benefit those who are there to receive it.
+이 용어는 물과 물이 운반하는 물품이 하류로 떠내려가 물을 받는 사람들에게 이익이 된다는 생각에서 비롯됩니다.
 
-**To upstream (verb)**
+**업스트림으로 (동사)**
 
-A short-hand way of saying "push changes to the upstream project", i.e. contribute the changes you made to the source code program back to the original project dedicated for that program.
+"업스트림 프로젝트에 변경 사항 푸시"를 간략하게 표현하는 것입니다. 즉, 소스 코드 프로그램에 대한 변경 사항을 해당 프로그램 전용의 원래 프로젝트에 다시 기여하는 것입니다.
 
-If you think about upstream in the context of a supply chain, it would like like this:
+공급망의 맥락에서 업스트림에 대해 생각하면 다음과 같습니다.
 
-![Open Source Supply Chain Funnel](supply-chain-funnel.png)
+![오픈 소스 공급망 유입경로](supply-chain-funnel.png)
 
-### Why Should You Contribute Upstream?
+### 왜 업스트림에 기여해야 합니까?
 
-The biggest question often asked by organizations is why even contribute upstream to begin with. While it may seem easier to just consume and never contribute back, there are many reasons why you should consider making the effort to contribute, including:
+조직에서 자주 묻는 가장 큰 질문은 처음부터 업스트림에 기여하는 이유입니다. 그냥 소비하고 다시 기부하지 않는 것이 더 쉬워 보일 수 있지만 다음을 포함하여 기부 노력을 고려해야 하는 많은 이유가 있습니다:
 
-- Private code is never considered in public development
-  - Integrating your changes upstream means others are aware of them, and can plan for and around them
-  - Reduces the risk of accidental breakage in your own code - if you make local changes which are incompatible with the upstream project, it takes time and resources to fix those issues
-- Integrating changes into an upstream project reduces the amount of effort to build a finished product
-- Contributed code is reviewed and may attract external resources to changes you'll need in the upstream project
-- Contributions strengthen the project and give you an opportunity to influence future project directions
+- 비공개 코드는 공개 개발에서 고려되지 않습니다.
+  - 변경 사항을 업스트림에 통합하면 다른 사람들이 변경 사항을 인식하고 이에 대한 계획을 세울 수 있습니다.
+  - 자신의 코드가 우발적으로 파손될 위험이 감소합니다. - 업스트림 프로젝트와 호환되지 않는 로컬 변경을 수행하는 경우 해당 문제를 수정하는 데 시간과 리소스가 소요됩니다.
+- 업스트림 프로젝트에 변경 사항을 통합하면 완제품을 만드는 데 드는 노력이 줄어듭니다.
+- 기고된 코드가 검토되고 업스트림 프로젝트에서 필요한 변경 사항에 대해 외부 리소스가 필요할 수 있습니다.
+- 기여는 프로젝트를 강화하고 향후 프로젝트 방향에 영향을 줄 수 있는 기회를 제공합니다.
 
-### When Should You Contribute Upstream?
+### 언제 업스트림에 기여해야 합니까?
 
-Organizations new to open source often struggle with when the right time is to start contributing upstream. The following guidelines give a good overview of reasons/timing for upstream contributions:
+오픈 소스를 처음 접하는 조직은 종종 업스트림 기여를 시작할 적절한 시기에 어려움을 겪습니다. 다음 지침은 업스트림 기여의 이유/시기에 대한 좋은 개요를 제공합니다:
 
-- When the costs (time or $) of keeping your code in sync with the upstream project exceed the convenience of working alone
-- When you want your code to be used by others (including customers)
-- When you want your code to become a defacto standard, or drive adoption of the mainline project
-- If you anticipate relying on a certain codebase repeatedly in upcoming products that complements the upstream project
+- 업스트림 프로젝트와 코드를 동기화하는 데 드는 비용(시간 또는 $)이 혼자 작업하는 것의 편리함을 초과하는 경우
+- 타인(고객 포함)이 귀하의 코드를 사용하기를 원할 때
+- 코드가 사실상의 표준이 되거나 메인라인 프로젝트의 채택을 유도하려는 경우
+- 업스트림 프로젝트를 보완하는 향후 제품에서 특정 코드베이스에 반복적으로 의존할 것으로 예상되는 경우
 
-### Example: Development Without Upstreaming
+### 예: 업스트림 없이 개발
 
-To give you a better perspective on what can happen if you don't effectively participate in an upstream project, here's a graphical example:
+업스트림 프로젝트에 효과적으로 참여하지 않을 경우 발생할 수 있는 일에 대한 더 나은 관점을 제공하기 위해 다음은 그래픽 예입니다:
 
-![Development Without Upstreaming](dev-without-upstreaming.png)
+![업스트림 없는 개발](dev-without-upstreaming.png)
 
-As you can see, it can become quite burdensome when you need to bring in the "mainline" of an upstream open source project, for example when a security bug or feature that you need is released. Keeping up with major releases of an upstream project on a regular basis means that you are paying that cost incrementally, instead of all at once.
+보시다시피, 예를 들어 필요한 보안 버그나 기능이 릴리스된 경우와 같이 업스트림 오픈 소스 프로젝트의 "메인라인"을 가져와야 할 때 상당히 부담이 될 수 있습니다. 정기적으로 업스트림 프로젝트의 주요 릴리스를 유지한다는 것은 해당 비용을 한 번에 모두 지불하는 것이 아니라 점진적으로 지불한다는 것을 의미합니다.
 
-### Example: Development With Upstreaming
+### 예제: 업스트림을 사용한 개발
 
-As a counter-example, here's what development looks like with an effective upstream contribution strategy:
+이에 반해 효과적인 업스트림 기여 전략이 있는 개발은 다음과 같습니다:
 
-![Development With Upstreaming](dev-with-upstreaming.png)
+![업스트림 개발](dev-with-upstreaming.png)
 
-The important thing to note here is the application of fewer custom patches because problems and integration issues can be found more quickly when making frequent upstream contributions and keeping better in sync with the upstream project.
+여기서 주목해야 할 중요한 점은 업스트림에 자주 기여하고 업스트림 프로젝트와 동기화를 더 잘 유지할 때 문제와 통합 문제를 더 빨리 찾을 수 있기 때문에 더 적은 수의 사용자 지정 패치를 적용한다는 것입니다.
 
-### Upstream Governance Models
+### 업스트림 거버넌스 모델
 
-There is no shortage of governance models used by upstream open source projects. They differ according to the degrees of centralization, strong influence by one or a few organizational entities, and existence of democratically-inspired decision mechanisms and leadership selection.
+업스트림 오픈 소스 프로젝트에서 사용하는 거버넌스 모델은 부족하지 않습니다. 중앙 집중화 정도, 하나 또는 소수의 조직 주체에 의한 강한 영향력, 민주적으로 영감을 받은 의사 결정 메커니즘 및 리더십 선택의 존재 여부에 따라 다릅니다.
 
-The choice of model and how well it is executed have profound influences on the quality of a project, as well as how quickly it is adopted and evolves, improves and succeeds. There is no one-size-fits-all model and each has its advocates and detractors. Furthermore, different projects have different inherent needs, which may be better satisfied by one particular model.
+모델의 선택과 그것이 얼마나 잘 실행되는지는 프로젝트의 품질뿐만 아니라 그것이 얼마나 빨리 채택되고 발전하고 개선되고 성공하는지에 지대한 영향을 미칩니다. 모든 사람에게 적용되는 획일적인 모델은 없으며 각 모델에는 옹호자와 비방자가 있습니다. 또한 프로젝트마다 고유한 요구 사항이 다르므로 특정 모델에서 더 잘 충족될 수 있습니다.
 
-In the following pages, we'll cover the most often used governance models.
+다음 페이지에서는 가장 자주 사용되는 거버넌스 모델을 다룰 것입니다.
 
-### Company Led Governance
+### 기업 주도 거버넌스
 
-Company-led projects have a mostly-closed process with the following characteristics:
+회사 주도 프로젝트는 다음과 같은 특징을 가진 대부분 폐쇄적인 프로세스를 가지고 있습니다:
 
-- Development is strongly led by one corporate or organizational interest
-- One entity controls software design, releases
-- May or may not solicit contributions, patches, suggestions etc.
-- Internal discussions, controversies, may not be aired very much
-- Exactly what will be in next software release not definitively known
-- Upon release, all software is completely in the open
+- 개발은 하나의 기업 또는 조직의 이해관계에 의해 강력하게 주도됩니다.
+- 하나의 엔티티가 소프트웨어 설계, 릴리스를 제어합니다.
+- 기여, 패치, 제안 등을 요청하거나 요청하지 않을 수 있습니다.
+- 내부토론, 논란, 많이 방영되지 않을 수 있음
+- 다음 소프트웨어 릴리스에 무엇이 포함될지 정확히 알려지지 않음
+- 출시 시 모든 소프트웨어는 완전히 공개됩니다.
 
-Examples: **Google Android**, **Red Hat Enterprise Linux (RHEL)**
+예: **Google Android**, **Red Hat Enterprise Linux(RHEL)**
 
-As you can imagine, it can be hard to influence direction of these projects except by making contributions to projects further upstream from these efforts - for example, the Linux kernel is upstream from both Google Android and Red Hat Enterprise Linux and getting features accepted there (if appropriate) is one way to influence Android and RHEL.
+당신이 상상할 수 있듯이, 이러한 노력에서 더 많은 업스트림 프로젝트에 기여하는 것 외에는 이러한 프로젝트의 방향에 영향을 미치기가 어려울 수 있습니다. 예를 들어 Linux 커널은 Google Android 및 Red Hat Enterprise Linux의 업스트림이며 거기에서 수용되는 기능( 해당되는 경우)는 Android 및 RHEL에 영향을 미치는 한 가지 방법입니다.
 
-### Benevolent Dictator
+### 자비로운 독재자
 
-Projects with this type of governance typically have the strong leadership of one or a few key individuals. They also have the following characteristics:
+이러한 유형의 거버넌스를 사용하는 프로젝트는 일반적으로 한 명 또는 소수의 핵심 개인의 강력한 리더십을 갖습니다. 또한 다음과 같은 특성이 있습니다:
 
-- One individual has overriding influence in every decision
-- Project's quality depends on that of the benevolent dictator(s)
-- Can avoid endless discussions and lead to quicker pace
-- As project grows, success depends critically on dictator's ability to:
-  - Handle many contributors
-  - Use a sane, scalable, version control system
-  - Appoint and work with sub-system maintainers
-- Benevolent dictator's role may be social and political, not structural: Forks can occur any time
-- Maintainers write less and less code as projects mature
+- 한 사람이 모든 결정에 가장 큰 영향을 미칩니다.
+- 프로젝트의 품질은 자비로운 독재자의 품질에 달려 있습니다.
+- 끝없는 토론을 피하고 빠른 진행으로 이어질 수 있습니다.
+- 프로젝트가 성장함에 따라 성공은 독재자의 다음 능력에 크게 좌우됩니다.
+  - 많은 기여자 처리
+  - 건전하고 확장 가능한 버전 관리 시스템 사용
+  - 하위 시스템 유지 관리인을 임명하고 작업합니다.
+- 자비로운 독재자의 역할은 구조적이지 않고 사회적, 정치적일 수 있음: 포크는 언제든지 발생할 수 있음
+- 유지 관리자는 프로젝트가 성숙함에 따라 점점 더 적은 코드를 작성합니다.
 
-Example: **Linux kernel**
+예: **리눅스 커널**
 
-### Governing Board
+### 이사회
 
-Projects with a Governing Board structure have the following characteristics:
+이사회 구조의 프로젝트는 다음과 같은 특징이 있습니다:
 
-- A body (group) carries out discussions on open mailing lists
-- Decisions about design, release dates, etc., are made collectively
-- Decisions about who can contribute, how patches and new software are accepted, are made by governing body
-- Much variation in governing structures, rules of organization, degree of consensus required, etc.
-- Tends to release less frequent, but hopefully well debugged versions
+- 단체(그룹)가 공개 메일링 리스트에 대한 토론을 수행합니다.
+- 디자인, 출시일 등은 일괄적으로 결정
+- 누가 기여할 수 있는지, 패치와 새 소프트웨어가 어떻게 받아들여지는지에 대한 결정은 치리회에서 내립니다.
+- 지배구조, 조직규칙, 합의 정도 등의 다양한 변화
+- 덜 자주 릴리스하는 경향이 있지만 잘 디버깅된 버전
 
-Examples: **FreeBSD**, **Debian**
+예: **FreeBSD**, **데비안**
 
-Projects with this form of governance can be composed of either hobbyists or corporate developers, but tend to have less overt corporate influence than the Foundation/Consortium model (covered next).
+이러한 형태의 거버넌스를 가진 프로젝트는 취미 활동가나 기업 개발자로 구성될 수 있지만 재단/컨소시엄 모델(다음에서 설명)보다 기업의 영향력이 덜한 경향이 있습니다.
 
-### Foundation/Consortium
+### 재단/컨소시엄
 
-Projects within Foundations or Consortiums have a mix of the previously-discussed governance models, usually with the following unique characteristics:
+재단 또는 컨소시엄 내의 프로젝트에는 일반적으로 다음과 같은 고유한 특성이 있는 이전에 논의된 거버넌스 모델이 혼합되어 있습니다:
 
-- Business/strategic governance oversight committee/board
-  - Provides overall business and strategic direction
-  - Membership usually composed of corporate sponsors of the project
-- Separate technical steering committees for technical decisions
-  - Public decisions/mailing lists for technical discussions
-  - Leadership composed of technical resources of corporate sponsors
-  - Ability to have non-corporate-affiliated technical resources appointed/voted on
-- Regular releases with longer testing/acceptance cycles
+- 사업/전략적 지배구조 감독위원회/이사회
+  - 전반적인 사업 및 전략적 방향 제시
+  - 일반적으로 프로젝트의 기업 후원자로 구성된 회원
+- 기술 결정을 위한 별도의 기술 운영 위원회
+  - 기술 토론을 위한 공개 결정/메일링 리스트
+  - 기업후원자의 기술자원으로 구성된 리더십
+  - 기업과 무관한 기술 자원을 임명/의결할 수 있는 능력
+- 테스트/승인 주기가 더 긴 정기 릴리스
 
-Examples: **Open Stack**, **Kubernetes**, **Academy Software Foundation**
+예: **Open Stack**, **Kubernetes**, **Academy Software Foundation**
 
-We'll have more to say about Foundations and open source partnerships in a future training module.
+재단 및 오픈 소스 파트너십에 대해서는 향후 교육 모듈에서 더 자세히 설명하겠습니다.
 
-### Participation Considerations
+### 참여 고려 사항
 
-Many people ask which of the governance models above is best or which should their organization participate in. The reality is that each model has advantages and disadvantages, but in many cases, you may not have a choice of which model to participate in, especially if the project is one that is core to your product or business.
+많은 사람들이 위의 거버넌스 모델 중 어느 것이 가장 좋거나 소속 조직이 참여해야 하는지 묻습니다. 각 모델에는 장단점이 있지만 많은 경우, 특히 다음과 같은 경우 어떤 모델에 참여할지 선택하지 못할 수 있습니다. 프로젝트는 제품 또는 비즈니스의 핵심입니다.
 
-The biggest thing you should consider as an organization is making sure that you have the proper staffing (engineering and leadership) to participate effectively in whichever model the project you need is using. The biggest challenge many organizations face is participating with either too many or two few engineering or management resources.
+조직으로서 고려해야 할 가장 큰 것은 필요한 프로젝트에서 사용하는 모델에 효과적으로 참여할 수 있는 적절한 인력(엔지니어링 및 리더십)이 있는지 확인하는 것입니다. 많은 조직이 직면한 가장 큰 문제는 너무 많거나 적은 엔지니어링 또는 관리 리소스로 참여하는 것입니다.
 
-Understand what your organization needs from a project - if you need strategic input, making sustained engineering contributions as well as monetary support or leadership may be your best bet. If you are primarily a consumer of the technology with only the occasional need to make upstream contributions, having a primarily engineering-driven resourcing approach may work better.
+조직이 프로젝트에서 필요로 하는 것이 무엇인지 이해합니다. 전략적 입력이 필요한 경우 지속적인 엔지니어링 기여와 금전적 지원 또는 리더십을 제공하는 것이 가장 좋습니다. 당신이 주로 업스트림 기여를 할 필요가 있는 기술의 소비자라면 주로 엔지니어링 중심의 자원 조달 접근 방식을 사용하는 것이 더 효과적일 수 있습니다.
 
-# Section: Effective Upstream Contribution Strategies
+# 섹션: 효과적인 업스트림 기여 전략
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will discuss how to most effectively work with upstream open source projects, including understanding the best ways to engage with development communities, strategies for success, and what behaviors to avoid.
+이 섹션에서는 개발 커뮤니티에 참여하는 가장 좋은 방법, 성공 전략 및 피해야 할 행동을 포함하여 업스트림 오픈 소스 프로젝트를 가장 효과적으로 작업하는 방법에 대해 논의합니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Describe the most important factors in working effectively with upstream communities
-- Explain best practices for successful upstream contributions
-- Understand what processes and considerations you'll need to address in your organization to be an effective upstream contributor
+- 업스트림 커뮤니티와 효과적으로 협력하는 데 가장 중요한 요소를 설명합니다.
+- 성공적인 업스트림 기여를 위한 모범 사례 설명
+- 효과적인 업스트림 기여자가 되기 위해 조직에서 처리해야 하는 프로세스와 고려 사항을 이해합니다.
 
-### Lesson: Upstream Collaboration
+### 강의: 업스트림 협업
 
-### Where to Contribute
+### 기부처
 
-After understanding why it's important to contribute to upstream projects, the next most important determination is finding out **where** you should be contributing. As we covered in Module 2, Open Source Business Strategy, having a clear understanding from both an engineering and business perspective about what open source projects are important to you will help guide you in this important decision.
+업스트림 프로젝트에 기여하는 것이 왜 중요한지 이해한 후, 다음으로 가장 중요한 결정은 기여해야 하는 **위치**를 찾는 것입니다. 모듈 2, 오픈 소스 비즈니스 전략에서 다루었듯이 엔지니어링 및 비즈니스 관점에서 오픈 소스 프로젝트가 귀하에게 중요한 것에 대한 명확한 이해는 이 중요한 결정을 내리는 데 도움이 될 것입니다.
 
-In general, you should be evaluating open source projects, and your contributions, based on what provides the most overall value for your organization, for the amount of engineering resources you'll have to spend to enable these contributions.
+일반적으로 조직에 가장 전반적인 가치를 제공하는 것을 기반으로 이러한 기여를 활성화하기 위해 지출해야 하는 엔지니어링 리소스의 양에 따라 오픈 소스 프로젝트와 기여를 평가해야 합니다.
 
-Some important questions and considerations include:
+몇 가지 중요한 질문과 고려 사항은 다음과 같습니다:
 
-- **Which open source projects do we use within the organization?** Take some time to assess which open source projects are already in use across the entire organization to determine which ones are strategic to your business. A few places you might want to focus your assessment: critical business infrastructure (operations), development and deployment tools that impact your ability to release products, and software that is important for customer-facing products or services.
-- **Which projects should we target for contribution?** Most organizations use many open source projects, so it's important to make sure that your plan focuses on just the most important ones. Just because a project isn't on the target list doesn't mean that people can't contribute to that project; it just means that it isn't a critical focus for your organization. If an open source project is critical to your business and has the potential to cause significant downtime or disruption to your ability to serve your customers, it's probably a good candidate for contributions.
+- **조직 내에서 어떤 오픈 소스 프로젝트를 사용합니까?** 어떤 오픈 소스 프로젝트가 귀하의 비즈니스에 전략적인지 결정하기 위해 전체 조직에서 이미 사용 중인 오픈 소스 프로젝트를 평가하는 데 시간을 할애하십시오. 중요한 비즈니스 인프라(운영), 제품 출시 능력에 영향을 미치는 개발 및 배포 도구, 고객 대면 제품 또는 서비스에 중요한 소프트웨어와 같이 평가에 집중할 수 있는 몇 가지 장소가 있습니다.
+- **기부 대상으로 삼아야 하는 프로젝트는 무엇입니까?** 대부분의 조직에서는 많은 오픈 소스 프로젝트를 사용하므로 계획이 가장 중요한 프로젝트에만 초점을 맞추도록 하는 것이 중요합니다. 프로젝트가 대상 목록에 없다고 해서 사람들이 해당 프로젝트에 기여할 수 없다는 의미는 아닙니다. 이는 조직에 중요한 초점이 아님을 의미합니다. 오픈 소스 프로젝트가 비즈니스에 중요하고 고객에게 서비스를 제공하는 능력에 심각한 다운타임이나 중단을 일으킬 가능성이 있는 경우 기여하기에 좋은 후보일 것입니다.
 
-### What to Contribute
+### 기여해야 할 사항
 
-Other than where you should be contributing to upstream projects, one of the most important questions to ask is "**Why are these contributions important?**"
+업스트림 프로젝트에 기여해야 하는 위치 외에 가장 중요한 질문 중 하나는 "**이러한 기여가 왜 중요한가요?**"입니다.
 
-It's easy to jump in and start talking about all the great things you plan to do, but don't forget to include compelling arguments for why this work is important and strategic to the organization, as well as how you plan to parlay any and all contributions into strategic value.
+시작하고 계획한 모든 훌륭한 일에 대해 이야기하기는 쉽지만 이 작업이 조직에 중요하고 전략적인 이유와 모든 것을 어떻게 활용할 계획인지에 대한 설득력 있는 주장을 포함하는 것을 잊지 마십시오. 전략적 가치에 기여합니다.
 
-Sometimes the contributions are important to supporting a product you are building, and sometimes they are important just to keep the overall upstream project strong and healthy so that you can rely on it in your downstream efforts. You also need to consider this from the upstream project's point of view - your planned contributions need to be valuable to the wider community for the upstream project.
+때때로 기여는 빌드하는 제품을 지원하는 데 중요하고 때로는 전체 업스트림 프로젝트를 강력하고 건전하게 유지하여 다운스트림 작업에서 신뢰할 수 있도록 하는 데 중요합니다. 또한 업스트림 프로젝트의 관점에서 이를 고려해야 합니다. 계획된 기여는 업스트림 프로젝트의 더 넓은 커뮤니티에 가치가 있어야 합니다.
 
-It's important to avoid the bad behavior of proposing contributions that may be strategic for your organization, but only useful for your own use cases, and not generally applicable to the whole upstream project community.
+조직에 전략적일 수 있지만 자신의 사용 사례에만 유용하고 전체 업스트림 프로젝트 커뮤니티에 일반적으로 적용할 수 없는 기여를 제안하는 나쁜 행동을 피하는 것이 중요합니다.
 
-### How to Contribute
+### 참여 방법
 
-There are many great resources for the technical process of how you contribute to upstream open source projects, but, let's concentrate at a high level here on some best practices you can use when considering how your organization will contribute.
+업스트림 오픈 소스 프로젝트에 기여하는 방법에 대한 기술 프로세스에 대한 훌륭한 리소스가 많이 있지만, 여기서는 조직이 기여하는 방식을 고려할 때 사용할 수 있는 몇 가지 모범 사례에 대해 높은 수준에서 집중해 보겠습니다.
 
-Here are some things to consider as you start your contribution journey:
+기여 여정을 시작할 때 고려해야 할 몇 가지 사항은 다음과 같습니다:
 
-- Adopt an "upstream first" philosophy
-- Always plan to merge back with the main branch
-  - Forks and side branches are ok as long as there is a plan to merge with upstream
-- Align internal development effort with the upstream branch release cadence
-- Require all code to be properly documented to be better understood by upstream reviewers, which will likely contribute to a faster acceptance cycle
-- Follow the release early and often practice. Don't build a huge code base and then decide to upstream it. Share design, early code and submit large contributions in smaller, independent patches that build on each other.
-- Track the code you choose to not upstream: Reevaluate at every opportunity. If you spot an upward trend in the internal maintained code's size, this calls for a discussion and reevaluation of prior decisions.
+- "업스트림 우선" 철학 채택
+- 항상 메인 브랜치와 다시 병합할 계획
+  - 업스트림과 병합할 계획이 있는 한 포크와 사이드 브랜치는 괜찮습니다.
+- 내부 개발 노력을 업스트림 분기 릴리스 주기에 맞추십시오.
+- 업스트림 검토자가 더 잘 이해할 수 있도록 모든 코드를 적절하게 문서화해야 하며, 이는 더 빠른 승인 주기에 기여할 수 있습니다.
+- 릴리스를 일찍 따르고 자주 연습하십시오. 거대한 코드 기반을 구축한 다음 업스트림으로 결정하지 마십시오. 디자인, 초기 코드를 공유하고 서로를 기반으로 하는 더 작고 독립적인 패치에서 큰 기여를 제출하십시오.
+- 업스트림하지 않기로 선택한 코드 추적: 기회가 있을 때마다 재평가하십시오. 내부에서 유지 관리되는 코드 크기의 증가 추세를 발견하면 이전 결정에 대한 토론과 재평가가 필요합니다.
 
-### Effective Contribution Policies
+### 효과적인 기부 정책
 
-Though it's important to have effective compliance policies implemented as part of your open source strategy, it's also critical that your legal & leadership teams be involved to help set up lightweight policies of fast approval of upstream contributions.
+오픈 소스 전략의 일부로 효과적인 규정 준수 정책을 구현하는 것이 중요하지만, 업스트림 기여에 대한 빠른 승인을 위한 가벼운 정책을 설정하는 데 도움이 되도록 법무 및 리더십 팀이 참여하는 것도 중요합니다.
 
-These policies should be less about rules and regulations and more about helping people be successful in making contributions to open source projects. It can help if people have guidelines and checklists to make sure that they have everything they need to make a successful contribution without running into licensing or confidentiality issues.
+이러한 정책은 규칙과 규정이 아니라 사람들이 오픈 소스 프로젝트에 성공적으로 기여할 수 있도록 돕는 데 중점을 두어야 합니다. 사람들이 라이선스나 기밀 문제에 부딪히지 않고 성공적인 기여를 하는 데 필요한 모든 것을 갖추고 있는지 확인하기 위한 지침과 체크리스트가 있다면 도움이 될 수 있습니다.
 
-Especially for new contributors, it can also help to have an internal review process available as a safe place to get feedback before making a contribution.
+특히 새로운 기여자의 경우, 기여하기 전에 피드백을 얻을 수 있는 안전한 장소로 내부 검토 프로세스를 사용할 수 있도록 하는 데 도움이 될 수 있습니다.
 
-In many cases, contribution policies have predefined lists of approved open source licenses used by upstream projects, and take a "sandbox" approach with developers, where they are allowed to contribute to upstream projects if they are doing so for a project using one of the pre-approved licenses.
+대부분의 경우 기여 정책에는 업스트림 프로젝트에서 사용하는 승인된 오픈 소스 라이선스 목록이 미리 정의되어 있으며 개발자와 함께 "샌드박스" 접근 방식을 취합니다. 사전 승인된 라이선스.
 
-The goal is to balance corporate governance of open source with a process to facilitate interactions with upstream developers.
+목표는 업스트림 개발자와의 상호 작용을 촉진하는 프로세스와 오픈 소스의 기업 거버넌스 간의 균형을 맞추는 것입니다.
 
-### Staffing Considerations
+### 직원 채용 고려 사항
 
-Staffing is a critical element to successful upstream contribution. You may already have relevant expertise in your organization, if you have engineering teams that have made some small upstream contributions. However, as you start to look at upstream projects that are critical for your business, you'll need to ascertain whether you have the relevant expertise in-house to make sustained contributions, or whether you need to hire for it.
+인력 충원은 성공적인 업스트림 기여에 중요한 요소입니다. 약간의 업스트림 기여를 한 엔지니어링 팀이 있는 경우 조직에 관련 전문 지식이 이미 있을 수 있습니다. 그러나 귀하의 비즈니스에 중요한 업스트림 프로젝트를 살펴보기 시작하면서 지속적인 기여를 할 수 있는 관련 전문 지식이 내부에 있는지 또는 이를 위해 고용해야 하는지 여부를 확인해야 합니다.
 
-If you have to hire externally, it's important to make sure to find people with the skills not only to produce the contributions, but also people who are skilled at getting their upstream contribution accepted by the community.
+외부에서 고용해야 하는 경우 기여를 생성할 수 있는 기술을 가진 사람뿐만 아니라 커뮤니티에서 상위 기여를 수용하는 데 능숙한 사람을 찾는 것이 중요합니다.
 
-One way to seed your hiring is to consider hiring key developers and maintainers from the upstream project community. Be aware that these people are in high demand, so you have to be prepared to offer not only an appropriate salary, but also an engineering culture that allows them to continue working on the upstream project that they are a part of.
+채용을 시드하는 한 가지 방법은 업스트림 프로젝트 커뮤니티에서 주요 개발자와 유지 관리자를 고용하는 것을 고려하는 것입니다. 이러한 사람들은 수요가 높기 때문에 적절한 급여뿐만 아니라 그들이 속한 업스트림 프로젝트에서 계속 작업할 수 있는 엔지니어링 문화를 제공할 준비가 되어 있어야 합니다.
 
-The goal is to find people who have enough peer recognition to be influential in the community. There are typically three pillars to this: domain expertise, open source methodology, and working practices. You also need to align corporate interests with individual interests: it's very hard to motivate a senior open source developer to work when their personal interests don't meet with corporate interests in a given project. For example, a Linux memory management expert may not be interested in working on file systems, a corporate priority. Therefore, finding a match in interests is critical for a long lasting relationship.
+목표는 커뮤니티에서 영향력을 발휘할 수 있을 만큼 동료의 인정을 받는 사람들을 찾는 것입니다. 여기에는 일반적으로 도메인 전문성, 오픈 소스 방법론 및 작업 관행의 세 가지 기둥이 있습니다. 또한 기업의 이익과 개인의 이익을 일치시켜야 합니다. 주어진 프로젝트에서 개인의 이익이 기업의 이익과 일치하지 않을 때 선임 오픈 소스 개발자에게 동기를 부여하는 것은 매우 어렵습니다. 예를 들어, Linux 메모리 관리 전문가는 기업 우선순위인 파일 시스템 작업에 관심이 없을 수 있습니다. 따라서 장기적인 관계를 위해서는 관심사에 맞는 짝을 찾는 것이 중요합니다.
 
-### Schedule/Timing Considerations
+### 일정/시간 고려 사항
 
-Providing adequate time in project schedules for upstream contributions is essential. If you have internal developers who are making upstream contributions, you'll need to budget time in their schedules to allow for these contributions to be made. If you are hiring external open source developers into your organization to work upstream, and also work on your product, you'll need to consider how to balance their schedules as well.
+업스트림 기여를 위해 프로젝트 일정에 적절한 시간을 제공하는 것이 필수적입니다. 업스트림 기여를 하는 내부 개발자가 있는 경우 이러한 기여를 할 수 있도록 일정에 시간을 투자해야 합니다. 외부 오픈 소스 개발자를 조직에 고용하여 업스트림에서 작업하고 제품에서도 작업하는 경우 일정의 균형을 유지하는 방법도 고려해야 합니다.
 
-The core principle for hiring open source developers is to support your open source development and upstream activities. There is also the expectation that they should support product teams in their expertise areas. However, it's not uncommon for product teams to exercise their influence in an attempt to hijack the time of the open source developers by having them work on product development as much as possible. If this happens, many open source developers will head to the door, seeking a new job that allows them to work on their upstream project before you realize what just happened.
+오픈 소스 개발자를 고용하는 핵심 원칙은 오픈 소스 개발 및 업스트림 활동을 지원하는 것입니다. 또한 전문 분야의 제품 팀을 지원해야 한다는 기대도 있습니다. 그러나 제품 팀이 최대한 제품 개발에 임하도록 하여 오픈 소스 개발자의 시간을 가로채기 위해 영향력을 행사하는 것은 드문 일이 아닙니다. 이런 일이 발생하면 많은 오픈 소스 개발자가 방금 무슨 일이 일어났는지 깨닫기도 전에 업스트림 프로젝트에서 작업할 수 있는 새로운 일자리를 찾아 문을 나서게 될 것입니다.
 
-Therefore, it's important to create and maintain a separation of upstream work and product work. In other words, it's recommended to provide your open source developers with guaranteed time to meet their upstream aspirations and responsibilities, especially if they are a maintainer. For junior developers or other internal developers who are using open source in product components, such interactions with the upstream community will increase their language, communication, and technical skills.
+따라서 업스트림 작업과 제품 작업을 분리하여 만들고 유지하는 것이 중요합니다. 즉, 오픈 소스 개발자에게 업스트림 열망과 책임을 충족할 수 있는 보장된 시간을 제공하는 것이 좋습니다. 특히 유지 관리자인 경우에는 더욱 그렇습니다. 제품 구성 요소에서 오픈 소스를 사용하는 주니어 개발자 또는 기타 내부 개발자의 경우 이러한 업스트림 커뮤니티와의 상호 작용은 언어, 의사 소통 및 기술 기술을 향상시킬 것입니다.
 
-In the absence of such an upstream time guarantee, it's easy for these team members to be sucked into becoming an extension of product teams, resulting in their upstream focus drying up in favor of product development, which may help in the short term, but can ultimately lead to loss of your organization's reputation in the upstream community, which can negatively affect your ability to help guide the upstream project in areas beneficial to your organization.
+이러한 업스트림 시간 보장이 없으면 이러한 팀 구성원이 제품 팀의 확장자가 되기 쉽습니다. 결과적으로 업스트림 초점이 제품 개발에 유리하게 건조되어 단기적으로는 도움이 될 수 있지만 궁극적으로 업스트림 커뮤니티에서 조직의 명성을 잃게 되며, 이는 조직에 유익한 영역에서 업스트림 프로젝트를 안내하는 데 도움이 되는 능력에 부정적인 영향을 미칠 수 있습니다.
 
-### Training Considerations
+### 교육 고려 사항
 
-Even if you hire the best outside open source developers, you'll need to consider providing training opportunities for your existing engineering staff, as working with upstream communities can be a very different experience than they may have been used to in the past.
+최고의 외부 오픈 소스 개발자를 고용하더라도 기존 엔지니어링 직원을 위한 교육 기회를 제공하는 것을 고려해야 합니다. 업스트림 커뮤니티와 협력하는 것은 과거에 사용했던 것과는 매우 다른 경험이 될 수 있기 때문입니다.
 
-What are some of the kinds of training you should be considering?
+어떤 종류의 교육을 고려해야 합니까?
 
-- Best practices for making upstream contributions
-- General training on open source, licenses, governance, etc.
-- Training on conflict resolution or dealing with challenging people
+- 업스트림 기여를 위한 모범 사례
+- 오픈소스, 라이선스, 거버넌스 등에 대한 일반 교육
+- 갈등 해결 또는 도전적인 사람들을 다루는 훈련
 
-To scale your efforts over time, include in your training plan some programming that provides experienced open source contributors as mentors for new contributors. Mentoring is a powerful way to grow open source talent in specific technology areas relevant to your products.
+시간이 지남에 따라 노력을 확장하려면 숙련된 오픈 소스 기여자를 새로운 기여자를 위한 멘토로 제공하는 일부 프로그램을 교육 계획에 포함시키십시오. 멘토링은 제품과 관련된 특정 기술 영역에서 오픈 소스 인재를 성장시키는 강력한 방법입니다.
 
-It's easy to hire a few resources from outside the company, but there are several limitations to this approach. The alternative approach is to convert your existing developers into open source contributors via training on the technical domain and open source methodology. These developers can then be paired with a mentor to further expand their skills.
+회사 외부에서 몇 가지 리소스를 고용하는 것은 쉽지만 이 접근 방식에는 몇 가지 제한 사항이 있습니다. 대안적인 접근 방식은 기술 영역 및 오픈 소스 방법론에 대한 교육을 통해 기존 개발자를 오픈 소스 기여자로 전환하는 것입니다. 그런 다음 이러한 개발자는 멘토와 짝을 이루어 기술을 더욱 확장할 수 있습니다.
 
-Set up a mentorship program where senior, experienced open source developers provide mentorship to junior, less experienced developers. Typically, the mentorship program would run for 3 to 6 months; during this time, the mentor should supervise the work of the mentee, assign tasks, and ensure proper results. The mentor would also do code reviews for anything the mentee produces, and provide feedback before the mentee pushes the code to the upstream project.
+경험이 풍부한 수석 오픈 소스 개발자가 경험이 부족한 주니어 개발자에게 멘토링을 제공하는 멘토링 프로그램을 설정합니다. 일반적으로 멘토링 프로그램은 3~6개월 동안 진행됩니다. 이 시간 동안 멘토는 멘티의 업무를 감독하고 과제를 할당하고 적절한 결과를 보장해야 합니다. 멘토는 또한 멘티가 생성하는 모든 것에 대한 코드 검토를 수행하고 멘티가 코드를 업스트림 프로젝트에 푸시하기 전에 피드백을 제공합니다.
 
-The goal is to increase the number of developers the company has contributing code to the upstream project, and to improve individual effectiveness by increasing the quality of code and the percentage of code that is accepted into the upstream project. Generally speaking, no more than 4-5 mentees should be assigned to a given mentor, and ideally they should work in the same area as the mentor to make code reviews more efficient.
+목표는 회사에서 업스트림 프로젝트에 코드를 제공하는 개발자의 수를 늘리고 코드의 품질과 업스트림 프로젝트에 허용되는 코드의 비율을 높여 개인의 효율성을 높이는 것입니다. 일반적으로 주어진 멘토에게 4-5명 이하의 멘티를 배정해야 하며, 코드 리뷰를 보다 효율적으로 수행하려면 멘토와 같은 영역에서 일하는 것이 이상적입니다.
 
-### Tooling Considerations
+### 툴링 고려 사항
 
-It's important to provide a flexible IT infrastructure that allows developers to communicate and work with the open source community without any challenges. Additionally, you should consider setting up internal IT infrastructure that matches the tools used externally by upstream communities. This helps to help bridge the gap between internal teams and the upstream project community.
+개발자가 문제 없이 오픈 소스 커뮤니티와 통신하고 작업할 수 있도록 하는 유연한 IT 인프라를 제공하는 것이 중요합니다. 또한 업스트림 커뮤니티에서 외부에서 사용하는 도구와 일치하는 내부 IT 인프라를 설정하는 것을 고려해야 합니다. 이는 내부 팀과 업스트림 프로젝트 커뮤니티 간의 격차를 해소하는 데 도움이 됩니다.
 
-Much of this infrastructure will naturally evolve with your organization's open source culture, but it's important to be aware of the necessity and plan for its implementation. There are three primary domains of IT services that are used in open source development:
+이 인프라의 대부분은 조직의 오픈 소스 문화와 함께 자연스럽게 발전하지만 구현의 필요성을 인식하고 계획하는 것이 중요합니다. 오픈 소스 개발에 사용되는 IT 서비스에는 세 가지 기본 도메인이 있습니다:
 
-- Knowledge sharing (wikis, collaborative editing platforms, and public websites)
-- Communication and problem solving (mailing lists, forums, and real-time chat)
-- Code development and distribution (code repositories and bug tracking)
+- 지식 공유(위키, 공동 편집 플랫폼, 공개 웹사이트)
+- 커뮤니케이션 및 문제 해결(메일링 리스트, 포럼, 실시간 채팅)
+- 코드 개발 및 배포(코드 저장소 및 버그 추적)
 
-Some or all of these tools will need to be made available internally to properly support open source development. There is a chance this might conflict with existing company-wide IT policies. If so, it's vital to resolve these conflicts and allow open source developers to use the tools they are familiar with. These open source practices typically require an IT infrastructure that is free from many standard, limiting IT policies.
+오픈 소스 개발을 적절하게 지원하려면 이러한 도구 중 일부 또는 전부를 내부적으로 사용할 수 있어야 합니다. 이는 기존의 전사적 IT 정책과 충돌할 가능성이 있습니다. 그렇다면 이러한 충돌을 해결하고 오픈 소스 개발자가 익숙한 도구를 사용할 수 있도록 하는 것이 중요합니다. 이러한 오픈 소스 관행에는 일반적으로 IT 정책을 제한하는 많은 표준이 없는 IT 인프라가 필요합니다.
 
-### Other Forms of Contribution
+### 기타 형태의 기부
 
-Remember that upstream communities also need other kinds of support that may not be code related. Look at the governance models for the projects you're interested in to determine whether there is an option for corporate membership or sponsorship for the project or the foundation responsible for it. This provides funding to help the project be successful, and in some cases, it can help your organization get more involved in an advisory role or provide some influence into the project.
+업스트림 커뮤니티에는 코드와 관련이 없을 수 있는 다른 종류의 지원도 필요합니다. 관심 있는 프로젝트의 거버넌스 모델을 살펴보고 해당 프로젝트나 재단에 대한 기업 멤버십 또는 후원 옵션이 있는지 확인하십시오. 이것은 프로젝트의 성공을 돕는 자금을 제공하며, 어떤 경우에는 조직이 자문 역할에 더 많이 참여하거나 프로젝트에 영향을 주는 데 도움이 될 수 있습니다.
 
-In addition to funding projects directly, consider sponsoring related conferences. These can be great for getting the word out about your work and for meeting people who you might want to recruit. In particular, don't overlook your participation in local user groups where you have employees. Sponsoring those local groups and sending contributors to give talks can be a great way to recruit local people who are passionate about particular open source projects.
+프로젝트에 직접 자금을 지원하는 것 외에도 관련 컨퍼런스 후원을 고려하십시오. 이것은 당신의 일에 대해 알리고 당신이 채용하고 싶은 사람들을 만나는 데 유용할 수 있습니다. 특히 직원이 있는 로컬 사용자 그룹에 참여하는 것을 간과하지 마십시오. 이러한 지역 그룹을 후원하고 기고자를 보내 강연을 하는 것은 특정 오픈 소스 프로젝트에 열정을 가진 지역 사람들을 모집하는 좋은 방법이 될 수 있습니다.
 
-### Evaluating your Upstream Efforts
+### 업스트림 노력 평가
 
-Because you are making a significant investment in time, people and money, it's important to consider how you are going to evaluate your upstream efforts. You can track non-code contributions like sponsorship dollars in the standard way you would any accounting investment, but you should give considerable thought to tracking contributions for projects you care about.
+시간, 사람 및 돈에 상당한 투자를 하고 있기 때문에 업스트림 노력을 평가하는 방법을 고려하는 것이 중요합니다. 후원금과 같은 코드가 아닌 기부를 회계 투자와 같은 표준 방식으로 추적할 수 있지만 관심 있는 프로젝트에 대한 기부를 추적하는 데 상당한 생각을 해야 합니다.
 
-Contributions can include upstream code development, supporting product teams, knowledge transfer (mentoring, training), and visibility (publications, talks).
+기여에는 업스트림 코드 개발, 제품 팀 지원, 지식 이전(멘토링, 교육) 및 가시성(출판, 토론)이 포함될 수 있습니다.
 
-There are several toolkits that help track source code contributions; for instance, The Linux Foundation uses a tool called gitdm, which produces the data reported in the Linux Foundation yearly Linux Kernel report. This can be used to track both individual developers as well as the overall team performance. Individual developers can be tracked for the number of patches they submit, the patch acceptance rate (patches submitted divided by patches accepted), and the type of patch (e.g. if it is a new feature, enhancement of existing functionality, bug fix, documentation, etc.).
+소스 코드 기여도를 추적하는 데 도움이 되는 몇 가지 툴킷이 있습니다. 예를 들어, The Linux Foundation은 Linux Foundation의 연간 Linux 커널 보고서에 보고되는 데이터를 생성하는 gitdm이라는 도구를 사용합니다. 이는 개별 개발자와 전체 팀 성과를 모두 추적하는 데 사용할 수 있습니다. 개별 개발자는 제출한 패치 수, 패치 수락률(제출된 패치를 수락된 패치로 나눈 값) 및 패치 유형(예: 새로운 기능인 경우, 기존 기능의 개선, 버그 수정, 문서, 등.).
 
-Other tools like [GrimoireLab](http://grimoirelab.github.io/) can also be used to chart and visualize the metrics you want to track. See the next section on metrics for specific examples of what you should track.
+[GrimoireLab](http://grimoirelab.github.io/)과 같은 다른 도구를 사용하여 추적하려는 메트릭을 차트로 표시하고 시각화할 수도 있습니다. 추적해야 하는 항목의 구체적인 예는 측정항목에 대한 다음 섹션을 참조하세요.
 
-## Metrics for Tracking Progress
+## 진행 상황 추적을 위한 지표
 
-Once you start implementing these open source best practices, you'll need proper open source metrics to drive the desired development behavior. But the traditional metrics often used in product organizations don't apply in the context of open source development.
+이러한 오픈 소스 모범 사례를 구현하기 시작하면 원하는 개발 동작을 유도하기 위해 적절한 오픈 소스 메트릭이 필요합니다. 그러나 제품 조직에서 자주 사용되는 기존 메트릭은 오픈 소스 개발의 맥락에서 적용되지 않습니다.
 
-For example, tracking the number of changesets or lines of code can be a good metric for open source development impact. But you may have multiple instances of desired functionality being implemented upstream because your open source developers lobby for support from the community. In this case, the number of changesets or lines of code doesn't matter nearly as much as the technical leadership that team members provide to get code upstream and reduce the company's downstream maintenance efforts. So the metrics you track should account for both activities.
+예를 들어 변경 집합 또는 코드 줄의 수를 추적하는 것은 오픈 소스 개발 영향에 대한 좋은 지표가 될 수 있습니다. 그러나 오픈 소스 개발자가 커뮤니티의 지원을 위해 로비를 하기 때문에 원하는 기능의 여러 인스턴스가 업스트림에 구현될 수 있습니다. 이 경우 변경 집합 또는 코드 줄의 수는 팀 구성원이 코드를 업스트림으로 가져오고 회사의 다운스트림 유지 관리 노력을 줄이기 위해 제공하는 기술 리더십만큼 중요하지 않습니다. 따라서 추적하는 측정항목은 두 활동을 모두 고려해야 합니다.
 
-### Commits and lines of code over time
+### 시간 경과에 따른 커밋 및 코드 줄
 
-One of the most basic things to track is the number of commits and lines of code changed over a specific period of time, such as every week, month, or year.
+추적해야 할 가장 기본적인 사항 중 하나는 매주, 매월 또는 매년과 같은 특정 기간 동안 변경된 커밋 수와 코드 줄입니다.
 
-![Commits and lines of code over time](commits-over-time.png)
+![시간 경과에 따른 커밋 및 코드 줄](commits-over-time.png)
 
-### The total commits and lines changed per project per week is a good place to start tracking metrics.
+### 프로젝트당 매주 변경된 총 커밋 및 행 수는 메트릭 추적을 시작하기에 좋은 위치입니다.
 
-With this data, you can compare contributions from various internal development teams to identify where source code contributions are coming from and help ensure that resources are allocated appropriately.
+이 데이터를 통해 다양한 내부 개발 팀의 기여를 비교하여 소스 코드 기여가 어디에서 오는지 식별하고 리소스가 적절하게 할당되도록 할 수 있습니다.
 
-From here you can create charts that compare various internal teams for their cumulative contributions, percent of total contributions, and the amount of time it takes to get code committed upstream (see the following charts).
+여기에서 다양한 내부 팀의 누적 기여도, 총 기여도의 백분율, 코드를 업스트림에 커밋하는 데 걸리는 시간을 비교하는 차트를 만들 수 있습니다(다음 차트 참조).
 
-![Cumulative contributions over time](cumulative.png)
+![시간 경과에 따른 누적 기여도](cumulative.png)
 
-**Figure 2:** Cumulative contributions over time can be tracked to compare internal teams and identify teams that are increasing their involvement in a particular open source community (in this chart, it's the Linux kernel).
+**그림 2:** 시간 경과에 따른 누적 기여를 추적하여 내부 팀을 비교하고 특정 오픈 소스 커뮤니티(이 차트에서는 Linux 커널)에 참여를 늘리고 있는 팀을 식별할 수 있습니다.
 
-![contributions as a percent of total over time](percent-over-time.png)
+![시간 경과에 따른 총 기여 비율](percent-over-time.png)
 
-**Figure 3:** Displaying your company's contributions as a percent of total over time allows you to identify the teams that contribute the most code.
+**그림 3:** 회사의 기여도를 시간 경과에 따른 전체 비율로 표시하면 가장 많은 코드를 기여한 팀을 식별할 수 있습니다.
 
-![Time to Commit](time-to-commit.png)
+![커밋할 시간](time-to-commit.png)
 
-**Figure 4:** The amount of time it takes to commit code upstream can be valuable for tracking your development efficiency. This table and chart shows how quickly various teams are getting their code contributed upstream and compares it to the community as a whole.
+**그림 4:** 코드 업스트림을 커밋하는 데 걸리는 시간은 개발 효율성을 추적하는 데 유용할 수 있습니다. 이 표와 차트는 다양한 팀이 코드를 업스트림에 기여하는 속도를 보여주고 전체 커뮤니티와 비교합니다.
 
-You can also use these metrics to compare your performance to other companies who are involved in the Kernel ecosystem for instance (Figure 5). This competitive analysis helps you be better informed about the overall developer ecosystem for the project.
+또한 이러한 메트릭을 사용하여 예를 들어 커널 에코시스템에 관련된 다른 회사와 성과를 비교할 수 있습니다(그림 5). 이 경쟁 분석을 통해 프로젝트의 전체 개발자 에코시스템에 대해 더 잘 알 수 있습니다.
 
-![Cumulative Contributions by Company](cumulative-by-company.png)
+![기업별 누적 기여도](cumulative-by-company.png)
 
-**Figure 5:** Cumulative contributions can be sorted by company to see how your company stacks up against others.
+**그림 5:** 누적 기여도를 회사별로 정렬하여 귀하의 회사가 다른 회사와 어떻게 비교되는지 확인할 수 있습니다.
 
-These metrics provide a much better idea of where your strengths and weaknesses are and can help inform your overall development strategy. Tracking your own contributions relative to competitors', for example, provides valuable information that helps an organization position its products relative to competitors' in the marketplace.
+이러한 메트릭은 강점과 약점이 어디에 있는지에 대한 훨씬 더 나은 아이디어를 제공하고 전반적인 개발 전략을 알려주는 데 도움이 될 수 있습니다. 예를 들어 경쟁업체와 비교하여 자신의 기여도를 추적하면 조직이 시장에서 경쟁업체와 비교하여 제품을 포지셔닝하는 데 도움이 되는 귀중한 정보를 얻을 수 있습니다.
 
-Being a top contributor isn't a goal, in and of itself, but rather an indication that the organization's development efforts are being accepted by the communities in which it participates.
+최고 기여자가 되는 것은 그 자체가 목표가 아니라 조직의 개발 노력이 참여하는 커뮤니티에서 수용되고 있다는 표시입니다.
 
-### Things to Remember
+### 기억해야 할 사항
 
-We've presented a lot of information so far about working most effectively with upstream open source projects. We'll try to distill this down to some key things to remember:
+지금까지 업스트림 오픈 소스 프로젝트에서 가장 효과적으로 작업하는 방법에 대해 많은 정보를 제공했습니다. 우리는 이것을 기억해야 할 몇 가지 주요 사항으로 요약하려고 노력할 것입니다:
 
-1. Establish a policy and process to guide open source contributions
-2. Set up a team to oversee approvals for all open source contributions
-3. Focus contributions in the areas that will enable your technologies
-4. Provide the needed IT infrastructure and tooling for contributors
-5. Offer training to your staff on contribution best practices
-6. Track contributions, measure impact, improve, and communicate
-7. Establish a mentorship program to train less experienced developers
-8. Provide contribution guidelines, how-to's, do's and don'ts
-9. Make open source legal support accessible to developers
-10. Hire from the open source communities you value the most
-11. Always follow the community processes and practices specific to each project
-12. Always consider if what you're upstreaming is valuable to the whole community, and isn't a specific case just for your product
+1. 오픈 소스 기여를 안내하는 정책 및 프로세스 수립
+2. 모든 오픈 소스 기여에 대한 승인을 감독할 팀 구성
+3. 귀하의 기술을 가능하게 할 분야에 집중하십시오.
+4. 기여자에게 필요한 IT 인프라 및 도구 제공
+5. 직원에게 기여 모범 사례에 대한 교육 제공
+6. 기여 추적, 영향 측정, 개선 및 커뮤니케이션
+7. 경험이 부족한 개발자를 양성하기 위한 멘토링 프로그램 구축
+8. 기여 가이드라인, 방법, 해야 할 것과 하지 말아야 할 것 제공
+9. 개발자가 오픈 소스 법률 지원에 액세스할 수 있도록 합니다.
+10. 가장 가치 있는 오픈 소스 커뮤니티에서 고용
+11. 항상 각 프로젝트에 특정한 커뮤니티 프로세스 및 관행을 따르십시오.
+12. 당신이 업스트림하는 것이 전체 커뮤니티에 가치가 있고 당신의 제품에만 해당하는 것이 아닌지 항상 고려하십시오.
 
-# Section: Upstream Development Practices
+# 섹션: 업스트림 개발 관행
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will look in more detail at the development processes and practices used by most upstream projects, to help give you practical guidelines on how to implement the contribution strategies we discussed in the previous section.
+이 섹션에서는 이전 섹션에서 논의한 기여 전략을 구현하는 방법에 대한 실용적인 지침을 제공하는 데 도움이 되도록 대부분의 업스트림 프로젝트에서 사용되는 개발 프로세스 및 관행을 더 자세히 살펴보겠습니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Describe the overall process for how to make upstream contributions
-- Explain how to best align internal processes for better upstream collaboration
+- 업스트림 기여 방법에 대한 전체 프로세스 설명
+- 더 나은 업스트림 협업을 위해 내부 프로세스를 가장 잘 조정하는 방법 설명
 
-## Lesson: Process Overview
+## 강의: 프로세스 개요
 
-### Before You Begin
+### 시작하기 전에
 
-After you've identified the projects you'll need to contribute to, spending a little time understanding the project's inner workings (including governance, as mentioned previously) will be helpful. Here are some ways to begin:
+기여해야 할 프로젝트를 확인한 후에는 프로젝트의 내부 작업(이전에 언급한 거버넌스 포함)을 이해하는 데 약간의 시간을 할애하는 것이 도움이 될 것입니다. 시작하는 몇 가지 방법은 다음과 같습니다:
 
-- Follow the project discussions (mailing lists, IRC, Slack, discussion forums) to understand ongoing efforts
-  - Who are the core developers?
-  - What are areas of high priority?
-  - How do release cycles work?
-  - What are the major bugs currently outstanding
-- Experiment with latest stable and experimental releases
-- Determine how your interests and priorities align with those of the project
-- Find others in the community who share your interests and priorities, and work with them
+- 프로젝트 토론(메일링 목록, IRC, Slack, 토론 포럼)을 따라 진행 중인 노력을 이해합니다.
+  - 핵심 개발자는 누구인가?
+  - 우선순위가 높은 분야는 무엇입니까?
+  - 릴리스 주기는 어떻게 작동합니까?
+  - 현재 해결되지 않은 주요 버그는 무엇입니까
+- 최신 안정 및 실험 릴리스로 실험
+- 귀하의 관심사와 우선순위가 프로젝트의 관심사와 어떻게 일치하는지 결정하십시오.
+- 커뮤니티에서 관심사와 우선 순위를 공유하는 다른 사람들을 찾고 그들과 협력하십시오.
 
-### Signal Intent
+### 신호 의도
 
-![Signal Intent](signal-intent.png)
+![신호 의도](signal-intent.png)
 
-It's important to communicate with the community about what changes you are planning to submit. The process typically starts with sending a message to the community through whatever mechanism they are using.
+제출할 변경 사항에 대해 커뮤니티와 소통하는 것이 중요합니다. 프로세스는 일반적으로 사용 중인 메커니즘을 통해 커뮤니티에 메시지를 보내는 것으로 시작됩니다.
 
-This public discussion is a prerequisite and helps make maintainers aware of the need and the problems you are working to solve. It can often help you recruit others to help do the work, as well as let you gather feedback on the usefulness and design considerations before doing a lot of work (and having your change rejected).
+이 공개 토론은 전제 조건이며 유지 관리자가 해결해야 할 필요성과 문제를 인식하는 데 도움이 됩니다. 많은 작업을 수행하기 전에(변경 사항이 거부되기 전에) 유용성과 디자인 고려 사항에 대한 피드백을 수집할 수 있을 뿐만 아니라 작업을 도와줄 다른 사람을 모집하는 데 도움이 될 수 있습니다.
 
-As you propose your change, keep these important things in mind:
+변경을 제안할 때 다음과 같은 중요한 사항을 염두에 두십시오.
 
-- It should be useful to others and not just to your specific usage models
-- It should be implemented in small parts, and delivered in a way that provides immediate benefit
-- It should be backed by resources ready to implement and maintain it within your organization
+- 특정 사용 모델뿐만 아니라 다른 사용자에게도 유용해야 합니다.
+- 작은 부분으로 구현되어야 하며 즉각적인 혜택을 제공하는 방식으로 전달되어야 합니다.
+- 조직 내에서 구현 및 유지 관리할 준비가 된 리소스의 지원을 받아야 합니다.
 
-### Discussion and Rationale
+### 토론 및 근거
 
-![Discussion and Rationale](discussion.png)
+![토론과 근거](discussion.png)
 
-After a change request has been submitted, there is often some form of discussion in whatever tool the community uses for primary communication. At this time, it gives other interested parties an opportunity to comment, provide feedback, critiques, and it also gives maintainers an opportunity to comment on whether the project is ready to accept such a change.
+변경 요청이 제출된 후 커뮤니티가 기본 커뮤니케이션에 사용하는 도구에 대해 토론하는 형식이 자주 있습니다. 이때 다른 이해 당사자에게 의견을 제시하고, 피드백을 제공하고, 비판할 수 있는 기회를 제공하며, 유지 관리자에게 프로젝트가 이러한 변경을 수용할 준비가 되었는지 여부에 대해 의견을 말할 기회도 제공합니다.
 
-The comments at this stage could range from brief approval to detailed questions about implementation, especially if the change is considered high-risk or potentially intrusive to core parts of the project. It's a good idea to have some thoughts about how you want to convince others and address potential challenges you may see when you first send this communication.
+이 단계의 의견은 간단한 승인에서 구현에 대한 자세한 질문에 이르기까지 다양할 수 있습니다. 특히 변경 사항이 프로젝트의 핵심 부분에 위험이 높거나 잠재적으로 방해가 되는 것으로 간주되는 경우에 그렇습니다. 다른 사람들을 어떻게 설득하고 싶은지 생각해보고 이 커뮤니케이션을 처음 보낼 때 보게 될 잠재적인 문제를 해결하는 것이 좋습니다.
 
-### Acceptance
+### 수락
 
-![Acceptance](acceptance.png)
+![접수](acceptance.png)
 
-After the community discussion, if the maintainers and other interested parties agree, the change is accepted, and some additional considerations are debated, including ascertaining how strategic the change is to the project, an indication that the proposed implementation seems ok, and general consensus that the change is unlikely to affect stability, security, or overall functionality of the project.
+커뮤니티 토론 후 유지 관리자와 기타 이해 관계자가 동의하면 변경이 수락되고 변경이 프로젝트에 얼마나 전략적인지 확인, 제안된 구현이 괜찮다는 표시, 다음과 같은 일반적인 합의를 포함하여 몇 가지 추가 고려 사항이 논의됩니다. 변경 사항은 프로젝트의 안정성, 보안 또는 전체 기능에 영향을 미치지 않을 것입니다.
 
-One or more of the project maintainers will usually signal their approval at this phase.
+한 명 이상의 프로젝트 관리자가 일반적으로 이 단계에서 승인 신호를 보냅니다.
 
-### Tracking Proposed Contribution
+### 제안된 기여 추적
 
-![Tracking Proposed Contribution](tracking.png)
+![제안된 기여 추적](tracking.png)
 
-Once a change has been accepted, it needs to be tracked, and this usually occurs in some form of feature or bug tracking, depending on what tools are used by the project community. This tracking entry is considered the authoritative record of what was proposed and what was accepted as a change.
+변경 사항이 수락되면 추적해야 하며 이는 일반적으로 프로젝트 커뮤니티에서 사용하는 도구에 따라 기능 또는 버그 추적의 일부 형태로 발생합니다. 이 추적 항목은 제안된 내용과 변경 사항으로 승인된 내용에 대한 신뢰할 수 있는 기록으로 간주됩니다.
 
-At this stage, the original submitting developer adds detailed feature information into the tracking tool so that a record is maintained of what subsystems the change will affect and what the overall plan for implementation is.
+이 단계에서 원래 제출한 개발자는 추적 도구에 자세한 기능 정보를 추가하여 변경 사항이 영향을 미치는 하위 시스템과 전체 구현 계획에 대한 기록이 유지되도록 합니다.
 
-### Prioritization
+### 우선순위
 
-![Prioritization](priortization.png)
+![우선순위](prioritization.png)
 
-After a change has been accepted and tracked, its acceptance needs to be prioritized in conjunction with all other pending changes to the project. At this point, maintainers get involved again to prioritize which incoming changes are core to the project, and which are needed right away versus which can be accepted later.
+변경 사항을 수락하고 추적한 후에는 프로젝트에 대해 보류 중인 다른 모든 변경 사항과 함께 수락 우선 순위를 지정해야 합니다. 이 시점에서 유지 관리자는 들어오는 변경 사항이 프로젝트의 핵심이고 즉시 필요한 변경 사항과 나중에 수락할 수 있는 변경 사항의 우선 순위를 지정하기 위해 다시 참여합니다.
 
-Because maintainers generally have a global view of dependencies and future releases, they can work to prioritize changes and align features correctly. However, if a change is minor enough, or doesn't touch too many core parts of the project, they may signal they are ready to accept it as soon as it's ready.
+유지 관리자는 일반적으로 종속성 및 향후 릴리스에 대한 전체적인 관점을 가지고 있기 때문에 변경 우선 순위를 지정하고 기능을 올바르게 정렬하기 위해 작업할 수 있습니다. 그러나 변경 사항이 충분히 사소하거나 프로젝트의 핵심 부분에 너무 많은 영향을 미치지 않는 경우 준비가 되자마자 수락할 준비가 되었다는 신호를 보낼 수 있습니다.
 
-### Release Planning
+### 출시 계획
 
-![Release Planning](release-planning.png)
+![릴리스 기획](release-planning.png)
 
-Once a maintainer has completed prioritization of the incoming change, they will work to communicate the original developer who submitted the change request (as well as the entire community) on when they will be ready to integrate the change. This helps the maintainer and community plan for a manageable number of features per release.
+유지 관리자가 들어오는 변경의 우선 순위 지정을 완료하면 변경 요청을 제출한 원래 개발자(전체 커뮤니티뿐만 아니라)에게 변경을 통합할 준비가 되는 시점을 알리기 위해 노력할 것입니다. 이는 유지 관리자와 커뮤니티가 릴리스당 관리 가능한 수의 기능을 계획하는 데 도움이 됩니다.
 
-During this phase, the original submitter will get notification of what specific future release their change is planned for.
+이 단계에서 원래 제출자는 변경 사항이 계획된 특정 향후 릴리스에 대한 알림을 받게 됩니다.
 
-### Development & QA
+### 개발 및 QA
 
-![Development & QA](development-qa.png)
+![개발 및 QA](development-qa.png)
 
-After all of the prerequisites in the process are completed, the actual development and Quality Assurance can take place, where the developer and any other resources recruited from the community step in and begin to implement the new change, targeting the specific release set by the maintainer.
+프로세스의 모든 전제 조건이 완료된 후 실제 개발 및 품질 보증이 수행될 수 있습니다. 여기서 개발자와 커뮤니티에서 모집한 기타 리소스가 개입하여 유지 관리자가 설정한 특정 릴리스를 대상으로 새로운 변경 사항을 구현하기 시작합니다. .
 
-If for some reason the development runs into issues or it looks like they won't be able to make the specific release window they were assigned to, it's important for them to communicate early with the maintainer and community so that any dependencies on their change can be adjusted in the upcoming release cycles.
+어떤 이유로 개발에 문제가 발생하거나 할당된 특정 릴리스 창을 만들 수 없는 것처럼 보이면 유지 관리자 및 커뮤니티와 조기에 의사 소통하여 변경 사항에 대한 종속성이 발생할 수 있도록 하는 것이 중요합니다. 향후 릴리스 주기에서 조정됩니다.
 
-## Lesson: Aligning Internal Processes
+## 강의: 내부 프로세스 조정
 
-### Where to Start
+### 어디서 시작하나요
 
-It's important to consider how to best align your internal development processes to be more effective when you are contributing changes back to an upstream community. While you may still have unique development processes for internal or closed source software products, being able to shift contexts and work effectively when collaborating with upstream open source projects is important both for your upstream contributions, but also to help you most effectively consume the open source projects into your internal code.
+업스트림 커뮤니티에 변경 사항을 다시 기여할 때 내부 개발 프로세스를 가장 효과적으로 조정하는 방법을 고려하는 것이 중요합니다. 내부 또는 비공개 소스 소프트웨어 제품에 대한 고유한 개발 프로세스가 여전히 있을 수 있지만 업스트림 오픈 소스 프로젝트와 협업할 때 컨텍스트를 전환하고 효과적으로 작업할 수 있는 것은 업스트림 기여뿐만 아니라 오픈 소스를 가장 효과적으로 사용하는 데에도 중요합니다. 프로젝트를 내부 코드에 넣습니다.
 
-To get yourself setup for a contribution, you generally follow the process outlined below (this example is from Github, but can be generalized to any system utilizing git as the source control system):
+기여에 대한 설정을 얻으려면 일반적으로 아래에 설명된 프로세스를 따르십시오(이 예는 Github에서 가져온 것이지만 소스 제어 시스템으로 git을 사용하는 모든 시스템으로 일반화할 수 있음).
 
-![Set up to Contribute](setup.png)
+![참여하도록 설정](setup.png)
 
-If this is a small open source project or one that is unlikely to be used by others in your organization, you can generally leave the fork on Github in your own account, but if it's likely to be used by other teams in your organization, you may want to fork the upstream project into a company-owned organization for easier maintenance.
+소규모 오픈 소스 프로젝트이거나 조직의 다른 사람들이 사용할 가능성이 낮은 프로젝트인 경우 일반적으로 Github의 포크를 자신의 계정에 남겨둘 수 있지만 조직의 다른 팀에서 사용할 가능성이 있는 경우에는 더 쉬운 유지 관리를 위해 업스트림 프로젝트를 회사 소유 조직으로 분기할 수 있습니다.
 
-Once you've done the initial setup, the general workflow of pushing changes up through "pull requests" looks like this:
+초기 설정을 완료하면 "풀 요청"을 통해 변경 사항을 푸시하는 일반적인 워크플로는 다음과 같습니다.
 
-![Pull Requests](pull-requests.png)
+![풀 리퀘스트](pull-requests.png)
 
-### Internal Mirrors
+### 내부 미러
 
-For some organizations, especially those that have potential concerns about the long-term availability of open source repositories on the Internet, it may make sense to have an additional layer of repository structure inside your organization. For example:
+일부 조직, 특히 인터넷에서 오픈 소스 리포지토리의 장기적 가용성에 대해 잠재적인 우려가 있는 조직의 경우 조직 내부에 리포지토리 구조의 추가 계층을 갖는 것이 합리적일 수 있습니다. 예를 들어:
 
-<!--![Pull Requests (Alt)](pull-requests-alt.png)-->
+<!--![풀 요청(Alt)](pull-requests-alt.png)-->
 
-![Internal Mirror](internal-mirror.png)
+![내부 미러](internal-mirror.png)
 
-Additionally, for some orgs, the "comfort factor" of having this internal mirror of an open source project gives them the ability to more easily have legal sign-off on usage of open source in products.
+또한 일부 조직의 경우 이러한 오픈 소스 프로젝트의 내부 미러를 갖는 "편안한 요소"를 통해 제품에서 오픈 소스 사용에 대한 법적 승인을 더 쉽게 얻을 수 있습니다.
 
-While it does provide a layer of safety, it does also increase the workload for changes going upstream, as you'll need to push those changes from your local developer repo to the internal mirror, and then on to the actual fork on Github before proposing your pull request.
+안전 계층을 제공하지만 변경 사항을 제안하기 전에 로컬 개발자 저장소에서 내부 미러로 변경 사항을 푸시한 다음 Github의 실제 포크로 푸시해야 하므로 업스트림으로 이동하는 변경 사항에 대한 워크로드도 증가합니다. 당신의 풀 리퀘스트.
 
-### Internal Collaboration
+### 내부 협업
 
-Whether you choose to have your consumption of and contribution to upstream projects happen with or without an internal mirror, you'll still need to build communication and collaborative practices within your organization to make sure that:
+내부 미러가 있든 없든 업스트림 프로젝트에 대한 소비 및 기여를 선택하든지 간에 다음을 확인하기 위해 조직 내에서 커뮤니케이션 및 협업 관행을 구축해야 합니다:
 
-- You're working on a small set of approved versions of the upstream project
-- Changes you're making are not redundant or in conflict with your internal teams
-- Changes that you're proposing to the upstream project are consistent across the company
+- 업스트림 프로젝트의 승인된 소규모 버전 세트를 작업 중입니다.
+- 변경 사항이 중복되거나 내부 팀과 충돌하지 않습니다.
+- 업스트림 프로젝트에 제안하는 변경 사항은 회사 전체에서 일관됩니다.
 
-### Coordinating Upstream Pull Requests
+### 업스트림 풀 요청 조정
 
-If you have multiple teams consuming and potentially making changes to an upstream open source project, it's important that you work to coordinate any changes that are being made to that project. Whether you monitor and prioritize/clarify those changes in an internal mirror repo, or your public organizational repo, it helps to identify internal "maintainers" inside of your organization that have a responsibility for acting as an intermediate "upstream" review team.
+업스트림 오픈 소스 프로젝트를 사용하고 잠재적으로 변경할 수 있는 팀이 여러 개인 경우 해당 프로젝트에 대한 변경 사항을 조정하는 작업을 하는 것이 중요합니다. 내부 미러 리포지토리 또는 공공 조직 리포지토리에서 이러한 변경 사항을 모니터링하고 우선 순위를 지정/명확하게 하는 경우 중간 "업스트림" 검토 팀 역할을 담당하는 조직 내부의 내부 "유지 관리 담당자"를 식별하는 데 도움이 됩니다.
 
-Effectively coordinating your upstream project contributions in a large engineering organization can seem like a lot of extra work, but it's needed if you want to keep the upstream project effective and healthy so you can rely upon it, and, also so that your organization's reputation with the upstream community remains intact. Having many conflicting changes from a single organization going to the upstream project can have a detrimental effect on how your organization is viewed by the open source community, which negatively affects your ability to work with them long-term.
+대규모 엔지니어링 조직에서 업스트림 프로젝트 기여를 효과적으로 조정하는 것은 많은 추가 작업처럼 보일 수 있지만 업스트림 프로젝트를 효과적이고 건전하게 유지하여 신뢰할 수 있고 조직의 명성을 유지하려면 필요합니다. 상류 커뮤니티는 그대로 남아 있습니다. 단일 조직에서 업스트림 프로젝트로 가는 많은 상충되는 변경 사항이 있으면 오픈 소스 커뮤니티에서 조직을 보는 방식에 해로운 영향을 미칠 수 있으며 장기적으로 함께 작업하는 능력에 부정적인 영향을 미칩니다.
