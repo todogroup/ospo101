@@ -1,1221 +1,1221 @@
-# Open Source Licensing and Compliance Basics
+# 오픈 소스 라이선스 및 규정 준수 기본 사항
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we'll explain the role of open source licenses, describe the most common types of licenses and give guidance on how to choose the right license for a particular situation. We'll also cover the basics of intellectual property and copyright in software, as these are key concepts to understanding licensing in general.
+이 섹션에서는 오픈 소스 라이선스의 역할을 설명하고 가장 일반적인 유형의 라이선스를 설명하며 특정 상황에 적합한 라이선스를 선택하는 방법에 대한 지침을 제공합니다. 또한 소프트웨어의 지적 재산권 및 저작권에 대한 기본 사항도 다룰 것입니다. 이는 일반적으로 라이선스를 이해하는 데 핵심적인 개념이기 때문입니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Describe intellectual property and copyright in software and how they relate to licensing
-- Explain open source licenses, including the most common types of licenses in use today
-- Articulate what criteria you should use when selecting a particular license for your organization and/or project
+- 소프트웨어의 지적 재산권과 저작권, 라이선스와 어떻게 관련되는지 설명
+- 오늘날 사용되는 가장 일반적인 유형의 라이선스를 포함하여 오픈 소스 라이선스를 설명합니다.
+- 조직 및/또는 프로젝트에 대한 특정 라이선스를 선택할 때 사용해야 하는 기준을 명확히 합니다.
 
-## Lesson: Intellectual Property and Copyright
+## 강의: 지적 재산권 및 저작권
 
-### What is Intellectual Property?
+### 지적 재산권이란 무엇입니까?
 
-Intellectual property is a core element that needs to be understood to be able to make intelligent choices around open source and other software license types. There are several categories of Intellectual Property, as listed below:
+지적 재산은 오픈 소스 및 기타 소프트웨어 라이선스 유형에 대해 현명한 선택을 할 수 있도록 이해해야 하는 핵심 요소입니다. 지적 재산권에는 다음과 같이 여러 범주가 있습니다:
 
-- **Copyright:** protects original works of authorship
-  - Protects expression (not the underlying idea)
-  - Covers software, books, and similar works
-- **Patents**: useful inventions that are novel and non-obvious
-  - Creates a limited monopoly to incentivize innovation
-- **Trade secrets**: protects valuable confidential information
-- **Trademarks**: protects marks (word, logos, slogans, color, etc.) that identify the source of the product
-  - Consumer and brand protection; helps avoid consumer confusion and brand dilution
+- **저작권:** 저자의 원본 작품을 보호합니다.
+  - 표현 보호(기본 아이디어가 아님)
+  - 소프트웨어, 서적 및 이와 유사한 작업을 다룹니다.
+- **특허**: 새롭고 자명하지 않은 유용한 발명
+  - 혁신을 장려하기 위해 제한된 독점을 만듭니다.
+- **영업 비밀**: 중요한 기밀 정보를 보호합니다.
+- **상표**: 제품의 출처를 식별할 수 있는 마크(단어, 로고, 슬로건, 색상 등)를 보호합니다.
+  - 소비자 및 브랜드 보호 소비자 혼란과 브랜드 희석을 방지하는 데 도움이 됩니다.
 
-For our purposes in this course we'll focus on copyright and patents, the areas most relevant to Open Source license compliance.
+이 과정의 목적을 위해 우리는 오픈 소스 라이선스 준수와 가장 관련이 있는 영역인 저작권 및 특허에 중점을 둘 것입니다.
 
-### General Copyright Concepts in Software
+### 소프트웨어의 일반 저작권 개념
 
-Copyright is one of the two critical elements (patents is the other) that inform open source license compliance. Here are some basic elements of copyright:
+저작권은 오픈 소스 라이선스 준수를 알려주는 두 가지 중요한 요소 중 하나입니다(특허는 다른 하나입니다). 다음은 저작권의 몇 가지 기본 요소입니다:
 
-- Copyright protects creative works such as books, movies, pictures, music, maps
-- **Software is considered a creative work and is protected by copyright**
-  - Not the functionality (that's protected by patents) but the expression (creativity in implementation details)
-  - This protection includes software in binary or source code form
-- The copyright owner only has control over the work that he or she created, not someone else's independent creation
-- Infringement may occur if copying without the permission of the author
+- 저작권은 책, 영화, 사진, 음악, 지도 등의 창작물을 보호합니다.
+- **소프트웨어는 창의적인 작업으로 간주되며 저작권의 보호를 받습니다**
+  - 기능(특허로 보호됨)이 아니라 표현(구현 세부사항의 창의성)
+  - 이 보호에는 바이너리 또는 소스 코드 형식의 소프트웨어가 포함됩니다.
+- 저작권 소유자는 다른 사람의 독립적인 창작물이 아닌 자신이 만든 작품에 대해서만 통제할 수 있습니다.
+- 저작자의 허락 없이 복제할 경우 침해될 수 있습니다.
 
-### Most Relevant Copyright Rights in Software
+### 소프트웨어에서 가장 관련 있는 저작권
 
-There are some important rights related to copyrights with software. How these rights are granted relates to licenses (which we will cover shortly). Specifically, the relevant rights, which vary by jurisdiction, are:
+소프트웨어에는 저작권과 관련된 몇 가지 중요한 권리가 있습니다. 이러한 권한이 부여되는 방식은 라이선스와 관련이 있습니다(곧 다루겠습니다). 특히 관할권에 따라 달라지는 관련 권리는 다음과 같습니다:
 
-- The right to _reproduce_ the software – making copies
-- The right to create "_derivative works_" – making modifications
-  - The term derivative work comes from the US Copyright Act
-  - In general it refers to a new work based upon an original work to which enough original creative work has been added so that the new work represents an original work of authorship rather than a copy
-- The right to _distribute_
-  - Distribution is generally viewed as the provision of a copy of a piece of software, in binary or source code form, to another entity (an individual or organization outside your company or organization)
+- 소프트웨어 _복제_ 권리 – 복사
+- "_파생적 저작물_"을 생성할 수 있는 권리 – 수정
+  - 2차적 저작물이라는 용어는 미국 저작권법에서 따온 것입니다.
+  - 일반적으로 원저작물을 기초로 하여 복제물이 아닌 저작자의 원저작물을 대표할 수 있도록 독창적인 창작물을 충분히 추가한 새로운 저작물을 말한다.
+- _배포_할 권리
+  - 배포는 일반적으로 바이너리 또는 소스 코드 형식의 소프트웨어 복사본을 다른 엔티티(귀하의 회사 또는 조직 외부의 개인 또는 조직)에 제공하는 것으로 간주됩니다.
 
-_It's important to note here that the interpretation of what constitutes a "derivative work" or a “distribution” is subject to debate in the Open Source community and within Open Source legal circles, so this is an area that will continue to evolve over time._
+_여기서 무엇이 "파생 저작물" 또는 "배포"를 구성하는지에 대한 해석이 오픈 소스 커뮤니티와 오픈 소스 법조계 내에서 논쟁의 대상이 된다는 점에 주목하는 것이 중요합니다. 따라서 이것은 시간이 지남에 따라 계속 발전할 영역입니다. _
 
-### Patent Concepts in Software
+### 소프트웨어의 특허 개념
 
-Patents are also an important area that can have a significant bearing on open source compliance (depending on license type, which we will also cover a bit later).
+특허는 또한 오픈 소스 규정 준수에 상당한 영향을 미칠 수 있는 중요한 영역입니다(라이선스 유형에 따라 다르며, 이에 대해서는 나중에 다루겠습니다).
 
-Some critical elements of patents include:
+특허의 몇 가지 중요한 요소는 다음과 같습니다:
 
-- Patents protect functionality – this can include a method of operation, such as a computer program
-  - They do not protect abstract ideas, or laws of nature
-- A patent application must be made in a specific jurisdiction in order to obtain a patent in that country. If a patent is awarded, the owner has the right to stop anybody from exercising its functionality, regardless of independent creation
-- Other parties who want to use the technology may seek a patent license (which may grant rights to use, make, have made, sell, offer for sale, and import the technology)
+- 특허는 기능을 보호합니다. 여기에는 컴퓨터 프로그램과 같은 작동 방법이 포함될 수 있습니다.
+  - 추상적 개념이나 자연법칙을 보호하지 않음
+- 특정 국가에서 특허를 받기 위해서는 특정 관할권에서 특허 출원을 해야 합니다. 특허가 부여되면 소유자는 독립적인 생성 여부에 관계없이 누구든지 기능을 실행하는 것을 중지할 수 있는 권리가 있습니다.
+- 기술을 사용하고자 하는 다른 당사자는 특허 라이선스를 요청할 수 있습니다(기술 사용, 제조, 제작, 판매, 판매 제안 및 수입에 대한 권한 부여).
 
-It's critical to note that patent infringement may occur even if other parties independently create the same invention or software.
+다른 당사자가 동일한 발명 또는 소프트웨어를 독립적으로 생성하더라도 특허 침해가 발생할 수 있다는 점에 유의하는 것이 중요합니다.
 
-### License Basics
+### 라이선스 기본 사항
 
-While we will cover more detailed aspects of licenses shortly, it's important to have some basic understanding of what licenses do and what they provide.
+곧 라이선스의 더 자세한 측면을 다루겠지만 라이선스가 무엇을 하고 무엇을 제공하는지에 대한 기본적인 이해가 중요합니다.
 
-- A "license" is the way a copyright or patent holder gives permission or rights to someone else
-- The license can be limited to:
-  - Types of use allowed (commercial / non-commercial, distribution, derivative works / to make, have made, manufacture)
-  - Exclusive or non-exclusive terms
-  - Geographical scope
-  - Perpetual or time limited duration
-- The license can have conditions on the grants, meaning you only get the license if you comply with certain obligations
-  - E.g, provide attribution, or give a reciprocal license
-- May also include contractual terms regarding warranties, indemnification, support, upgrade, maintenance
+- "라이선스"는 저작권 또는 특허 보유자가 다른 사람에게 허가 또는 권리를 부여하는 방식입니다.
+- 라이선스는 다음으로 제한될 수 있습니다.
+  - 허용된 사용 유형(상업적/비상업적, 배포, 파생적 저작물/제작, 제작, 제조)
+  - 독점 또는 비독점 조건
+  - 지리적 범위
+  - 영구 또는 시간 제한 기간
+- 라이선스에는 부여 조건이 있을 수 있습니다. 즉, 특정 의무를 준수하는 경우에만 라이선스를 취득할 수 있습니다.
+  - 예: 저작자 표시 또는 상호 라이선스 부여
+- 보증, 배상, 지원, 업그레이드, 유지보수에 관한 계약 조건도 포함될 수 있습니다.
 
-## Lesson: Open Source License Types
+## 강의: 오픈 소스 라이선스 유형
 
-### Overall License Categories
+### 전체 라이선스 카테고리
 
-Armed with the information from the preceding pages, you should have a basic understanding of what licenses are used for. Let's take a look at the overall license landscape (including closed source licenses) below:
+이전 페이지의 정보로 무장하면 라이센스가 사용되는 기본 사항을 이해해야 합니다. 아래에서 전체 라이선스 환경(폐쇄 소스 라이선스 포함)을 살펴보겠습니다:
 
-![Open Source/Free Software and Closed Source Software Licenses](license-categories.png)
+![오픈 소스/자유 소프트웨어 및 폐쇄 소스 소프트웨어 라이선스](license-categories.png)
 
-This diagram gives a general overview of both Open Source and Closed Source licenses. While we will dive into more detail on the open source licenses types shortly, it's good to get a perspective of the different types of licenses generally available.
+이 다이어그램은 오픈 소스 및 비공개 소스 라이선스에 대한 일반적인 개요를 제공합니다. 오픈 소스 라이선스 유형에 대해 곧 자세히 살펴보겠지만 일반적으로 사용 가능한 다양한 유형의 라이선스에 대한 관점을 얻는 것이 좋습니다.
 
-On the open source side, licenses generally fall into two main categories:
+오픈 소스 측면에서 라이선스는 일반적으로 두 가지 주요 범주로 나뉩니다.
 
-**Permissive**
+**관용**
 
-These licenses only impose minimal requirements on what you must do when redistributing the software. Those requirements are typically limited to things like retaining or delivering attribution notices.
+이러한 라이선스는 소프트웨어를 재배포할 때 수행해야 하는 작업에 대한 최소한의 요구 사항만 부과합니다. 이러한 요구 사항은 일반적으로 저작자 표시를 유지하거나 전달하는 것과 같은 것으로 제한됩니다.
 
-**Copyleft/Reciprocal**
+**카피레프트/상호**
 
-Copyleft licenses are sometimes called protective or reciprocal licenses. They have requirements for how the software can be redistributed, as well as requirements that may impact how derivative works can be distributed, such as requiring release of all changes/enhancements you may make to the software.
+카피레프트 라이선스는 보호 또는 상호 라이선스라고도 합니다. 여기에는 소프트웨어를 재배포할 수 있는 방법에 대한 요구 사항과 소프트웨어에 대한 모든 변경/개선 사항을 릴리스해야 하는 것과 같이 파생 작업이 배포될 수 있는 방법에 영향을 줄 수 있는 요구 사항이 있습니다.
 
-An important resource to bookmark is the Open Source Initiative ([https://opensource.org/](https://opensource.org/)), the organization responsible for tracking and vetting approved open source licenses. There is a lot more detail in their website about the definition and types of open source licenses.
+북마크에 추가해야 할 중요한 리소스는 승인된 오픈 소스 라이선스를 추적하고 검사하는 조직인 Open Source Initiative([https://opensource.org/](https://opensource.org/))입니다. 오픈 소스 라이선스의 정의와 유형에 대한 자세한 내용은 웹사이트에 있습니다.
 
-### Permissive Open Source Licenses
+### 허용되는 오픈 소스 라이선스
 
-As mentioned earlier, permissive licenses generally have the least amount of restrictions on what you must do if you make changes and redistribute the software. For that reason, they are generally (but not always) on pre-approved lists within companies that specify what open source software license types can be consumed by engineers in the organization.
+앞서 언급했듯이 허용 라이선스는 일반적으로 소프트웨어를 변경하고 재배포하는 경우 수행해야 하는 작업에 대한 제한이 가장 적습니다. 이러한 이유로 일반적으로 조직의 엔지니어가 사용할 수 있는 오픈 소스 소프트웨어 라이선스 유형을 지정하는 회사 내 사전 승인 목록에 항상 있는 것은 아닙니다.
 
-Let's take the example of the BSD-3-Clause license. This license is an example of a permissive license that allows unlimited redistribution of changes for any purpose in source or object code form as long as its copyright notices and the license's disclaimers of warranty are maintained.
+BSD-3-Clause 라이선스의 예를 들어보겠습니다. 이 라이선스는 저작권 표시와 라이선스의 보증 부인이 유지되는 한 소스 또는 개체 코드 형식의 모든 목적을 위한 변경 사항을 무제한으로 재배포할 수 있는 허용 라이선스의 한 예입니다.
 
-However, the license contains a clause restricting use of the names of contributors for endorsement of a derived work without specific permission.
+그러나 라이선스에는 특정 허가 없이 파생된 저작물의 보증을 위해 기여자의 이름을 사용하는 것을 제한하는 조항이 포함되어 있습니다.
 
-Other examples of permissive licenses include: MIT, Apache-2.0.
+허용 라이선스의 다른 예로는 MIT, Apache-2.0이 있습니다.
 
-### Copyleft/Reciprocal Licenses
+### 카피레프트/상호 라이선스
 
-Some licenses require that if derivative works (or software in the same file, same program or other boundary) are distributed, the distribution is under the same terms as the original work.
+일부 라이선스에서는 파생 작업(또는 동일한 파일, 동일한 프로그램 또는 기타 경계의 소프트웨어)이 배포되는 경우 배포가 원본 작업과 동일한 조건에 따라야 한다고 요구합니다.
 
-This is referred to as a "copyleft" or “reciprocal” effect and can have important consequences if your derivative work is, for example, a highly proprietary piece of software used to provide a unique advantage for your company. In some cases, this could require you to release the source code of a proprietary work that is combined with open source software to anyone to whom you distribute the compiled or binary version of the work.
+이를 "카피레프트" 또는 "상호" 효과라고 하며 파생 작업이 회사에 고유한 이점을 제공하는 데 사용되는 독점 소프트웨어인 경우 중요한 결과를 초래할 수 있습니다. 어떤 경우에는 컴파일 또는 바이너리 버전의 저작물을 배포하는 모든 사람에게 오픈 소스 소프트웨어와 결합된 독점 저작물의 소스 코드를 공개해야 할 수 있습니다.
 
-Here is an example of license reciprocity from the GPL version 2.0:
+다음은 GPL 버전 2.0의 라이선스 상호성의 예입니다:
 
-> You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed […] under the terms of this License.
+> 귀하는 프로그램 또는 그 일부를 포함하거나 프로그램의 일부를 포함하거나 파생된 귀하가 배포하거나 게시하는 모든 저작물에 본 라이센스의 조건에 따라 [...] 라이센스를 부여해야 합니다.
 
-Other licenses that include reciprocity or Copyleft clauses include all versions of the GPL, LGPL, AGPL, MPL and CDDL. You can see more details for these at [https://opensource.org/licenses](https://opensource.org/licenses).
+상호성 또는 카피레프트 조항을 포함하는 기타 라이선스에는 GPL, LGPL, AGPL, MPL 및 CDDL의 모든 버전이 포함됩니다. 이에 대한 자세한 내용은 [https://opensource.org/licenses](https://opensource.org/licenses)에서 확인할 수 있습니다.
 
-### License Compatibility
+### 라이선스 호환성
 
-License compatibility is the process of ensuring that license terms do not conflict, and this can get particularly challenging as many pieces of software, including ones that are internally developed, are likely to build on each other and be built from pieces of software with different license types.
+라이선스 호환성은 라이선스 조건이 충돌하지 않도록 하는 프로세스이며 내부 개발을 포함하여 많은 소프트웨어가 서로를 기반으로 구축되고 서로 다른 라이선스 유형을 가진 소프트웨어로 구축될 가능성이 높기 때문에 이는 특히 어려울 수 있습니다.
 
-Here are some examples:
+여기 몇 가지 예가 있습니다:
 
-- If one license requires you to do something and another prohibits doing that, the licenses conflict and are not compatible if the combination of the two software modules trigger the obligations under both licenses.
-  - GPL-2.0 and EPL-1.0 each extend their obligations to "derivative works" which are distributed.
-  - If a GPL-2.0 module is combined with an EPL-1.0 module and the merged module is distributed, that module must
-    - (according to GPL-2.0) be distributed under GPL-2.0 only, and
-    - (according to EPL-1.0) be distributed under EPL-1.0 only.
+- 하나의 라이선스가 사용자에게 어떤 작업을 수행하도록 요구하고 다른 라이선스가 이를 금지하는 경우 두 소프트웨어 모듈의 조합이 두 라이선스에 따른 의무를 유발하는 경우 라이선스가 충돌하고 호환되지 않습니다.
+  - GPL-2.0 및 EPL-1.0은 각각 배포되는 "파생 저작물"에 대한 의무를 확장합니다.
+  - GPL-2.0 모듈이 EPL-1.0 모듈과 결합되고 병합된 모듈이 배포되는 경우 해당 모듈은
+    - (GPL-2.0에 따름) GPL-2.0 하에서만 배포되며,
+    - (EPL-1.0에 따름) EPL-1.0에서만 배포됩니다.
 
-In this case, the distributor cannot satisfy both conditions at once so the module may not be distributed, creating an example of _license incompatibility._
+이 경우 배포자는 두 가지 조건을 동시에 충족할 수 없으므로 모듈이 배포되지 않을 수 있으며 _라이센스 비호환성_의 예가 생성됩니다.
 
-Remember that the definition of "derivative work" is subject to different views in the Open Source community and its interpretation in law is likely to vary from jurisdiction to jurisdiction, so it's important that you check with the appropriate resources to make that determination for your particular case.
+"파생 저작물"의 정의는 오픈 소스 커뮤니티의 다양한 관점에 따라 달라질 수 있으며 법적 해석은 관할권마다 다를 수 있으므로 적절한 리소스를 확인하여 특정 분야에 대한 결정을 내리는 것이 중요합니다. 사례.
 
-### Notices
+### 공지사항
 
-Notices, such as text in comments in file headers, often provide authorship and licensing information. Open Source licenses may also require the placement of notices in or alongside source code or documentation to give credit to the author (an attribution) or to make it clear the software includes modifications.
+파일 헤더에 있는 주석의 텍스트와 같은 알림은 종종 저작권 및 라이선스 정보를 제공합니다. 오픈 소스 라이선스는 또한 작성자에게 크레딧을 제공하거나(저작자 표시) 소프트웨어에 수정 사항이 포함되어 있음을 분명히 하기 위해 소스 코드 또는 문서 내 또는 옆에 고지를 배치해야 할 수 있습니다.
 
-For example:
+예를 들어:
 
-- **Copyright notice** – an identifier placed on copies of the work to inform the world of copyright ownership. Example: `Copyright © A. Person (2020)`
-- **License notice** – a notice that specifies and acknowledges the license terms and conditions of the Open Source included in the product.
-- **Attribution notice** – a notice included in the product release that acknowledges the identity of the original authors and / or sponsors of the Open Source included in the product.
-- **Modification notice** – a notice that you have made modifications to the source code of a file, such as adding your copyright notice to the top of the file.
+- **저작권 고지** – 저작권 소유권을 세계에 알리기 위해 저작물의 사본에 표시되는 식별자입니다. 예: `Copyright © A. Person(2020)`
+- **라이선스 고지** – 제품에 포함된 오픈 소스의 라이선스 조건을 명시하고 인정하는 고지입니다.
+- **저작자 표시** – 제품에 포함된 오픈 소스의 원저자 및/또는 후원자의 신원을 확인하는 제품 릴리스에 포함된 고지입니다.
+- **수정 고지** – 파일 상단에 저작권 고지를 추가하는 등 파일의 소스 코드를 수정했음을 고지합니다.
 
-### Multi-licensing
+### 다중 라이선스
 
-There are some cases where a copyright owner may choose to offer the code under multiple licenses, a practice referred to as "multi-licensing."
+저작권 소유자가 여러 라이선스에 따라 코드를 제공하도록 선택할 수 있는 경우가 있는데, 이를 "다중 라이선스"라고 합니다.
 
-As an example, software could be "dual licensed," with the copyright owner giving each recipient the choice of two licenses.
+예를 들어, 소프트웨어는 "이중 라이선스"가 있을 수 있으며 저작권 소유자는 각 수신자에게 두 가지 라이선스를 선택할 수 있습니다.
 
-It's important to note that this should not be confused for situations in which a licensor imposes more than one license, and you must comply with _all_ of them.
+라이선스 제공자가 둘 이상의 라이선스를 부과하는 상황과 혼동되어서는 안 되며 _모두_ 준수해야 한다는 점에 유의하는 것이 중요합니다.
 
-## Lesson: Choosing the Right License
+## 강의: 올바른 라이선스 선택
 
-### Overview
+### 개요
 
-With all of the information presented so far, it might seem daunting to figure out how to choose the right license for open source code that you want to consume in your organization, eventually contribute back features or changes to, or to create a brand new open source project of your own.
+지금까지 제공된 모든 정보로 인해 조직에서 사용하려는 오픈 소스 코드에 대한 올바른 라이선스를 선택하는 방법, 궁극적으로 기능 또는 변경 사항을 다시 기여하는 방법 또는 완전히 새로운 오픈 소스 코드를 만드는 방법을 찾는 것이 어려울 수 있습니다. 자신의 소스 프로젝트.
 
-Thankfully, there are some common questions to ask and processes to follow to help you make an informed choice. Here's a general overview:
+고맙게도 정보에 입각한 선택을 하는 데 도움이 되는 몇 가지 일반적인 질문과 따라야 할 절차가 있습니다. 다음은 일반적인 개요입니다.
 
-![Questions to Ask](questions.png)
+![질문](questions.png)
 
-When contributing to an existing project, unless the project uses a contribution mechanism with a different inbound license, the common practice is to make your contributions under the terms of the license the project as a whole is governed by.
+기존 프로젝트에 기여할 때 프로젝트가 다른 인바운드 라이선스를 사용하는 기여 메커니즘을 사용하지 않는 한 일반적인 관행은 프로젝트 전체에 적용되는 라이선스 조건에 따라 기여하는 것입니다.
 
-When contributing to or creating a new project, it is very important to clarify the things that someone using the code is required to do (must), what they are permitted to do (can), and what they are forbidden to do (cannot). The license selected is your way of specifying this information. By choosing a standard and commonly-used open source license, you help to make it easier for everyone else to understand what their rights and obligations are.
+새로운 프로젝트에 기여하거나 생성할 때 코드를 사용하는 사람이 해야 할 일(반드시), 허용된 일(할 수 있는), 금지된 일(할 수 없는 일)을 명확히 하는 것이 매우 중요합니다. . 선택한 라이센스는 이 정보를 지정하는 방법입니다. 표준 및 일반적으로 사용되는 오픈 소스 라이선스를 선택하면 다른 모든 사람이 자신의 권리와 의무가 무엇인지 더 쉽게 이해할 수 있습니다.
 
-**Properties to Consider**
+**고려할 속성**
 
-When choosing a license, it is important to be clear on your goals for releasing the code. Who (what types of people/organizations) do you want to adopt the code? Do you want to see any changes people make to your code when they redistribute it? Do you want other people to be able to sell your code for a profit?
+라이선스를 선택할 때 코드 출시 목표를 명확히 하는 것이 중요합니다. 누구(어떤 유형의 사람/조직)가 코드를 채택하고 싶습니까? 사람들이 코드를 재배포할 때 코드에 대한 변경 사항을 보고 싶습니까? 다른 사람들이 수익을 위해 코드를 판매할 수 있기를 원하십니까?
 
-You should also consider the following common properties:
+다음과 같은 공통 속성도 고려해야 합니다:
 
-- Publish license, copyright notices, change summaries?
-- Disclosing source code?
-- Distribution of modified work?
-- Sublicensing?
-- Private or commercial use?
-- Patent grant?
-- Able to use trademarks?
-- Can code be warrantied?
-- Able to hold liable for damages?
-- Scope of license: work as a whole or only specific file?
+- 라이선스, 저작권 고지, 변경 요약을 게시하시겠습니까?
+- 소스코드 공개?
+- 수정된 작품의 배포?
+- 서브라이센스?
+- 개인 또는 상업적 사용?
+- 특허 부여?
+- 상표를 사용할 수 있습니까?
+- 코드를 보증할 수 있습니까?
+- 손해배상책임을 물을 수 있는가?
+- 라이선스 범위: 전체 또는 특정 파일로만 작동합니까?
 
-The list on the page contains some common questions you should understand the answer to before making your code public, and choose a license that reflects your answers. This is sometimes a scary task, but in the last couple of years, there have been websites created to help with this, which are listed on the next screen.
+페이지의 목록에는 코드를 공개하기 전에 답변을 이해하고 답변을 반영하는 라이선스를 선택해야 하는 몇 가지 일반적인 질문이 포함되어 있습니다. 이것은 때때로 무서운 작업이지만 지난 몇 년 동안 다음 화면에 나열되는 이 작업을 돕기 위해 만든 웹사이트가 있습니다.
 
-### License Help Resources
+### 라이선스 도움말 리소스
 
-Below are a few popular sites that discuss the types of licenses and properties to consider in selecting a license for your code, or other creative works. Their purpose is to help you choose a license, and explain more of the background behind some of the options.
+다음은 코드 또는 기타 창작물에 대한 라이선스를 선택할 때 고려해야 할 라이선스 및 속성 유형에 대해 논의하는 몇 가지 인기 있는 사이트입니다. 이들의 목적은 라이센스 선택을 돕고 일부 옵션의 배경에 대해 더 자세히 설명하는 것입니다.
 
-**Source Code**
+**소스 코드**
 
-[_Open Source Licenses by Category_](https://opensource.org/licenses/category) from the Open Source Initiative lists the approved open source licenses.
+Open Source Initiative의 [_카테고리별 오픈 소스 라이선스_](https://opensource.org/licenses/category)에는 승인된 오픈 소스 라이선스가 나열되어 있습니다.
 
-[_Choose an Open Source License_](https://choosealicense.com/) is sponsored by GitHub. It walks you through the properties you must consider, helping you decide what license makes sense.
+[_오픈 소스 라이선스 선택_](https://choosealicense.com/)은 GitHub에서 후원합니다. 고려해야 할 속성을 안내하여 어떤 라이선스가 의미가 있는지 결정하는 데 도움이 됩니다.
 
-License text sometimes gets treated as "too long, didn't read" - denoted TL;DR. [_tl;dr Legal_](https://tldrlegal.com/licenses/browse) is trying to clarify the legal text into standard properties. The website creators work with volunteer lawyers to classify and color code the properties associated with specific licenses to help you navigate easier and better understand the existing licenses.
+라이센스 텍스트가 "너무 길어 읽지 않음"으로 처리되는 경우가 있습니다(TL;DR로 표시됨). [_tl;dr Legal_](https://tldrlegal.com/licenses/browse)은 법적 텍스트를 표준 속성으로 명확히 하려고 합니다. 웹사이트 제작자는 자원 봉사자 변호사와 협력하여 특정 라이선스와 관련된 속성을 분류하고 색상을 지정하여 기존 라이선스를 더 쉽게 탐색하고 더 잘 이해할 수 있도록 합니다.
 
-- Blue - Rules you must follow.
-- Green - Rules you can follow.
-- Red - Things you cannot do.
+- 파란색 - 따라야 할 규칙.
+- 녹색 - 따를 수 있는 규칙.
+- 빨간색 - 할 수 없는 일.
 
-This is a very useful tool for understanding the terms of some of the common licenses. For example, for Mozilla Public License version 1.0, you cannot hold the contributors liable, but if you use it, you must include copyright, license, state any changes, and disclose the source.
+이것은 일부 일반 라이센스의 조건을 이해하는 데 매우 유용한 도구입니다. 예를 들어 Mozilla Public License 버전 1.0의 경우 기여자에게 책임을 물을 수 없지만 사용하는 경우 저작권, 라이선스, 변경 사항을 명시하고 소스를 공개해야 합니다.
 
-[_Various Licenses and Comments About Them_](https://www.gnu.org/licenses/license-list.en.html) from the Free Software Foundation's Licensing and Compliance Lab provides a description of many licenses and comments about them.
+Free Software Foundation's Licensing and Compliance Lab의 [_Various Licenses and Comments About Its_](https://www.gnu.org/licenses/license-list.en.html)은 많은 라이선스에 대한 설명과 이에 대한 설명을 제공합니다.
 
-**Other Creative Work**
+**기타 창작물**
 
-[Creative Commons Licenses](https://creativecommons.org/choose/) help you understand license options for images and documentation. An example of this is the [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) license. We encourage you to click the link to the creative commons site, and read the legal code file. It specifies the attribution, share-alike, and other properties associated with this license.
+[크리에이티브 커먼즈 라이선스](https://creativecommons.org/choose/)는 이미지 및 문서에 대한 라이선스 옵션을 이해하는 데 도움이 됩니다. 이에 대한 예는 [CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode) 라이선스입니다. 크리에이티브 커먼즈 사이트에 대한 링크를 클릭하고 법적 코드 파일을 읽는 것이 좋습니다. 이 라이선스와 관련된 속성, 공유 및 기타 속성을 지정합니다.
 
-**Additional Resources**
+**추가 리소스**
 
-In addition, you can take a look at this online resource: [Open Source License Compliance Handbook](https://github.com/finos-osr/OSLC-handbook) from Jilayne Lovejoy and FINOS (The Fintech Open Source Foundation). The handbook provides "self-serve" information to help users and redistributors of open source software understand the specific requirements for complying with various licenses.
+또한 Jilayne Lovejoy와 FINOS(The Fintech Open Source Foundation)의 [Open Source License Compliance Handbook](https://github.com/finos-osr/OSLC-handbook) 온라인 리소스를 볼 수 있습니다. 이 핸드북은 오픈 소스 소프트웨어의 사용자와 재배포자가 다양한 라이선스를 준수하기 위한 특정 요구 사항을 이해하는 데 도움이 되는 "셀프 서비스" 정보를 제공합니다.
 
-The [SPDX License List](https://spdx.org/licenses/) is another useful resource for identifying licenses. It provides a curated catalog of commonly-seen licenses used in publicly-distributed software. Not all of the licenses are necessarily open source; the License List indicates which ones have been approved by the Open Source Initiative and which have been listed as free/libre by the Free Software Foundation.
+[SPDX 라이선스 목록](https://spdx.org/licenses/)은 라이선스 식별을 위한 또 다른 유용한 리소스입니다. 공개적으로 배포되는 소프트웨어에 사용되는 일반적으로 볼 수 있는 라이선스의 선별된 카탈로그를 제공합니다. 모든 라이선스가 반드시 오픈 소스일 필요는 없습니다. 라이선스 목록은 오픈 소스 이니셔티브에서 승인한 것과 Free Software Foundation에서 무료/자유롭게 나열한 것을 나타냅니다.
 
-The License List does not include interpretations of licenses. Rather, it can be useful when searching for the license text that corresponds to a particular license name or identifier. The License List contributors also maintain versions of the license texts with markup for certain sections of the license text that are considered replaceable while still being substantially the same license, which can be useful when automating detection of license notices in source code.
+라이선스 목록에는 라이선스에 대한 해석이 포함되어 있지 않습니다. 오히려 특정 라이선스 이름이나 식별자에 해당하는 라이선스 텍스트를 검색할 때 유용할 수 있습니다. 또한 라이선스 목록 기고자는 대체 가능한 것으로 간주되는 라이선스 텍스트의 특정 섹션에 대한 마크업이 있는 라이선스 텍스트 버전을 유지 관리하며, 이는 여전히 실질적으로 동일한 라이선스입니다. 이는 소스 코드에서 라이선스 고지 감지를 자동화할 때 유용할 수 있습니다.
 
-If you are looking for guidelines on how to structure the license information into your project, we recommend you consult the [REUSE Software](https://reuse.software/) guidelines from the Free Software Foundation Europe. They provide detailed examples on how to add identifiers, and the full text of licenses into projects, as well as scripts to check for compliance with the guidelines.
+라이선스 정보를 프로젝트로 구성하는 방법에 대한 지침을 찾고 있다면 유럽 자유 소프트웨어 재단의 [REUSE 소프트웨어](https://reuse.software/) 지침을 참조하는 것이 좋습니다. 식별자를 추가하는 방법에 대한 자세한 예와 프로젝트에 라이선스의 전체 텍스트, 지침 준수 여부를 확인하는 스크립트를 제공합니다.
 
-If you're trying to use a license that is not on the SPDX License List, they also have good recommendations on how it should be documented so that tools can find the information.
+SPDX 라이센스 목록에 없는 라이센스를 사용하려는 경우 도구가 정보를 찾을 수 있도록 문서화 방법에 대한 좋은 권장 사항도 있습니다.
 
-# Section: Building an Effective Compliance Program
+# 섹션: 효과적인 규정 준수 프로그램 구축
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will provide information on the background of an effective compliance program, and how to build and staff such an activity, including the importance of engineering leadership and legal partnerships.
+이 섹션에서는 엔지니어링 리더십 및 법적 파트너십의 중요성을 포함하여 효과적인 규정 준수 프로그램의 배경과 그러한 활동을 구축하고 직원을 배치하는 방법에 대한 정보를 제공합니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Describe the reasons for building an open source compliance program
-- Explain how the overall process of compliance should work
-- Articulate the role of leadership and legal teams within the compliance framework
+- 오픈소스 컴플라이언스 프로그램을 구축한 이유 설명
+- 컴플라이언스의 전체 프로세스가 어떻게 작동해야 하는지 설명
+- 규정 준수 프레임워크 내에서 리더십 및 법률 팀의 역할을 명확히 합니다.
 
-### Lesson: Introduction to Open Source Compliance
+### 강의: 오픈 소스 규정 준수 소개
 
-### Compliance Goals
+### 규정 준수 목표
 
-While the word "compliance" may seem overbearing or scary in some cases, in this case, it can be broken down into two very concrete goals:
+"규정 준수"라는 단어가 어떤 경우에는 위압적이거나 두려운 것처럼 보일 수 있지만 이 경우에는 두 가지 매우 구체적인 목표로 나눌 수 있습니다.
 
-**Know your obligations**
+**당신의 의무를 알고**
 
-You should have a process for identifying and tracking Open Source components that are present in your software.
+소프트웨어에 있는 오픈 소스 구성 요소를 식별하고 추적하는 프로세스가 있어야 합니다.
 
-**Satisfy license obligations**
+**라이센스 의무 충족**
 
-Your process should be capable of handling Open Source license obligations that arise from your organization's business practices.
+프로세스는 조직의 비즈니스 관행에서 발생하는 오픈 소스 라이선스 의무를 처리할 수 있어야 합니다.
 
-While there are of course many details embodied in these two goals (more on that later), it's important to keep in mind that all of an organization's process decisions around compliance can be traced back to these two overarching goals.
+물론 이 두 가지 목표에 많은 세부 사항이 구현되어 있지만(자세한 내용은 나중에) 규정 준수와 관련된 조직의 모든 프로세스 결정은 이 두 가지 중요한 목표로 거슬러 올라갈 수 있다는 점을 명심하는 것이 중요합니다.
 
-### Obligations
+### 의무
 
-Since obligations in the compliance domain are important, it's key to understand what obligations must be satisfied.
+컴플라이언스 영역의 의무는 중요하기 때문에 어떤 의무가 충족되어야 하는지 이해하는 것이 중요합니다.
 
-Depending on the Open Source license(s) involved, your compliance obligations may consist of:
+관련된 오픈 소스 라이선스에 따라 귀하의 규정 준수 의무는 다음과 같이 구성될 수 있습니다.
 
-**Attribution and Notices**
+**귀속 및 고지**
 
-You may need to provide or retain copyright and license text in the source code and/or product documentation or user interface, so that downstream users know the origin of the software and their rights under the licenses. You may also need to provide notices regarding modifications, or full copies of the license.
+다운스트림 사용자가 소프트웨어의 출처와 라이선스에 따른 권리를 알 수 있도록 소스 코드 및/또는 제품 설명서 또는 사용자 인터페이스에 저작권 및 라이선스 텍스트를 제공하거나 유지해야 할 수 있습니다. 또한 라이센스의 수정 또는 전체 사본에 대한 통지를 제공해야 할 수도 있습니다.
 
-**Source code availability**
+**소스 코드 가용성**
 
-You may need to provide source code for the Open Source software, for modifications you make, for combined or linked software, and scripts that control the build process.
+오픈 소스 소프트웨어, 수정, 결합 또는 링크된 소프트웨어, 빌드 프로세스를 제어하는 ​​스크립트에 대한 소스 코드를 제공해야 할 수도 있습니다.
 
-**Reciprocity**
+**상호 상태**
 
-You may need to maintain modified versions or derivative works under the same license that governs the Open Source component.
+오픈 소스 구성 요소에 적용되는 동일한 라이선스에 따라 수정된 버전 또는 파생 작업을 유지 관리해야 할 수 있습니다.
 
-**Other terms**
+**기타 조건**
 
-The Open Source license may restrict use of the copyright holder name or trademark, may require modified versions to use a different name to avoid confusion, or may terminate upon any breach.
+오픈 소스 라이선스는 저작권 소유자 이름 또는 상표의 사용을 제한할 수 있으며, 혼동을 피하기 위해 수정된 버전에서 다른 이름을 사용하도록 요구할 수 있으며, 위반 시 종료될 수 있습니다.
 
-### Compliance Issues: Distribution
+### 규정 준수 문제: 배포
 
-"Distribution" is something that triggers license obligations in many open source license cases. But what does distribution mean exactly? In general, "distribution" means dissemination of material to an outside entity. Sometimes this can be a challenging area, even in legal circles, but here are a few examples:
+"배포"는 많은 오픈 소스 라이선스 사례에서 라이선스 의무를 유발하는 것입니다. 그러나 분배가 정확히 무엇을 의미합니까? 일반적으로 "배포"는 외부 주체에 자료를 배포하는 것을 의미합니다. 때로는 법조계에서도 이것이 어려운 영역이 될 수 있지만 다음은 몇 가지 예입니다.
 
-**Distribution Events**
+**배포 이벤트**
 
-- Applications downloaded to a user's machine or mobile device
-- JavaScript, web client, or other code that is downloaded to the user's machine
-- For some Open Source licenses, access via a computer network can be a "distribution trigger" event
+- 사용자의 컴퓨터 또는 모바일 장치에 다운로드한 애플리케이션
+- JavaScript, 웹 클라이언트 또는 사용자의 컴퓨터에 다운로드되는 기타 코드
+- 일부 오픈 소스 라이선스의 경우 컴퓨터 네트워크를 통한 액세스가 "배포 트리거" 이벤트가 될 수 있습니다.
 
-Some licenses define the trigger event to include permitting access to software running on a server (e.g., all versions of the [Affero GPL](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License) if the software is modified) or in the case of "users interacting with it remotely through a computer network."
+일부 라이선스는 서버(예: 소프트웨어가 수정된 경우 [Affero GPL](https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License)의 모든 버전)에서 실행되는 소프트웨어에 대한 액세스 허용을 포함하도록 트리거 이벤트를 정의합니다. "컴퓨터 네트워크를 통해 원격으로 상호 작용하는 사용자"의 경우.
 
-### Compliance Issues: Modification
+### 규정 준수 문제: 수정
 
-Another major element of license obligations can happen when source code is modified, such as for fixing a bug you find or adding a new feature. Additionally, combining open source code with your own code, or even other open source components can have potential impacts.
+라이선스 의무의 또 다른 주요 요소는 발견한 버그를 수정하거나 새로운 기능을 추가하는 것과 같이 소스 코드가 수정될 때 발생할 수 있습니다. 또한 오픈 소스 코드를 자신의 코드 또는 다른 오픈 소스 구성 요소와 결합하면 잠재적인 영향을 미칠 수 있습니다.
 
-Under some Open Source licenses, modifications may cause additional obligations upon distribution, such as:
+일부 오픈 소스 라이선스에서는 수정으로 인해 배포 시 다음과 같은 추가 의무가 발생할 수 있습니다:
 
-- Providing notice of modification
-- Providing accompanying source code
-- Licensing modifications under the same license that governs the Open Source component
+- 변경 통지 제공
+- 첨부된 소스코드 제공
+- 오픈 소스 구성 요소를 관리하는 동일한 라이선스에 따른 라이선스 수정
 
-Later in this module we'll cover how to build the appropriate processes to track and manage the results of distribution and modification events.
+이 모듈의 뒷부분에서 배포 및 수정 이벤트의 결과를 추적하고 관리하기 위해 적절한 프로세스를 구축하는 방법을 다룰 것입니다.
 
-### Compliance Benefits
+### 규정 준수 혜택
 
-It's important to note that though there can be occasionally challenging aspects related to open source compliance, especially around modification or distribution, that a properly build and functioning compliance program is straightforward and brings many benefits to your organization such as:
+오픈 소스 규정 준수, 특히 수정 또는 배포와 관련하여 때때로 어려운 측면이 있을 수 있지만 적절하게 구축하고 작동하는 규정 준수 프로그램은 간단하며 다음과 같은 많은 이점을 조직에 제공합니다:
 
-- Increased understanding of the benefits of Open Source and how it impacts your organization
-- Increased understanding of the costs and risks associated with using Open Source
-- Increased knowledge of available Open Source solutions
-- Reduction and management of infringement risk, increased respect of Open Source developers/owners' licensing choices
-- Fostering relationships with the Open Source community and Open Source organizations
+- 오픈 소스의 이점과 그것이 조직에 미치는 영향에 대한 이해 증가
+- 오픈 소스 사용과 관련된 비용 및 위험에 대한 이해 증가
+- 사용 가능한 오픈 소스 솔루션에 대한 지식 증가
+- 침해 위험 감소 및 관리, 오픈 소스 개발자/소유자의 라이선스 선택 존중 강화
+- 오픈 소스 커뮤니티 및 오픈 소스 조직과의 관계 구축
 
-### Lesson: Compliance Management Process Overview
+### 강의: 규정 준수 관리 프로세스 개요
 
-### General Structure of Compliance Programs
+### 준법 프로그램의 일반 구조
 
-Organizations that have been successful at Open Source compliance have created their policies, processes, training and tools to:
+오픈 소스 규정 준수에 성공한 조직은 다음을 위한 정책, 프로세스, 교육 및 도구를 만들었습니다:
 
-- Facilitate effective usage of Open Source in their products (commercial or otherwise)
-- Respect Open Source developer/owner rights and comply with license obligations
-- Contribute to and participate in Open Source communities
+- 자사 제품(상업용 또는 기타)에서 오픈 소스의 효과적인 사용 촉진
+- 오픈 소스 개발자/소유자의 권리를 존중하고 라이선스 의무를 준수합니다.
+- 오픈 소스 커뮤니티에 기여 및 참여
 
-It's very important to note that these policies, processes, training and tools need to provide oversight without becoming overbearing. You can theoretically build the best open source compliance program in the world, but if it's too complicated and burdensome for the engineering teams to utilize, it most likely will not be utilized, or will be severely hampered by teams finding ways around the process.
+이러한 정책, 프로세스, 교육 및 도구는 부담되지 않고 감독할 수 있어야 한다는 점에 유의하는 것이 매우 중요합니다. 이론적으로 세계 최고의 오픈 소스 규정 준수 프로그램을 구축할 수 있지만 엔지니어링 팀이 활용하기에 너무 복잡하고 부담이 되는 경우 활용되지 않거나 프로세스를 우회하는 방법을 찾는 팀에 의해 심각하게 방해받을 것입니다.
 
-Additionally, an Open Source compliance program should be tailored to the nature and requirements of your own organization. Every organization develops and builds software in a different way, and your organization may be able to comply with its license obligations without following the exact set of processes that are described here.
+또한 오픈 소스 규정 준수 프로그램은 조직의 특성과 요구 사항에 맞게 조정되어야 합니다. 모든 조직은 다른 방식으로 소프트웨어를 개발하고 구축하며 조직은 여기에 설명된 정확한 프로세스 집합을 따르지 않고도 라이선스 의무를 준수할 수 있습니다.
 
-### Compliance Practices Overview
+### 규정 준수 관행 개요
 
-While we will go into more detail shortly, the main areas that you should be considering when building your compliance practices are:
+곧 더 자세히 설명하겠지만 규정 준수 관행을 구축할 때 고려해야 하는 주요 영역은 다음과 같습니다:
 
-- Identification of the origin and license of all internal and external software
-- Tracking Open Source software within the development process
-- Performing Open Source review and identifying license obligations
-- Fulfillment of license obligations when product ships
-- Oversight for Open Source Compliance Program, creation of policy, and compliance decisions
-- Training
+- 모든 내부 및 외부 소프트웨어의 출처 및 라이선스 식별
+- 개발 프로세스 내에서 오픈 소스 소프트웨어 추적
+- 오픈 소스 검토 수행 및 라이선스 의무 식별
+- 제품 출하 시 라이선스 의무 이행
+- 오픈 소스 규정 준수 프로그램, 정책 생성 및 규정 준수 결정에 대한 감독
+- 훈련
 
-### Key Components for Open Source Review
+### 오픈 소스 검토를 위한 핵심 구성요소
 
-An important consideration during open source review is considering how you are planning on using the open source software component in question.
+오픈 소스 검토 중 중요한 고려 사항은 문제의 오픈 소스 소프트웨어 구성 요소를 어떻게 사용할 계획인지를 고려하는 것입니다.
 
-Common scenarios include:
+일반적인 시나리오는 다음과 같습니다:
 
-- Incorporation
-- Linking
-- Modification
-- Translation
-- Distribution
+- 법인설립
+- 연결
+- 수정
+- 번역
+- 분포
 
-We'll cover these in more detail in the next several pages.
+다음 몇 페이지에서 이에 대해 더 자세히 다룰 것입니다.
 
-### Incorporation
+### 법인 설립
 
-A developer may copy portions of an Open Source component into your software product.
+개발자는 오픈 소스 구성 요소의 일부를 귀하의 소프트웨어 제품에 복사할 수 있습니다.
 
-Relevant terms include:
+관련 용어는 다음과 같습니다:
 
-- Integrating
-- Merging
-- Pasting
-- Adapting
-- Inserting
+- 통합
+- 병합
+- 붙여넣기
+- 적응
+- 삽입
 
-![Incorporation](incorporation.png)
+![법인설립](incorporation.png)
 
-### Linking
+### 연결
 
-A developer may link or join an Open Source component with your software product.
+개발자는 귀하의 소프트웨어 제품과 오픈 소스 구성 요소를 연결하거나 연결할 수 있습니다.
 
-Relevant terms include:
+관련 용어는 다음과 같습니다:
 
-- Static/Dynamic Linking
-- Pairing
-- Combining
-- Utilizing
-- Packaging
-- Creating interdependency
+- 정적/동적 연결
+- 페어링
+- 결합
+- 활용
+- 포장
+- 상호의존성 창출
 
-![Linking](linking.png)
+![링크](linking.png)
 
-### Modification
+### 수정
 
-A developer may make changes to an Open Source component, including:
+개발자는 다음을 포함하여 오픈 소스 구성 요소를 변경할 수 있습니다.
 
-- Adding/injecting new code into the Open Source component
-- Fixing, optimizing or making changes to the Open Source component
-- Deleting or removing code
+- 오픈 소스 구성 요소에 새 코드 추가/주입
+- 오픈 소스 구성 요소 수정, 최적화 또는 변경
+- 코드 삭제 또는 제거
 
-![Modification](modification.png)
+![수정](modification.png)
 
-### Translation
+### 번역
 
-A developer may transform the code from one state to another.
+개발자는 코드를 한 상태에서 다른 상태로 변환할 수 있습니다.
 
-Examples include:
+예는 다음과 같습니다:
 
-- Translating Chinese to English
-- Converting C++ to Java
-- Compiling into binary
+- 중국어를 영어로 번역
+- C++을 자바로 변환
+- 바이너리로 컴파일
 
-![Translation](translation.png)
+![번역](translation.png)
 
-### The Effect of Development Tools
+### 개발 도구의 효과
 
-In addition to human engineers performing some of these tasks, it's important to note for compliance purposes that some development tools also can perform these functions behind the scenes.
+이러한 작업 중 일부를 수행하는 인간 엔지니어 외에도 규정 준수를 위해 일부 개발 도구도 이러한 기능을 배후에서 수행할 수 있다는 점에 유의하는 것이 중요합니다.
 
-For example, a tool may inject portions of its own code into output of the tool.
+예를 들어, 도구는 자체 코드의 일부를 도구의 출력에 주입할 수 있습니다.
 
-![Inject into Output](inject-into-output.png)
+![출력에 주입](inject-into-output.png)
 
-### Compliance Considerations with Distribution
+### 배포 시 규정 준수 고려 사항
 
-As mentioned earlier, it's important to consider how a particular open source component will be distributed, specifically:
+앞서 언급했듯이 특정 오픈 소스 구성 요소가 특히 다음과 같이 배포되는 방식을 고려하는 것이 중요합니다.
 
-- Who receives the software?
-  - Customer/Partner
-  - Community project
-  - Another legal entity within the business group (this may count as distribution)
-- What's the delivery format?
-  - Source code delivery
-  - Binary delivery
-  - Pre-loaded onto hardware
+- 누가 소프트웨어를 받는가?
+  - 고객/파트너
+  - 커뮤니티 프로젝트
+  - 비즈니스 그룹 내의 다른 법인(배포로 간주될 수 있음)
+- 배송 형식은 무엇입니까?
+  - 소스코드 전달
+  - 바이너리 전달
+  - 하드웨어에 미리 로드됨
 
-### Lesson: Open Source Review Process
+### 강의: 오픈 소스 검토 프로세스
 
-### Open Source Review Basics
+### 오픈 소스 검토 기본 사항
 
-After Program/Product Management and engineers have reviewed proposed Open Source components for usefulness and quality, a review of the rights and obligations associated with the use of the selected components should be initiated.
+프로그램/제품 관리 및 엔지니어가 제안된 오픈 소스 구성 요소의 유용성과 품질을 검토한 후 선택한 구성 요소의 사용과 관련된 권리와 의무에 대한 검토를 시작해야 합니다.
 
-A key element to an Open Source Compliance Program is the _Open Source Review_ process. This process is where a company can analyze the Open Source software it uses and understand its rights and obligations.
+오픈 소스 준수 프로그램의 핵심 요소는 _오픈 소스 검토_ 프로세스입니다. 이 프로세스는 회사가 사용하는 오픈 소스 소프트웨어를 분석하고 권리와 의무를 이해할 수 있는 곳입니다.
 
-The process includes the following steps:
+이 프로세스에는 다음 단계가 포함됩니다:
 
-- Gather relevant information
-- Analyze and understand license obligations
-- Provide guidance compatible with company policy and business objectives
+- 관련 정보 수집
+- 라이선스 의무 분석 및 이해
+- 회사 정책 및 사업 목표에 부합하는 지침 제공
 
-### Initiating an Open Source Review
+### 오픈 소스 검토 시작
 
-![Initiating an Open Source Review](initiate-review.png)
+![오픈 소스 검토 시작](initiate-review.png)
 
-Anyone working with Open Source in the company should be able to initiate an Open Source Review, including Program or Product Managers, Engineers, and Legal team members
+프로그램 또는 제품 관리자, 엔지니어, 법무팀 구성원을 포함하여 회사에서 오픈 소스를 사용하는 모든 사람은 오픈 소스 검토를 시작할 수 있어야 합니다.
 
-_Note: The process often starts when new Open Source-based software is selected by engineering or outside vendors._
+_참고: 엔지니어링 또는 외부 공급업체가 새로운 오픈 소스 기반 소프트웨어를 선택하면 프로세스가 시작되는 경우가 많습니다._
 
-### Gathering Component Information
+### 구성 요소 정보 수집
 
-When analyzing your open source usage, you'll need to gather information about the identity of the component in question, its origin, and how the component is intended to be used. This information may include:
+오픈 소스 사용을 분석할 때 해당 구성 요소의 ID, 해당 출처 및 구성 요소 사용 방법에 대한 정보를 수집해야 합니다. 이 정보에는 다음이 포함될 수 있습니다:
 
-- Package name
-- Status of the community around the package (activity, diverse membership, responsiveness)
-- Version
-- Download or source code URL
-- Copyright owner
-- License and License URL
-- Attribution and other notices and URLs
-- Description of modifications intended to be made
-- List of dependencies
-- Intended use in your product
-- First product release that will include the package
-- Location where the source code will be maintained
-- Possible previous approvals in another context
-- If from an external vendor:
-  - Development team's point of contact
-  - Copyright notices, attribution, source code for vendor modifications if needed to satisfy license obligations
+- 패키지 이름
+- 패키지 주변 커뮤니티 현황(활동성, 다양한 멤버십, 대응성)
+- 버전
+- 다운로드 또는 소스 코드 URL
+- 저작권 소유자
+- 라이선스 및 라이선스 URL
+- 저작자 표시 및 기타 고지 및 URL
+- 수정하려는 내용에 대한 설명
+- 종속성 목록
+- 귀하의 제품에 의도된 사용
+- 패키지를 포함하는 최초의 제품 출시
+- 소스코드가 유지될 위치
+- 다른 맥락에서 가능한 이전 승인
+- 외부 공급업체의 경우:
+  - 개발팀 담당자
+  - 저작권 표시, 저작자 표시, 라이선스 의무를 충족하기 위해 필요한 경우 공급업체 수정을 위한 소스 코드
 
-### Open Source Review Team
+### 오픈 소스 검토 팀
 
-Putting together a team to effectively run open source reviews requires participation from several stakeholders.
+오픈 소스 검토를 효과적으로 실행하기 위해 팀을 구성하려면 여러 이해 관계자의 참여가 필요합니다.
 
-![Open Source Review Team](review-team.png)
+![오픈소스 심사팀](review-team.png)
 
-An Open Source Review team includes the company representatives that support, guide, coordinate and review the use of Open Source. These representatives may include:
+오픈 소스 검토 팀에는 오픈 소스 사용을 지원, 안내, 조정 및 검토하는 회사 대표가 포함됩니다. 이러한 대리인에는 다음이 포함될 수 있습니다.
 
-- Legal to identify and evaluate license obligations
-- Source code scanning and tooling support to help identify and track Open Source usage
-- Engineering Specialists working with business interests, commercial licensing, export compliance, etc., who may be impacted by Open Source usage
+- 라이선스 의무를 식별하고 평가하는 법률
+- 오픈 소스 사용을 식별하고 추적하는 데 도움이 되는 소스 코드 스캔 및 도구 지원
+- 오픈 소스 사용의 영향을 받을 수 있는 비즈니스 이해 관계, 상업적 라이선스, 수출 규정 준수 등과 관련된 엔지니어링 전문가
 
-### Analyzing Proposed Open Source Usage
+### 제안된 오픈 소스 사용 분석
 
-![Analyzing Proposed Open Source Usage](analyzing-usage.png)
+![제안된 오픈 소스 활용 분석](analyzing-usage.png)
 
-The Open Source Review team should assess the information it has gathered before providing guidance for issues. This may include scanning the code to confirm the accuracy of the information.
+오픈 소스 검토 팀은 문제에 대한 지침을 제공하기 전에 수집한 정보를 평가해야 합니다. 여기에는 정보의 정확성을 확인하기 위해 코드를 스캔하는 것이 포함될 수 있습니다.
 
-Considerations include:
+고려 사항은 다음과 같습니다:
 
-- Is the code and associated information complete, consistent and accurate?
-- Does the declared license match what is in the code files?
-- Does the license permit use with other components of the software?
+- 코드 및 관련 정보가 완전하고 일관성 있고 정확합니까?
+- 선언된 라이선스가 코드 파일에 있는 것과 일치합니까?
+- 라이센스가 소프트웨어의 다른 구성요소와 함께 사용을 허용합니까?
 
-### Source Code Scanning Tools
+### 소스 코드 스캔 도구
 
-We will go into more detail in a later section on the different types of scanning tools and what criteria you should be considering for choosing a tool, but here is a general overview.
+다양한 유형의 스캔 도구와 도구 선택을 위해 고려해야 하는 기준에 대한 자세한 내용은 이후 섹션에서 자세히 다루겠지만 여기에 일반적인 개요가 있습니다.
 
-There are many different automated source code scanning tools, and all of the solutions address specific needs and - for that reason - none will solve all possible challenges. Because of that, most companies pick the solution most suited to their specific market area and product. In general, most companies try to use both an automated tool and manual review to spot check the results of scans.
+자동화된 소스 코드 스캔 도구에는 여러 가지가 있으며 모든 솔루션이 특정 요구 사항을 해결하므로 어떤 솔루션도 가능한 모든 문제를 해결할 수는 없습니다. 이 때문에 대부분의 기업은 특정 시장 영역과 제품에 가장 적합한 솔루션을 선택합니다. 일반적으로 대부분의 회사는 자동 도구와 수동 검토를 모두 사용하여 스캔 결과를 확인하려고 합니다.
 
-One popular and good example of freely available source code scanning tool is [FOSSology](https://www.fossology.org/), a project hosted by the Linux Foundation.
+무료로 사용할 수 있는 소스 코드 스캔 도구의 인기 있고 좋은 예는 Linux Foundation에서 주최하는 프로젝트인 [FOSSology](https://www.fossology.org/)입니다.
 
-### Working Through the Open Source Review
+### 오픈 소스 검토를 통한 작업
 
-![Working Through the Open Source Review](working-through-review.png)
+![오픈 소스 검토를 통해 작업](working-through-review.png)
 
-It's important to note that the Open Source Review process crosses disciplines, including engineering, business, and legal teams. For maximum effectiveness, It should be interactive to ensure all those groups correctly understand the issues and can create clear, shared guidance.
+오픈 소스 검토 프로세스는 엔지니어링, 비즈니스 및 법무 팀을 포함한 여러 분야를 아우른다는 점에 유의하는 것이 중요합니다. 최대 효과를 위해서는 모든 그룹이 문제를 올바르게 이해하고 명확하고 공유된 지침을 만들 수 있도록 대화식이어야 합니다.
 
-### Open Source Review Oversight
+### 오픈 소스 검토 감독
 
-![Open Source Review Oversight](review-oversight.png)
+![오픈 소스 검토 감독](review-oversight.png)
 
-The Open Source Review process should have executive oversight to resolve disagreements and approve the most important decisions.
+오픈 소스 검토 프로세스는 불일치를 해결하고 가장 중요한 결정을 승인하기 위해 경영진의 감독을 받아야 합니다.
 
-It's critical that the review process be treated as a cross-disciplinary activity in the organization, because simply characterizing it as "an engineering problem," or “a legal problem” not only diminishes the importance, but can have detrimental effects to both engineering productivity and legal risk.
+검토 프로세스를 조직에서 학제 간 활동으로 취급하는 것이 중요합니다. 검토 프로세스를 단순히 "엔지니어링 문제" 또는 "법적 문제"로 특성화하면 중요성이 감소할 뿐만 아니라 엔지니어링 생산성에 해로운 영향을 미칠 수 있기 때문입니다. 그리고 법적 위험.
 
-Treating the process as a collaborative partnership does require more up-front work in getting all stakeholders on board, but pays dividends as your organization becomes more familiar with the end-to-end compliance management process.
+프로세스를 협업 파트너십으로 취급하려면 모든 이해 관계자를 참여시키는 데 있어 더 많은 선행 작업이 필요하지만 조직이 엔드 투 엔드 규정 준수 관리 프로세스에 더 익숙해짐에 따라 이점이 있습니다.
 
-### Lesson: End to End Compliance Management Examples
+### 강의: 엔드 투 엔드 규정 준수 관리 예
 
-### Introduction
+### 소개
 
-Compliance management is a set of actions that manages Open Source components used in products. Companies may have similar processes in place for proprietary components.
+규정 준수 관리는 제품에 사용되는 오픈 소스 구성 요소를 관리하는 일련의 작업입니다. 회사는 독점 구성 요소에 대해 유사한 프로세스를 보유하고 있을 수 있습니다.
 
-Such actions often include:
+이러한 조치에는 다음이 포함됩니다:
 
-- Identifying all the Open Source components used in Supplied Software
-- Identifying and tracking all obligations created by those components
-- Confirming that all obligations have been or will be met
-- Small companies may use a simple checklist and enterprises a detailed process.
+- 제공된 소프트웨어에 사용된 모든 오픈 소스 구성 요소 식별
+- 해당 구성 요소에 의해 생성된 모든 의무 식별 및 추적
+- 모든 의무가 이행되었거나 이행될 것임을 확인
+- 소기업은 간단한 체크리스트를 사용하고 기업은 세부 프로세스를 사용할 수 있습니다.
 
-![Compliance Proess](compliance-process.png)
+![컴플라이언스 프로세스](compliance-process.png)
 
-### Example Company Checklist
+### 회사 체크리스트 예시
 
-Here is an example checklist that can be used as a basis for your own organization's compliance management process.
+다음은 조직의 규정 준수 관리 프로세스의 기초로 사용할 수 있는 체크리스트의 예입니다.
 
-**Ongoing Compliance Tasks:**
+**지속적인 규정 준수 작업:**
 
-- Discover all Open Source software components early in the procurement/development cycle
-- Review and Approve all Open Source components used
-- Verify the information necessary to satisfy Open Source obligations
-- Review and approve any outbound contributions to Open Source projects
+- 조달/개발 주기 초기에 모든 오픈 소스 소프트웨어 구성 요소를 발견합니다.
+- 사용된 모든 오픈 소스 구성 요소 검토 및 승인
+- 오픈소스 의무 이행에 필요한 정보 확인
+- 오픈 소스 프로젝트에 대한 모든 아웃바운드 기여 검토 및 승인
 
-**Support Requirements:**
+**지원 요구 사항:**
 
-- Ensure adequate compliance staffing and designate clear lines of responsibility
-- Adapt existing Business Processes to support the Open Source compliance program
-- Have training on the organization's Open Source policy available to everyone
-- Track progress of all Open Source compliance activities
+- 적절한 규정 준수 직원을 확보하고 명확한 책임 라인을 지정합니다.
+- 오픈 소스 규정 준수 프로그램을 지원하기 위해 기존 비즈니스 프로세스 조정
+- 조직의 오픈 소스 정책에 대한 교육을 모든 사람이 이용할 수 있도록 합니다.
+- 모든 오픈 소스 규정 준수 활동의 진행 상황 추적
 
-### Example Enterprise Process
+### 엔터프라이즈 프로세스의 예
 
-Here is a graphical overview of a typical enterprise compliance process for open source:
+다음은 오픈 소스에 대한 일반적인 엔터프라이즈 규정 준수 프로세스의 그래픽 개요입니다.
 
-![Enterprise Process Overview](process-overview.png)
+![엔터프라이즈 프로세스 개요](process-overview.png)
 
-We'll go through the important sections of this process in the next several pages.
+다음 몇 페이지에서 이 프로세스의 중요한 섹션을 살펴보겠습니다.
 
-### Identify and Track Open Source Usage
+### 오픈 소스 사용 식별 및 추적
 
-![Identification](identification.png)
+![신분증](identification.png)
 
-The first step in the process is identification of the open source components in your code.
+프로세스의 첫 번째 단계는 코드에서 오픈 소스 구성 요소를 식별하는 것입니다.
 
-Here are the steps and outcomes expected during this phase:
+이 단계에서 예상되는 단계와 결과는 다음과 같습니다:
 
-### Steps
+### 단계
 
-- Incoming requests from engineering
-- Scans of the software
-- Due diligence of 3rd-party software
-- Manual recognition of new components added to the repository
+- 엔지니어링에서 들어오는 요청
+- 소프트웨어 스캔
+- 타사 소프트웨어 실사
+- 저장소에 추가된 새 구성 요소의 수동 인식
 
-### Outcomes
+### 결과
 
-- A compliance record is created (or updated) for the Open Source
-- An audit is requested to review the source code with a scope defined as exhaustive or limited according to Open Source policy requirements
+- 오픈 소스에 대한 준수 기록이 생성(또는 업데이트)됩니다.
+- 오픈 소스 정책 요구 사항에 따라 철저하거나 제한적으로 정의된 범위로 소스 코드를 검토하기 위해 감사가 요청됩니다.
 
-### Auditing Source Code
+### 소스 코드 감사
 
-![Audit](audit.png)
+![감사](audit.png)
 
-After identification, code auditing takes place, with the following steps and outcomes:
+식별 후 코드 감사가 수행되며 다음 단계와 결과가 나타납니다.
 
-### Steps
+### 단계
 
-- Source code for the audit is identified
-- Source may be scanned by a software tool
-- "Hits" from the audit or scan are reviewed and verified as to the proper origin of the code
-- Audits or scans are performed iteratively based on the software development and release lifecycles
+- 감사를 위한 소스코드 식별
+- 소스는 소프트웨어 도구로 스캔할 수 있습니다.
+- 감사 또는 스캔의 "적중"은 코드의 적절한 출처에 대해 검토 및 확인됩니다.
+- 소프트웨어 개발 및 릴리스 수명 주기를 기반으로 감사 또는 스캔을 반복적으로 수행합니다.
 
-### Outcomes
+### 결과
 
-- An audit report identifying:
-  - The origins and licenses of the source code
-  - Issues that need resolving
+- 다음을 식별하는 감사 보고서:
+  - 소스 코드의 출처 및 라이선스
+  - 해결이 필요한 문제
 
-### Resolving Issues
+### 문제 해결
 
-![Resolving Issues](resolving-issues.png)
+![문제 해결](resolving-issues.png)
 
-Once the audit is complete, time needs to be allocated to resolving any issues that were spotted as part of the audit process. Steps and Outcomes include:
+감사가 완료되면 감사 프로세스의 일부로 발견된 문제를 해결하는 데 시간을 할당해야 합니다. 단계 및 결과는 다음과 같습니다:
 
-### Steps
+### 단계
 
-- Provide feedback to the appropriate engineers to resolve issues in the audit report that conflict with your Open Source policy
-- The appropriate engineers then conduct Open Source Reviews on the relevant source code
+- 오픈 소스 정책과 충돌하는 감사 보고서의 문제를 해결하기 위해 해당 엔지니어에게 피드백을 제공합니다.
+- 해당 엔지니어는 해당 소스 코드에 대한 오픈 소스 검토를 수행합니다.
 
-### Outcomes
+### 결과
 
-- A resolution for each of the flagged files in the report and a resolution for any flagged license conflict
+- 보고서에서 플래그가 지정된 각 파일에 대한 해결 방법 및 플래그가 지정된 라이선스 충돌에 대한 해결 방법
 
-### Performing Reviews
+### 리뷰 수행
 
-![Reviews](reviews.png)
+![리뷰](reviews.png)
 
-At this point, you'll need to review the resolved issues to verify that the resolution matches your corporate open source policy.
+이 시점에서 해결된 문제를 검토하여 해결 방법이 회사 오픈 소스 정책과 일치하는지 확인해야 합니다.
 
-### Steps
+### 단계
 
-- Include appropriate authority levels in review staff
-- Conduct review with reference to your Open Source policy
+- 검토 직원에 적절한 권한 수준 포함
+- 오픈 소스 정책을 참조하여 검토 수행
 
-### Outcomes
+### 결과
 
-- Ensure the software in the audit report conforms with Open Source policies
-- Preserve audit report findings and mark resolved issues as ready for the next step (i.e. Approval)
+- 감사 보고서의 소프트웨어가 오픈 소스 정책을 준수하는지 확인합니다.
+- 감사 보고서 결과를 보존하고 해결된 문제를 다음 단계(예: 승인)를 위해 준비된 것으로 표시합니다.
 
-### Approvals
+### 승인
 
-![Approvals](approvals.png)
+![승인](approvals.png)
 
-Based on the results of the software audit and review in previous steps, software may or may not be approved for use. The approval should specify versions of approved Open Source components, the approved usage model for the component, and any other applicable obligations under the Open Source license.
+이전 단계의 소프트웨어 감사 및 검토 결과에 따라 소프트웨어 사용이 승인되거나 승인되지 않을 수 있습니다. 승인은 승인된 오픈 소스 구성 요소의 버전, 구성 요소에 대해 승인된 사용 모델 및 오픈 소스 라이선스에 따른 기타 적용 가능한 의무를 지정해야 합니다.
 
-Also, approvals should be made at appropriate authority levels (up to and including the executive review committee if necessary).
+또한 승인은 적절한 권한 수준에서 이루어져야 합니다(필요한 경우 최고 경영진 검토 위원회 포함).
 
-### Registration & Approval Tracking
+### 등록 및 승인 추적
 
-![Registration](registration.png)
+![등록](registration.png)
 
-Once an Open Source component has been approved for usage in a product, it should be added to the software inventory for that product and the approval and its conditions should be registered in a tracking system.
+오픈 소스 구성 요소가 제품에서 사용하도록 승인되면 해당 제품의 소프트웨어 인벤토리에 추가되어야 하며 승인 및 조건이 추적 시스템에 등록되어야 합니다.
 
-The tracking system should make it clear that a new approval is needed for a new version of an Open Source component or if a new usage model is proposed.
+추적 시스템은 오픈 소스 구성 요소의 새 버전에 대해 또는 새 사용 모델이 제안되는 경우 새 승인이 필요하다는 것을 분명히 해야 합니다.
 
-### Notices
+### 공지사항
 
-![Notices](notices.png)
+![공지](notices.png)
 
-After registration, you'll need to prepare appropriate notices for any Open Source used in a product release:
+등록 후에는 제품 릴리스에 사용되는 모든 오픈 소스에 대한 적절한 통지를 준비해야 합니다.
 
-- Acknowledge the use of Open Source by providing full copyright and attribution notices
-- Inform the end user of the product on how to obtain a copy of the Open Source source code (when applicable, for example in the case of GPL and LGPL)
-- Reproduce the entire text of the license agreements for the Open Source code included in the product as needed
+- 완전한 저작권 및 귀속 통지를 제공하여 오픈 소스 사용을 인정합니다.
+- 제품의 최종 사용자에게 오픈 소스 소스 코드의 사본을 얻는 방법을 알립니다(해당되는 경우, 예를 들어 GPL 및 LGPL의 경우).
+- 필요에 따라 제품에 포함된 오픈 소스 코드에 대한 라이선스 계약의 전체 텍스트를 복제
 
-### Pre-distribution Verifications
+### 사전 배포 확인
 
-![Verifications](verifications.png)
+![검증](verifications.png)
 
-Prior to any software distribution, you'll need to run a series of verifications steps including:
+소프트웨어를 배포하기 전에 다음을 포함한 일련의 확인 단계를 실행해야 합니다.
 
-### Steps
+### 단계
 
-- Verify Open Source packages destined for distribution have been identified and approved
-- Verify the reviewed source code matches the binary equivalents shipping in the product
-- Verify all appropriate notices have been included to inform end-users of their right to request source code for identified Open Source
-- Verify compliance with other identified obligations
+- 배포 예정인 오픈 소스 패키지가 식별 및 승인되었는지 확인
+- 검토된 소스 코드가 제품에 포함된 이진 코드와 일치하는지 확인합니다.
+- 최종 사용자에게 식별된 오픈 소스에 대한 소스 코드를 요청할 수 있는 권리를 알리기 위해 모든 적절한 알림이 포함되었는지 확인합니다.
+- 기타 식별된 의무 준수 확인
 
-### Outcomes
+### 결과
 
-- The distribution package contains only software that has been reviewed and approved
-- "Distributed Compliance Artifacts" (as defined in the OpenChain specification), including appropriate notice files are included in the distribution package or other delivery method
+- 배포 패키지에는 검토 및 승인된 소프트웨어만 포함됩니다.
+- 적절한 통지 파일을 포함한 "분산 준수 아티팩트"(OpenChain 사양에 정의됨)는 배포 패키지 또는 기타 전달 방법에 포함됩니다.
 
-### Accompanying Source Code Distributions
+### 소스 코드 배포와 함께
 
-![Distributions](distributions.png)
+![배포](distributions.png)
 
-At this stage of the process, you're ready to provide the accompanying source code to meet any license obligations specified by the license of the open source code used. You'll need to make sure to:
+프로세스의 이 단계에서 사용된 오픈 소스 코드의 라이선스에 지정된 라이선스 의무를 충족하기 위해 함께 제공되는 소스 코드를 제공할 준비가 되었습니다. 다음을 확인해야 합니다.
 
-- Provide accompanying source code along with any associated build tools and documentation (e.g., by uploading to a distribution website or including in the distribution package)
-- Identify accompanying source code with labels for which product and version it corresponds to
+- 관련 빌드 도구 및 문서와 함께 소스 코드를 제공합니다(예: 배포 웹사이트에 업로드하거나 배포 패키지에 포함)
+- 해당하는 제품 및 버전에 대한 레이블이 있는 첨부 소스 코드 식별
 
-### Final Verifications
+### 최종 확인
 
-![Final Verifications](final-verifications.png)
+![최종 검증](final-verifications.png)
 
-In this final verification step, you'll need to validate that you've complied with all appropriate license obligations by:
+이 최종 확인 단계에서는 다음을 통해 모든 적절한 라이선스 의무를 준수했는지 확인해야 합니다.
 
-- Verifying accompanying source code (if any) has been uploaded or distributed correctly
-- Verifying uploaded or distributed source code corresponds to the same version that was approved
-- Verifying notices have been properly published and made available
-- Verifying other identified obligations are met
+- 첨부된 소스 코드(있는 경우)가 올바르게 업로드 또는 배포되었는지 확인
+- 업로드 또는 배포된 소스 코드가 승인된 것과 동일한 버전인지 확인
+- 공지사항이 적절하게 게시 및 제공되었는지 확인
+- 기타 식별된 의무가 충족되었는지 확인
 
-# Section: Choosing the Right License Compliance Tool
+# 섹션: 올바른 라이선스 준수 도구 선택
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will look in more detail at license compliance tooling, including providing context around what kinds of problems tooling will solve and what kinds of criteria you should be considering as you determine the best compliance tooling and scanning software for your organization.
+이 섹션에서는 도구로 해결할 수 있는 문제 유형과 조직에 가장 적합한 규정 준수 도구 및 검색 소프트웨어를 결정할 때 고려해야 하는 기준에 대한 컨텍스트 제공을 포함하여 라이선스 규정 준수 도구에 대해 자세히 살펴보겠습니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Describe the overall compliance tool landscape and appropriate tool use cases
-- Explain the different kinds of compliance tools that are available
-- Know where to go for more in-depth information on different kinds of compliance tools
+- 전반적인 규정 준수 도구 환경 및 적절한 도구 사용 사례 설명
+- 사용 가능한 다양한 종류의 규정 준수 도구 설명
+- 다양한 종류의 규정 준수 도구에 대한 보다 심층적인 정보를 얻을 수 있는 곳을 알고 있습니다.
 
-## Lesson: Tooling Use Cases
+## 강의: 도구 사용 사례
 
-### Introduction
+### 소개
 
-As you've undoubtedly determined from the content in this module to this point, conceptually, compliance is fairly straightforward. The challenge comes in the form of the amount of software that's available to use in the open source world and the variety of ways in which it can be combined with your own organization's software.
+이 모듈의 내용에서 이 시점까지 의심할 여지 없이 규정을 준수하는 것은 개념적으로 매우 간단합니다. 문제는 오픈 소스 세계에서 사용할 수 있는 소프트웨어의 양과 조직의 소프트웨어와 결합할 수 있는 다양한 방법의 형태로 나타납니다.
 
-Tracking and building an effective compliance process therefore requires tooling in various forms to help alleviate possible human error and speed up the process of achieving compliance. However, there are some important things to consider as you think about possible tooling:
+따라서 효과적인 규정 준수 프로세스를 추적하고 구축하려면 가능한 인적 오류를 줄이고 규정 준수 프로세스를 가속화하는 데 도움이 되는 다양한 형태의 도구가 필요합니다. 그러나 가능한 도구에 대해 생각할 때 고려해야 할 몇 가지 중요한 사항이 있습니다:
 
-- First understand the demand and process, then determine the tool
-- A tool cannot provide (difficult) decisions, but only data for those decisions
-- There will be many cases where expert knowledge is required, even with tooling
+- 먼저 수요와 프로세스를 파악한 후 도구를 결정합니다.
+- 도구는 (어려운) 결정을 제공할 수 없으며 해당 결정에 대한 데이터만 제공합니다.
+- 툴링을 하더라도 전문적인 지식이 필요한 경우가 많습니다.
 
-### About Tools
+### 도구 정보
 
-<!-- ![Tools (Alternate)](tools-alt.png) -->
+<!-- ![도구(대체)](tools-alt.png) -->
 
-![Tools](tools.png)
+![도구](tools.png)
 
-As you can see, there are many different areas of compliance where tooling can be put to use. However, resist the urge to build all of this tooling as a monolithic stack. Determining what your biggest potential pain points are gives you the opportunity to build out tools in an open source/agile style (e.g. - in an iterative fashion as your compliance needs grow).
+보시다시피, 도구를 사용할 수 있는 다양한 규정 준수 영역이 있습니다. 그러나 이 모든 도구를 모놀리식 스택으로 구축하려는 충동을 억제하십시오. 가장 큰 잠재적인 문제점을 파악하면 오픈 소스/민첩한 스타일(예: 규정 준수 요구 사항이 증가함에 따라 반복적인 방식으로)으로 도구를 구축할 수 있습니다.
 
-### Software Situation
+### 소프트웨어 상황
 
-![Software Situation](software-situation.png)
+![소프트웨어 상황](software-situation.png)
 
-As you think about tooling, it's important to consider the different categories of software and situations you'll be addressing. As noted above, you basically have three categories: Inbound, Your Own, and Outbound software to consider.
+도구에 대해 생각할 때 다룰 다양한 소프트웨어 범주와 상황을 고려하는 것이 중요합니다. 위에서 언급했듯이 기본적으로 고려해야 할 인바운드, 자체 및 아웃바운드 소프트웨어의 세 가지 범주가 있습니다.
 
-### Compliance Tooling Cases from 10k Feet
+### 10,000피트의 규정 준수 도구 케이스
 
-![Compliance Tooling](compliance-tooling.png)
+![컴플라이언스 도구](compliance-tooling.png)
 
-At a high level, you need to consider the cases noted above and what's required as you think about your tooling needs.
+높은 수준에서 위에서 언급한 경우와 도구 요구 사항에 대해 생각할 때 필요한 사항을 고려해야 합니다.
 
-For Inbound software, it's critical that you document the actual situation (license type, obligations, etc.). For your own software, you need to exercise quality control in terms of understanding how and why you are linking to or calling open source packages. For the combined Outbound software, you need to understand what your deliverable looks like in the combined package of your software and the open source component and make sure you are abiding by all license obligations related to distribution.
+인바운드 소프트웨어의 경우 실제 상황(라이센스 유형, 의무 등)을 문서화하는 것이 중요합니다. 자신의 소프트웨어의 경우 오픈 소스 패키지에 연결하거나 호출하는 방법과 이유를 이해하는 측면에서 품질 관리를 수행해야 합니다. 결합된 아웃바운드 소프트웨어의 경우 소프트웨어와 오픈 소스 구성요소의 결합된 패키지에서 결과물이 어떻게 보이는지 이해하고 배포와 관련된 모든 라이선스 의무를 준수하고 있는지 확인해야 합니다.
 
-### Analyzing Inbound Software
+### 인바운드 소프트웨어 분석
 
-![Analyzing Inbound Software](analyzing-inbound.png)
+![인바운드 소프트웨어 분석](analyzing-inbound.png)
 
-There are several areas to consider as you analyze inbound software, not the least of which is that even inbound commercial software can itself contain open source (part of their distribution). It's also important to think about:
+인바운드 소프트웨어를 분석할 때 고려해야 할 몇 가지 영역이 있으며, 그 중 가장 중요한 것은 인바운드 상용 소프트웨어 자체에도 오픈 소스(배포의 일부)가 포함될 수 있다는 점입니다. 다음에 대해 생각하는 것도 중요합니다:
 
-- Identifying which open source components are involved
-- Identifying licenses associated with open source components
-- Identifying authorships and copyrights
-- Determining licensing obligations
-- Declaration of imports, dependencies, used libraries, etc.
-- Origin and contents of any binaries included with the software
+- 어떤 오픈 소스 구성 요소가 관련되어 있는지 식별
+- 오픈 소스 구성 요소와 관련된 라이선스 식별
+- 저자 및 저작권 식별
+- 라이선스 의무 결정
+- 수입, 의존성, 사용 라이브러리 등의 선언
+- 소프트웨어에 포함된 바이너리의 출처 및 내용
 
-### Identifying Inbound Licenses
+### 인바운드 라이선스 식별
 
-Figuring out the licenses for inbound software can be relatively easy, or potentially very challenging. It's one of the reasons that tools can help a great deal. Here are some details on the easy cases and the more challenging ones.
+인바운드 소프트웨어의 라이선스를 파악하는 것은 상대적으로 쉬울 수도 있고 잠재적으로 매우 어려울 수도 있습니다. 도구가 큰 도움이 될 수 있는 이유 중 하나입니다. 다음은 쉬운 경우와 더 어려운 경우에 대한 세부 정보입니다.
 
-### Easy Cases
+### 쉬운 케이스
 
-- License, copying or notice document provided along with software
-- Within infrastructure, home page or project pages
-  - e.g. Github or other repository metadata
-- Project definition file
-  - e.g. in Java pom.xml
-- Already provided license info
-  - e.g debian-copyright or machine-readable documentation
+- 소프트웨어와 함께 제공되는 라이센스, 복사 또는 통지 문서
+- 인프라 내, 홈페이지 또는 프로젝트 페이지
+  - 예: Github 또는 기타 저장소 메타데이터
+- 프로젝트 정의 파일
+  - 예를 들어 Java pom.xml에서
+- 이미 제공한 라이선스 정보
+  - 예: 데비안 저작권 또는 기계 판독 가능한 문서
 
-### Challenging Cases
+### 도전 사례
 
-- License proliferation with over 350 "main" licenses in existence (with more cropping up)
-- Licenses in different languages (e.g. the French CeCILL)
-- Commercial licenses such as an EULA (End User License Agreement) lack standardization
-- Open source components are not (always) homogeneous because of extensive reuse
-- Code can come from many sources with different licensing
-- Projects may not enforce common licensing for all contributions
-- Identifying license statements can be challenging because of no standard format
+- 350개 이상의 "메인" 라이선스가 존재하는 라이선스 확산(더 많은 자르기 포함)
+- 다른 언어로 된 라이선스(예: 프랑스어 CeCILL)
+- EULA(최종 사용자 라이선스 계약)와 같은 상용 라이선스가 표준화되지 않음
+- 오픈 소스 구성 요소는 광범위한 재사용으로 인해 (항상) 동질적이지 않습니다.
+- 코드는 라이선스가 다른 여러 소스에서 올 수 있습니다.
+- 프로젝트는 모든 기여에 대해 공통 라이선스를 적용하지 않을 수 있습니다.
+- 표준 형식이 없기 때문에 라이선스 명세서 식별이 어려울 수 있음
 
-### Identifying Copyright
+### 저작권 확인
 
-Some licenses ask for copyright notice or author listing, resulting in an obligation to provide these, but as you can see below, sometimes parsing and untangling copyright notices can be problematic, so this is usually where software (and projects like SPDX, which we'll cover a bit more later) come in.
+일부 라이선스는 저작권 표시 또는 저자 목록을 요구하므로 이를 제공할 의무가 있지만 아래에서 볼 수 있듯이 때때로 저작권 표시를 구문 분석하고 풀기하는 것이 문제가 될 수 있으므로 일반적으로 소프트웨어(및 SPDX와 같은 프로젝트, 나중에 조금 더 다루겠습니다) 들어오세요.
 
-![Identifying Copyright](copyright.png)
+![저작권 확인](copyright.png)
 
-### Identifying Licenses with Binaries
+### 바이너리로 라이선스 식별
 
-Binaries are compiled applications, libraries, software that can be used without access to source code. Binaries can be part of an open source component distribution and can themselves contain open source.
+바이너리는 소스 코드에 액세스하지 않고도 사용할 수 있는 컴파일된 응용 프로그램, 라이브러리, 소프트웨어입니다. 바이너리는 오픈 소스 구성 요소 배포의 일부일 수 있으며 자체적으로 오픈 소스를 포함할 수 있습니다.
 
-The main issues here revolve around how to understand what is contained in a binary:
+여기서 주요 문제는 바이너리에 포함된 내용을 이해하는 방법에 관한 것입니다:
 
-- Main problem 1: different binary technologies and hardware architectures
-- Main problem 2: small variations in source can generate a completely new binary
+- 주요 문제 1: 다른 바이너리 기술과 하드웨어 아키텍처
+- 주요 문제 2: 소스의 작은 변형이 완전히 새로운 바이너리를 생성할 수 있음
 
-### Your Own Software
+### 자체 소프트웨어
 
-![Your Own Software](own-software.png)
+![자신의 소프트웨어](own-software.png)
 
-While it is hoped that your organization will practice good coding and engineering habits, there is always a temptation for "copy & paste" solutions to make their way into your code base. There are many reasons for this including:
+조직에서 좋은 코딩 및 엔지니어링 습관을 연습하기를 희망하지만 항상 "복사 및 붙여넣기" 솔루션이 코드 기반에 들어가고 싶은 유혹이 있습니다. 여기에는 다음과 같은 여러 가지 이유가 있습니다:
 
-- Open source projects are publicly available
-- But also other files are valuable: scripts, icons, images, css files
-- Small sections of code copied from Web sites for best practices and snippets is easier
+- 오픈 소스 프로젝트는 공개적으로 사용 가능합니다.
+- 스크립트, 아이콘, 이미지, CSS 파일과 같은 다른 파일도 중요합니다.
+- 모범 사례 및 스니펫을 위해 웹 사이트에서 복사한 코드의 작은 섹션이 더 쉽습니다.
 
-Copying and paste of source code from the Internet in your code can be done, as reuse is generally better than reinventing the wheel each time. However, it's important to respect the author's interests by observing any licensing or copyright obligations
+인터넷에서 소스 코드를 복사하여 코드에 붙여넣을 수 있습니다. 일반적으로 매번 바퀴를 다시 만드는 것보다 재사용하는 것이 더 낫기 때문입니다. 그러나 라이선스 또는 저작권 의무를 준수하여 저자의 이익을 존중하는 것이 중요합니다.
 
-### Outbound Software
+### 아웃바운드 소프트웨어
 
-![Outbound Software](outbound.png)
+![아웃바운드 소프트웨어](outbound.png)
 
-When you begin to package your product for sale or distribution, you'll need to focus on what the combined outbound software stack looks like in the context of open source compliance, as well as other ancillary tasks. We'll cover these items in the following pages.
+판매 또는 배포를 위해 제품을 패키징하기 시작할 때 결합된 아웃바운드 소프트웨어 스택이 오픈 소스 규정 준수와 기타 보조 작업의 맥락에서 어떻게 보이는지 집중해야 합니다. 다음 페이지에서 이러한 항목을 다룹니다.
 
-### Distribution of Open Source
+### 오픈 소스 배포
 
-If your project or product will be distributing open source as part of your deliverable, you'll need:
+프로젝트 또는 제품이 결과물의 일부로 오픈 소스를 배포하는 경우 다음이 필요합니다:
 
-- A notice file, consisting of
-  - A listing of all licenses
-  - A listing of all copyright notice
-- A written offer to provide the open source code
+- 다음으로 구성된 통지 파일
+  - 모든 라이선스 목록
+  - 모든 저작권 표시 목록
+- 오픈 소스 코드를 제공하겠다는 서면 제안
 
-To be able to provide all of this, you'll need tooling which gathers the following information:
+이 모든 것을 제공하려면 다음 정보를 수집하는 도구가 필요합니다.
 
-- Which open source components are in your software
-- Which licenses and copyright notices are attached to those components
+- 소프트웨어에 포함된 오픈 소스 구성 요소
+- 해당 구성 요소에 어떤 라이선스 및 저작권 표시가 첨부되어 있는지
 
-### Ensuring Distribution Rights
+### 배포권 보장
 
-Since your goal with compliance is to ensure that you are meeting all appropriate obligations for the open source code you use, you'll need to consider both tooling **and** human review of licenses in your outbound software.
+규정 준수 목표는 사용하는 오픈 소스 코드에 대한 모든 적절한 의무를 충족하는지 확인하는 것이므로 아웃바운드 소프트웨어의 라이선스에 대한 도구 **및** 인적 검토를 모두 고려해야 합니다.
 
-For example, some licenses are not compatible, such as the GNU Public License (GPL) and the Eclipse Public License (EPL), and works based on code containing GPL and EPL licenses can be problematic.
+예를 들어 GNU 공중 라이선스(GPL) 및 Eclipse 공중 라이선스(EPL)와 같은 일부 라이선스는 호환되지 않으며 GPL 및 EPL 라이선스가 포함된 코드를 기반으로 하는 작업은 문제가 될 수 있습니다.
 
-In addition, even with tooling, some license statements are ambiguous, for example "Licensed under BSD". In cases like this, it's important to involve your legal team and stakeholders in determining how to proceed.
+또한 도구를 사용하더라도 "BSD에 따라 사용이 허가됨"과 같이 일부 라이선스 설명이 모호합니다. 이와 같은 경우 진행 방법을 결정할 때 법무팀과 이해 관계자를 참여시키는 것이 중요합니다.
 
-### Bill of Materials (BOM)
+### 재료 명세서(BOM)
 
-One of the most critical things that code scanning or compliance tooling can provide is a programmatic way of determining what is in the software or product that you are shipping. This is in the form of a Bill of Materials (BOM).
+코드 스캔 또는 규정 준수 도구가 제공할 수 있는 가장 중요한 것 중 하나는 배송 중인 소프트웨어 또는 제품에 무엇이 있는지 확인하는 프로그래밍 방식입니다. 이것은 BOM(Bill of Materials) 형식입니다.
 
-A BOM provides a detailed account of what is in a software package delivery, including identifying how much of that software package consists of open source components and which licenses are in use for those components.
+BOM은 오픈 소스 구성 요소로 구성된 소프트웨어 패키지의 양과 해당 구성 요소에 사용 중인 라이선스를 식별하는 것을 포함하여 소프트웨어 패키지 전달에 포함된 내용에 대한 자세한 설명을 제공합니다.
 
-The [Software Package Data Exchange (SPDX)](https://spdx.org) project specifies one implementation of how to express a Bill of Materials.
+[소프트웨어 패키지 데이터 교환(SPDX)](https://spdx.org) 프로젝트는 BOM을 표현하는 방법에 대한 하나의 구현을 지정합니다.
 
-### Tool Support Summary
+### 도구 지원 요약
 
-We will cover different types of tooling in our next section, but it's important to understand what tools can provide in compliance, and also what areas need to be considered before choosing a solution.
+다음 섹션에서 다양한 유형의 도구에 대해 다루지만 규정에 따라 제공할 수 있는 도구와 솔루션을 선택하기 전에 고려해야 할 영역을 이해하는 것이 중요합니다.
 
-As you can see from this section, there are several things that are needed in building effective compliance, and tooling is by no means a "silver bullet" that will make all compliance burdens go away. Tools are very good at analysis, reporting and helping drive management decisions, but they cannot operate in isolation - they need an effective process, married to a clear set of expectations and policies for consuming open source, as well as distributing your own software which builds upon open source packages.
+이 섹션에서 볼 수 있듯이 효과적인 규정 준수를 구축하는 데 필요한 몇 가지 사항이 있으며 도구가 모든 규정 준수 부담을 없애는 "은색 총알"이 결코 아닙니다. 도구는 분석, 보고 및 관리 결정을 내리는 데 매우 능숙하지만 독립적으로 작동할 수는 없습니다. 오픈 소스를 사용하고 빌드하는 자체 소프트웨어를 배포하기 위한 명확한 기대치 및 정책과 결합된 효과적인 프로세스가 필요합니다. 오픈 소스 패키지에.
 
-Remember that there also isn't necessarily a single tool that meets all needs, so you will likely be dealing with integration of different systems/tools, and you should have a clear understanding of what APIs and interfaces the tools provide in order to reduce manual integration effort.
+또한 모든 요구 사항을 충족하는 단일 도구가 반드시 있는 것은 아니므로 다양한 시스템/도구의 통합을 처리할 가능성이 높으며 수동 작업을 줄이기 위해 도구가 제공하는 API 및 인터페이스에 대한 명확한 이해가 있어야 합니다. 통합 노력.
 
-## Lesson: Tooling Types
+## 강의: 도구 유형
 
-### Overview
+### 개요
 
-There are many types of tools in the open source compliance space, including (but not limited to):
+오픈 소스 규정 준수 영역에는 다음을 포함하지만 이에 국한되지 않는 다양한 유형의 도구가 있습니다:
 
-- Source code scanning
-- License scanning
-- Binary scanning
-- DevOps integration
-- Component management
+- 소스 코드 스캔
+- 라이센스 스캔
+- 바이너리 스캐닝
+- DevOps 통합
+- 부품 관리
 
-We'll cover each of these areas in the following pages.
+다음 페이지에서 이러한 각 영역을 다룹니다.
 
-### Source Code Scanning
+### 소스 코드 스캔
 
-![Source Code Scanning](source-scanning.png)
+![소스코드 스캐닝](source-scanning.png)
 
-Since organizations have access to their own source code, as well as the open source packages used to build their products, source code scanning tools are some of the most widely used tools in compliance.
+조직은 자체 소스 코드와 제품을 빌드하는 데 사용되는 오픈 소스 패키지에 액세스할 수 있으므로 소스 코드 스캔 도구는 규정 준수에서 가장 널리 사용되는 도구 중 일부입니다.
 
-There are many commercial tools (and some open source ones) available that perform this function. In general, these tools rely on "hashing" fingerprints of existing open source code bases (or, potentially internal components if added to the scanning database) to make a determination of what software components are part of a distribution. One of their biggest advantages is in building the Bill of Materials (BOM) we mentioned earlier.
+이 기능을 수행하는 많은 상용 도구(및 일부 오픈 소스 도구)가 있습니다. 일반적으로 이러한 도구는 배포의 일부인 소프트웨어 구성 요소를 결정하기 위해 기존 오픈 소스 코드 기반(또는 스캐닝 데이터베이스에 추가되는 경우 잠재적으로 내부 구성 요소)의 "해싱" 지문에 의존합니다. 가장 큰 장점 중 하나는 앞에서 언급한 BOM(Bill of Materials)을 구축할 수 있다는 것입니다.
 
-Some scanning tools can also identify "code snippets", which is often helpful when determining if "copy and pasted" code from a particular open source package was used. However, snippet scanning comes at a price - it will often take longer to run a full snippet scan analysis on source code rather than just relying on hashed fingerprints.
+일부 스캔 도구는 "코드 조각"도 식별할 수 있으며, 이는 특정 오픈 소스 패키지의 "복사하여 붙여넣은" 코드가 사용되었는지 여부를 결정할 때 종종 유용합니다. 그러나 스니펫 스캔에는 대가가 따릅니다. 해시된 지문에만 의존하는 것보다 소스 코드에서 전체 스니펫 스캔 분석을 실행하는 데 시간이 더 오래 걸리는 경우가 많습니다.
 
-The biggest differentiator for many of these tools is their data sources - how often their databases are updated, and how much open source code is represented in their data. Cost, complexity, integration ability for your build environment, and reporting features are also key features you'll need to evaluate before making a tool selection.
+이러한 많은 도구의 가장 큰 차이점은 데이터 소스입니다. 데이터베이스가 업데이트되는 빈도와 데이터에 표시되는 오픈 소스 코드의 양입니다. 비용, 복잡성, 빌드 환경의 통합 기능 및 보고 기능도 도구를 선택하기 전에 평가해야 하는 주요 기능입니다.
 
-There is also the possibility of "false positives" or cases where expert knowledge may need to be brought in (legal, engineering) to determine the relevance of results from source code scanning.
+또한 "오탐" 또는 소스 코드 스캔 결과의 관련성을 결정하기 위해 전문 지식(법률, 엔지니어링)을 가져와야 하는 경우가 있습니다.
 
-### License Scanning
+### 라이센스 스캔
 
-![License Scanning](license-scanning.png)
+![라이센스 스캔](license-scanning.png)
 
-While we are covering license scanning tools as a separate item, in practice, most commercial source code scanning tools also include license scanning capabilities.
+라이선스 스캔 도구를 별도 항목으로 다루지만 실제로 대부분의 상용 소스 코드 스캔 도구에는 라이선스 스캔 기능도 포함됩니다.
 
-License scanning relies on searching source code for relevant keywords, and/or machine readable markers (such as SPDX blocks) to determine the relevant licenses attached to each file or package. These scans can also identify copyright, author statements and sometimes acknowledgements.
+라이선스 스캔은 관련 키워드 및/또는 기계 판독 가능 마커(예: SPDX 블록)에 대한 소스 코드 검색에 의존하여 각 파일 또는 패키지에 첨부된 관련 라이선스를 결정합니다. 이러한 스캔은 또한 저작권, 저자 진술 및 때때로 승인을 식별할 수 있습니다.
 
-While the database of open source licenses isn't as large as the database of open source components required to build a component identification piece in the BOM, it still does require access to a knowledge base of existing open source licenses. In general, license scanning has a harder time identifying non-OSS licenses, as there are a larger variety of these types of licenses.
+오픈 소스 라이선스 데이터베이스는 BOM에서 구성 요소 식별 부분을 구축하는 데 필요한 오픈 소스 구성 요소 데이터베이스만큼 크지 않지만 여전히 기존 오픈 소스 라이선스의 지식 기반에 액세스해야 합니다. 일반적으로 라이선스 스캔은 비 OSS 라이선스를 식별하기가 더 어렵습니다. 이러한 유형의 라이선스가 더 많기 때문입니다.
 
-As noted earlier, a primary use of license scanning is when checking inbound open source software to verify the license in use. This is often one of the first steps performed (after evaluation for fitness of technical purpose) before validating an open source component for use in your organization.
+앞서 언급했듯이 라이선스 스캔의 주요 용도는 사용 중인 라이선스를 확인하기 위해 인바운드 오픈 소스 소프트웨어를 확인할 때입니다. 이는 조직에서 사용할 오픈 소스 구성 요소의 유효성을 검사하기 전에 수행되는 첫 번째 단계(기술적 목적의 적합성 평가 후) 중 하나인 경우가 많습니다.
 
-Even with the best pattern matching or utilization of machine-readable markers, there may be cases where legal or engineering stakeholders need to be utilized to clarify a license identification that may be ambiguous.
+최상의 패턴 일치 또는 기계 판독 가능 마커의 활용에도 불구하고 모호할 수 있는 라이선스 식별을 명확히 하기 위해 법률 또는 엔지니어링 이해 관계자를 활용해야 하는 경우가 있을 수 있습니다.
 
-### Binary Scanning
+### 바이너리 스캐닝
 
-![Binary Scanning](binary-scanning.png)
+![바이너리 스캐닝](binary-scanning.png)
 
-The purpose of binary scanning is similar to source code scanning (identification of open source components and their versions), which can help with BOM creation, as well as identification of potential vulnerabilities for specific software packages coming into your organization.
+바이너리 스캐닝의 목적은 소스 코드 스캐닝(오픈 소스 구성 요소 및 해당 버전 식별)과 유사하며, 이는 BOM 생성에 도움이 될 뿐만 아니라 조직에 들어오는 특정 소프트웨어 패키지에 대한 잠재적 취약성을 식별하는 데 도움이 됩니다.
 
-The challenge here, of course, is that without readable source code, binary scanning is a heuristic that relies on some characteristic elements of binaries, such as string variables, filenames and sometimes method and field names from languages with run-time code available (e.g. Java). Because hardware architectures and compilers can change over time, binary scanners have to be frequently adjusted to try and account for these changes.
+물론 여기서 문제는 읽을 수 있는 소스 코드가 없으면 바이너리 스캐닝이 문자열 변수, 파일 이름, 때로는 런타임 코드를 사용할 수 있는 언어의 메서드 및 필드 이름과 같은 바이너리의 일부 특성 요소에 의존하는 경험적 방법이라는 것입니다(예: 자바). 하드웨어 아키텍처와 컴파일러는 시간이 지남에 따라 변경될 수 있으므로 바이너리 스캐너는 이러한 변경을 시도하고 설명하기 위해 자주 조정되어야 합니다.
 
-There are also some cases where a reliable scan isn't fully available for a particular binary. But, it's still a good idea to scan binaries if you can in an attempt to identify open source in packages that you don't have the source code for.
+특정 바이너리에 대해 신뢰할 수 있는 스캔을 완전히 사용할 수 없는 경우도 있습니다. 그러나 소스 코드가 없는 패키지에서 오픈 소스를 식별할 수 있다면 바이너리를 스캔하는 것은 여전히 ​​좋은 생각입니다.
 
-### DevOps Integration
+### DevOps 통합
 
-![DevOps Integration](devops.png)
+![DevOps 통합](devops.png)
 
-DevOps integration using custom-built software and custom processes can be used to augment other previously mentioned scanning mechanisms and gain additional information from the processes used to build the software.
+맞춤형 소프트웨어와 맞춤형 프로세스를 사용한 DevOps 통합은 앞서 언급한 다른 스캐닝 메커니즘을 보강하고 소프트웨어 구축에 사용된 프로세스에서 추가 정보를 얻는 데 사용할 수 있습니다.
 
-Because the DevOps build system is able to determine dependencies during builds, it can combine that information with the output of other tools to help create a more robust BOM. This is especially true of development organizations that may have intricate dependencies, or legacy packages in their software that are unlikely to be identified correctly by commercial or open source scanning technologies.
+DevOps 빌드 시스템은 빌드 중 종속성을 결정할 수 있기 때문에 해당 정보를 다른 도구의 출력과 결합하여 보다 강력한 BOM을 생성할 수 있습니다. 이는 상용 또는 오픈 소스 스캐닝 기술로 올바르게 식별할 수 없는 소프트웨어의 레거시 패키지 또는 복잡한 종속성이 있을 수 있는 개발 조직에 특히 해당됩니다.
 
-The one downside is that these custom configurations/systems do require effort to build and maintain, but if your organization already has a build system tied to a DevOps infrastructure, integrating outside scanning tools into this environment may be possible and may help alleviate a fair amount of manual review/compliance work.
+한 가지 단점은 이러한 사용자 지정 구성/시스템을 구축하고 유지 관리하는 데 노력이 필요하지만 조직에 이미 DevOps 인프라에 연결된 빌드 시스템이 있는 경우 외부 스캐닝 도구를 이 환경에 통합하는 것이 가능하고 상당한 비용을 줄이는 데 도움이 될 수 있다는 것입니다. 수동 검토/준수 작업.
 
-### Component Management
+### 구성 요소 관리
 
-![Component Management](components.png)
+![구성요소 관리](components.png)
 
-A handy compliance tool to help you bring together your various associated Bill of Materials (BOMs) and provide documentation and reporting is a Component Management System. There are various commercial vendors and some open source projects (search [github.com](https://github.com/)) that provide this kind of functionality.
+다양한 관련 BOM(자재 명세서)을 통합하고 문서화 및 보고를 제공하는 데 도움이 되는 편리한 규정 준수 도구는 구성 요소 관리 시스템입니다. 이러한 종류의 기능을 제공하는 다양한 상용 공급업체와 일부 오픈 소스 프로젝트([github.com](https://github.com/) 검색)가 있습니다.
 
-Some organizations even choose to write this kind of database program for themselves, but the important thing is that it can help with a variety of things, including vulnerability management, approval of open source components, tracking of licenses, and identification of which open source components are used throughout all of the software in an organization.
+일부 조직에서는 이러한 종류의 데이터베이스 프로그램을 자체적으로 작성하기로 선택하기도 하지만 중요한 것은 취약점 관리, 오픈 소스 구성 요소 승인, 라이선스 추적 및 어떤 오픈 소스 구성 요소 식별을 포함하여 다양한 작업에 도움이 될 수 있다는 것입니다. 조직의 모든 소프트웨어에서 사용됩니다.
 
-Implementing this as a web portal can help multiple stakeholders, especially legal, security, and even engineering teams when they have to address questions of license compliance, security vulnerabilities, or tracking versions of open source components in use in the organization.
+이를 웹 포털로 구현하면 라이선스 준수, 보안 취약성 또는 조직에서 사용 중인 오픈 소스 구성 요소의 버전 추적 문제를 해결해야 할 때 여러 이해 관계자, 특히 법무팀, 보안팀, 심지어 엔지니어링 팀까지 도움이 될 수 있습니다.
 
-## Lesson: Industry Initiatives for Compliance Tooling
+## 강의: 규정 준수 도구를 위한 업계 이니셔티브
 
-### Overview
+### 개요
 
-There are a host of industry initiatives that have sprung up around compliance tooling, including [FOSSology](https://www.fossology.org/) for scanning, Microsoft's [ClearlyDefined](https://clearlydefined.io/) and [tl;dr Legal](https://tldrlegal.com/) for license clarification and review, and many others.
+스캔을 위한 [FOSSology](https://www.fossology.org/), Microsoft의 [ClearlyDefined](https://clearlydefined.io/) 및 [tl;dr Legal](https://tldrlegal.com/) 라이선스 설명 및 검토 및 기타 여러 정보를 제공합니다.
 
-In the next two pages, we'll highlight two initiatives that are important for automation and supply chain efforts to help make open source more sustainable and easily consumed in organizations - SPDX and OpenChain.
+다음 두 페이지에서는 오픈 소스를 조직에서 보다 지속 가능하고 쉽게 사용할 수 있도록 돕기 위한 자동화 및 공급망 노력에 중요한 두 가지 이니셔티브(SPDX 및 OpenChain)를 강조할 것입니다.
 
 ### SPDX
 
-[Software Package Data Exchange (SPDX)](https://spdx.org) is a project, a standard, and a set of license data that helps enable machine (and human) readable license information to be embedded in source code, but also exchanged between different compliance tools and systems.
+[소프트웨어 패키지 데이터 교환(SPDX)](https://spdx.org)은 컴퓨터(및 사람)가 읽을 수 있는 라이선스 정보를 소스 코드에 포함할 수 있도록 하는 프로젝트, 표준 및 라이선스 데이터 집합이지만, 또한 서로 다른 규정 준수 도구 및 시스템 간에 교환됩니다.
 
-SPDX is also a meritocratic community workgroup developing a set of collateral that can be used to more clearly convey complete license information in a standard/reusable fashion and to facilitate compliance. The advantages of this are:
+SPDX는 또한 표준/재사용 가능한 방식으로 완전한 라이선스 정보를 보다 명확하게 전달하고 규정 준수를 촉진하는 데 사용할 수 있는 일련의 자료를 개발하는 능력 기반 커뮤니티 작업 그룹입니다. 이것의 장점은 다음과 같습니다:
 
-- Establishing a common data format (SPDX Documents) allows less redundant effort to be expended on license compliance. License compliance can only begin once all software and associated licenses have been identified in a particular code base.
-- The content of an SPDX document typically comprises information definitively identifying the software package, package level, and file level licensing and copyright information. It also provides metadata about the analysis itself: who created the file, when, and how.
-- Standard formats allow for tooling to be created to make the process more efficient and to allow more complex compliance operations to take place.
+- 공통 데이터 형식(SPDX 문서)을 설정하면 라이센스 준수에 소요되는 중복 노력을 줄일 수 있습니다. 라이선스 준수는 특정 코드 기반에서 모든 소프트웨어 및 관련 라이선스가 식별된 후에만 시작할 수 있습니다.
+- SPDX 문서의 내용은 일반적으로 소프트웨어 패키지, 패키지 수준, 파일 수준 라이선스 및 저작권 정보를 명확하게 식별하는 정보로 구성됩니다. 또한 분석 자체에 대한 메타데이터(파일 생성자, 시기 및 방법)를 제공합니다.
+- 표준 형식을 사용하면 프로세스를 보다 효율적으로 만들고 보다 복잡한 규정 준수 작업을 수행할 수 있는 도구를 만들 수 있습니다.
 
-The last point here is probably the most important in the context of our tooling discussion so far - for commercial, open source, or custom-built compliance tools, the ability to have a standard format to exchange license data is absolutely critical - without that, there would be a lot of manual effort and review to maintain effective open source compliance.
+여기에서 마지막 요점은 아마도 지금까지 도구 논의의 맥락에서 가장 중요할 것입니다. 상용, 오픈 소스 또는 맞춤형 규정 준수 도구의 경우 라이선스 데이터를 교환하기 위한 표준 형식을 갖는 기능이 절대적으로 중요합니다. 효과적인 오픈 소스 규정 준수를 유지하기 위해 많은 수작업과 검토가 필요할 것입니다.
 
-### OpenChain
+### 오픈체인
 
-The [OpenChain Project](https://www.openchainproject.org/) is an industry standard for the key requirements of a quality open source compliance program. The project provides a specification and certification program regarding supply chain exchanges of source code, build scripts, license copies, attribution notices, modifications notices, SPDX data and other materials open source licenses governing a software deliverable may require.
+[OpenChain Project](https://www.openchainproject.org/)는 고품질 오픈 소스 준수 프로그램의 주요 요구 사항에 대한 산업 표준입니다. 이 프로젝트는 소스 코드의 공급망 교환, 빌드 스크립트, 라이선스 사본, 귀속 고지, 수정 고지, SPDX 데이터 및 소프트웨어 인도물을 관리하는 오픈 소스 라이선스가 요구할 수 있는 기타 자료에 관한 사양 및 인증 프로그램을 제공합니다.
 
-Additionally, the project provides a set of curriculum, as well as a free [assessment tool](https://www.openchainproject.org/get-started/conformance) that can help your organization determine what areas can be improved to help your own open source compliance.
+또한 이 프로젝트는 일련의 커리큘럼과 무료 [평가 도구](https://www.openchainproject.org/get-started/conformance)를 제공하여 조직에서 개선할 수 있는 영역을 결정하는 데 도움이 됩니다. 자체 오픈 소스 준수.
 
-Perhaps most important of all, OpenChain is a growing [community](https://www.openchainproject.org/webinars-interviews) of people who are a great resource for organizations just starting on their journey in open source compliance.
+아마도 무엇보다도 가장 중요한 것은 OpenChain은 오픈 소스 규정 준수 여정을 막 시작하는 조직을 위한 훌륭한 리소스인 사람들의 증가하는 [커뮤니티](https://www.openchainproject.org/webinars-interviews)입니다.
 
-# Section: The Role of Open Source Audits During M&A Activities
+# 섹션: M&A 활동 중 오픈 소스 감사의 역할
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will provide an explanation of the role that open source audits play when Mergers & Acquisitions (M&A) activities bring in new code to your existing products. Effective audits can help with both legal compliance as well as be a strategic means to identify areas for software reuse.
+이 섹션에서는 인수 및 합병(M&A) 활동이 기존 제품에 새 코드를 가져올 때 오픈 소스 감사가 수행하는 역할에 대해 설명합니다. 효과적인 감사는 법률 준수와 소프트웨어 재사용 영역을 식별하는 전략적 수단 모두에 도움이 될 수 있습니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-- Describe the most commonly used audit methods for open source compliance
-- Explain how to prepare for an audit as either the acquiring target, or the acquiring company
+- 오픈 소스 규정 준수를 위해 가장 일반적으로 사용되는 감사 방법 설명
+- 인수 대상 또는 인수 회사로서 감사 준비 방법 설명
 
-## Lesson: Overview
+## 강의: 개요
 
-### Introduction
+### 소개
 
-We've already established that software, and specifically open source software, plays a big role in not only technology companies, but many companies that previously weren't in the software or technology business. So far in this module, we've covered the details of what it means to build an effective compliance process for Inbound Software, Your Own Software, and Outbound Software.
+우리는 이미 소프트웨어, 특히 오픈 소스 소프트웨어가 기술 회사뿐만 아니라 이전에는 소프트웨어나 기술 사업에 참여하지 않았던 많은 회사에서 큰 역할을 한다는 사실을 이미 확립했습니다. 지금까지 이 모듈에서는 인바운드 소프트웨어, 자체 소프트웨어 및 아웃바운드 소프트웨어에 대한 효과적인 규정 준수 프로세스를 구축하는 것이 무엇을 의미하는지 자세히 설명했습니다.
 
-A special case for Inbound Software occurs when an organization is about to acquire the intellectual property (in software) of another company. This software due diligence process, in which the acquirer performs a comprehensive review of the target's software and their compliance practices, is becoming a standard part of any merger or acquisition. During this process it's common to encounter open source software, which presents a set of verification challenges different from proprietary software.
+인바운드 소프트웨어의 특별한 경우는 조직이 다른 회사의 지적 재산(소프트웨어에서)을 취득하려고 할 때 발생합니다. 인수자가 대상의 소프트웨어 및 해당 규정 준수 관행에 대한 포괄적인 검토를 수행하는 이 소프트웨어 실사 프로세스는 모든 인수 합병의 표준 부분이 되었습니다. 이 프로세스 동안 독점 소프트웨어와 다른 일련의 검증 문제를 제시하는 오픈 소스 소프트웨어를 만나는 것이 일반적입니다.
 
-In the rest of this section, we'll provide an overview of the open source audit process in merger and acquisition (M&A) transactions.
+이 섹션의 나머지 부분에서는 인수합병(M&A) 거래의 오픈 소스 감사 프로세스에 대한 개요를 제공합니다.
 
-**Why Conduct an Audit?**
+**감사를 수행하는 이유**
 
-While every M&A transaction is different, the need to verify the impact of acquiring open source obligations is a constant. Open source audits are carried out to understand the depth of use and the reliance on open source software. Additionally, they offer great insights about any compliance issues and even about the target's engineering practices.
+모든 M&A 거래는 다르지만 오픈 소스 의무 획득의 영향을 확인해야 할 필요성은 일정합니다. 오픈 소스 감사는 사용의 깊이와 오픈 소스 소프트웨어에 대한 의존도를 이해하기 위해 수행됩니다. 또한 규정 준수 문제와 대상의 엔지니어링 관행에 대한 훌륭한 통찰력을 제공합니다.
 
-Examples of ways open source software can impact the acquired assets include:
+오픈 소스 소프트웨어가 취득 자산에 영향을 미칠 수 있는 방법의 예는 다음과 같습니다:
 
-- Any software licensed under the GNU General Public License (GNU GPL), requires derivatives or combinations to be made available under the same license as well, which could affect any proprietary code that is using the open source code.
-- Other licenses require certain notices in documentation or have restrictions for how the product is promoted.
-- Failure to satisfy open source license obligations can lead to possible litigation, expensive re-engineering, product recalls, and bad publicity.
+- GNU 일반 공중 라이선스(GNU GPL)에 따라 라이선스가 부여된 모든 소프트웨어는 파생 상품 또는 조합도 동일한 라이선스에 따라 제공되어야 하며, 이는 오픈 소스 코드를 사용하는 모든 독점 코드에 영향을 미칠 수 있습니다.
+- 기타 라이선스는 문서에 특정 고지가 필요하거나 제품 홍보 방법에 제한이 있습니다.
+- 오픈 소스 라이선스 의무를 충족하지 못하면 소송 가능성, 값비싼 재설계, 제품 회수 및 나쁜 평판으로 이어질 수 있습니다.
 
-A common question is whether an open source audit is needed at all. The answer differs by company, purpose of acquisition, and size of the source code base. For instance, for small acquisitions, some companies prefer to just review the open source bill of materials (BOM)
-provided by the acquiring target (assuming it is available) and have a discussion with their engineering lead about their open source practices. Even if the purpose of the acquisition is to acquire the talent, an audit can help uncover whether there are undisclosed liabilities due to historical license obligations from products which have already shipped.
+일반적인 질문은 오픈 소스 감사가 필요한지 여부입니다. 기업, 취득 목적, 소스코드 기반 규모에 따라 답이 다르다. 예를 들어, 소규모 인수의 경우 일부 회사는 오픈 소스 BOM(Bill of Materials)을 검토하는 것을 선호합니다.
+획득 대상에서 제공하고(사용 가능하다고 가정) 엔지니어링 책임자와 오픈 소스 관행에 대해 논의합니다. 인수 목적이 인재 확보인 경우에도 감사를 통해 이미 출하된 제품에 대한 과거 라이선스 의무로 인해 미공개 부채가 있는지 여부를 파악할 수 있습니다.
 
-**Inputs & Outputs**
+**입력 및 출력**
 
-![Inputs & Outputs](audit-inputs-outputs.png)
+![입력 및 출력](audit-inputs-outputs.png)
 
-The audit process has one primary input and one primary output (see figure above). The input to the process is the complete software stack subject of the M&A transaction being conducted. This includes proprietary, open source and 3rd party software.
+감사 프로세스에는 하나의 기본 입력과 하나의 기본 출력이 있습니다(위 그림 참조). 프로세스에 대한 입력은 수행 중인 M&A 트랜잭션의 완전한 소프트웨어 스택 주제입니다. 여기에는 독점, 오픈 소스 및 타사 소프트웨어가 포함됩니다.
 
-On the end side of the process, the primary output is a detailed open source software bill of materials that lists:
+프로세스의 끝에서 기본 출력은 다음을 나열하는 자세한 오픈 소스 소프트웨어 BOM입니다:
 
-- All open source software used as components, their origin and confirmed licenses
-- All open source snippets used in either proprietary or third-party software, their originating components, and confirmed licenses
+- 구성 요소로 사용되는 모든 오픈 소스 소프트웨어, 출처 및 확인된 라이선스
+- 독점 또는 타사 소프트웨어, 해당 원본 구성 요소 및 확인된 라이선스에 사용되는 모든 오픈 소스 스니펫
 
-**Assessing the Scope of an Audit**
+**감사 범위 평가**
 
-The size, scope, and cost of an audit varies by transaction, and generally increases with source code size and complexity. To determine the cost and time for an open source audit, auditors need to get some basic understanding of the size and characteristics of the code base, as well as the urgency of the project.
+감사의 크기, 범위 및 비용은 트랜잭션에 따라 다르며 일반적으로 소스 코드 크기 및 복잡성에 따라 증가합니다. 오픈 소스 감사를 위한 비용과 시간을 결정하기 위해 감사자는 프로젝트의 긴급성뿐만 아니라 코드 기반의 크기와 특성에 대한 기본적인 이해가 필요합니다.
 
-The first questions will be related to code metrics, such as the size of the source code base, the number of lines of source code, and the number of files that need to be audited. Auditors also ask if the codebase consists exclusively of source code, or if it includes binary files, configuration files, documentation, and possibly other file formats. Sometimes, it is also helpful for the auditor to know the file extensions subject to the audit. As we've already learned in this module, understanding these things will help the team pick the right tools to support the audit.
+첫 번째 질문은 소스 코드 기반의 크기, 소스 코드 줄 수, 감사해야 하는 파일 수와 같은 코드 메트릭과 관련이 있습니다. 감사관은 또한 코드베이스가 소스 코드로만 구성되어 있는지 또는 바이너리 파일, 구성 파일, 문서 및 기타 파일 형식이 포함될 수 있는지 묻습니다. 때로는 감사자가 감사 대상 파일 확장자를 아는 것도 도움이 됩니다. 이 모듈에서 이미 배웠듯이 이러한 사항을 이해하면 팀에서 감사를 지원하는 데 적합한 도구를 선택하는 데 도움이 됩니다.
 
-Because audit price discussions happen early in the process based on size and scope, the acquirer may not have access to all the information described above. At minimum, the auditor needs to understand the number of files to be scanned before proceeding, although additional information will help refine the estimates. When the auditor has enough information to understand the scope of the work, they will also need to understand the urgency, as this has a significant impact on the cost of an audit.
+감사 가격 논의는 규모와 범위에 따라 프로세스 초기에 이루어지기 때문에 취득자는 위에 설명된 모든 정보에 액세스하지 못할 수 있습니다. 추가 정보가 견적을 구체화하는 데 도움이 되지만 감사자는 계속 진행하기 전에 스캔할 파일 수를 최소한 이해해야 합니다. 감사인이 작업 범위를 이해하기에 충분한 정보를 가지고 있으면 감사 비용에 상당한 영향을 미치므로 긴급성을 이해해야 합니다.
 
-## Lesson: Audit Methods
+## 수업: 감사 방법
 
-**Overview**
+**개요**
 
-Depending on what the auditors find during the initial acquisition discussion phase, they may have to rely on several types of tools (scanning, license identification, component management) to perform the audits.
+감사인은 초기 취득 논의 단계에서 무엇을 찾았는지에 따라 감사를 수행하기 위해 여러 유형의 도구(스캔, 라이선스 식별, 구성 요소 관리)에 의존해야 할 수 있습니다.
 
-There are two audit methods:
+두 가지 감사 방법이 있습니다:
 
-1. Traditional audit, in which the auditor gets complete access to all the code and executes the audit either remotely or on site.
-2. "Do It Yourself" audit, where the target company or the acquirer performs most of the actual audit work themselves using the tools with the option for a random verification of results from the auditing company.
+1. 감사자가 모든 코드에 대한 완전한 액세스 권한을 얻고 원격 또는 현장에서 감사를 실행하는 기존 감사.
+2. "Do It Yourself" 감사, 대상 회사 또는 인수자가 감사 회사의 결과를 무작위로 검증할 수 있는 옵션이 있는 도구를 사용하여 실제 감사 작업의 대부분을 스스로 수행합니다.
 
-**Traditional Audit**
+**기존 감사**
 
-![Traditional Audit](traditional-audit.png)
+![기존 감사](traditional-audit.png)
 
-This method is called traditional, because it's the original method of source code scanning for open source compliance purposes. Traditional audits are those where a compliance auditor from a third-party auditing company gets access to the source remotely via a cloud system or physically while visiting on site and performs the source code scan.
+이 방법은 오픈 소스 규정 준수를 위한 소스 코드 스캔의 원래 방법이기 때문에 기존 방법이라고 합니다. 기존 감사는 타사 감사 회사의 규정 준수 감사자가 클라우드 시스템을 통해 원격으로 소스에 액세스하거나 현장을 방문하는 동안 물리적으로 소스 코드 스캔을 수행하는 감사입니다.
 
-Please note that the process may vary slightly from one service provider to another. A typical traditional audit process follows these steps:
+프로세스는 서비스 제공업체마다 약간 다를 수 있습니다. 일반적인 기존 감사 프로세스는 다음 단계를 따릅니다:
 
-- Auditor sends questions to the acquirer to have a better understanding of the job.
-- Acquirer responds, allowing the auditor to have a better understanding of the scope and audit parameters.
-- Auditor provides a quote based upon the responses.
-- Agreement is reached on the quote. Next is signing the service agreement, statement of work, non-disclosure agreement, etc. (Please note that "Start" in all figures assumes an actual start of the audit process when all agreements have been signed.)
-- Auditor is granted access to the target's code via secure cloud upload, or through a visit to the company for an on-site audit.
-- Auditor scans the target's source code, cleans up any false positives, and evaluates the results.
-- Auditor generates the report and delivers it to the client.
-- A call or a face-to-face meeting follows to review the results with the auditor and address any questions.
+- 감사인은 직무를 더 잘 이해할 수 있도록 인수자에게 질문을 보냅니다.
+- 취득자가 응답하여 감사인이 범위 및 감사 매개변수를 더 잘 이해할 수 있도록 합니다.
+- 감사인은 응답에 따라 견적을 제공합니다.
+- 견적에 대한 합의가 이루어졌습니다. 다음은 서비스 계약, 작업 명세서, 비공개 계약 등에 서명하는 것입니다. (모든 그림의 "시작"은 모든 계약에 서명한 후 감사 프로세스의 실제 시작을 가정합니다.)
+- 감사인은 보안 클라우드 업로드 를 통해 대상 코드에 대한 액세스 권한을 부여 받거나 현장 감사를 위해 회사를 방문합니다.
+- 감사자는 대상의 소스 코드를 스캔하고 잘못된 긍정을 정리하고 결과를 평가합니다.
+- 감사인은 보고서를 생성하여 고객에게 전달합니다.
+- 감사인과 결과를 검토하고 질문에 답변하기 위해 전화 또는 대면 회의가 뒤따릅니다.
 
-This method is common across most audit service providers, and it allows the opportunity to collect multiple bids for the same audit job and the ability to choose the best bid given your requirements.
+이 방법은 대부분의 감사 서비스 제공업체에서 일반적이며 동일한 감사 작업에 대해 여러 입찰가를 수집할 수 있고 요구 사항에 따라 최상의 입찰을 선택할 수 있습니다.
 
-For this model to work, the target company must be willing to transfer the code to the auditors or allow them to visit their offices to complete the job on-site.
+이 모델이 작동하려면 대상 회사가 감사자에게 코드를 기꺼이 이전하거나 현장에서 작업을 완료하기 위해 사무실을 방문하도록 허용해야 합니다.
 
-**Do-It-Yourself (DIY) Audit**
+** DIY(Do-It-Yourself) 감사**
 
-<!--![DIY Audit (Alt)](diy-audit-alt.png)-->
+<!--![DIY 감사(Alt)](diy-audit-alt.png)-->
 
-![DIY Audit](diy-audit.png)
+![DIY 감사](diy-audit.png)
 
-The Do-It-Yourself (DIY) audit provides the acquirer or the target company time-limited access to the compliance cloud tools, enabling them to run the scan themselves. They can then perform the audits internally with complete access to the knowledge base and all reporting facilities.
+DIY(Do-It-Yourself) 감사는 취득자 또는 대상 회사가 규정 준수 클라우드 도구에 대한 시간 제한 액세스를 제공하여 스스로 스캔을 실행할 수 있도록 합니다. 그런 다음 지식 기반 및 모든 보고 기능에 대한 완전한 액세스를 통해 내부적으로 감사를 수행할 수 있습니다.
 
-This is an approach that is particularly interesting for companies that have in-house employees with sufficient experience to interpret scan results and suggest remediation procedures. It can quickly become more cost-effective for companies that go through the M&A process several times per year. An independent certification can be performed by the auditing tools service provider to verify the findings, to further secure the integrity of the audit.
+이것은 스캔 결과를 해석하고 교정 절차를 제안할 충분한 경험을 가진 사내 직원이 있는 회사에 특히 흥미로운 접근 방식입니다. 1년에 여러 번 M&A 프로세스를 거치는 기업의 경우 비용 효율성이 빠르게 향상될 수 있습니다. 감사 도구 서비스 제공자는 독립적인 인증을 수행하여 결과를 확인하고 감사의 무결성을 더욱 확보할 수 있습니다.
 
-This approach has several advantages, such as the ability to start the audit as soon as it's needed because it uses internal resources and is not dependent on the availability of third-party auditors. This approach potentially shortens the timeline and reduces an external source of cost.
+이 접근 방식은 내부 리소스를 사용하고 타사 감사자의 가용성에 의존하지 않기 때문에 필요한 즉시 감사를 시작할 수 있는 기능과 같은 몇 가지 이점이 있습니다. 이 접근 방식은 잠재적으로 일정을 단축하고 비용의 외부 소스를 줄입니다.
 
-Any compliance problem can be addressed immediately, because it is conducted by the people who have direct access to the code and can apply fixes directly. Finally, the audit can be verified by the provider of the audit tool to ensure correctness and completeness.
+규정 준수 문제는 코드에 직접 액세스할 수 있고 수정 사항을 직접 적용할 수 있는 사람이 수행하기 때문에 즉시 해결할 수 있습니다. 마지막으로 감사 도구 제공자는 감사를 검증하여 정확성과 완전성을 보장할 수 있습니다.
 
-**Final Audit Report Notes**
+**최종 감사 보고서 참고사항**
 
-Many auditing tools can also be tuned to highlight potential issues. After viewing the results carefully, you might find many of the results to be non-issues, but you should expect the potential for a lot of "noise" in the initial reports.
+잠재적인 문제를 강조하기 위해 많은 감사 도구를 조정할 수도 있습니다. 결과를 주의 깊게 살펴본 후에는 많은 결과가 문제가 아님을 알 수 있지만 초기 보고서에서 많은 "노이즈"가 발생할 가능성을 예상해야 합니다.
 
-The noise may come from things like leftover code that is in the code tree but not used. Therefore, the initial report may be lengthy, and you should be prepared to invest time to filter the report to find the real issues.
+잡음은 코드 트리에 있지만 사용되지 않은 남은 코드에서 비롯될 수 있습니다. 따라서 초기 보고서가 길 수 있으며 실제 문제를 찾기 위해 보고서를 필터링하는 데 시간을 투자할 준비를 해야 합니다.
 
-Note that a Software Package Data Exchange (SPDX) conformant report is usually provided on demand. Therefore, if you would like your audit service provider to provide such a report, you will need to request it, and if you've already invested in SPDX-compatible tooling, this will make importing and tracking your audit results much easier.
+SPDX(Software Package Data Exchange) 준수 보고서는 일반적으로 요청 시 제공됩니다. 따라서 감사 서비스 제공자가 이러한 보고서를 제공하도록 하려면 요청해야 하며 이미 SPDX 호환 도구에 투자한 경우 감사 결과를 가져오고 추적하는 것이 훨씬 쉬워집니다.
 
-**Pre and Post Acquisition Remediation**
+**사전 및 사후 인수 개선**
 
-By this point, the acquiring company should have a clear idea how the target uses and manages open source software and how successful they've been at satisfying their open source license obligations. The acquirer and target should use this information to negotiate remediation for any open source compliance issues.
+이 시점에서 인수 회사는 대상이 오픈 소스 소프트웨어를 사용 및 관리하는 방법과 오픈 소스 라이선스 의무를 얼마나 성공적으로 충족했는지에 대한 명확한 아이디어를 가지고 있어야 합니다. 취득자와 대상은 이 정보를 사용하여 모든 오픈 소스 규정 준수 문제에 대한 교정을 협상해야 합니다.
 
-If any issues are uncovered in the audit, there are a few options for resolving them as a part of the pending transaction. The first option is to simply remove any offending code. If the open source software only augments proprietary code, it may be possible to eliminate it entirely. Another option is to design around the offending component, or rewrite any code using cleanroom techniques.
+감사에서 문제가 발견되면 보류 중인 트랜잭션의 일부로 문제를 해결할 수 있는 몇 가지 옵션이 있습니다. 첫 번째 옵션은 문제가 되는 코드를 제거하는 것입니다. 오픈 소스 소프트웨어가 독점 코드를 보강하기만 하면 완전히 제거할 수 있습니다. 또 다른 옵션은 문제가 되는 구성 요소를 중심으로 설계하거나 클린룸 기술을 사용하여 코드를 다시 작성하는 것입니다.
 
-If the section of code is truly essential or if it has been previously distributed, the only remaining option is to bring the code into compliance. The cost of each option can be used when determining the valuation of the target. Whatever option is chosen, it's crucial to identify the individuals who participated in incorporating the open source code, and to get them involved in the remediation effort. They might have additional documentation or knowledge that can be useful in resolving issues.
+코드 섹션이 정말 필수이거나 이전에 배포된 적이 있는 경우 남아 있는 유일한 옵션은 코드를 준수하도록 하는 것입니다. 각 옵션의 비용은 목표 가치를 결정할 때 사용할 수 있습니다. 어떤 옵션을 선택하든 오픈 소스 코드 통합에 참여한 개인을 식별하고 수정 노력에 참여시키는 것이 중요합니다. 문제 해결에 유용한 추가 문서나 지식이 있을 수 있습니다.
 
-## Lesson: Preparing for an Audit as The Acquiring Company
+## 교훈: 인수 회사로서의 감사 준비
 
-**Think About Your Needs**
+**필요에 대해 생각해 보세요**
 
-As an acquirer, you must take action and make decisions before the audit is commissioned and you have additional obligations after you receive the results. Therefore, it's important that you consider your needs, as well as which of the audit methods mentioned earlier would work best for your organization and particular situation.
+취득자로서 감사를 위임하기 전에 조치를 취하고 결정을 내려야 하며 결과를 받은 후에는 추가 의무가 있습니다. 따라서 앞서 언급한 감사 방법 중 귀하의 조직과 특정 상황에 가장 적합한 감사 방법과 귀하의 요구 사항을 고려하는 것이 중요합니다.
 
-It's equally important that you determine what you most care about as an organization in terms of audit results. The report from the source code audit may provide a significant amount of information, depending on the complexity of the scanned code. Therefore, it's important to identify which licenses and use-cases are regarded as critical ahead of getting the results.
+감사 결과 측면에서 조직으로서 가장 중요하게 생각하는 것이 무엇인지 결정하는 것도 마찬가지로 중요합니다. 소스 코드 감사 보고서는 스캔한 코드의 복잡성에 따라 상당한 양의 정보를 제공할 수 있습니다. 따라서 결과를 얻기 전에 중요한 것으로 간주되는 라이선스와 사용 사례를 식별하는 것이 중요합니다.
 
-Being clear about your needs both before and after the audit will not only make the audit process smoother, but also more cost-efficient in the long run.
+감사 전후에 요구 사항을 명확히 하면 감사 프로세스가 더 원활해질 뿐만 아니라 장기적으로 비용 효율성도 높아집니다.
 
-**Ask the Right Questions**
+**올바른 질문을 하세요**
 
-The open source audit report offers a lot of information about the target's source code and the licenses involved. However, many other data points will require further investigation in order to clarify or confirm compliance-related concerns. In this section, we offer a collection of questions as a starting point to frame what is important to you, and what questions you should address with the target company.
+오픈 소스 감사 보고서는 대상의 소스 코드와 관련된 라이선스에 대한 많은 정보를 제공합니다. 그러나 다른 많은 데이터 포인트는 규정 준수 관련 문제를 명확히 하거나 확인하기 위해 추가 조사가 필요합니다. 이 섹션에서는 귀하에게 중요한 것이 무엇인지, 대상 회사에 어떤 질문을 해야 하는지를 구성하기 위한 출발점으로 질문 모음을 제공합니다.
 
-- Has the target used code with licenses that could jeopardize the IP of the target or acquirer?
-- Are there any code snippets with unknown origin and/or unknown license?
-- Are the target's open source compliance practices sufficiently mature and comprehensive?
-- Does the target company track known vulnerabilities in their open source components?
-- When distributing products, does the target provide all necessary materials to satisfy open source license obligations (written offer, various required notices, and source code when applicable)?
-- Does the target company's compliance process align with the speed of development to meet product release schedules?
-- Does the target have a process in place to respond to requests for source code in a timely manner?
+- 대상이 대상 또는 취득자의 IP를 위태롭게 할 수 있는 라이센스가 있는 코드를 사용했습니까?
+- 출처를 알 수 없거나 라이선스를 알 수 없는 코드 조각이 있습니까?
+- 대상의 오픈 소스 규정 준수 관행이 충분히 성숙하고 포괄적입니까?
+- 대상 회사가 오픈 소스 구성 요소의 알려진 취약점을 추적합니까?
+- 대상은 제품을 배포할 때 오픈 소스 라이선스 의무를 충족하는 데 필요한 모든 자료(서면 제안, 다양한 필수 고지 사항 및 해당되는 경우 소스 코드)를 제공합니까?
+- 대상 회사의 규정 준수 프로세스가 제품 출시 일정을 맞추기 위해 개발 속도와 일치합니까?
+- 소스 코드 요청에 적시에 응답할 수 있는 프로세스가 대상에 있습니까?
 
-**Identify Items to be Resolved**
+**해결할 항목 식별**
 
-In some cases, an open source audit may reveal instances of licenses or compliance practices that are not acceptable to the acquirer. The acquirer can then request these instances to be mitigated as a condition for closing the transaction.
+경우에 따라 오픈 소스 감사를 통해 취득자에게 허용되지 않는 라이선스 또는 규정 준수 사례가 드러날 수 있습니다. 그런 다음 취득자는 이러한 인스턴스를 트랜잭션 종료 조건으로 완화하도록 요청할 수 있습니다.
 
-For instance, the target company may use a code component that uses License A, but the acquiring company has a strict policy against using any source code licensed under License A.
+예를 들어 대상 회사는 라이선스 A를 사용하는 코드 구성 요소를 사용할 수 있지만 인수 회사는 라이선스 A에 따라 라이선스가 부여된 소스 코드를 사용하는 것에 대해 엄격한 정책을 가지고 있습니다.
 
-In such a situation, both parties will need to discuss and figure out a possible solution.
+이러한 상황에서 양측은 가능한 해결책을 논의하고 파악해야 합니다.
 
-**Create a Post-acquisition Compliance Improvement Plan**
+**인수 후 규정 준수 개선 계획 작성**
 
-Creating a compliance improvement plan is especially important when the acquirer is a large company buying a smaller startup that will continue to operate as a subsidiary. In this scenario, the acquirer often helps the target establish a formal compliance policy and process, provides training on their own practices, and offers ongoing guidance and support.
+인수자가 자회사로 계속 운영될 소규모 스타트업을 인수하는 대기업인 경우 규정 준수 개선 계획을 수립하는 것이 특히 중요합니다. 이 시나리오에서 인수자는 종종 대상이 공식적인 규정 준수 정책 및 프로세스를 수립하도록 돕고 자체 관행에 대한 교육을 제공하며 지속적인 지침과 지원을 제공합니다.
 
-There may also be an opportunity to assist the acquisition with improved tooling/processes and/or staffing.
+또한 개선된 도구/프로세스 및/또는 인력으로 인수를 지원할 기회가 있을 수 있습니다.
 
-## Lesson: Preparing for an Audit as An Acquisition Target
+## 교훈: 인수 대상으로서의 감사 준비
 
-**Be Prepared**
+**준비하기**
 
-Passing an open source compliance audit is not hard if you're prepared. However, it is very unlikely to happen if you begin preparing only once an acquirer shows interest. These activities are meant to go hand-in-hand with your daily business and development activities. The objective is to ensure the company tracks all open source components and respects open source license obligations resulting from use of open source components. These same measures can be of great help if your company becomes a target for a corporate transaction, as they minimize the risk of surprises.
+오픈 소스 규정 준수 감사를 통과하는 것은 준비가 되어 있다면 어렵지 않습니다. 그러나 취득자가 관심을 보일 때만 준비를 시작한다면 일어날 가능성은 매우 낮습니다. 이러한 활동은 일상적인 비즈니스 및 개발 활동과 관련이 있습니다. 목표는 회사가 모든 오픈 소스 구성 요소를 추적하고 오픈 소스 구성 요소 사용으로 인한 오픈 소스 라이선스 의무를 준수하도록 하는 것입니다. 이러한 동일한 조치는 회사가 기업 거래의 대상이 되는 경우 놀라움의 위험을 최소화하므로 큰 도움이 될 수 있습니다.
 
-As you'll see in the next few pages, these practices are consistent with what we've learned to this point in this module.
+다음 몇 페이지에서 볼 수 있듯이 이러한 사례는 이 모듈에서 지금까지 배운 내용과 일치합니다.
 
-**Know What's In Your Code**
+**코드 내용 파악**
 
-Knowing what's in your code is the golden rule of compliance. You need to maintain a complete software inventory for all software components including their origin and license information. This covers software components created by your organization, open source components, and components originating from third parties. The most important point is having a process for identifying and tracking open source components. You don't always need a complex compliance program, however, you should have five basic elements: policy, process, staff, training, and tools.
+코드에 무엇이 있는지 아는 것이 규정 준수의 황금률입니다. 원본 및 라이선스 정보를 포함하여 모든 소프트웨어 구성 요소에 대한 완전한 소프트웨어 인벤토리를 유지 관리해야 합니다. 여기에는 조직에서 만든 소프트웨어 구성 요소, 오픈 소스 구성 요소 및 타사에서 만든 구성 요소가 포함됩니다. 가장 중요한 점은 오픈 소스 구성 요소를 식별하고 추적하는 프로세스를 갖는 것입니다. 복잡한 규정 준수 프로그램이 항상 필요한 것은 아니지만 정책, 프로세스, 직원, 교육 및 도구의 5가지 기본 요소가 있어야 합니다.
 
-**Policy and Process**
+**정책 및 절차**
 
-![Policy and Process](policy-process.png)
+![정책 및 프로세스](policy-process.png)
 
-This figure restates some of what we've already covered, but it's important to revisit it here.
+이 그림은 우리가 이미 다룬 내용 중 일부를 다시 설명하지만 여기서 다시 살펴보는 것이 중요합니다.
 
-The open source compliance policy is a set of rules that govern the management of open source software (both use of and contribution to). Processes are detailed specifications as to how a company will implement these rules on a daily basis. Compliance policies and processes govern various aspects of using, contributing, auditing, and distribution of open source software.
+오픈 소스 규정 준수 정책은 오픈 소스 소프트웨어의 관리(사용 및 기여 모두)를 제어하는 ​​일련의 규칙입니다. 프로세스는 회사가 매일 이러한 규칙을 구현하는 방법에 대한 자세한 사양입니다. 규정 준수 정책 및 프로세스는 오픈 소스 소프트웨어의 사용, 기여, 감사 및 배포의 다양한 측면을 관리합니다.
 
-This figure illustrates a sample compliance process, with the various steps each software component will go through as part of the due diligence as you build your product or software stack.
+이 그림은 제품 또는 소프트웨어 스택을 구축할 때 각 소프트웨어 구성 요소가 실사의 일부로 거치게 될 다양한 단계와 함께 샘플 규정 준수 프로세스를 보여줍니다.
 
-1. Identify all incoming source code
-2. Audit source code
-3. Resolve any issues uncovered by the audit
-4. Complete appropriate reviews
-5. Receive approval to use open source
-6. Register open source in the software inventory
-7. Update product documentation to reflect open source usage
-8. Perform verification to all steps previous to distribution
-9. Distribute source code and perform final verifications in relation to distribution
+1. 들어오는 모든 소스 코드 식별
+2. 소스 코드 감사
+3. 감사에서 발견된 문제 해결
+4. 적절한 검토 완료
+5. 오픈소스 사용 승인 받기
+6. 소프트웨어 인벤토리에 오픈 소스 등록
+7. 오픈 소스 사용을 반영하도록 제품 문서 업데이트
+8. 배포 전 모든 단계에 대한 검증 수행
+9. 소스코드 배포 및 배포 관련 최종 검증
 
-The output of the process is an open source BoM that you can publish, along with a written offer and various copyright, license and attributions notices fulfilling the legal obligations of the components in your BoM.
+프로세스의 결과는 게시할 수 있는 오픈 소스 BoM이며, BoM에 있는 구성 요소의 법적 의무를 이행하는 서면 제안 및 다양한 저작권, 라이선스 및 속성 고지와 함께 제공됩니다.
 
-For a detailed discussion on the open source compliance process, please download the free e-book [_Open Source Compliance in the Enterprise_](https://www.linuxfoundation.org/resources/publications/open-source-compliance-in-the-enterprise/), published by The Linux Foundation.
+오픈 소스 규정 준수 프로세스에 대한 자세한 내용은 Linux Foundation에서 발행한, 무료 전자책 [_Open Source Compliance in the Enterprise_](https://www.linuxfoundation.org/resources/publications/open-source-compliance-in-the-enterprise/)을 다운로드 하세요.
 
-**Staff**
+**직원**
 
-In large enterprises, the open source compliance team is a cross-disciplinary group consisting of various individuals tasked with the mission of ensuring open source compliance. The core team, often called the Open Source Review Board (OSRB), consists of representatives from engineering and product teams, one or more legal counsel, and a compliance officer.
+대기업에서 오픈 소스 규정 준수 팀은 오픈 소스 규정 준수를 보장하는 임무를 맡은 다양한 개인으로 구성된 학제 간 그룹입니다. OSRB(Open Source Review Board)라고 하는 핵심 팀은 엔지니어링 및 제품 팀 대표, 한 명 이상의 법률 고문, 규정 준수 담당자로 구성됩니다.
 
-The extended team consists of various individuals across multiple departments that contribute on an ongoing basis to the compliance efforts: Documentation, Supply Chain, Corporate Development, IT, and Localization. However, in smaller companies or startups, this can be as simple as an engineering manager supported with a legal counsel.
+확장된 팀은 문서화, 공급망, 기업 개발, IT 및 현지화와 같이 규정 준수 노력에 지속적으로 기여하는 여러 부서의 다양한 개인으로 구성됩니다. 그러나 소규모 회사나 신생 기업에서는 법률 고문의 지원을 받는 엔지니어링 관리자만큼 간단할 수 있습니다.
 
-**Training**
+**교육 훈련**
 
-Education is an essential building block in a compliance program, to help ensure that employees possess a good understanding of policies governing the use of open source software. The goal of providing open source and compliance training is to raise awareness of open source policies and strategies, and to build a common understanding of the issues and facts of open source licensing. It should also cover the business and legal risks of incorporating open source software in products and/or software portfolios.
+교육은 직원들이 오픈 소스 소프트웨어 사용을 관리하는 정책을 잘 이해할 수 있도록 하는 규정 준수 프로그램의 필수 구성 요소입니다. 오픈 소스 및 규정 준수 교육을 제공하는 목표는 오픈 소스 정책 및 전략에 대한 인식을 높이고 오픈 소스 라이선스의 문제와 사실에 대한 공통된 이해를 구축하는 것입니다. 또한 제품 및/또는 소프트웨어 포트폴리오에 오픈 소스 소프트웨어를 통합하는 데 따른 비즈니스 및 법적 위험도 다루어야 합니다.
 
-Both formal and informal training methods are available. Formal methods include instructor-led training courses where employees have to pass a knowledge exam to pass the course. Informal methods include webinars, brown bag seminars, and presentations to new hires as part of the new employee orientation session.
+공식 및 비공식 교육 방법을 모두 사용할 수 있습니다. 공식적인 방법에는 직원이 교육 과정을 통과하기 위해 지식 시험을 통과해야 하는 강사 주도 교육 과정이 포함됩니다. 비공식적인 방법에는 웨비나, 브라운 백 세미나, 신입 사원 오리엔테이션 세션의 일부로 신입 사원에 대한 프레젠테이션이 포함됩니다.
 
-**Tooling**
+**도구**
 
-As you've already learned so far in this module, there are many different types of tools and can be utilized in the compliance process. An important thing to remember is that the tools are no substitute for good process, and knowledgeable staff making decisions based on policies and the data provided by the tools.
+지금까지 이 모듈에서 이미 배웠듯이 다양한 유형의 도구가 있으며 규정 준수 프로세스에서 사용할 수 있습니다. 기억해야 할 중요한 점은 도구가 좋은 프로세스를 대체할 수 없으며 지식이 풍부한 직원이 도구에서 제공하는 정책 및 데이터를 기반으로 의사 결정을 내리는 것입니다.
 
-It's also important to consider taking an "open source" approach to your tooling as well - continual evaluation of the tools in place, and the ability to pivot when necessary is critical to maintain a healthy compliance program.
+또한 도구에 대한 "오픈 소스" 접근 방식을 고려하는 것도 중요합니다. 적절한 도구에 대한 지속적인 평가와 필요할 때 회전하는 기능은 건전한 규정 준수 프로그램을 유지하는 데 매우 중요합니다.
 
-**Be in Compliance**
+**규정 준수**
 
-If you have shipped products containing open source software—whether intentionally or not—you will need to comply with the various licenses governing those software components. Hence the importance of knowing what's in your code, because a complete bill of materials makes compliance much easier.
+의도적이든 아니든 오픈 소스 소프트웨어가 포함된 제품을 배송한 경우 해당 소프트웨어 구성 요소에 적용되는 다양한 라이선스를 준수해야 합니다. 따라서 완전한 BOM이 규정 준수를 훨씬 쉽게 만들어주기 때문에 코드에 무엇이 있는지 아는 것이 중요합니다.
 
-Being in compliance is not a simple task, and it varies from product to product based upon the licenses and the structure of the code. At a high level, being in compliance means that you:
+규정을 준수하는 것은 간단한 작업이 아니며 라이선스와 코드 구조에 따라 제품마다 다릅니다. 높은 수준에서 규정을 준수한다는 것은 다음을 의미합니다:
 
-1. Track all use of open source software.
-2. Compile a finalized open source BoM for all software in the shipping image of products.
-3. Fulfill the obligations of the open source licenses.
-4. Repeat the process every time you issue a software update.
-5. Respond quickly and seriously to compliance inquiries.
+1. 오픈 소스 소프트웨어의 모든 사용을 추적합니다.
+2. 제품 배송 이미지의 모든 소프트웨어에 대해 최종 오픈 소스 BoM을 컴파일합니다.
+3. 오픈 소스 라이선스의 의무를 이행합니다.
+4. 소프트웨어 업데이트를 실행할 때마다 프로세스를 반복합니다.
+5. 규정 준수 문의에 신속하고 진지하게 응답합니다.
 
-**Keep Up with Latest Release for Security**
+**보안을 위한 최신 릴리스 유지**
 
-One of the benefits of a comprehensive compliance program is that it's easier to find products with insecure versions of open source components and replace them. Most source code scanning tools now provide functionality to flag security vulnerabilities disclosed in older software components.
+포괄적인 규정 준수 프로그램의 이점 중 하나는 안전하지 않은 버전의 오픈 소스 구성 요소가 있는 제품을 찾고 교체하기가 더 쉽다는 것입니다. 대부분의 소스 코드 검색 도구는 이제 이전 소프트웨어 구성 요소에 공개된 보안 취약점을 표시하는 기능을 제공합니다.
 
-One important consideration when upgrading an open source component is to always ensure that the component retains the same license as the previous version. Open source projects have occasionally changed licenses on major releases. Companies are encouraged to engage with open source project communities to help avoid situations where they are using a version with security vulnerabilities.
+오픈 소스 구성 요소를 업그레이드할 때 한 가지 중요한 고려 사항은 구성 요소가 이전 버전과 동일한 라이선스를 유지하는지 항상 확인하는 것입니다. 오픈 소스 프로젝트는 때때로 주요 릴리스에서 라이선스를 변경했습니다. 회사는 보안 취약성이 있는 버전을 사용하는 상황을 피하기 위해 오픈 소스 프로젝트 커뮤니티에 참여하는 것이 좋습니다.
 
-It is not reasonable or feasible to be active in all of the open source projects you use, therefore a certain level of prioritization is needed to identify the most critical components. The various levels of engagement range from joining mailing lists and participating in the technical discussions, to contributing bug fixes and small features, to making major contributions. At minimum, it is beneficial for corporate developers working on a specific open source project to subscribe to and monitor the mailing list for reports related to security vulnerabilities and available fixes.
+사용하는 모든 오픈 소스 프로젝트에서 활성화하는 것은 합리적이거나 실현 가능하지 않으므로 가장 중요한 구성 요소를 식별하려면 일정 수준의 우선 순위가 필요합니다. 다양한 수준의 참여는 메일링 리스트에 가입하고 기술 토론에 참여하는 것부터 버그 수정 및 작은 기능 기여, 주요 기여에 이르기까지 다양합니다. 최소한 특정 오픈 소스 프로젝트에서 작업하는 기업 개발자가 보안 취약점 및 사용 가능한 수정 사항과 관련된 보고서에 대한 메일링 목록을 구독하고 모니터링하는 것이 좋습니다.
 
-**Measure Your Compliance Efforts**
+**준수 노력 측정**
 
-The easiest and most effective first step for organizations of all sizes is to engage with the OpenChain Project (mentioned earlier) and to obtain "OpenChain Conformant" status. This is done by filling out a series of questions either [online](https://certification.openchainproject.org/) or manually.
+모든 규모의 조직을 위한 가장 쉽고 효과적인 첫 번째 단계는 OpenChain 프로젝트(앞서 언급)에 참여하고 "OpenChain Conformant" 상태를 얻는 것입니다. 이는 [온라인](https://certification.openchainproject.org/) 또는 수동으로 일련의 질문을 작성하여 수행됩니다.
 
-The questions used for OpenChain Conformance help to confirm that an organization has created processes or policies for open source software compliance. OpenChain is an industry standard, similar to ISO 9001. It is focused on the "big picture," with precise processes and policy implementations up to each individual organization.
+OpenChain Conformance에 사용되는 질문은 조직이 오픈 소스 소프트웨어 규정 준수를 위한 프로세스 또는 정책을 생성했는지 확인하는 데 도움이 됩니다. OpenChain은 ISO 9001과 유사한 산업 표준입니다. 각 개별 조직까지 정확한 프로세스와 정책 구현을 통해 "큰 그림"에 중점을 둡니다.
 
-OpenChain Conformance shows that open source compliance processes or policies exist, and that further details can be shared when requested by a supplier or customer. OpenChain is designed to build trust between organizations across the global supply chain.
+OpenChain Conformance는 오픈 소스 규정 준수 프로세스 또는 정책이 존재하며 공급업체나 고객이 요청할 경우 추가 세부 정보를 공유할 수 있음을 보여줍니다. OpenChain은 글로벌 공급망 전반에 걸쳐 조직 간에 신뢰를 구축하도록 설계되었습니다.
 
-**Conclusion**
+**결론**
 
-Open source due diligence is generally one item in a long list of tasks that need to be successfully completed in an M&A transaction. However, it is still an important aspect of the general due diligence exercise given the central role of software and potential IP risks.
+오픈 소스 실사는 일반적으로 M&A 거래에서 성공적으로 완료되어야 하는 긴 작업 목록 중 하나입니다. 그러나 소프트웨어의 중심 역할과 잠재적 IP 위험을 감안할 때 이는 여전히 일반 실사에서 중요한 측면입니다.
 
-Although open source due diligence may seem like a lengthy process, it often can be completed quickly, especially if both parties are prepared, and working with a swift compliance service provider.
+오픈 소스 실사는 긴 프로세스처럼 보일 수 있지만, 특히 양 당사자가 준비되고 신속한 규정 준수 서비스 제공업체와 협력하는 경우 신속하게 완료될 수 있습니다.
 
-**How can you be prepared?**
+**어떻게 준비할 수 있나요?**
 
-If you are the target, you can maintain proper open source compliance practices by ensuring your development and business processes include:
+대상인 경우 개발 및 비즈니스 프로세스에 다음이 포함되도록 하여 적절한 오픈 소스 규정 준수 관행을 유지할 수 있습니다:
 
-- Identifying the origin and license of all internal and external software.
-- Tracking open source software within the development process (components and snippets).
-- Performing source code reviews for new or updated code entering the build.
-- Fulfilling license obligations when a product ships or when software is updated.
-- Offering open source compliance training to employees.
+- 모든 내부 및 외부 소프트웨어의 출처 및 라이선스 식별.
+- 개발 프로세스 내에서 오픈 소스 소프트웨어 추적(구성 요소 및 스니펫).
+- 빌드에 들어가는 새 코드 또는 업데이트된 코드에 대한 소스 코드 검토를 수행합니다.
+- 제품이 배송되거나 소프트웨어가 업데이트될 때 라이선스 의무를 이행합니다.
+- 직원들에게 오픈 소스 규정 준수 교육을 제공합니다.
 
-If you are the acquirer, you should know what to look for and have the skills on-hand to address issues quickly:
+인수자라면 무엇을 찾아야 하는지 알고 있어야 하며 문제를 신속하게 해결할 수 있는 기술을 보유하고 있어야 합니다.
 
-- Decide with the target company on the appropriate audit method to use, and which third party to engage for the audit.
-- Note that some don't have ability to do blind testing, some do not support the DIY, and others do not have the ability to discover code snippets.
-- If possible, get multiple bids for the audit and learn more about your audit service providers. This step is not just about the cost, but about having the precise output to help you address any concerns you may have. Make sure you have the internal expertise to compare each bid equally and that they include all audit parameters, such as:
-  - Audit method, inputs and outputs
-  - Primary contact persons at target and acquirer for speedy discussions of issues that arise
-  - Timeline and logistics especially if it involves an on-site visit
-  - Confidentiality parameters
-  - Code vulnerabilities and version control analysis
-  - Cost, normal process and expedited
+- 대상 회사와 함께 사용할 적절한 감사 방법과 감사에 참여할 제3자를 결정합니다.
+- 일부는 블라인드 테스트를 수행할 수 있는 기능이 없고 일부는 DIY를 지원하지 않으며 다른 일부는 코드 스니펫을 검색할 수 있는 기능이 없습니다.
+- 가능하면 감사에 대해 여러 입찰을 받고 감사 서비스 제공업체에 대해 자세히 알아보세요. 이 단계는 비용에 관한 것이 아니라 귀하가 가질 수 있는 우려 사항을 해결하는 데 도움이 되는 정확한 결과를 얻는 것에 관한 것입니다. 각 입찰가를 동등하게 비교할 수 있는 내부 전문 지식이 있고 다음과 같은 모든 감사 매개변수가 포함되어 있는지 확인하십시오:
+  - 감사 방법, 입력 및 출력
+  - 발생하는 이슈에 대한 신속한 논의를 위한 대상 및 취득자의 1차 연락 담당자
+  - 특히 현장 방문이 포함된 경우 일정 및 물류
+  - 기밀성 매개변수
+  - 코드 취약점 및 버전 관리 분석
+  - 비용, 정상적인 프로세스 및 신속
 
-Open source compliance is an ongoing process. Maintaining good open source compliance practices enables companies to be prepared for any scenario where software changes hands, from a possible acquisition, a sale, or product or service release. For this reason, companies are highly encouraged to invest in building and improving upon their open source compliance programs.
+오픈 소스 규정 준수는 지속적인 프로세스입니다. 좋은 오픈 소스 규정 준수 관행을 유지하면 기업은 인수, 판매 또는 제품 또는 서비스 릴리스에서 소프트웨어가 바뀌는 모든 시나리오에 대비할 수 있습니다. 이러한 이유로 기업은 오픈 소스 규정 준수 프로그램을 구축하고 개선하는 데 투자하는 것이 좋습니다.
