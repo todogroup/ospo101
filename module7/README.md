@@ -1,410 +1,410 @@
-# Open Source Project Creation Overview
+# 오픈 소스 프로젝트 생성 개요
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we’ll look at the rationale and value proposition for creating new open source projects.  We’ll spend time discussing good and bad reasons to create new open source projects, as well as how to evaluate the business potential of a new project.
+이 섹션에서는 새로운 오픈 소스 프로젝트를 만드는 근거와 가치 제안을 살펴보겠습니다. 새로운 오픈 소스 프로젝트를 만들어야 하는 좋은 이유와 나쁜 이유, 그리고 새 프로젝트의 비즈니스 잠재력을 평가하는 방법에 대해 논의하는 데 시간을 할애할 것입니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-*   Describe the value proposition for open sourcing internal code or creating new open source projects from scratch
-*   Give some good and bad examples of reasons to open source code
-*   Explain how to evaluate the business potential of a new open source project
+* 오픈 소스 내부 코드 또는 처음부터 새로운 오픈 소스 프로젝트 생성에 대한 가치 제안 설명
+* 소스 코드를 공개해야 하는 이유에 대한 좋은 예와 나쁜 예를 제시하십시오.
+* 새로운 오픈 소스 프로젝트의 비즈니스 잠재력을 평가하는 방법 설명
 
-## Lesson: Where To Begin? 
+## 수업: 어디서부터 시작해야 할까요?
 
-### Ask The Right Questions
+### 올바른 질문을 하세요
 
-It’s important to ask the right questions before you begin the journey of creating a new open source project.  While there may be some additional specific questions you should consider depending on your company’s unique situation, the following picture will give you a great start to help you figure out what to ask.
+새로운 오픈 소스 프로젝트를 만드는 여정을 시작하기 전에 올바른 질문을 하는 것이 중요합니다. 회사의 고유한 상황에 따라 고려해야 할 몇 가지 추가 특정 질문이 있을 수 있지만 다음 그림은 질문할 내용을 파악하는 데 도움이 되는 좋은 출발점이 될 것입니다.
 
-![Questions to Ask Before Open Sourcing Project](questions-to-ask.png)
+![오픈소싱 프로젝트 전 물어볼 질문](questions-to-ask.png)
 
-The top line of this graphic really deals with the question of understanding what the value proposition is for you to create an open source project.  The first question is one that, unfortunately, doesn’t get asked often enough - you should seriously evaluate whether or not you need to create another open source project.  There are many thousands of projects in existence - will your code provide differentiated value on its own, or would you be better off making an established and successful open source project even better?
+이 그래픽의 맨 윗줄은 실제로 오픈 소스 프로젝트를 생성하기 위한 가치 제안이 무엇인지 이해하는 문제를 다룹니다. 첫 번째 질문은 불행히도 충분히 자주 묻지 않는 질문입니다. 다른 오픈 소스 프로젝트를 만들어야 하는지 여부를 심각하게 평가해야 합니다. 수천 개의 프로젝트가 존재합니다. 귀하의 코드가 그 자체로 차별화된 가치를 제공할 것입니까, 아니면 확립되고 성공적인 오픈 소스 프로젝트를 훨씬 더 좋게 만드는 것이 더 나을까요?
 
-If your organization understands the open source development model (covered in previous sections of this course series) and is committed to building a project with that structure, you’ll still need to evaluate **before** deciding to launch the project what constitutes success and what metrics you’ll use.  Just creating a project for the purposes of public relations or to improve internal metrics for the number of open source projects started will usually result in an unsuccessful project.
+조직에서 오픈 소스 개발 모델(이 과정 시리즈의 이전 섹션에서 다뤘음)을 이해하고 해당 구조로 프로젝트를 구축하는 데 전념하고 있다면 프로젝트를 시작하기로 결정하기 전에 **성공적인 요소를 평가해야 합니다. 사용할 측정항목입니다. 홍보 목적으로 프로젝트를 생성하거나 시작된 오픈 소스 프로젝트 수에 대한 내부 지표를 개선하는 것만으로는 일반적으로 프로젝트가 실패하게 됩니다.
 
-The second row of questions focuses more on the ability of your organization and the community to build value in the new open source project.  Too many companies have tried (and failed) with the strategy of simply throwing code over their firewall, without internal financial and engineering investment, and hoping that their corporate reputation will attract outside enterprise participation.
+두 번째 질문 행은 새로운 오픈 소스 프로젝트에서 가치를 구축할 수 있는 조직과 커뮤니티의 능력에 더 중점을 둡니다. 너무 많은 회사가 내부 재정 및 엔지니어링 투자 없이 방화벽을 넘어 단순히 코드를 던지는 전략을 시도했지만 실패했습니다.
 
-Take the time to consider how to make your potential new open source project successful.  It’s ok if you come to the conclusion that creating an open source project isn’t right for a particular piece of code - there are many opportunities to participate in the open source ecosystem or contribute your technology to other open source projects.
+시간을 내어 잠재적인 새로운 오픈 소스 프로젝트를 성공적으로 만드는 방법을 고려하십시오. 오픈 소스 프로젝트를 만드는 것이 특정 코드에 적합하지 않다는 결론에 도달해도 괜찮습니다. 오픈 소스 에코시스템에 참여하거나 다른 오픈 소스 프로젝트에 귀하의 기술을 기여할 수 있는 많은 기회가 있습니다.
 
-### What Should You Open Source?
+### 오픈 소스는 무엇입니까?
 
-Just as in the decision you must make on what to contribute back to an upstream open source community (from previous coursework in this series), the decision on what code or technology you’ll build initially in the open, or what proprietary code you’ll release is an important one.  Here are some criteria that can help you consider this choice.
+업스트림 오픈 소스 커뮤니티에 무엇을 다시 기여할 것인지 결정해야 하는 것과 마찬가지로(이 시리즈의 이전 과정에서), 처음에 공개 상태에서 어떤 코드 또는 기술을 구축할지 또는 어떤 독점 코드를 만들 것인지에 대한 결정' ll 릴리스는 중요한 것입니다. 다음은 이 선택을 고려하는 데 도움이 될 수 있는 몇 가지 기준입니다.
 
-*   Determine what parts of your product are sources of strategic advantage, and what simply supports those parts
-*   Non-strategic parts are often great candidates for creating open source projects
-    *   Chances are good that other companies feel the same way, and might help you maintain and advance your new project.
+* 제품의 어떤 부분이 전략적 이점의 원천인지, 그리고 단순히 이러한 부분을 지원하는 부분을 결정합니다.
+* 비전략적 부분은 종종 오픈 소스 프로젝트를 만들기 위한 훌륭한 후보입니다.
+    * 다른 회사도 같은 느낌을 받을 가능성이 높으며 새 프로젝트를 유지하고 발전시키는 데 도움이 될 수 있습니다.
 
-Examples:
+예:
 
-*   A filesystem or file format widely used in the industry
-*   The network stack for connected IoT devices
+* 업계에서 널리 사용되는 파일 시스템 또는 파일 형식
+* 연결된 IoT 장치를 위한 네트워크 스택
 
-Another place to start includes secondary coding projects where an enterprise does not need to be an authority, and where there may be a larger group of technologists around the world who can help you solve a problem. If it is not mission-critical code, then it is likely a good candidate to be open sourced. However, it should also be code that your company is still actively using and maintaining. Commercial dependencies on code enable a continuous feedback loop of bug fixes, patches and new features.
+시작할 수 있는 또 다른 장소는 기업이 권위자가 될 필요가 없고 문제 해결을 도울 수 있는 전 세계의 더 많은 기술자 그룹이 있을 수 있는 2차 코딩 프로젝트를 포함합니다. 미션 크리티컬 코드가 아닌 경우 오픈 소스로 사용할 수 있는 좋은 후보입니다. 그러나 회사에서 여전히 적극적으로 사용하고 유지 관리하는 코드여야 합니다. 코드에 대한 상업적 종속성은 버그 수정, 패치 및 새로운 기능에 대한 지속적인 피드백 루프를 가능하게 합니다.
 
 
-### When To Create an Open Source Project
+### 오픈 소스 프로젝트를 생성할 때
 
-The decision to release or create a new open source project depends on your circumstances. Your company should first achieve a certain level of open source mastery by using open source software and contributing to existing projects (as we covered in previous coursework in this series). 
+새로운 오픈 소스 프로젝트를 출시하거나 생성하기로 결정하는 것은 상황에 따라 다릅니다. 회사는 먼저 오픈 소스 소프트웨어를 사용하고 기존 프로젝트에 기여하여 일정 수준의 오픈 소스 숙달을 달성해야 합니다(이 시리즈의 이전 과정에서 다루었음).
 
-Understanding how to consume open source can teach you how to leverage external projects and developers to build your products. Participation can bring more fluency in the conventions and culture of open source communities. But once you have achieved open source fluency, the best time to start launching your own open source projects is simply “early” and “often.”
+오픈 소스를 사용하는 방법을 이해하면 외부 프로젝트와 개발자를 활용하여 제품을 구축하는 방법을 배울 수 있습니다. 참여하면 오픈 소스 커뮤니티의 관습과 문화에 더 유창해질 수 있습니다. 그러나 오픈 소스에 능숙해지면 자신의 오픈 소스 프로젝트를 시작하기에 가장 좋은 시기는 단순히 "초기" 및 "자주"입니다.
 
-![Release Early Release Often](release-early.png)
+![조기 릴리스 자주 릴리스](release-early.png)
 
-This graphic is a bit of a reminder about what we covered in the _Open Source Development Practices_ portion of this coursework series.  It’s not only important when you’re contributing back to open source, it’s important as you consider your first new open source projects.
+이 그래픽은 이 코스워크 시리즈의 _오픈 소스 개발 사례_ 부분에서 다룬 내용에 대한 약간의 알림입니다. 오픈 소스에 다시 기여할 때뿐만 아니라 첫 번째 새로운 오픈 소스 프로젝트를 고려할 때도 중요합니다.
 
-Not everything has to be absolutely perfect before you create your first open source project.  There are some minimums in terms of process, legal review, etc. (which we’ll cover shortly), but building out the minimum necessary in both code and governance to get started allows you to get earlier participation and earlier feedback to help you evolve your new project.
+첫 번째 오픈 소스 프로젝트를 만들기 전에 모든 것이 절대적으로 완벽할 필요는 없습니다. 프로세스, 법적 검토 등의 측면에서 몇 가지 최소 사항이 있지만(곧 다룰 예정임), 시작하기 위해 코드와 거버넌스 모두에 필요한 최소 사항을 구축하면 더 일찍 참여하고 더 일찍 피드백을 받아 발전할 수 있습니다. 당신의 새로운 프로젝트.
 
-Before you create that first project though, we should discuss some good (and bad) reasons for creating an open source project...
+첫 번째 프로젝트를 만들기 전에 오픈 소스 프로젝트를 만드는 좋은(그리고 나쁜) 이유에 대해 논의해야 합니다.
 
-### Good Reasons to Create an Open Source Project
+### 오픈 소스 프로젝트를 만들어야 하는 좋은 이유
 
-![Good Reasons to Create an Open Source Projects](good-reasons-to-opensource.png)
+![오픈 소스 프로젝트를 만들어야 하는 좋은 이유](good-reasons-to-opensource.png)
 
-This graphic shows five good reasons why you should start an open source project.  While they all come back to business goals, the first two deal with getting a unique business advantage in the market.  It’s important to note, however, that this ‘first-mover’ business advantage can be fleeting (6-10 months) until the rest of the community becomes proficient with the technology you’ve open sourced.
+이 그래픽은 오픈 소스 프로젝트를 시작해야 하는 5가지 이유를 보여줍니다. 모두 비즈니스 목표로 돌아가지만 처음 두 가지는 시장에서 고유한 비즈니스 이점을 얻는 것과 관련이 있습니다. 그러나 이러한 '선도자' 비즈니스 이점은 커뮤니티의 나머지 구성원이 귀하가 오픈 소스로 제공한 기술에 익숙해질 때까지 일시적(6-10개월)일 수 있다는 점에 유의하는 것이 중요합니다.
 
-The third and fourth items focus on engaging customers and helping build value for your non open-source products.  Remember that in open sourcing code you provide value on top of, you’re making your products better as a result.
+세 번째 및 네 번째 항목은 고객의 참여를 유도하고 비오픈 소스 제품의 가치를 구축하는 데 중점을 둡니다. 오픈 소싱 코드에서 가치를 제공하는 것은 결과적으로 제품을 더 좋게 만드는 것임을 기억하십시오.
 
-Finally, if you are in an industry with technical customers (or developers) who have the ability to self-support themselves with your technology, you can realize value in not having to provide extra technical or support resources for the code you choose to open source.
+마지막으로, 기술로 스스로를 지원할 수 있는 기술 고객(또는 개발자)이 있는 업계에 있다면 오픈 소스로 선택한 코드에 대해 추가 기술 또는 지원 리소스를 제공할 필요가 없다는 점에서 가치를 실현할 수 있습니다.
 
-### Bad Reasons to Create an Open Source Project
+### 오픈 소스 프로젝트를 만들어야 하는 나쁜 이유
 
-Just as important as open sourcing for the right reasons is making sure you don’t try to create an open source project for the **wrong** reasons.  The open source ecosystem is littered with failed projects from organizations that meant well, but simply didn’t consider fully why they should be open sourcing code or creating a new project.
+올바른 이유로 오픈 소스만큼 중요한 것은 **잘못된** 이유로 오픈 소스 프로젝트를 만들려고 하지 않도록 하는 것입니다. 오픈 소스 생태계는 좋은 의미를 지닌 조직의 실패한 프로젝트로 가득 차 있지만 단순히 코드를 오픈 소싱해야 하거나 새 프로젝트를 만들어야 하는 이유를 충분히 고려하지 않았습니다.
 
-![Bad Reasons to Create Open Source Projects](bad-reasons-to-create-opensource.png)
+![오픈 소스 프로젝트를 만들어야 하는 나쁜 이유](bad-reasons-to-create-opensource.png)
 
-Here’s some examples of bad reasons to create a new open source project:
+다음은 새로운 오픈 소스 프로젝트를 만들어야 하는 나쁜 이유의 몇 가지 예입니다:
 
-*   Getting rid of obsolete software
-*   Expecting free engineering from the open source community when you aren’t willing to invest
-*   As a positive marketing spin on an end-of-life announcement
-*   To gain publicity or marketing outreach without the intention to support the project long term
-*   As a means of fulfilling internal success metrics
+* 구식 소프트웨어 제거
+* 투자할 의사가 없을 때 오픈 소스 커뮤니티에서 무료 엔지니어링을 기대합니다.
+* 단종 발표에 대한 긍정적인 마케팅 스핀으로
+* 프로젝트를 장기적으로 지원할 의도 없이 홍보 또는 마케팅 활동을 얻기 위해
+* 내부 성공 지표를 충족하는 수단
 
-Hopefully it’s obvious why all of these are bad reasons to create an open source project, but let’s look at what they all have in common - an inward focus and/or expectation of support from the larger open source community.
+이 모든 것이 오픈 소스 프로젝트를 만들어야 하는 나쁜 이유가 분명하기를 바랍니다. 하지만 이들 모두의 공통점이 무엇인지 살펴보겠습니다. 내부 초점 및/또는 더 큰 오픈 소스 커뮤니티의 지원 기대입니다.
 
-Working in open source has often been described (from the corporate point of view) as ‘enlightened self-interest.’  It’s apropos in this case because everyone understands that corporations don’t work with open source necessarily for altruistic reasons - there has to be business value aligned with what goes on in open source.  However, the reasons shown above sow a seed of mistrust with the rest of the open source community, which is, after all, composed of both partners and competitors.
+오픈 소스에서 일하는 것은 종종 (기업의 관점에서) '계몽된 자기 이익'으로 설명됩니다. 기업이 반드시 이타적인 이유로 오픈 소스와 함께 일하지 않는다는 것을 모두가 이해하기 때문에 이 경우에 해당합니다. 오픈 소스에서 진행되는 것과 일치하는 비즈니스 가치가 있어야 합니다. 그러나 위에 표시된 이유는 결국 파트너와 경쟁자로 구성된 나머지 오픈 소스 커뮤니티에 대한 불신의 씨앗을 뿌립니다.
 
-### Evaluating the Business Potential of an Open Source Project
+### 오픈 소스 프로젝트의 비즈니스 잠재력 평가
 
-Just like any business decision, determining what, if, and when you should create an open source project comes back to what value is ultimately delivered to the business. As you consider these questions, it’s best to think in terms of building a business case.
+모든 비즈니스 결정과 마찬가지로 오픈 소스 프로젝트를 생성해야 하는 대상, 경우 및 시기를 결정하는 것은 궁극적으로 비즈니스에 제공되는 가치로 돌아갑니다. 이러한 질문을 고려할 때 비즈니스 사례 구축 측면에서 생각하는 것이 가장 좋습니다.
 
-First, you must decide if your company wants to create or release the code while maintaining ownership of it and the project, or if you want to donate the code to others to maintain and administer the project. If the code already exists, then there is the related issue of whether you will release all the code in a project or just some of it as an open source project.
+먼저 회사에서 코드와 프로젝트의 소유권을 유지하면서 코드를 만들거나 릴리스할 것인지 아니면 프로젝트를 유지 관리하고 관리하기 위해 다른 사람에게 코드를 기부할 것인지 결정해야 합니다. 코드가 이미 존재하는 경우 프로젝트의 모든 코드를 릴리스할지 아니면 일부만 오픈 소스 프로젝트로 릴리스할지에 대한 관련 문제가 있습니다.
 
-To make these decisions, consider stepping back to determine the objectives you have in mind for the code.  Is this code something that will be useful outside of your organization and also transformative to the industry?  Is your company likely to attract partners (and/or competitors) to work on this technology in support of your organization’s product portfolio?
+이러한 결정을 내리려면 뒤로 물러나 코드에 대해 염두에 두고 있는 목표를 결정하는 것이 좋습니다. 이 코드가 조직 외부에서 유용하고 업계에도 변화를 줄 수 있는 코드입니까? 귀사는 조직의 제품 포트폴리오를 지원하기 위해 이 기술에 대해 작업할 파트너(및/또는 경쟁업체)를 유치할 가능성이 있습니까?
 
-For example, you might want to attract fresh insights from other developers on a part of an application that isn’t core to your work. Or you might seek additional real-life algorithms to detect logs in a system monitoring application. Rather than releasing the whole product as open source, you could release only the code related to the algorithms. This allows you to gain the contributions of others and help others who are needing similar help, without compromising your core business.
+예를 들어 작업의 핵심이 아닌 응용 프로그램의 일부에 대해 다른 개발자로부터 신선한 통찰력을 얻고 싶을 수 있습니다. 또는 시스템 모니터링 응용 프로그램에서 로그를 감지하기 위해 추가 실제 알고리즘을 찾을 수 있습니다. 전체 제품을 오픈 소스로 공개하는 대신 알고리즘과 관련된 코드만 공개할 수 있습니다. 이를 통해 핵심 비즈니스를 손상시키지 않으면서 다른 사람들의 기여를 얻고 유사한 도움이 필요한 다른 사람들을 도울 수 있습니다.
 
-Starting a project and maintaining overall control lets you have oversight and gives you the ability to help shape it into what you need, while still giving freedom and control to the contributing developers to do their work.
+프로젝트를 시작하고 전반적인 제어를 유지하면 감독을 할 수 있고 필요한 것을 구체화하는 데 도움이 되는 기능을 제공하는 동시에 기여하는 개발자에게 작업을 수행할 수 있는 자유와 제어를 제공합니다.
 
-# Section: New Project Preparations
+# 섹션: 새 프로젝트 준비
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will explore how to prepare for creating a new open source project, including discussion of legal, business and community considerations.  We’ll also discuss required processes, tools and staffing requirements necessary for success.
+이 섹션에서는 법률, 비즈니스 및 커뮤니티 고려 사항에 대한 논의를 포함하여 새로운 오픈 소스 프로젝트 생성을 준비하는 방법을 살펴봅니다. 또한 성공을 위해 필요한 프로세스, 도구 및 인력 요구 사항에 대해서도 논의합니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
-*   Explain the overall steps for preparing to create a new open source project
-*   Understand what processes, considerations, tools and requirements are needed for success in project creation
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
+* 새로운 오픈 소스 프로젝트를 만들기 위한 전반적인 준비 단계를 설명합니다.
+* 성공적인 프로젝트 생성을 위해 필요한 프로세스, 고려 사항, 도구 및 요구 사항 이해
 
-### Lesson: Internal Preparations
+### 수업: 내부 준비
 
-### Identify an Executive Sponsor
+### 경영진 후원자 식별
 
-Since there will be a lot of required investment to create a successful open source project, it’s **critical** to get the buy in of an executive sponsor in your organization.  It can help if you have more than one sponsor, but at a minimum, you should aim for someone who can provide and commit to the following things:
+성공적인 오픈 소스 프로젝트를 생성하려면 많은 투자가 필요하므로 조직의 경영진 후원자의 동의를 얻는 것이 **중요합니다**. 후원자가 두 명 이상인 경우 도움이 될 수 있지만 최소한 다음 사항을 제공하고 약속할 수 있는 사람을 목표로 해야 합니다.
 
-#### Technical and Community
+#### 기술 및 커뮤니티
 
-*   Continually reaffirm commitment to the project in public
-*   Foster a culture of merit-based recognition
-*   Ensure neutrality
-*   Commit to following open source methods and processes
+* 공개적으로 프로젝트에 대한 약속을 지속적으로 재확인
+* 성과에 기반한 인정 문화 조성
+* 중립성 확보
+* 다음 오픈 소스 방법 및 프로세스에 전념
 
-#### Financial
+#### 재정적
 
-*   Internally: Fund enough development to get project going
-*   Externally: Commit to funding IT resources and sysadmins
+* 내부: 프로젝트 진행을 위한 충분한 개발 자금 지원
+* 외부: IT 리소스 및 시스템 관리자에 대한 자금 지원
 
-### Allocate Resources
+### 리소스 할당
 
-You’ll need to get your executive sponsor to appropriately allocate funds, as noted in the previous page, but also be able to direct appropriate staff time to make the project successful. Developer time will likely be similar initially to the amount of time they spend on internal code efforts. However, you’ll also need to consider what time, materials or help your developers will need to provide to help others in the new community get up to speed on the codebase. 
+이전 페이지에서 언급한 바와 같이 경영진 후원자가 자금을 적절하게 할당하도록 해야 하지만 프로젝트를 성공시키기 위해 적절한 직원 시간을 지시할 수 있어야 합니다. 개발자 시간은 초기에 내부 코드 작업에 소비한 시간과 비슷할 것입니다. 그러나 새로운 커뮤니티의 다른 사람들이 코드베이스에 대한 속도를 높일 수 있도록 개발자가 제공해야 하는 시간, 자료 또는 도움도 고려해야 합니다.
 
-There will also be resources needed for the legal team that will be involved in creating an open source project that could involve competitors, as well as marketing investments to ensure that the project gains support and contributors after launch.
+또한 경쟁자가 포함될 수 있는 오픈 소스 프로젝트를 만드는 데 관여할 법무팀과 출시 후 프로젝트가 지원과 기여자를 얻을 수 있도록 마케팅 투자에 필요한 리소스도 있습니다.
 
-You’ll also have to set budgets for the infrastructure used to begin and maintain the project. This includes a project hosting and source control website like GitHub, where the code will reside and be maintained, as well as bug resolution, and other needed tools.
+또한 프로젝트를 시작하고 유지 관리하는 데 사용되는 인프라에 대한 예산을 설정해야 합니다. 여기에는 코드가 상주하고 유지 관리되는 GitHub와 같은 프로젝트 호스팅 및 소스 제어 웹 사이트, 버그 해결 및 기타 필요한 도구가 포함됩니다.
 
-We’ll cover tools and infrastructure in more detail shortly.
+곧 도구와 인프라에 대해 자세히 다룰 것입니다.
 
-### Educate Your Workforce
+### 직원 교육
 
-Even if your organization has taken training on open source topics (such as this course series), it’s important to remind engineering teams and managers of particular items that may differ from how they normally approach building products or evaluating work.
+조직에서 오픈 소스 주제(예: 이 과정 시리즈)에 대한 교육을 받았더라도 엔지니어링 팀과 관리자에게 일반적으로 제품 구축 또는 작업 평가에 접근하는 방식과 다를 수 있는 특정 항목을 상기시키는 것이 중요합니다.
 
-#### For Engineers
+#### 엔지니어용
 
-*   Review open source development methods and processes
-*   Review your company's open source policies and compliance rules
-*   Integrate open source software within your software development model
-*   Follow open source best practices internally if possible
-*   Practice and encourage community thinking to help craft more general solutions
+* 오픈 소스 개발 방법 및 프로세스 검토
+* 회사의 오픈 소스 정책 및 규정 준수 규칙 검토
+* 소프트웨어 개발 모델 내에서 오픈 소스 소프트웨어 통합
+* 가능한 경우 내부적으로 오픈 소스 모범 사례를 따르십시오.
+*보다 일반적인 솔루션을 만드는 데 도움이되는 커뮤니티 사고를 연습하고 장려하십시오.
 
-#### For Managers
+#### 관리자용
 
-*   Traditional performance metrics may no longer apply
-    *   Only results count, not whose code is used
-    *   Influencing an outcome is just as valid a solution as writing code
-*   Manage your developers, not their maintainers
-    *   You can’t control the open source process
-*   There is a learning curve for your employees and the community
-*   Building influence and respect takes time (even if it’s your company’s project)
+* 기존 성능 측정항목이 더 이상 적용되지 않을 수 있음
+    * 코드가 사용되지 않은 결과만 계산
+    * 결과에 영향을 미치는 것은 코드를 작성하는 것만큼 유효한 솔루션입니다.
+* 관리자가 아닌 개발자를 관리하십시오.
+    * 당신은 오픈 소스 프로세스를 제어할 수 없습니다
+* 직원과 커뮤니티를 위한 학습 곡선이 있습니다.
+* 영향력과 존중을 구축하는 데는 시간이 걸립니다(회사의 프로젝트일지라도).
 
 
-### Lesson: Reviews
+### 수업: 리뷰
 
-### Overview
+### 개요
 
-While some audiences don’t necessarily appreciate lengthy reviews before launching efforts such as a new open source project, it’s important to take some time to properly plan for reviews from the legal team, the engineering team and also the marketing team.
+일부 청중은 새로운 오픈 소스 프로젝트와 같은 노력을 시작하기 전에 긴 리뷰를 반드시 높이 평가하지는 않지만 법무 팀, 엔지니어링 팀 및 마케팅 팀의 리뷰를 위해 적절하게 시간을 내어 계획하는 것이 중요합니다.
 
-These don’t necessarily have to be painful, as a simple set of checklists to verify that the most often missed elements don’t slip through the cracks can be helpful.  Taking this time at the start of the process of creating a new open source project can save a lot of headaches once a project is out and gaining visibility.
+가장 자주 놓치는 요소가 균열을 통과하지 않는지 확인하기 위한 간단한 체크리스트 세트가 도움이 될 수 있으므로 이것들이 반드시 고통스러울 필요는 없습니다. 새로운 오픈 소스 프로젝트를 만드는 과정을 시작할 때 이 시간을 사용하면 프로젝트가 종료되고 가시성을 확보한 후 많은 골칫거리를 줄일 수 있습니다.
 
-We’ll cover some best practices in the following sections for how to streamline these review processes.
+이러한 검토 프로세스를 간소화하는 방법에 대해 다음 섹션에서 몇 가지 모범 사례를 다룰 것입니다.
 
-### Legal Review
+### 법적 검토
 
-One of the worst things that can happen to a new project is for the community to have distrust in the legal cleanliness of a codebase. It’s important to ensure the code you release has clear licensing and provenance. A full legal review is often helpful in making sure what gets contributed will be acceptable by others in the community.
+새 프로젝트에서 발생할 수 있는 최악의 상황 중 하나는 커뮤니티가 코드베이스의 법적 청결성에 대한 불신을 갖는 것입니다. 릴리스하는 코드에 명확한 라이선스와 출처가 있는지 확인하는 것이 중요합니다. 완전한 법적 검토는 기여한 내용이 커뮤니티의 다른 사람들에게 받아들여질 수 있는지 확인하는 데 종종 도움이 됩니다.
 
-Your legal review should also include trademark due diligence and registration. Note that if you are contributing the project into a foundation (more on this later in the governance section), make sure you’re aligned on the trademark strategy before open sourcing your codebase. 
+법적 검토에는 상표 실사 및 등록도 포함되어야 합니다. 프로젝트를 재단에 기여하는 경우(이에 대한 자세한 내용은 나중에 거버넌스 섹션에서) 코드베이스를 오픈 소싱하기 전에 상표 전략에 맞춰져 있는지 확인하십시오.
 
-You’ll also need to choose a license for your project. It’s important to document any licensing or intellectual property requirements. Projects will typically need to consider both the outbound license (e.g., the license under which downstream users receive the code) and the inbound contribution mechanism (e.g., the process under which contributions are made into the project). Many projects will use the [Developer’s Certificate of Origin](https://developercertificate.org/) (DCO) sign-off process for their inbound contribution mechanism. If you anticipate needing explicit corporate commitments for patent grants, or the ability to relicense the project later, you may want to look at some of the more common Contributor License Agreements (commonly referred to as CLAs). Not all CLAs are alike, so consider this option carefully. Also be aware that CLAs can be an impediment to participation as developers often have to go through arduous approval processes to get them signed. Refer to the _Open Source Compliance Program_ module of this training series for more detailed information on licensing options.
+또한 프로젝트에 대한 라이선스를 선택해야 합니다. 라이선스 또는 지적 재산권 요구 사항을 문서화하는 것이 중요합니다. 프로젝트는 일반적으로 아웃바운드 라이선스(예: 다운스트림 사용자가 코드를 받는 라이선스)와 인바운드 기여 메커니즘(예: 프로젝트에 기여하는 프로세스)을 모두 고려해야 합니다. 많은 프로젝트에서 인바운드 기여 메커니즘에 대해 [개발자 인증서](https://developercertificate.org/)(DCO) 승인 프로세스를 사용합니다. 특허 부여에 대한 회사의 명시적인 약속이 필요하거나 나중에 프로젝트에 라이선스를 다시 부여할 수 있는 기능이 필요할 것으로 예상되는 경우 좀 더 일반적인 기여자 라이선스 계약(일반적으로 CLA라고 함)을 살펴보는 것이 좋습니다. 모든 CLA가 동일한 것은 아니므로 이 옵션을 신중하게 고려하십시오. 또한 CLA는 개발자가 서명을 받기 위해 힘든 승인 프로세스를 거쳐야 하는 경우가 많기 때문에 참여를 방해할 수 있습니다. 라이선스 옵션에 대한 자세한 내용은 이 교육 시리즈의 _오픈 소스 규정 준수 프로그램_ 모듈을 참조하십시오.
 
-Your project may also produce deliverables that are not software. If your project is producing documentation, discuss whether you should use a specific license for the documentation. For example, many open source projects will use an open source license for the software and a Creative Commons license for the documentation. Additionally, some projects seek to create specifications that may be implemented in various ways by others. Those projects should consider the option to use a specification license. 
+귀하의 프로젝트는 소프트웨어가 아닌 결과물을 생산할 수도 있습니다. 프로젝트에서 문서를 생성하는 경우 문서에 특정 라이선스를 사용해야 하는지 여부를 논의하십시오. 예를 들어, 많은 오픈 소스 프로젝트는 소프트웨어에 대해 오픈 소스 라이선스를 사용하고 문서에 Creative Commons 라이선스를 사용합니다. 또한 일부 프로젝트에서는 다른 사람이 다양한 방식으로 구현할 수 있는 사양을 만들려고 합니다. 이러한 프로젝트는 사양 라이선스를 사용하는 옵션을 고려해야 합니다.
 
-Each licensing approach has its advantages and disadvantages, but be aware of the potential for fragmenting your project, which is a particular problem for software that needs to be interoperable or provide portability across various vendor solutions. Often this issue is addressed by creating conformance programs that permit usage of the project trademark if the commercial solutions pass a community created test or set of requirements. Thinking about this up front will help inform your legal review and plans for the project.
+각 라이선싱 접근 방식에는 장단점이 있지만 상호 운용 가능하거나 다양한 공급업체 솔루션 간에 이식성을 제공해야 하는 소프트웨어의 경우 특히 문제인 프로젝트 단편화 가능성을 인식해야 합니다. 종종 이 문제는 상용 솔루션이 커뮤니티에서 만든 테스트 또는 일련의 요구 사항을 통과하는 경우 프로젝트 상표의 사용을 허용하는 적합성 프로그램을 만들어 해결됩니다. 이에 대해 미리 생각하면 프로젝트에 대한 법적 검토 및 계획을 알리는 데 도움이 됩니다.
 
-In summary, the steps in the legal review process include:
+요약하면 법적 검토 프로세스의 단계는 다음과 같습니다:
 
-*   Consider the impact of open sourcing on your company’s intellectual property
-*   Ensure full compliance with open source licenses
-*   Select an open source license for the source code to be released, document all licensing requirements very clearly in your project
-*   Decide if you need a contributor agreement
-*   Consider the possible non-software outputs from the community and the appropriate licenses, such as documentation and specifications
-*   Decide on any trademark related considerations
-*   Decide whether there are additional factors to build into your plans for an ecosystem, such as conformance testing
+* 회사의 지적 재산에 대한 오픈 소스의 영향 고려
+* 오픈 소스 라이선스에 대한 완전한 규정 준수 보장
+* 공개할 소스 코드에 대한 오픈 소스 라이선스를 선택하고 프로젝트의 모든 라이선스 요구 사항을 매우 명확하게 문서화합니다.
+* 기여자 동의가 필요한지 결정
+* 커뮤니티의 가능한 비 소프트웨어 출력과 문서 및 사양과 같은 적절한 라이선스를 고려합니다.
+* 상표 관련 고려 사항 결정
+* 적합성 테스트와 같은 생태계 계획에 구축할 추가 요소가 있는지 결정
 
-### Technical Review
+### 기술 검토
 
-The technical review verifies that the source code can function without dependencies on other internal code or development practices (including any custom internal build systems), and that it does not include third-party code the company cannot include in the open source release.
+기술 검토에서는 소스 코드가 다른 내부 코드 또는 개발 방식(사용자 지정 내부 빌드 시스템 포함)에 종속되지 않고 작동할 수 있으며 회사가 오픈 소스 릴리스에 포함할 수 없는 타사 코드가 포함되어 있지 않음을 확인합니다.
 
-The technical review should include verification of all license and copyright notices, and any private or internal code comments should be scrubbed. Steps include:
+기술 검토에는 모든 라이선스 및 저작권 고지에 대한 확인이 포함되어야 하며 모든 개인 또는 내부 코드 주석은 삭제되어야 합니다. 단계에는 다음이 포함됩니다:
 
-*   Remove critical dependencies on non-public components
-*   Provide documentation and use case examples
-*   Remove internal comments, references to other internal code, etc.
-*   Ensure coding style is consistent
-*   Update copyright notices in source code files
-*   Add license notice in source code files
-*   Ensure the code compiles and builds on any external target platforms
-*   Add license text as a file in the root directory
+* 비공개 구성 요소에 대한 중요한 종속성 제거
+* 문서 및 사용 사례 제공
+* 내부 주석, 다른 내부 코드에 대한 참조 등을 제거합니다.
+* 코딩 스타일이 일관적인지 확인
+* 소스 코드 파일의 저작권 고지 업데이트
+* 소스 코드 파일에 라이선스 고지 추가
+* 코드가 모든 외부 대상 플랫폼에서 컴파일 및 빌드되는지 확인합니다.
+* 루트 디렉토리에 라이센스 텍스트를 파일로 추가
 
-### Marketing Review
+### 마케팅 검토
 
-Successful open source projects can’t live strictly on the merits of the code and technology alone - to keep the project moving along, there are a series of additional business and marketing steps that need attention as well. They include promoting the project, laying out a successful operational strategy, providing a realistic budget and project branding, as well as establishing lively social media accounts and useful domain names to bolster long-term success.
+성공적인 오픈 소스 프로젝트는 코드와 기술의 장점에만 의존할 수 없습니다. 프로젝트를 계속 진행하려면 주의가 필요한 일련의 추가 비즈니스 및 마케팅 단계가 있습니다. 여기에는 프로젝트 홍보, 성공적인 운영 전략 수립, 현실적인 예산 및 프로젝트 브랜딩 제공, 활발한 소셜 미디어 계정 및 장기적인 성공을 뒷받침하는 유용한 도메인 이름 설정이 포함됩니다.
 
-A marketing review establishes guidelines for branding. This is particularly important, as it helps to ensure a consistent message in the market. Steps in the marketing review include:
+마케팅 검토는 브랜딩에 대한 지침을 설정합니다. 이는 시장에서 일관된 메시지를 보장하는 데 도움이 되기 때문에 특히 중요합니다. 마케팅 검토 단계에는 다음이 포함됩니다:
 
-*   Design a project logo, color scheme, website, collateral, etc.
-*   Formalize branding guidelines
-*   Register social media accounts for the project (Twitter, Facebook, LinkedIn, etc.)
-*   Register domain names for the project
+* 프로젝트 로고, 색 구성표, 웹사이트, 자료 등을 디자인합니다.
+* 브랜딩 가이드라인 공식화
+* 프로젝트의 소셜 미디어 계정 등록(Twitter, Facebook, LinkedIn 등)
+* 프로젝트에 대한 도메인 이름 등록
 
-By performing this marketing review ahead of the project launch, you can deal with any potential branding issues (like domain names not being available for your preferred name) before they threaten to derail the success of your project.  Make sure that you engage your marketing team early on so that they can help you navigate these (and other) issues.  
+프로젝트 시작 전에 이 마케팅 검토를 수행하면 잠재적인 브랜딩 문제(예: 선호하는 이름에 사용할 수 없는 도메인 이름)가 프로젝트의 성공을 위협하기 전에 처리할 수 있습니다. 마케팅 팀이 이러한(및 기타) 문제를 탐색하는 데 도움이 될 수 있도록 초기에 마케팅 팀을 참여시키십시오.
 
-You’ll probably find that your marketing team will be excited, because it’s a fun challenge to see how many people you can drive to the project to contribute code, participate in forums, offer bug fixes and report issues.
+코드를 기여하고, 포럼에 참여하고, 버그 수정을 제공하고, 문제를 보고하기 위해 얼마나 많은 사람들을 프로젝트로 몰고 갈 수 있는지 보는 것은 재미있는 도전이기 때문에 마케팅 팀이 흥분할 것이라는 것을 알게 될 것입니다.
 
-### Lesson: Governance and Processes
+### 강의: 거버넌스 및 프로세스
 
-### Governance Models
+### 거버넌스 모델
 
-It’s important to consider what the governance model will be for your new open source project.  But what do we mean by governance? Quite simply, governance is the structure around a project that enables decisions on:
+새로운 오픈 소스 프로젝트를 위한 거버넌스 모델이 무엇인지 고려하는 것이 중요합니다. 그러나 거버넌스란 무엇을 의미합니까? 간단히 말해서, 거버넌스는 다음에 대한 결정을 가능하게 하는 프로젝트 주변의 구조입니다:
 
-*   Participation guidelines and requirements
-*   Architectural changes
-*   Nominating maintainers
-*   Final arbiter on disputes
-*   Suspension of participants
+* 참가요령 및 요건
+* 아키텍처 변경
+* 유지 보수 지명
+* 분쟁에 대한 최종 중재자
+* 참가자 중단
 
-There are several ways that projects can be governed, with varying degrees of business and/or technical leadership.  We’ll cover leadership in a moment, but if you want more details on the different types of governance models, please refer to the "Collaborating Effectively with Open Source Projects" course in this training series.
+다양한 수준의 비즈니스 및/또는 기술 리더십으로 프로젝트를 관리할 수 있는 여러 가지 방법이 있습니다. 리더십에 대해서는 잠시 후에 다루겠지만 다양한 유형의 거버넌스 모델에 대한 자세한 내용은 이 교육 시리즈의 "오픈 소스 프로젝트와 효과적으로 협업" 과정을 참조하십시오.
 
-### Leadership
+### 리더십
 
-Setting leadership roles is also important before getting underway. That can mean different things for different projects. If you are starting a multi-company project with several enterprise participants, the project may need more formal governance, such as a governing board or other management group. 
+진행하기 전에 리더십 역할을 설정하는 것도 중요합니다. 이는 다른 프로젝트에 대해 다른 것을 의미할 수 있습니다. 여러 기업 참여자가 있는 다중 회사 프로젝트를 시작하는 경우 프로젝트에 이사회 또는 기타 관리 그룹과 같은 보다 공식적인 거버넌스가 필요할 수 있습니다.
 
-Other arrangements could simply require a technical committee that oversees all facets of the open source project from a technical perspective. The composition of the committee would include mostly technical leadership, as well as a liaison back to the executive team to provide updates about progress and project needs. The legal team can then be brought in as the technical members and executives see fit.
+다른 준비에는 단순히 기술적인 관점에서 오픈 소스 프로젝트의 모든 측면을 감독하는 기술 위원회가 필요할 수 있습니다. 위원회의 구성에는 대부분 기술 리더십과 진행 상황 및 프로젝트 요구 사항에 대한 업데이트를 제공하기 위해 경영진에 다시 연락하는 연락 담당자가 포함됩니다. 그런 다음 기술 구성원과 경영진이 적합하다고 생각하는 대로 법무팀을 투입할 수 있습니다.
 
-Your top architectural minds will also certainly be there, as well as others who know how the code base will work. Altogether, the members of the committee will have a vision for where the project is going as well as support from within the developer community. Those are the people you want there at the table to plan the process.
+당신의 최고의 건축적 지식인은 물론 코드 기반이 어떻게 작동할지 알고 있는 다른 사람들도 분명히 그곳에 있을 것입니다. 전체적으로 위원회의 구성원은 프로젝트가 어디로 가고 있는지에 대한 비전과 개발자 커뮤니티 내에서 지원을 받게 됩니다. 그들은 당신이 그 과정을 계획하기 위해 테이블에 있기를 원하는 사람들입니다.
 
-### Foundation or Independent
+### 재단 또는 독립
 
-Another question that often comes up as new open source projects are created is whether to donate your code to a vendor-neutral, non-profit organization or retain some control by owning and running your own project. The answer depends on what you are trying to achieve - if you are working with a small number of partners on building a nascent technology for the industry, you probably don’t need to consider a non-profit foundation at the beginning.  
+새로운 오픈 소스 프로젝트가 생성될 때 자주 제기되는 또 다른 질문은 공급업체 중립적인 비영리 조직에 코드를 기부할 것인지 아니면 자체 프로젝트를 소유하고 실행하여 일부 통제권을 유지할 것인지입니다. 답은 달성하려는 목표에 따라 다릅니다. 업계를 위한 초기 기술을 구축하기 위해 소수의 파트너와 협력하고 있다면 처음부터 비영리 재단을 고려할 필요가 없을 것입니다.
 
-However, if what you are planning has wide applicability across your industry, is cross-industry, or has grown from a small effort into something large and complex, it’s often good to consider a non-profit open source/open standards consortium to host your project.  Besides the value of having a truly vendor-neutral place to host your project, these foundations have legal, governance, marketing and project infrastructure services that can dramatically streamline the process of getting your project on the path to success.
+그러나 계획하고 있는 것이 산업 전반에 걸쳐 광범위하게 적용될 수 있거나, 산업 전반에 걸쳐 있거나, 작은 노력에서 크고 복잡한 것으로 성장한 경우, 종종 비영리 오픈 소스/공개 표준 컨소시엄을 고려하여 귀하를 호스팅하는 것이 좋습니다. 프로젝트. 프로젝트를 호스팅할 수 있는 진정한 벤더 중립적인 장소를 갖는 것의 가치 외에도, 이러한 기반에는 프로젝트를 성공으로 이끄는 프로세스를 극적으로 간소화할 수 있는 법률, 거버넌스, 마케팅 및 프로젝트 인프라 서비스가 있습니다.
 
-There are many foundations (and sub-foundations) you can choose from, and each offers unique value propositions, pricing and service levels.  Some examples of these foundations are:
+선택할 수 있는 많은 기초(및 하위 기초)가 있으며 각각 고유한 가치 제안, 가격 및 서비스 수준을 제공합니다. 이러한 기초의 몇 가지 예는 다음과 같습니다:
 
-*   [Apache Foundation](https://www.apache.org/foundation/)
-*   [Eclipse Foundation](https://www.eclipse.org/org/foundation/)
-*   [Linux Foundation](https://www.linuxfoundation.org/)
-*   [OASIS Open](https://www.oasis-open.org/)
+* [아파치 재단](https://www.apache.org/foundation/)
+* [이클립스 재단](https://www.eclipse.org/org/foundation/)
+* [리눅스 재단](https://www.linuxfoundation.org/)
+* [오아시스 오픈](https://www.oasis-open.org/)
 
-Which foundation you choose depends on what area of speciality your project resides in, as well as considerations like cost, governance models, etc.
+선택하는 기초는 프로젝트가 속한 전문 분야와 비용, 거버넌스 모델 등과 같은 고려 사항에 따라 다릅니다.
 
-### Technical Processes
+### 기술 프로세스
 
-Prior to launch it is often helpful to create a standard release process to schedule regular releases of the code as changes and improvements are made by the project maintainers. A schedule should be set up with well-defined and visible details for the development community and the business side of the project. 
+시작하기 전에 프로젝트 관리자가 변경 및 개선을 수행할 때 코드의 정기 릴리스를 예약하기 위해 표준 릴리스 프로세스를 만드는 것이 종종 도움이 됩니다. 일정은 개발 커뮤니티와 프로젝트의 비즈니스 측면에 대해 잘 정의되고 가시적인 세부 정보로 설정되어야 합니다.
 
-How often those releases should be made depends on your community’s expectations. If the project is enterprise-focused and you’re trying to build something that is very hardened, your release schedule might be twice a year. If the project is smaller in scope and more agile and you are trying to get pieces of it out there, perhaps you might be releasing the code monthly or weekly. The key to the schedule is that the community must dictate the timeline and understand its ability to support the project from a velocity standpoint, while giving users what they need and expect. If the community provides feedback that the releases are coming too soon or too slowly, then you need to look at the process and make some adjustments. The big thing here is consistency, predictability, and visibility.
+이러한 릴리스의 빈도는 커뮤니티의 기대치에 따라 다릅니다. 프로젝트가 기업 중심이고 매우 강화된 것을 구축하려는 경우 릴리스 일정이 1년에 두 번일 수 있습니다. 프로젝트의 범위가 더 작고 더 민첩하고 프로젝트의 일부를 꺼내려고 하는 경우 매월 또는 매주 코드를 릴리스할 수 있습니다. 일정의 핵심은 커뮤니티가 일정을 지시하고 사용자가 필요로 하고 기대하는 것을 제공하면서 속도의 관점에서 프로젝트를 지원할 수 있는 능력을 이해해야 한다는 것입니다. 커뮤니티에서 릴리스가 너무 빠르거나 너무 느리다는 피드백을 제공하는 경우 프로세스를 살펴보고 일부 조정을 해야 합니다. 여기서 중요한 것은 일관성, 예측 가능성 및 가시성입니다.
 
-You should also have well defined processes for submitting code, patches, feature ideas, documentation, or other project artifacts.  Some of this can be dealt with in the project infrastructure/tooling (a topic we’ll cover shortly), but part of the technical process is not just the tools, but the expectations of workflow - e.g. - how will code be submitted, what kinds of coding standards will be followed, when will new code be accepted in the release cycle, etc.
+또한 코드, 패치, 기능 아이디어, 문서 또는 기타 프로젝트 아티팩트를 제출하기 위한 잘 정의된 프로세스가 있어야 합니다. 이 중 일부는 프로젝트 인프라/도구(곧 다루게 될 주제)에서 처리할 수 있지만 기술 프로세스의 일부는 도구가 아니라 워크플로의 기대치 - 예: 코드 제출 방법, 어떤 종류의 코딩 표준을 따를 것인지, 릴리스 주기에서 새 코드가 언제 받아들여질 것인지 - 등입니다.
 
-### Lesson: Project Infrastructure
+### 강의: 프로젝트 인프라
 
-### Development Tools
+### 개발 도구
 
-Before the launch of your project can ever happen, you need to prepare a repository for the project. This is essentially the infrastructure for a code repository where the project will be available to contributors all the time. Many projects use the well-known [GitHub](https://github.com/) or [GitLab](https://about.gitlab.com/) repositories, or host their own repositories with tools such as [Gerrit](https://www.gerritcodereview.com/). 
+프로젝트를 시작하기 전에 프로젝트를 위한 저장소를 준비해야 합니다. 이것은 본질적으로 프로젝트를 기여자가 항상 사용할 수 있는 코드 리포지토리를 위한 인프라입니다. 많은 프로젝트에서 잘 알려진 [GitHub](https://github.com/) 또는 [GitLab](https://about.gitlab.com/) 저장소를 사용하거나 [Gerrit](https://www.gerritcodereview.com/)과 같은 도구를 사용하여 자체 저장소를 호스팅합니다.
 
-There are many other options available as well, but remember it’s often useful to consider making it simple for developers to participate and engage in your project. Choosing a tooling platform that is familiar to the greatest number of developers will help accelerate contributions and growth in your project.
+사용할 수 있는 다른 옵션도 많이 있지만 개발자가 프로젝트에 쉽게 참여하고 참여할 수 있도록 하는 것이 유용한 경우가 많다는 것을 기억하십시오. 대부분의 개발자에게 친숙한 도구 플랫폼을 선택하면 프로젝트의 기여와 성장을 가속화하는 데 도움이 됩니다.
 
-Bug, issue, and feature tracking also should be included as part of a project’s infrastructure plans. You want to provide an easy place for contributors to make reports of problems that need to be fixed as well as requests for new features that might be useful added. Then there are automated build and test system processes which may need to be included as part of your project’s GitHub repository to keep your systems and project flowing smoothly, while scanning and checking the code to ensure its quality.  
+버그, 문제 및 기능 추적도 프로젝트 인프라 계획의 일부로 포함되어야 합니다. 기고자가 수정해야 할 문제와 유용할 수 있는 새로운 기능에 대한 요청을 보고할 수 있는 쉬운 장소를 제공하고자 합니다. 그런 다음 품질을 보장하기 위해 코드를 스캔하고 확인하는 동안 시스템과 프로젝트의 원활한 흐름을 유지하기 위해 프로젝트의 GitHub 리포지토리의 일부로 포함해야 할 수 있는 자동화된 빌드 및 테스트 시스템 프로세스가 있습니다.
 
-You can get more detailed information on things like automated testing and continuous integration by reviewing the _Open Source Development Practices_ module in this course series.
+이 과정 시리즈의 _Open Source Development Practices_ 모듈을 검토하면 자동화된 테스트 및 지속적인 통합과 같은 것에 대한 자세한 정보를 얻을 수 있습니다.
 
-### Website
+### 웹사이트
 
-A critical step is creating a company-neutral web presence for the project. Don’t try to place the open source project website as a subdomain of a company web page - even if you have the best intentions, the visual distinction of a neutral home of the project is important. The webpage provides a place for the community to find information about the project including documentation, links to download the code, and more. The webpage can also provide details about the project’s leadership, scope, users and contributors, budget, governance, and other details.  As a central information repository, your website should also have very clear calls to action/places for new developers to join the community.
+중요한 단계는 프로젝트에 대해 회사 중립적인 웹 존재를 만드는 것입니다. 오픈 소스 프로젝트 웹사이트를 회사 웹 페이지의 하위 도메인으로 배치하려고 하지 마십시오. 최선의 의도가 있더라도 프로젝트의 중립적인 홈을 시각적으로 구분하는 것이 중요합니다. 웹 페이지는 커뮤니티에서 문서, 코드 다운로드 링크 등을 포함하여 프로젝트에 대한 정보를 찾을 수 있는 장소를 제공합니다. 웹 페이지는 또한 프로젝트의 리더십, 범위, 사용자 및 기여자, 예산, 거버넌스 및 기타 세부 사항에 대한 세부 정보를 제공할 수 있습니다. 중앙 정보 저장소인 귀하의 웹사이트에는 새로운 개발자가 커뮤니티에 가입할 수 있는 매우 명확한 클릭 유도문안/장소가 있어야 합니다.
 
-### Communication Tooling
+### 커뮤니케이션 도구
 
-Offering communication channels for your community to ask questions for help is critical. You’ll want to find tools that can be integrated into the entire development workflow (for example, receiving notifications for support requests, code check-ins, error logs, and other tasks). You’ll also want to provide critical discussion forums and a mechanism for community members to get quick answers from others who are also working on a project. All are important means of communication that help move projects forward in real-time.
+커뮤니티에서 도움을 요청할 수 있는 커뮤니케이션 채널을 제공하는 것이 중요합니다. 전체 개발 워크플로에 통합할 수 있는 도구를 찾고 싶을 것입니다(예: 지원 요청, 코드 체크인, 오류 로그 및 기타 작업에 대한 알림 수신). 또한 커뮤니티 구성원이 프로젝트에 참여하고 있는 다른 사람들로부터 빠른 답변을 얻을 수 있는 중요한 토론 포럼과 메커니즘을 제공하고 싶을 것입니다. 모두 실시간으로 프로젝트를 진행하는 데 도움이 되는 중요한 커뮤니케이션 수단입니다.
 
-One project tool to consider is [Slack](https://slack.com/) , an online team project management and communications platform where users can access and share messages and files, organize workflows, perform searches for information, and more. However, Slack is a proprietary tool and can cost money to maintain beyond a certain usage threshold. There are open source options out there such as IRC, [Gitter.im](https://gitter.im/), [Mattermost](https://mattermost.com/), [Rocketchat](https://rocket.chat/) and others. 
+고려해야 할 프로젝트 도구 중 하나는 [Slack](https://slack.com/)입니다. 온라인 팀 프로젝트 관리 및 커뮤니케이션 플랫폼은 사용자가 메시지와 파일에 액세스 및 공유하고, 워크플로를 구성하고, 정보 검색을 수행하는 등의 작업을 수행할 수 있는 플랫폼입니다. 그러나 Slack은 독점 도구이며 특정 사용 임계값을 초과하여 유지 관리하는 데 비용이 들 수 있습니다. IRC, [Gitter.im](https://gitter.im/), [Mattermost](https://mattermost.com/), [Rocketchat](https://rocket.chat/) 등과 같은 오픈 소스 옵션이 있습니다.
 
-Depending on your developer and user community, you may also need modern forum tooling. [Discourse](https://www.discourse.org/) is a great option that is fully open source and also provides optional hosting. When choosing a communication system, be mindful about any form of lock-in, financial costs, and how easy it is to migrate to a new system in the future. 
+개발자 및 사용자 커뮤니티에 따라 최신 포럼 도구가 필요할 수도 있습니다. [Discourse](https://www.discourse.org/)는 완전 오픈 소스이며 선택적 호스팅도 제공하는 훌륭한 옵션입니다. 통신 시스템을 선택할 때 모든 형태의 종속성, 재정적 비용 및 향후 새 시스템으로의 마이그레이션이 얼마나 쉬운지를 염두에 두십시오.
 
-As your community grows, you need to be able to adapt to any new communication channels out there. Make sure you involve your community in tooling decisions as your project evolves - you may find that users and developers naturally gravitate to other tools over time if they find them useful.
+커뮤니티가 성장함에 따라 새로운 커뮤니케이션 채널에 적응할 수 있어야 합니다. 프로젝트가 발전함에 따라 도구 결정에 커뮤니티를 참여시키십시오. 사용자와 개발자는 시간이 지남에 따라 유용하다고 생각하는 다른 도구에 자연스럽게 끌릴 수 있습니다.
 
-### Documentation Tooling
+### 문서 도구
 
-Some form of document management is often useful for open source projects, especially if it makes the process of creating documentation, how-tos and other text-based projects easier.   While many projects feel comfortable using the built-in markdown text tool features of GitHub or GitLab, other projects prefer using wikis or other shared-editing software. 
+문서 관리의 일부 형태는 오픈 소스 프로젝트, 특히 문서 작성 프로세스, 방법 및 기타 텍스트 기반 프로젝트를 더 쉽게 만드는 경우에 종종 유용합니다. 많은 프로젝트에서 GitHub 또는 GitLab의 기본 제공 마크다운 텍스트 도구 기능을 사용하는 것이 편안하지만 다른 프로젝트에서는 Wiki 또는 기타 공유 편집 소프트웨어를 사용하는 것을 선호합니다.
 
-For a list of potential Wiki tooling options, you can check (not surprisingly), [Wikipedia](https://en.wikipedia.org/wiki/List_of_wiki_software).  The same caveats that apply to communications tools also apply here - consider how you can avoid any kind of data or tool lock-in so that when (not if) you users and developers decide to migrate to a different platform, you can migrate your hard-won documentation, Frequently Asked Questions lists and how-to content.
+잠재적인 Wiki 도구 옵션 목록은 [Wikipedia](https://en.wikipedia.org/wiki/List_of_wiki_software)에서 확인할 수 있습니다. 통신 도구에 적용되는 동일한 주의 사항이 여기에도 적용됩니다. 사용자와 개발자가 다른 플랫폼으로 마이그레이션하기로 결정할 때(그렇지 않은 경우가 아님) 모든 종류의 데이터 또는 도구 종속을 피할 수 있는 방법을 고려하십시오. -won 문서, 자주 묻는 질문 목록 및 방법 내용.
 
-# Section: Successful Project Launch And Sustainment
+# 섹션: 성공적인 프로젝트 시작 및 유지
 
-## Lesson: Introduction
+## 수업: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we’ll discuss the final steps required for successful open source project launches, as well as present some additional information on how to sustain and encourage adoption and contribution to the project.
+이 섹션에서는 성공적인 오픈 소스 프로젝트 출시에 필요한 최종 단계에 대해 논의하고 프로젝트에 대한 채택 및 기여를 유지하고 장려하는 방법에 대한 몇 가지 추가 정보를 제공합니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-*   Describe the last steps required to successfully launch an open source project.
-*   Explain how to build strong community processes that allow for increased project adoption and a strong contribution pipeline.
+* 오픈 소스 프로젝트를 성공적으로 시작하는 데 필요한 마지막 단계를 설명합니다.
+* 증가된 프로젝트 채택과 강력한 기여 파이프라인을 허용하는 강력한 커뮤니티 프로세스를 구축하는 방법을 설명합니다.
 
 
-## Lesson: Project Launch
+## 강의: 프로젝트 시작
 
-### Final Code Review
+### 최종 코드 검토
 
-At this point in the process, it’s always a good idea to take one final pass through the source code in preparation for launching.  If you’ve been following the process outlined earlier, this shouldn’t be a big burden, but it can be very helpful to make sure that no easy-to-fix items haven’t been forgotten.
+프로세스의 이 시점에서 시작을 준비하기 위해 소스 코드를 한 번만 마지막으로 통과하는 것이 좋습니다. 앞에서 설명한 프로세스를 따랐다면 큰 부담이 되지는 않겠지만 수정하기 쉬운 항목을 잊지 않도록 하는 것이 매우 도움이 될 수 있습니다.
 
-Specifically, the goal of this final review should be to ensure that all requirements identified by the legal, technical, and marketing reviews are completely met.  Some examples of what to look for are:
+특히, 이 최종 검토의 목표는 법률, 기술 및 마케팅 검토에서 식별된 모든 요구 사항이 완전히 충족되었는지 확인하는 것이어야 합니다. 찾아야 할 몇 가지 예는 다음과 같습니다:
 
-*   License, attribution, and copyright texts are all complete and in place
-*   Source code scanner reports clean bill of materials
-*   Every line of code is licensed appropriately for release
-*   Comments are sanitized of casual or unrelated language
-*   Source code does not inadvertently reveal internal projects
-*   Source code is sufficiently complete that it will build
-*   Source code builds using publicly available tools
-*   File and function names reflect the project’s name, if it has changed
-*   MAINTAINERS file is up to date, if used
+* 라이선스, 저작자 표시 및 저작권 텍스트가 모두 완전하고 제자리에 있습니다.
+* 소스 코드 스캐너는 깨끗한 BOM을 보고합니다.
+* 모든 코드 라인은 릴리스에 적합하게 라이선스가 부여됩니다.
+* 댓글은 일상적이거나 관련 없는 언어로 삭제됩니다.
+* 소스 코드는 내부 프로젝트를 실수로 드러내지 않습니다.
+* 소스 코드는 빌드될 만큼 충분히 완전합니다.
+* 공개적으로 사용 가능한 도구를 사용하여 소스 코드 빌드
+* 파일 및 함수 이름이 변경된 경우 프로젝트 이름을 반영
+* MAINTAINERS 파일은 사용하는 경우 최신 상태입니다.
 
-### Pre-Launch
+### 사전 출시
 
-Before you go live officially with your new project, there are some things you can do to ensure the best launch experience for your organization and for the community at large. One of the biggest things you can do to ensure success is making sure that you have critical mass before launching.  
+새 프로젝트를 공식적으로 시작하기 전에 조직과 커뮤니티 전체에 최고의 출시 경험을 보장하기 위해 할 수 있는 몇 가지 작업이 있습니다. 성공을 보장하기 위해 할 수 있는 가장 큰 일 중 하나는 출시 전에 임계 질량이 있는지 확인하는 것입니다.
 
-You should have identified which partners and customers are going to be there with you when you announce the new project.  They should have had preview access to the repositories so that they can be familiar with the code and ready to contribute (or have already been contributing).
+새 프로젝트를 발표할 때 함께할 파트너와 고객을 식별해야 합니다. 코드에 익숙해지고 기여할 준비가 될 수 있도록 리포지토리에 대한 미리보기 액세스 권한이 있어야 합니다(또는 이미 기여하고 있음).
 
-If this is one of your early open source projects, it also doesn’t hurt to have a quick refresher with your own developers to make sure they are following open source development methods and processes in anticipation of interacting with others in the open source community that will be contributing to your project.
+이것이 초기 오픈 소스 프로젝트 중 하나인 경우 개발자와 함께 빠르게 재검토하여 오픈 소스 커뮤니티에서 다른 사람들과 상호 작용할 것을 예상하여 오픈 소스 개발 방법 및 프로세스를 따르고 있는지 확인하는 것도 나쁘지 않습니다. 귀하의 프로젝트에 기여할 것입니다.
 
-After you have verified that all of your project infrastructure is up and running, make sure that your internal developers have joined the project’s communication tools and are beginning to monitor for questions or new contributions.  
+모든 프로젝트 인프라가 실행 중인지 확인한 후 내부 개발자가 프로젝트의 커뮤니케이션 도구에 참여하고 질문이나 새로운 기여를 모니터링하기 시작했는지 확인하십시오.
 
-Now it’s time for the big moment!  You can upload any final remaining code and flip the switch to make the project live to the world.
+이제 중요한 순간을 맞이할 시간입니다! 마지막 남은 코드를 업로드하고 스위치를 전환하여 프로젝트를 전 세계에 라이브로 만들 수 있습니다.
 
-### Good Open Source Citizenship
+### 좋은 오픈 소스 시민의식
 
-Now that your project has launched, it’s just the beginning of the work ahead.  You’ll need to make sure that your organization continues to be a good open source citizen and operates in a way that encourages others to come alongside you and work together on your project.  Here are some ways you can do that:
+이제 프로젝트가 시작되었으므로 앞으로 작업의 시작일 뿐입니다. 귀하의 조직이 계속해서 훌륭한 오픈 소스 시민인지 확인하고 다른 사람들이 귀하와 함께 프로젝트에서 함께 작업하도록 권장하는 방식으로 운영되도록 해야 합니다. 다음은 몇 가지 방법입니다:
 
-*   Have conversations and make decisions in the open
-    *   This builds goodwill, and reduces overhead in documenting decisions
-    *   This streamlines onboarding process for new participants
-    *   Having open archives ensure continuity when participants change
-*   Listen to the community
-    *   Their experience is invaluable, especially in integration and testing
-    *   Encourage generalized implementations that extend what you need
-*   Allocate resources as though you will be the only company doing the work
-    *   Set goals, and make sure they have resources to get accomplished
-    *   This builds momentum until the leveraged development model takes effect
+* 공개적으로 대화하고 결정하기
+    * 이는 영업권을 구축하고 결정을 문서화할 때 오버헤드를 줄입니다.
+    * 이는 신규 참가자의 온보딩 프로세스를 간소화합니다.
+    * 열린 아카이브를 갖는 것은 참가자가 변경될 때 연속성을 보장합니다.
+* 커뮤니티에 귀 기울이기
+    * 그들의 경험은 특히 통합 및 테스트에서 매우 중요합니다.
+    * 필요한 것을 확장하는 일반화된 구현을 장려합니다.
+* 작업을 수행하는 유일한 회사인 것처럼 리소스를 할당합니다.
+    * 목표를 설정하고 달성할 수 있는 자원이 있는지 확인
+    * 이는 레버리지 개발 모델이 적용될 때까지 추진력을 구축합니다.
 
-Being a good open source citizen takes work, and it’s not altruistic - it’s good business practice for your organization to get the best return on the investment you’ve put into launching your open source project.
+훌륭한 오픈 소스 시민이 되기 위해서는 노력이 필요하며 이타적이지 않습니다. 조직이 오픈 소스 프로젝트를 시작하는 데 투자한 투자에 대해 최상의 수익을 얻는 것은 좋은 비즈니스 관행입니다.
 
-## Lesson: Project Maintenance
+## 수업: 프로젝트 유지 관리
 
-### Build the Community
+### 커뮤니티 구축
 
-After the project has launched, it is essential to monitor the vitality of the external developer and user community. Community building does not happen automatically. In the early stages of the project, it may be necessary to host developer events or sponsor meetups at major conferences to build momentum. It’s also extremely important to manage expectations and fulfill obligations for project governance and transparency.
+프로젝트가 시작된 후에는 외부 개발자 및 사용자 커뮤니티의 활력을 모니터링하는 것이 필수적입니다. 커뮤니티 구축은 자동으로 이루어지지 않습니다. 프로젝트의 초기 단계에서 추진력을 구축하기 위해 개발자 이벤트를 주최하거나 주요 회의에서 모임을 후원해야 할 수도 있습니다. 프로젝트 거버넌스 및 투명성에 대한 기대치를 관리하고 의무를 이행하는 것도 매우 중요합니다.
 
-Ongoing activities include:
+진행 중인 활동은 다음과 같습니다:
 
-*   Ensure any changes to direction or governance are clearly communicated
-*   Follow best practices of other similar communities
-*   Encourage and provide opportunities for face-to-face community building
-*   Identify appropriate events and have the community submit talks
-*   Consider doing local meetups
+* 방향 또는 거버넌스에 대한 변경 사항이 명확하게 전달되도록 합니다.
+* 다른 유사한 커뮤니티의 모범 사례를 따르십시오.
+* 대면 커뮤니티 구축을 위한 기회를 장려하고 제공합니다.
+* 적절한 이벤트를 식별하고 커뮤니티에서 토론을 제출하도록 합니다.
+* 지역 모임을 고려하십시오
 
-By building up a diverse group of contributors, you can later decide to move your project to the next level by having discussions with other enterprises and organizations that see the work as valuable to determine if they are interested in investing their time, money and other resources to expand your initial efforts. By gaining input and resources from others, the project can be expanded and grown to do more for additional contributors.
+다양한 기여자 그룹을 구축함으로써 나중에 시간, 돈 및 기타 자원을 투자하는 데 관심이 있는지 결정하기 위해 작업을 가치 있다고 생각하는 다른 기업 및 조직과 토론하여 프로젝트를 다음 단계로 이동하기로 결정할 수 있습니다. 초기 노력을 확장합니다. 다른 사람들로부터 의견과 자원을 얻음으로써 프로젝트를 확장하고 확장하여 추가 기여자를 위해 더 많은 작업을 수행할 수 있습니다.
 
-Such growth means that additional businesses may want to contribute more money to bring their own developers in to join the efforts and help move the work forward by putting their weight behind the efforts you’ve begun. That may involve $10,000 or $250,0000 or more, depending on the importance of the project and what it means to other companies. Once your project begins, other companies can come in to contribute funding toward the work if it will aid their missions.
+이러한 성장은 추가 기업이 자신의 개발자가 노력에 참여하도록 하기 위해 더 많은 돈을 기부하고 시작한 노력 뒤에 무게를 두어 작업을 진행하는 데 도움이 되기를 원할 수 있음을 의미합니다. 프로젝트의 중요성과 다른 회사에 미치는 영향에 따라 $10,000 또는 $250,000 이상이 포함될 수 있습니다. 프로젝트가 시작되면 다른 회사가 임무에 도움이 될 경우 작업에 자금을 기부할 수 있습니다.
 
-This happens regularly today, as enterprises and organizations realize that the technology problems they are trying to solve are larger than any of them individually. That’s when they can begin to see strategic value in joining together with other companies in vendor-neutral joint projects that are working for the greater good in solving technical problems faced by businesses.
+기업과 조직이 해결하려는 기술 문제가 개별 문제보다 더 크다는 사실을 깨닫고 있기 때문에 오늘날에도 이러한 일이 정기적으로 발생합니다. 그 때 기업이 직면한 기술적 문제를 해결하는 데 더 큰 이익을 위해 일하는 벤더 중립적 공동 프로젝트에서 다른 회사와 함께 하는 전략적 가치를 볼 수 있습니다.
 
-### Designate a Community Advocate
+### 커뮤니티 옹호자 지정
 
-One of the most important roles you can hire for to help a new open source project succeed is a community advocate (also sometimes called a community manager).  This person’s role is to do whatever is needed to make the community successful.  
+새로운 오픈 소스 프로젝트의 성공을 돕기 위해 고용할 수 있는 가장 중요한 역할 중 하나는 커뮤니티 옹호자(커뮤니티 관리자라고도 함)입니다. 이 사람의 역할은 커뮤니티를 성공시키는 데 필요한 모든 일을 하는 것입니다.
 
-It’s a challenging role to execute, and can be a challenging role to hire for, because the person needs a wide variety of skills, including marketing, developer advocacy, business development, crisis management, peacemaker, etc.  A good place to start looking for someone for this role is to consider internal development or marketing resources in your organization.  Also, don’t ignore people like technical writers, program managers, or even non-traditional fields of study like sociology, psychology, etc.  
+마케팅, 개발자 옹호, 비즈니스 개발, 위기 관리, 피스메이커 등 다양한 기술이 필요하기 때문에 실행하기 어려운 역할이며 고용하기 어려운 역할이 될 수 있습니다. 찾기 시작하기에 좋은 곳입니다. 이 역할의 누군가는 조직의 내부 개발 또는 마케팅 리소스를 고려하는 것입니다. 또한 기술 작가, 프로그램 관리자 또는 사회학, 심리학 등과 같은 비전통적인 연구 분야와 같은 사람들을 무시하지 마십시오.
 
-A good community advocate can be the difference between a technically successful project that no one uses, and a reasonably good technical project that grows by leaps and bounds because of the community building and bridging skills deployed.  The Linux Foundation [TODO Group](https://todogroup.org/) is a good place to find help in identifying community management resources.
+훌륭한 커뮤니티 옹호자는 아무도 사용하지 않는 기술적으로 성공적인 프로젝트와 배포된 커뮤니티 구축 및 브리징 기술로 인해 비약적으로 성장하는 합리적으로 좋은 기술 프로젝트 간의 차이가 될 수 있습니다. Linux Foundation [TODO Group](https://todogroup.org/)은 커뮤니티 관리 리소스를 식별하는 데 도움이 되는 좋은 장소입니다.
 
-### Evaluate and Adapt
+### 평가 및 조정
 
-As with any new project effort, you’ll need to evaluate frequently and be ready to adapt your approach if you aren’t seeing the kind of adoption and contribution you were expecting.  It’s important to remember that your organization’s reputation is only part of the equation in the success or failure of a new open source project.
+모든 새로운 프로젝트 노력과 마찬가지로 자주 평가하고 예상했던 채택 및 기여도가 나타나지 않는 경우 접근 방식을 조정할 준비가 되어 있어야 합니다. 조직의 평판은 새로운 오픈 소스 프로젝트의 성공 여부를 결정짓는 방정식의 일부일 뿐임을 기억하는 것이 중요합니다.
 
-Remaining flexible and agile when the community provides feedback gives you the opportunity to increase the project’s reputation as a good place to collaborate and be listened to.  You should be looking at a few key metrics as your project gets off the ground:
+커뮤니티에서 피드백을 제공할 때 유연성과 민첩성을 유지하면 협업하고 경청하기에 좋은 장소로 프로젝트의 명성을 높일 수 있습니다. 프로젝트가 시작되면 몇 가지 주요 메트릭을 살펴봐야 합니다:
 
-*   Number of code commits/pull requests from outside your initial developer base
-*   Amount of discussion/topics on whatever communications channels you’ve deployed
-*   Number of bug reports or feature requests submitted
+* 초기 개발자 기반 외부의 코드 커밋/풀 요청 수
+* 배포한 커뮤니케이션 채널에 대한 토론/주제 수
+* 제출된 버그 보고서 또는 기능 요청 수
 
-It’s also important to remember that even negative feedback means that your community is engaging with your project.  By practicing transparency and accountability and trying to fairly address concerns, your project will gain a positive reputation.
+또한 부정적인 피드백이라도 커뮤니티가 프로젝트에 참여하고 있다는 것을 기억하는 것이 중요합니다. 투명성과 책임성을 실천하고 우려 사항을 공정하게 해결하려고 노력함으로써 프로젝트는 긍정적인 평판을 얻게 됩니다.
 
-Remember the adage that has been repeated throughout this training course series - ‘Release Early, Release Often.’  Your new project doesn’t have to be perfect on day one, but by keeping this adage in mind, you’ll be well on your way to building a successful and robust open source effort.
+이 교육 과정 시리즈 전체에 걸쳐 반복된 격언인 '일찍 릴리스, 자주 릴리스'를 기억하십시오. 새 프로젝트가 첫날에 완벽할 필요는 없지만 이 격언을 염두에 두면 성공적이고 강력한 오픈 소스 노력을 구축하는 데 순조롭게 진행될 것입니다.
