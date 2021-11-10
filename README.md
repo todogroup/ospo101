@@ -64,3 +64,7 @@ https://training.linuxfoundation.org/training/open-source-management-and-strateg
 ## 라이선스
 
 모든 코드는 Apache 2.0에서 제공되며 설명서는 크리에이티브 커먼즈 저작자표시 4.0 국제 (CC BY 4.0) 라이선스: http://creativecommons.org/licenses/by/4.0/ 에 따라 제공됩니다.
+
+## 이 문서의 출처
+
+이 Repository의 문서는 [리눅스 재단(Linux Foundation)](https://www.linuxfoundation.org/)의 [Todo Group](https://todogroup.org/)에서 만든 것으로 원본(영어) 문서는 https://github.com/todogroup/ospo101 에서 보실 수 있습니다.
