@@ -4,7 +4,7 @@
 
 ### 섹션 개요
 
-### 이 섹션에서는 오픈 소스 개발 및 커뮤니티 참여에 사용되는 핵심 개념 및 사례를 살펴보고 기존의 폐쇄 소스 개발과 비교할 것입니다.
+### 이 섹션에서는 오픈 소스 개발 및 커뮤니티 참여에 사용되는 핵심 개념 및 사례를 살펴보고 기존의 폐쇄형 소스 개발과 비교할 것입니다.
 
 
 ### 학습 목표
@@ -12,7 +12,7 @@
 이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
 * 핵심 오픈 소스 관행과 효과적인 오픈 소스 개발 및 커뮤니티 참여에서 수행하는 역할 설명
-* 폐쇄 소스 소프트웨어 개발과 비교할 때 이러한 개념의 차이점(및 유사점)을 명확히 합니다.
+* 폐쇄형 소스 소프트웨어 개발과 비교할 때 이러한 개념의 차이점(및 유사점)을 명확히 합니다.
 
 ## 강의: 요구 사항 및 설계
 
@@ -124,7 +124,7 @@ Linus Torvalds는 여전히 프로젝트에 대한 전반적인 영향력을 유
 
 ### 기타 모집
 
-협업은 오픈 소스 프로젝트에서 게임의 이름이며 일반적인 기업 또는 폐쇄 소스 개발 노력에서 일반적으로 사용되는 것보다 훨씬 더 깊은 방식입니다.
+협업은 오픈 소스 프로젝트에서 게임의 이름이며 일반적인 기업 또는 폐쇄형 소스 개발 노력에서 일반적으로 사용되는 것보다 훨씬 더 깊은 방식입니다.
 
 오픈 소스에서 도움을 줄 다른 사람을 모집할 때 고려해야 할 몇 가지 사항은 다음과 같습니다.
 
@@ -474,7 +474,7 @@ Google 및/또는 다른 개발자와 지속적 통합을 위해 사용 중인 �
 
 ### 내부 소스란 무엇입니까?
 
-[Wikipedia](https://en.wikipedia.org/wiki/Inner_source)에 따르면 내부 소스는 다음과 같이 정의됩니다. “ 조직 내에서 [오픈 소스](https://en.wikipedia.org/wiki/Open-source_software) [소프트웨어 개발](https://en.wikipedia.org/wiki/Software_development) 모범 사례 및 [오픈 소스와 같은 문화](https://en.wikipedia.org/wiki/Open-source_model). 조직은 여전히 ​​폐쇄 소스[소프트웨어](https://en.wikipedia.org/wiki/Proprietary_software)를 개발할 수 있지만 내부적으로 개발을 개방합니다. 이 용어는 2000년 [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O%27Reilly)에 의해 만들어졌습니다.”
+[Wikipedia](https://en.wikipedia.org/wiki/Inner_source)에 따르면 내부 소스는 다음과 같이 정의됩니다. “ 조직 내에서 [오픈 소스](https://en.wikipedia.org/wiki/Open-source_software) [소프트웨어 개발](https://en.wikipedia.org/wiki/Software_development) 모범 사례 및 [오픈 소스와 같은 문화](https://en.wikipedia.org/wiki/Open-source_model). 조직은 여전히 ​​폐쇄형 소스[소프트웨어](https://en.wikipedia.org/wiki/Proprietary_software)를 개발할 수 있지만 내부적으로 개발을 개방합니다. 이 용어는 2000년 [Tim O'Reilly](https://en.wikipedia.org/wiki/Tim_O%27Reilly)에 의해 만들어졌습니다.”
 
 이 정의의 오픈 소스와 같은 문화 부분을 주목하는 것이 중요합니다. (이 교육에서 설명한 대로) 단순히 오픈 소스 개발 관행을 채택하면 내부적으로 개발 프로세스에 이점을 얻을 수 있지만 Inner Source를 최대한 활용하려면 개발 조직 내에서 보다 개방적이고 투명한 문화를 내부적으로 구축하는 것이 중요합니다(법률, 재무, HR 및 관리와 같은 지원 조직).
 
