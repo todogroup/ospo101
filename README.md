@@ -37,7 +37,7 @@ https://training.linuxfoundation.org/training/open-source-management-and-strateg
   * [추가 정보 및 사례 연구](module3/README.md#추가-정보-및-사례-연구)
 
 * [오픈 소스 개발 사례](module4/README.md)
-  * [효과적인 오픈 소스 개발 및 참여](module4/README.md#효과적인-오픈소스-개발-및-참여)
+  * [효과적인 오픈 소스 개발 및 참여](module4/README.md#효과적인-오픈 소스-개발-및-참여)
   * [지속적 통합 및 테스트의 역할](module4/README.md#지속적인-통합-및-테스트의-역할)
   * [내부적으로 오픈 소스 방법론 적용](module4/README.md#내부적으로-오픈-소스-방법론-적용)
 
