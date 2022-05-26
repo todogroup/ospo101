@@ -27,7 +27,7 @@ https://training.linuxfoundation.org/training/open-source-management-and-strateg
 
 * [오픈 소스 비즈니스 전략](module2/README.md)
   * [오픈 소스 비즈니스 모델 소개](module2/README.md#섹션-오픈-소스-비즈니스-모델-소개)
-  * [오픈 소스 전략 개발](module2/README.md#섹션-오픈-소스-전략-개발하기)
+  * [오픈 소스 전략 개발](module2/README.md#섹션-오픈-소스-전략-만들기)
   * [오픈 소스 정책 개발](module2/README.md#섹션-오픈-소스-정책-개발)
   * [오픈 소스 프로그램 오피스(OSPO) 소개](module2/README.md#섹션-오픈-소스-프로그램-오피스-소개)
 
