@@ -1,370 +1,363 @@
-# Section: Introducing Open Source
+# 섹션: 오픈 소스 소개
 
-## Lesson: Introduction
+## 강의: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will provide definitions of open source, open standards and closed source software, as well as comparisons between them.  We will also provide an overview of how these three elements are used together to deliver technology solutions that we all rely on.
+이 섹션에서는 오픈 소스, 개방형 표준(Open Standard) 및 폐쇄형 소스 소프트웨어의 정의와 이들 간의 비교를 제공합니다. 또한 이 세 가지 요소를 함께 사용하여 우리 모두가 의존하는 기술 솔루션을 제공하는 방법에 대한 개요도 제공합니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-* Define open source, open standards and closed source software.
+* 오픈 소스, 개방형 표준 및 폐쇄형 소스 소프트웨어를 정의합니다.
 
-* Explain the differences and similarities for all three concepts.
+* 세 가지 개념의 차이점과 유사점을 설명할 수 있습니다.
 
-* Understand how all three concepts work together.
+* 세 가지 개념이 함께 작동하는 방식을 이해합니다.
 
-## Lesson: Definitions
+## 강의: 정의
 
-### What is Open Source Software?
+### 오픈 소스 소프트웨어란 무엇입니까?
 
-According to [Wikipedia](https://en.wikipedia.org/wiki/Software_license):
+[Wikipedia](https://en.wikipedia.org/wiki/Software_license)에 따르면:
 
-**Open source software** (**OSS**) is a type of computer software in which source code is released under a license in which the copyright holder grants users the rights to study, change, and distribute the software to anyone and for any purpose. Open source software may be developed in a collaborative public manner.
+**오픈 소스 소프트웨어** (**OSS**)는 저작권 소유자가 사용자에게 소프트웨어를 연구, 변경 및 배포할 수 있는 권한을 사용자에게 부여하는 라이선스 하에 소스 코드가 공개된 컴퓨터 소프트웨어 유형입니다. 오픈 소스 소프트웨어는 공동의 공개 방식으로 개발될 수 있습니다.
 
 Let's break down this definition and explore it a bit:
 
-**Computer Software**
+**컴퓨터 소프트웨어**
 
-Computer Software refers to a program or firmware written by an author. The author of the software can be one or many people, and possibly doing the work on behalf of a company. The program is runnable on a particular computer through a machine-readable format that is achieved through conversion of ‘source code’ to what is known as ‘binary format.’
+컴퓨터 소프트웨어는 작성자가 작성한 프로그램 또는 펌웨어를 말합니다. 소프트웨어 작성자는 한 명 또는 여러 명이 될 수 있으며 회사를 대신하여 작업을 수행할 수도 있습니다. 프로그램은 '소스 코드'를 '바이너리 형식'으로 알려진 변환을 통해 달성되는 기계 판독 가능 형식을 통해 특정 컴퓨터에서 실행할 수 있습니다.
 
-**Source Code**											
+**소스 코드**
 
-Source Code refers to the human-readable set of instructions used to represent an algorithm or idea for a computer to execute. Many computer languages can be used to write source code, which will get converted to machine-readable binary format through the process of compilation or real-time interpretation. Having the source code allows you to study and efficiently modify the software.
+소스 코드는 컴퓨터가 실행할 알고리즘이나 아이디어를 나타내는 데 사용되는 사람이 읽을 수 있는 명령 집합을 나타냅니다. 많은 컴퓨터 언어를 사용하여 소스 코드를 작성할 수 있으며 컴파일 또는 실시간 해석 과정을 통해 기계가 읽을 수 있는 이진 형식으로 변환됩니다. 소스 코드가 있으면 소프트웨어를 연구하고 효율적으로 수정할 수 있습니다.
 
-**License**
+**라이선스**
 
-License is a **legal** document that records and formally expresses a set of legally enforceable acts, processes, or contractual duties, obligations, or rights related to the software and/or source code.
+라이선스는 소프트웨어 및/또는 소스 코드와 관련된 법적으로 집행 가능한 일련의 행위, 프로세스 또는 계약 의무, 의무 또는 권리를 기록하고 공식적으로 표현 하는 **법적** 문서입니다.
 
-**Study, Change and Distribute** 
+**연구, 변경 및 배포**
 
-A fundamental component of open source software is the freedom granted by various open source licenses allowing individuals to study the software, change it for their own purposes, and then redistribute their changes to anyone else for any purpose. The requirements placed on the changed version vary depending on the type of open source license used.  More details will be provided on this in later modules in this course series.
+오픈 소스 소프트웨어의 기본 구성 요소는 개인이 소프트웨어를 연구하고 자신의 목적에 맞게 변경한 다음 변경 사항을 어떤 목적으로든 다른 사람에게 재배포할 수 있도록 다양한 오픈 소스 라이선스가 부여하는 자유입니다. 변경된 버전에 대한 요구 사항은 사용하는 오픈 소스 라이선스의 유형에 따라 다릅니다. 이에 대한 자세한 내용은 이 과정 시리즈의 이후 모듈에서 제공됩니다.
 
-**Collaborative Public Manner**
+**협업적 공개 매너**
 
-Collaborative Public Manner is important here because the freedoms provided by the license allow for large and diverse communities to form around popular open source software, helping drive innovation and allowing companies to both contribute to and reap the benefits of these software projects. Linux is a key example of one such community, but there are many others like the Apache Web Server, Kubernetes and OpenStack. 
+라이선스가 제공하는 자유로 인해 인기 있는 오픈 소스 소프트웨어를 중심으로 대규모의 다양한 커뮤니티가 형성되어 혁신을 주도하고 기업이 이러한 소프트웨어 프로젝트에 기여하고 이익을 얻을 수 있기 때문에 협업적 공개 매너가 중요합니다. Linux는 그러한 커뮤니티 중 하나의 주요 예이지만 Apache Web Server, Kubernetes 및 OpenStack과 같은 다른 커뮤니티도 많이 있습니다.
 
-### What is Closed Source Software?
+### 폐쇄형 소스 소프트웨어란 무엇입니까?
 
-Software that is not open source software is closed source software. Here’s an explanation of what the closed source software is based on the [Wikipedia](https://en.wikipedia.org/wiki/Software_license) definition:
+오픈 소스 소프트웨어가 아닌 소프트웨어는 폐쇄형 소스 소프트웨어입니다. 다음은 [Wikipedia](https://en.wikipedia.org/wiki/Software_license) 정의를 기반으로 하는 비오픈 소스 소프트웨어에 대한 설명입니다:
 
-**Closed source** software, also often referred to as **proprietary** software, is non-free computer software for which the software's publisher or another person retains intellectual rights beyond those allowed for open source software— usually [copyright](https://en.wikipedia.org/wiki/Copyright) of the source code but sometimes also patent rights.
+종종 **독점** 소프트웨어 라고도 하는, **폐쇄형 소스** 소프트웨어는 소프트웨어 게시자 또는 다른 사람이 오픈 소스 소프트웨어에 허용된 것 이상의 지적 권리(일반적으로 소스 코드의 [저작권](https://en.wikipedia.org/wiki/Copyright) 이지만 때로는 특허권도 포함)를 보유하는 비자유 컴퓨터 소프트웨어입니다 .
 
-As before, let’s unpack this definition a bit and explore some key elements:
+이전과 마찬가지로 이 정의를 약간 풀고 몇 가지 핵심 요소를 살펴보겠습니다.:
 
-**Closed Source**
+**폐쇄형 소스**
 
-In contrast to open source, closed source software’s human-readable instructions are not made available by the author or authors of the software.  What is delivered and installed on a computer is the machine-readable format only.  Popular programs like Microsoft Office, for example, are delivered this way.
+오픈 소스와 달리 폐쇄형 소스 소프트웨어의 사람이 읽을 수 있는 지침은 소프트웨어 작성자가 사용할 수 없습니다. 컴퓨터에 전달되고 설치된 것은 기계가 읽을 수 있는 형식일 뿐입니다. 예를 들어 Microsoft Office와 같은 인기 있는 프로그램은 이러한 방식으로 제공됩니다.
 
-**Non-free**
+**무료 아님**
 
-Non-free here refers to the fact that the author(s) distribute it under a license that is not open source software, that forbids studying, modifying or redistributing the program to anyone. There may or may not be a fee for its use.
+여기서 자유롭지 않다는 것은 저자(들)가 프로그램을 연구, 수정 또는 재배포하는 것을 금지하는 오픈 소스 소프트웨어가 아닌 라이선스에 따라 배포한다는 사실을 나타냅니다. 사용료가 있을 수도 있고 없을 수도 있습니다.
 
-**Intellectual Rights**
+**지적 권리**
 
-The author(s) retain access not only to the source code, but also to the ideas and/or algorithms used to design the program.
+작성자는 소스 코드뿐만 아니라 프로그램 설계에 사용된 아이디어 및/또는 알고리즘에 대한 액세스 권한을 보유합니다.
 
-The other main distinction here is that closed source software is designed and developed by teams of developers (usually working for a corporation, but not always) who are typically not collaborating with outside community members (as is typically done with open source software).  
+여기서 또 다른 주요 차이점은 폐쇄형 소스 소프트웨어가 일반적으로 외부 커뮤니티 구성원과 협력하지 않는 개발자 팀(일반적으로 기업에서 일하지만 항상 그런 것은 아님)이 설계하고 개발한다는 것입니다(일반적으로 오픈 소스 소프트웨어에서 수행되는 것처럼).
 
-### What are Open Standards?
+### 개방형 표준(Open Standard)이란 무엇입니까?
 
-There are various definitions available for what an ‘open standard’ is, and we can coalesce pieces of them here:
+'개방형 표준'이 무엇인지에 대한 다양한 정의가 있으며 여기에서 그 일부를 통합할 수 있습니다.:
 
-**Open Standards** are publicly available and royalty-free, while 'standard' means a technology approved by formalized committees that are open to participation by all interested parties and operate on a consensus basis. An open standard is publicly available, and developed, approved and maintained via a collaborative and consensus driven process.
+**개방형 표준** 은 공개적으로 이용 가능하고 로열티가 없으며, '표준'은 모든 이해 당사자가 참여할 수 있고 합의에 따라 운영되는 공식 위원회에서 승인한 기술을 의미합니다. 개방형 표준은 공개적으로 사용 가능하며 협업 및 합의 기반 프로세스를 통해 개발, 승인 및 유지 관리됩니다.
 
-Additionally, **Open Standards** should not prohibit conforming implementations in open source software.
+또한, **개방형 표준**은 오픈 소스 소프트웨어에서 구현을 준수하는 것을 금지해서는 안 됩니다.
 
-Let’s go ahead and dive a bit deeper here as well:
+여기서도 조금 더 깊이 들어가 보겠습니다:
 
-**Publicly available**
+**공개적으로 사용 가능**
 
-The standard is available to the public at no cost.
+표준은 무료로 대중에게 제공됩니다.
 
-**Royalty-free**											
+**로열티 프리**
 
-This is an important distinction between open and non-open standards. This is the ability for anyone to utilize the standard to build a solution without having to obtain a license from an entity (or pay an entity) is paramount to wider adoption.
+이것은 개방형 표준과 비개방형 표준의 중요한 차이점입니다. 이는 기업으로부터 라이선스를 취득하지 않고도(또는 기업에 비용을 지불하지 않고도) 표준을 활용하여 솔루션을 구축할 수 있는 능력이 보다 폭넓게 채택되는 데 가장 중요합니다.
 
-**Collaborative and Consensus Driven Process**
+**협업 및 합의 기반 프로세스**
 
-This should now be familiar to you from the previous definitions of open source, and it is also critical here as it allows for both a wider set of perspectives and also the best chance at broad adoption by a variety of companies and individuals. It also sometimes makes defining standards a lengthy process.
+이것은 이제 오픈 소스에 대한 이전 정의에서 여러분에게 친숙할 것이며, 더 넓은 관점과 다양한 회사와 개인이 광범위하게 채택할 수 있는 최상의 기회를 모두 허용하기 때문에 여기에서도 중요합니다. 또한 때로는 표준을 정의하는 데 시간이 오래 걸립니다.
 
-**Conforming Implementations**										
+**준수 구현**
 
-This is a specific definition set forth by the Open Source Initiative (OSI), an industry consortium that helps maintain both approved open source licenses as well as the formal definition of open source. Their Open Standards Requirement (OSR) adds in this definition to further clarify that there should be nothing in the standard’s definition that would preclude someone building a piece of open source software that conforms to the standard itself.  Abiding by this gives those who use the standard confidence that they will have both open source and closed source options to choose from when picking an implementation.
+이는 승인된 오픈 소스 라이선스와 오픈 소스의 공식 정의를 모두 유지하는 데 도움이 되는 산업 컨소시엄인 OSI(Open Source Initiative)에서 제시한 특정 정의입니다. OSR(Open Standards Requirement)은 이 정의에 추가하여 표준 자체를 준수하는 오픈 소스 소프트웨어를 구축하는 것을 방해하는 표준의 정의에 어떤 내용도 포함되어서는 안 된다는 점을 추가로 명확히 하고 있습니다. 이를 준수하면 표준을 사용하는 사람들에게 구현을 선택할 때 선택할 수 있는 오픈 소스와 폐쇄형 소스 옵션이 모두 있다는 확신을 갖게 됩니다.
 
-There are many standards that we rely on every day, including **TCP/IP** (the underlying standard for communications on the Internet), **HTTP** (the protocol behind the World Wide Web), **HTML** (the language used by web page authors to format content), **GSM** (the standard for much of the world’s cellular phone communications), **ODF** (the Open Document Format used to exchange documents between various word processors), and **PDF** (the Portable Document Format used to produce print-ready documents).
+우리가 매일 의존하는 많은 표준이 있습니다. **TCP/IP** (인터넷 통신의 기본 표준), **HTTP** (월드 와이드 웹 뒤의 프로토콜), **HTML** (웹 페이지 작성자가 콘텐츠 형식 지정에 사용하는 언어 ), **GSM** (세계 대부분의 휴대 전화 통신 표준), **ODF** (다양한 워드 프로세서 간에 문서를 교환하는 데 사용되는 개방형 문서 형식) 및 **PDF** (인쇄용 문서를 생성하는 데 사용되는 휴대용 문서 형식).
 
-In many of those cases, there are open source implementations of these standards to allow many individuals and organizations to participate in helping build and advance these technologies.
+많은 경우 이러한 표준의 오픈 소스 구현이 있어 많은 개인과 조직이 이러한 기술을 구축하고 발전시키는 데 참여할 수 있습니다.
 
-**Mixing and Matching**
+**믹싱 및 매칭**
 
-In today’s technology landscape, there is rarely a case where only one of these three elements (open source, open standards, closed source software) is used in isolation.  
+오늘날의 기술 환경에서 이 세 가지 요소(오픈 소스, 개방형 표준, 폐쇄형 소스 소프트웨어) 중 하나만 단독으로 사용되는 경우는 거의 없습니다.
 
-Most often, you’ll experience open source implementations of open standards (like the Apache Web Server’s implementation of HTTP), but you can also find instances of closed source software that implement an open standard, such as cryptography software companies who implement the Key Management Interoperability Protocol (KMIP) standard, allowing interoperability among many vendors, and even other open source software.
+대부분의 경우 Apache Web Server의 HTTP 구현과 같은 개방형 표준의 오픈 소스 구현을 경험하게 되지만 키 관리를 구현하는 암호화 소프트웨어 회사와 같이 개방형 표준을 구현하는 폐쇄형 소스 소프트웨어의 인스턴스도 찾을 수 있습니다. 키 관리 상호 운용성 프로토콜(KMIP) 표준으로 많은 공급업체 및 기타 오픈 소스 소프트웨어 간의 상호 운용성을 허용합니다.
 
-You’ll also see closed source software being used alongside open source software, as in the case of people using the popular open source Firefox browser on closed source operating systems like Windows and Mac OS X.  Even open source operating systems like Linux are used to run closed source applications like stock exchange applications and other financial software.
+Windows 및 Mac OS X와 ​​같은 폐쇄형 소스 운영 체제에서 인기 있는 오픈 소스 Firefox 브라우저를 사용하는 사람들의 경우와 같이 오픈 소스 소프트웨어와 함께 사용되는 폐쇄형 소스 소프트웨어도 볼 수 있습니다. Linux와 같은 오픈 소스 운영 체제도 증권 거래소 애플리케이션 및 기타 금융 소프트웨어와 같은 폐쇄형 소스 애플리케이션을 실행합니다.
 
-# Section: A Short History of Open Source Software
+# 섹션: 오픈 소스 소프트웨어의 짧은 역사
 
-## Lesson: Introduction
+## 강의: 소개
 
-### Section Overview
+### 섹션 개요
 
-In this section, we will provide a brief overview of the roots of the free software movement, and the subsequent birth of open source software.  We’ll include a discussion of how pragmatism vs. idealism played into open source becoming a critical component of business and technology strategies in organizations. There will also be a short discussion on the evolution of open standards play in this space.
+이 섹션에서 우리는 자유 소프트웨어 운동의 뿌리와 오픈 소스 소프트웨어의 후속 탄생에 대한 간략한 개요를 제공할 것입니다. 우리는 실용주의와 이상주의가 어떻게 조직에서 비즈니스 및 기술 전략의 중요한 구성 요소가 되는 오픈 소스로 작용했는지에 대한 논의를 포함할 것입니다. 이 공간에서 열린 표준 플레이의 진화에 대한 짧은 토론도 있을 것입니다.
 
-### Learning Objectives
+### 학습 목표
 
-By the end of this section, you should be able to:
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-* Explain how the Free Software movement gave birth to open source.
+* 자유 소프트웨어 운동이 어떻게 오픈 소스를 탄생시켰는지 설명하십시오.
 
-* Describe how the notions of idealism vs. pragmatism affected the adoption of open source.
+* 이상주의 대 실용주의 개념이 오픈 소스 채택에 어떤 영향을 미쳤는지 설명하십시오.
 
-* Articulate the evolution of open standards and the role they play in this ecosystem.
+* 개방형 표준의 발전과 이 생태계에서 그들이 수행하는 역할을 명확히 설명합니다.
 
-## Lesson: Free Software & Open Source
+## 강의: 무료 소프트웨어 및 오픈 소스
 
-### A Long and Storied History
+### 길고 유서 깊은 역사
 
-Sharing of software has gone on since the beginnings of the computer age. In fact, not sharing software was the exception and not the rule. The concept of **Open Source Software (OSS)** long predates the use of the term.  For a detailed history of the early days of software, there are many resources you can check, including [Wikipedia](https://en.wikipedia.org/wiki/History_of_free_and_open-source_software), but we’ll give a condensed version here. It’s important also to note that there are many disagreements about certain details of this evolution, but it’s important to understand the basic timeline.
+소프트웨어의 공유는 컴퓨터 시대의 시작부터 계속되었습니다. 사실, 소프트웨어를 공유하지 않는 것은 예외일 뿐 규칙은 아닙니다. **오픈 소스 소프트웨어(OSS)** 의 개념은 이 용어의 사용보다 오래 전에 사용되었습니다. 소프트웨어 초창기의 자세한 역사를 보려면 [Wikipedia](https://en.wikipedia.org/wiki/History_of_free_and_open-source_software)를 포함하여 확인할 수 있는 많은 리소스가 있지만 여기서는 압축된 버전을 제공합니다. 이 진화의 특정 세부 사항에 대해 많은 의견 불일치가 있지만 기본 일정을 이해하는 것이 중요합니다.
 
-In the early days of computing (1950s-1960s), software was produced mainly by academics and corporate researchers working for early computer companies.  It was difficult and time consuming to write, and generally shared as works of **public-domain**.  These works are not owned by an individual author or artist. Anyone can use a **public domain** work without obtaining permission, but no one can ever own it. The software was not seen as a commodity in and of itself, as it required the specialized (and expensive) computer hardware to even run.
+컴퓨팅 초창기(1950~1960년대)에 소프트웨어는 주로 초기 컴퓨터 회사에서 일하는 학계와 기업 연구원에 의해 생산되었습니다. 작성하는 것은 어렵고 시간이 많이 걸리며 일반적으로 **public-domain** 의 작품으로 공유됩니다 . 이 작품은 개별 작가나 예술가의 소유가 아닙니다. 누구나 허가 없이 **public-domain** 저작물을 사용할 수 있지만 누구도 소유할 수 없습니다. 소프트웨어를 실행하려면 특수(고가의) 컴퓨터 하드웨어가 필요했기 때문에 소프트웨어는 그 자체로 상품으로 간주되지 않았습니다.
 
-In the late 1960s, things began to change, as computer operating systems and compiler technologies began to make it less cumbersome to build effective software that ran on a variety of computer platforms.  This led directly to the rise of software-only companies, and with software gaining the right to be copyrighted in 1974, the die was cast for software to become an important commodity that these companies fought to protect.
+1960년대 후반에 컴퓨터 운영 체제와 컴파일러 기술이 다양한 컴퓨터 플랫폼에서 실행되는 효과적인 소프트웨어를 구축하는 것이 덜 번거롭게 되면서 상황이 바뀌기 시작했습니다. 이것은 소프트웨어 전용 회사의 부상으로 직접 이어졌고 1974년 소프트웨어가 저작권의 권리를 획득하면서 소프트웨어가 이 회사들이 보호하기 위해 싸운 중요한 상품이 되기 위해 주사위가 던져졌습니다.
 
-The late 1970s and early 1980s saw the increasing trend of only distributing machine-readable code without the associated human-readable source code.  In the early 1980s, MIT researcher Richard Stallman began a project to write what would become the GNU operating system (which would later inspire the popular Linux kernel).  During this time, he established the Free Software Foundation and wrote the [Free Software Definition](https://en.wikipedia.org/wiki/The_Free_Software_Definition) in an attempt to wrest control of software created at MIT back from corporate interests who had changed and co-opted it.
+1970년대 후반과 1980년대 초반에는 사람이 읽을 수 있는 소스 코드 없이 기계가 읽을 수 있는 코드만 배포하는 추세가 증가했습니다. 1980년대 초, MIT 연구원 Richard Stallman은 GNU 운영 체제(나중에 인기 있는 Linux 커널에 영감을 줌)가 될 것을 작성하는 프로젝트를 시작했습니다. 이 기간 동안 그는 자유 소프트웨어 재단(Free Software Foundation)을 설립하고 자유 소프트웨어 정의([Free Software Definition](https://en.wikipedia.org/wiki/The_Free_Software_Definition)) 를 작성하여 MIT에서 만든 소프트웨어에 대한 통제권을 변경하고 채택한 기업의 이익을 되돌려 받았습니다.
 
-The Free Software Foundation’s other main claim to fame is the creation of the GNU Public License (GPL), which used the notion of ‘Copyleft’ to require any changes made to Free Software to be made available to the user receiving the free software.  Linus Torvalds (creator of the Linux operating system) released his first kernel in 1991, licensed with the GPL.  As we now know, it has become the basis for a significant portion of the world’s technology.
+자유 소프트웨어 재단의 명성에 대한 다른 주요 주장은 '카피레프트' 개념을 사용하여 자유 소프트웨어를 받는 사용자가 자유 소프트웨어에 대한 변경 사항을 사용할 수 있도록 요구하는 GNU 공중 사용 허가서(GPL)의 생성입니다. Linus Torvalds(리눅스 운영 체제의 창시자)는 1991년 GPL 라이선스가 있는 첫 번째 커널을 출시했습니다. 우리가 이제 알다시피, 그것은 세계 기술의 상당 부분을 위한 기초가 되었습니다.
 
-In 1997 Eric. S. Raymond published *The Cathedral & The Bazaar,* an analysis of the former academic hacker community and free software principles, which led to a strategy meeting in 1998 of several industry and free software individuals, including Christine Peterson, who coined the term ‘open source software.’  In the next section, we’ll examine the reasons for this change in ‘brand.’
+1997년 Eric S. Raymond 는 이전 학계의 해커 커뮤니티와 자유 소프트웨어 원칙에 대한 분석인 The Cathedral & The Bazaar를 출판 했는데, 이는 1998년에 '오픈 소스 소프트웨어'라는 용어를 만든 Christine Peterson을 비롯한 여러 업계 및 자유 소프트웨어 개인의 전략 회의로 이어졌습니다. 다음 섹션에서는 '브랜드' 관점에서 이러한 변화의 이유를 살펴보겠습니다.
 
-### Pragmatism vs. Idealism
+### 실용주의 대 이상주의
+'자유 소프트웨어'와 '오픈 소스 소프트웨어' 사이의 명명 논쟁의 중심에는 영어의 기이함이 있습니다. 특히 'Free'의 두 가지 다른 의미는 다음과 같습니다:
 
-At the heart of the naming debate between ‘Free Software’ and ‘Open Source Software’ is an oddity in the English language.  Specifically, the two different meanings of ‘free’:
+* 언론의 자유, 배포의 자유
 
-* Free as in free speech, freedom to distribute 
+* 무료 또는 "무료 맥주"에서 흔히 말하는 Free
 
-* Free as in no cost, or as is often said as in "free beer" 
+크리스틴 피터슨(Christine Peterson)과 '오픈 소스' 옹호에 관련된 다른 사람들은 여기에서 Free의 개념을 명확히 하려고 시도했습니다. 소스 코드가 검사, 재배포 및 수정을 위해 공개될 것임을 분명히 했습니다. 더 많은 기업이 이러한 소프트웨어 에코시스템에 참여함에 따라 오픈 소스가 주목을 받았는데, 이는 주로 '자유' 소프트웨어가 '전문적으로' 개발한 코드만큼 가치가 없다는 인식 때문이었습니다. 실제로 양질의 오픈 소스 소프트웨어의 양은 계속 증가할 뿐이며 대부분이 전문적으로 개발되었습니다
 
-Christine Peterson and the others involved in advocating for ‘open source’ were attempting to clarify the concept of free here - making it clear that the source code would be open for inspection, redistribution and modifications.  As more corporations became involved with these software ecosystems, open source gained traction, in large part due to the perception that ‘free’ software didn’t have as much value as ‘professionally’ developed code.  In reality, the amount of quality open source software has only continued to increase, and much of it is professionally developed.
+기업의 참여가 증가하면서 Free Software Foundation 옹호자와 오픈 소스 커뮤니티의 세계관이 분기되었습니다. 특히, 이것은 이상주의 대 실용주의를 중심으로 합니다.
 
-With more corporate involvement though came a bifurcation in the world view of Free Software Foundation advocates and the open source community.  Specifically, this centers around idealism vs. pragmatism.
+**이상주의**
 
-**Idealism**
+여기서 "free"는 맥주가 아닌 자유를 의미합니다. 모든 소프트웨어는 기술적인 이유가 아니라 이념적, 윤리적 이유로 열려 있어야 한다는 깊은 믿음이 있습니다.
 
-Here "free" means as in freedom, not beer. There is a profound belief that all software should be open for ideological and ethical reasons, not just technological ones. 
+**실용주의**
 
-**Pragmatism**
+여기에서 주요 고려 사항은 더 많은 기여자와 검토자가 참여하는 더 빠르고 더 나은 개발, 더 쉬운 디버깅 등을 포함한 기술적인 고려 사항입니다.
 
-Here the primary considerations are technical ones including faster and better development involving more contributors and reviewers, easier debugging, etc. 
+보다 이데올로기적인 관점에는 강력한 기술적 요구 사항도 있으며 많은 경우 두 흐름의 목표가 일치한다는 점에 유의하는 것이 중요합니다. 예를 들어:
 
-It’s important to note the more ideological perspective has strong technical imperatives as well, and in many cases the objectives of both streams coincide. For example: 
+* 생명을 구하는 의료 기기(예: 심박 조율기 또는 인슐린 펌프)를 구동하는 소프트웨어는 비밀이어야 합니까? 우리는 그러한 장치를 제어하는 ​​것이 무엇인지 알 권리가 없습니까? 그들이 우리를 죽일 수 있는 외부 공격에 취약하지 않다는 것을 어떻게 알 수 있습니까?
 
-* Should the software powering a life-saving medical device (such as a pacemaker, or an insulin pump), be secret? Do we not have the right to know what is controlling such devices? How do we know they are not vulnerable to external attacks that can kill us? 
+* 투표 기계에 전원을 공급하는 소프트웨어를 닫아야 합니까? 표로 작성된 결과의 무결성을 존중할 수 있다고 어떻게 확신할 수 있습니까? 이것은 실험 후 실험에서 폐쇄형 소스 투표 기계가 보안 취약점으로 가득 찬 것으로 나타났을 때 특히 사실입니다.
 
-* Should the software powering voting machines be closed? How can we be sure we can respect the integrity of tabulated results? This is particularly true when experiment after experiment has shown closed source voting machines to be full of security vulnerabilities. 
+불행하게도, 오픈 소스에 대한 이 두 가지 태도 사이의 갈등은 종종 가혹하고 파괴적이었습니다. 끝날 것 같지 않습니다. 그러나 실용주의적 접근 방식은 기업의 인수로 인해 대부분의 경제적 자원을 뒷받침하고 있으며, 더 철학적인 진영은 항상 지지자를 결정한다는 점에 주목하는 것이 중요합니다. 오픈 소스 작업의 대부분은 이 두 극단 사이의 어딘가에서 발생하지만 각각이 가치 있는 경계를 제공하기 위해 존재하는 것이 중요합니다.
 
-Unfortunately, the conflicts between these two attitudes towards open source have often been acrimonious and destructive. It is unlikely to ever end; but it’s important to note the pragmatic approach has most of the economic resources behind it due to corporate buy-in, and the more philosophical camp will always have determined adherents. The vast majority of the work in open source happens somewhere between these two extremes, but it’s important for each to exist to provide valuable boundaries.
+### 개방형 표준의 진화
 
-### The Evolution of Open Standards
+여러 면에서 표준의 진화는 자유 소프트웨어에서 오픈 소스로의 진화를 반영합니다. 이 경우 폐쇄 표준, *사실상* 표준, 개방형 표준의 세 가지 표준이 발전하기 시작했습니다.
 
-In many ways, the evolution of standards mirrors that of free software to open source. In this case, three kinds of standards began to evolve—closed standards, *de facto* standards, and open standards.
+비개방형 표준은 공개적으로 사용할 수 없으며 구현자가 제3자에게 로열티를 지불하도록 요구하거나 둘 다입니다. 예를 들어, 4G, Bluetooth 또는 WiFi를 포함하여 일반인이 인식하는 가장 일반적인 무선 표준은 폐쇄형 표준입니다. 이러한 표준에는 액세스 또는 지적 재산권 조건에 의해 제한되는 사양이 있습니다.
 
-Closed standards are not publicly available, require implementers to pay royalties to third parties, or both.  For example, most common wireless standards the average person recognizes, including 4G, Bluetooth, or WiFi are closed standards. These standards have specifications that are restricted either by access or intellectual property terms.
+소프트웨어 시장이 성장하기 시작하고 고객이 해결하는 문제의 종류가 너무 커서 여러 전문 분야가 필요하게 되면서 상호 운용성이 모든 비즈니스의 핵심 요구 사항이 될 것이 분명해졌습니다.
 
-As the software market began to grow, and the kinds of problems customers were solving became so large that they required multiple areas of speciality, it became apparent that interoperability was going to be a key requirement for businesses of all kinds.  
+고객은 문제를 해결할 수 있는 동급 최고의 솔루션을 제공하는 이기종 시스템을 허용하도록 공급업체에 압력을 가하기 시작했습니다. 이를 가능하게 하기 위해 개방형 표준이 개발되기 시작하여 많은 사람들이 응용 프로그램과 시스템 간에 데이터를 효과적으로 이동하는 방법에 대해 협력할 수 있었습니다. 일부 개방형 표준은 의도적인 표준으로 시작되지 않았습니다. 일부는 광범위한 채택을 통해 *사실상* 표준이 된 오픈 소스 프로젝트로 시작했습니다. 가장 일반적인 예는 세계 상위 500대 슈퍼컴퓨터의 100%를 구동하는 고성능 컴퓨팅과 같은 장치 클래스에 대한 사실상의 표준이 된 Linux 커널입니다.
 
-Customers began to pressure vendors to allow for heterogeneous systems that brought best-of-breeds solutions to bear on their problems.  To make this possible, open standards began to develop, allowing many people to collaborate on ways of effectively moving data between and among applications and systems. Some open standards didn’t start as intentional standards. Some started as open source projects that through widespread adoption became *de facto* standards. The most common example is the Linux kernel which has become a *de facto *standard for classes of devices, such as in high performance computing where Linux powers 100% of the world’s Top 500 Supercomputers. 
+여기에 나열하기에는 너무 많은 개방형 표준이 있지만 [Wikipedia](https://en.wikipedia.org/wiki/Open_standard) 에서 합리적으로 좋은 목록을 찾을 수 있습니다 . 그 목록을 자세히 살펴보면 여러분이 알고 있는 것(TCP/IP, PDF)과 의존하지만 많이 알지 못하는 것(HTML, USB)을 찾을 수 있습니다.
 
-There are too many open standards to list here, but you can find a reasonably good list on [Wikipedia](https://en.wikipedia.org/wiki/Open_standard). Perusing that list you’ll find ones that you probably know about (TCP/IP, PDF), as well as others you probably rely on but didn’t know as much about (HTML, USB).
+### 역사는 항상 일어나고 있다
 
-### History is Always Happening
+이러한 역사적 배경을 제공하는 주된 이유는 이전에 있었던 일을 알려주는 동시에 소프트웨어 및 기술 산업에서 어떤 것도 고정되어 있지 않다는 것을 상징하기 때문입니다. 자유 소프트웨어의 이상주의적 측면과 실용주의보다 상업적인 가치 사이의 균형에 대한 질문은 항상 있을 것입니다.
 
-The main reason for providing this historical background is that it both informs what has come before, but also symbolizes that nothing is ever static in the software and technology industry.  There will always be questions of balancing the idealist aspects of free software with the more commercial values of pragmatism.
+또한 컴퓨팅의 윤리적 측면과 이것이 라이선스에서 지적 재산 및 협업 모델에 이르기까지 모든 것에 영향을 미치는 방식에 대해 생각하는 움직임이 커지고 있습니다.
 
-There is also a growing movement around thinking about the ethical aspects of computing and how that affects everything from licensing, to intellectual property and collaboration models.
+우리가 오픈 소스와 개방형 표준에서 어디에서 왔는지 이해하면 미래에 어디로 가야 하는지 적절하게 평가할 수 있는 컨텍스트를 얻을 수 있습니다.
 
-Understanding where we’ve come from in open source and open standards will give us the context to properly evaluate where we need to go in the future.
+# 섹션: 오픈 소스를 사용하는 이유
 
-# Section: Reasons to Use Open Source
+## 강의: 소개
 
-## Lesson: Introduction
+### 섹션 개요
 
-### Section Overview
+이 섹션에서는 오픈 소스의 커뮤니티 및 협업 모델이 엔터프라이즈급 소프트웨어의 지속적이고 효율적인 개발을 보장하는 방법에 대한 개요를 제공합니다. 또한 가치 향상을 위해 오픈 소스와 개방형 표준을 효과적으로 결합할 수 있는 몇 가지 잠재적인 방법에 대해서도 논의할 것입니다.
 
-In this section, we will give an overview of how the community and collaborative model of open source ensures continued efficient development of enterprise-grade software. We’ll also discuss some potential ways to effectively marry open source with open standards for increased value.
+### 학습 목표
 
-### Learning Objectives
+이 섹션이 끝나면 다음을 수행할 수 있습니다:
 
-By the end of this section, you should be able to:
+* 오픈 소스의 커뮤니티 및 협업 모델을 설명합니다.
 
-* Describe the community and collaborative model of open source.
+* 오픈 소스가 기업에 가치를 제공하는 확실한 비즈니스 이유를 설명하십시오.
 
-* Articulate solid business reasons why open source provides value for enterprises.
+* 기술 솔루션의 전반적인 가치를 높이기 위해 오픈 소스와 개방형 표준을 결합하는 방법을 설명합니다.
 
-* Explain how open source and open standards can be combined to increase the overall value of a technology solution.
+## 강의: 오픈 소스 및 표준을 사용해야 하는 이유
 
-## Lesson: Why Should I Use Open Source & Standards
+### 오픈 소스 커뮤니티란 무엇입니까?
 
-### What Is an Open Source Community?
+마법처럼 모든 오픈 소스 개발을 가능하게 하는 신화적인 '오픈 소스 커뮤니티'는 없습니다. 다양한 유형의 문화를 가진 다양한 오픈 소스 커뮤니티가 있습니다. 그러나 커뮤니티 구성은 학계/기업/공유/해커 사고방식에 뿌리를 둔 초기 컴퓨터 시대로 거슬러 올라갑니다. 거의 모든 커뮤니티에는 다음과 같은 주요 특성이 있습니다:
 
-There is not some mythical ‘open source community’ that magically makes all open source development happen.  There are many different open source communities, with many different types of cultures.  However, the community construct harkens back to the earliest days of computers, rooted in the academic/corporate/sharing/hacker mentality. Almost all communities have the following main characteristics:
+* 개발 자원의 지리적 분포
 
-* Geographic distribution of development resources
+* 분산된 의사 결정 기능
 
-* Decentralized decision-making capabilities
+* 개발 및 의사 결정의 투명성
 
-* Transparency of both development and decision making
+* 능력주의 - 지속적인 가치 있는 기여를 통해 영향력을 얻습니다.
 
-* Meritocracy - influence is earned through sustained valuable contributions
+또한, 대부분의 커뮤니티는 느슨한 수평 구조와 함께 긴밀한 수직 계층 구조를 나타냅니다. 이 구조를 통해 작은 변경 사항(오픈 소스의 공용어)이 위쪽으로 흐르게 하고 상당한 '견제와 균형' 세트를 제공하는 많은 빠른 검토 주기를 거칩니다. 소프트웨어 품질을 보장하는 데 도움이 됩니다.
 
-In addition, most communities exhibit a tight vertical hierarchy, with loose horizontal structure, which allows small changes (the lingua franca of open source) to flow upward, passing through many rapid review cycles that provide a significant set of ‘checks and balances’ that help ensure software quality.
-
-An example community organizational structure:
+커뮤니티 조직 구조의 예:
 
 ![image alt text](community-org-structure.png)
 
-### How Does This Model Differ from Other Development Models?
+### 이 모델은 다른 개발 모델과 어떻게 다릅니까?
 
-While modern software development teams inside of technology corporations can share some of the ‘agile’ principles illustrated above, they generally have some significant differences.  These differences are neither good nor bad, and often exist for very good reasons.  They do, however, provide a challenge for organizations as they begin the journey toward more open source community participation.
+기술 기업 내부의 최신 소프트웨어 개발 팀은 위에 설명된 '애자일' 원칙 중 일부를 공유할 수 있지만 일반적으로 몇 가지 중요한 차이점이 있습니다. 이러한 차이는 좋지도 나쁘지도 않으며 종종 매우 좋은 이유로 존재합니다. 그러나 더 많은 오픈 소스 커뮤니티 참여를 향한 여정을 시작하는 조직에 도전 과제를 제공합니다.
 
-Here are some of the most significant practices of open source software projects that are different from corporate development teams:
+다음은 기업 개발 팀과 다른 오픈 소스 소프트웨어 프로젝트의 가장 중요한 몇 가지 사례입니다:
 
-* Influence and stature are not conveyed by title or position - meritocracy rules the day
+* 영향력과 위상은 직위나 지위가 전달되지 않습니다. - 능력주의가 하루를 지배합니다.
 
-* Transparency in both source code and decision making is paramount - no side conversations or decisions
+* 소스 코드와 의사 결정 모두의 투명성이 가장 중요합니다. - 부수적인 대화나 결정이 없습니다.
 
-* Support for geographically-distributed teams is built in - asynchronous modes of communication and culture are the norm
+* 지리적으로 분산된 팀에 대한 지원이 기본 제공됩니다. - 비동기식 커뮤니케이션 및 문화 모드가 표준입니다.
 
-Some organizations have applied lessons from the open source community to their own internal efforts (a practice known as ‘Inner Source’) to take advantage of the speed and flexibility they offer.  Doing this can also help build the necessary institutional culture that allows for easier engagement with the upstream open source ecosystem.
+일부 조직에서는 제공하는 속도와 유연성을 활용하기 위해 오픈 소스 커뮤니티의 교훈을 자체 내부 노력('내부 소스'로 알려진 관행)에 적용했습니다. 이렇게 하면 업스트림 오픈 소스 생태계에 더 쉽게 참여할 수 있는 필요한 제도적 문화를 구축하는 데 도움이 될 수 있습니다.
 
-### The Business Perspective
+### 비즈니스 관점
 
-Now that we’ve covered a bit of what the community development model looks like, let’s look at some reasons that businesses of all sizes have chosen open source as a valuable technology tool to help them solve real-world problems.  
+이제 커뮤니티 개발 모델이 어떻게 보이는지 약간 다루었으므로 모든 규모의 기업이 실제 문제를 해결하는 데 도움이 되는 가치 있는 기술 도구로 오픈 소스를 선택한 몇 가지 이유를 살펴보겠습니다.
 
-Open source usage within an enterprise provides the following advantages:
+기업 내에서 오픈 소스를 사용하면 다음과 같은 이점이 있습니다:
 
-* Speed
+* 속도
+* 비용 절감
+* 커스터마이징 가능
+* 혁신
+* 보안
+* 비즈니스 이점
+* 라이선스의 유연성
 
-* Lower Cost
+다음 몇 섹션에서 이들 각각을 다룰 것입니다.
 
-* Customizability
+### 오픈 소스는 어떻게 개발을 가속화합니까?
 
-* Innovation
+오픈 소스 소프트웨어는 소프트웨어 개발 주기를 가속화하는 데 중요한 역할을 하는 것으로 입증되었습니다. 가장 눈에 띄는 예 중 하나는 6-12개월 주기로 주요 신제품이 출시되는 모바일 디바이스 시장입니다. 오픈 소스는 빠른 진화 제공에 필수적입니다.
 
-* Security
+그렇다면 오픈 소스가 개발 속도를 높이는 방법은 정확히 무엇입니까?
 
-* Business Advantage
+* 오픈 소스 소프트웨어 획득은 구매 주문, 계약, SOW(statement of work) 또는 라이선스 협상 없이 시작하는 것이 더 빠르고 쉽습니다.
 
-* Flexibility in licensing
+* 오픈 소스 배포는 일반적으로 훨씬 빠릅니다. 너무 길고 번거로운 상용 설치, 구성 및 구현 주기와 달리 오픈 소스는 `다운로드 후 실행`하는 문화에서 비롯됩니다.
 
-We’ll cover each of these in the next few sections.
+* 주요 오픈 소스 프로젝트는 수익 중심 관리 대신 커뮤니티 중심 기능으로 더 빠르게 진화하고 있습니다. 오픈 소스의 빠른 의사 결정(종종 [게으른 합의](http://community.apache.org/committers/lazyConsensus.html)의 한 형태)을 통해 프로젝트는 새로운 기능과 수정 사항을 매우 빠르게 통합할 수 있습니다.
 
-### How Does Open Source Speedup Development?
+* 광범위한 커뮤니티 테스트를 거치기 때문에 성숙한 오픈 소스의 품질이 더 높은 경우가 많습니다. 실제로 [Forrester Research 연구](https://fossbazaar.org/system/files/OpenSourceForTheNextGenerationOfEnterpriseIT.pdf)에 따르면 소프트웨어 품질은 92%의 경우 기대치를 충족하거나 초과했습니다.
 
-Open Source Software has proven instrumental in speeding software development cycles.  One of the most striking examples is in the mobile device market where we are seeing major new products being released in 6-12 month cycles.  Open source is essential to fast evolutionary delivery.
+* 오픈 소스는 소스 코드, 협업 커뮤니티, 인터페이스 및 도구를 사용한 사용자 정의를 지원합니다.
 
-So exactly how does open source speed up development?
+* 혁신적인 제공 방식을 통해 오픈 소스는 일반적으로 몇 주 또는 몇 개월이 아닌 몇 시간 만에 가동되고 실행됩니다.
 
-* Open Source software acquisition is often faster and easier – no purchase orders, contracts, SOW or license negotiations to get started.
+### 오픈 소스가 더 저렴한 이유는 무엇입니까?
 
-* Open source deployments are usually much quicker.  Unlike commercial installation, configuration, and implementation cycles which are often too long and cumbersome, open source comes from a download-and-go culture.
+오픈 소스 소프트웨어를 사용하면 여러 입증된 방법으로 개발 비용을 크게 줄일 수 있습니다:
 
-* The leading open source projects are evolving faster with community driven features, instead of revenue driven management. Fast decision making in open source (often a form of [lazy consensus](http://community.apache.org/committers/lazyConsensus.html)) enables projects to incorporate new features and fixes very rapidly. 
+* 최근 [Red Hat 연구](https://www.redhat.com/cms/managed-files/rh-enterprise-open-source-report-detail-f21756-202002-en.pdf)에 따르면 오픈 소스는 상용/폐쇄형 소스 솔루션에 비해 총 소유 비용이 30% 더 낮습니다.
 
-* Because it is subjected to broad community testing, mature open source is often of higher quality.  In fact, software quality met or exceeded expectations 92% of the time according to a  [Forrester Research study](https://fossbazaar.org/system/files/OpenSourceForTheNextGenerationOfEnterpriseIT.pdf).
+* 오픈 소스를 사용하면 과도한 기능을 피할 수 있습니다. 많은 폐쇄형 소스 제품에는 클라이언트가 거의 사용하지 않거나 필요로 하거나 원하지 않는 기능이 과적재되어 있습니다. 그리고 그들은 종종 번들로 제공되어 어쨌든 지불해야 합니다.
 
-* Open source supports customization with the source code, a collaborative community, interfaces and tools.
+* 오픈 소스는 공급업체 종속을 방지하고 경쟁을 촉진합니다. 상용 오픈 소스 공급업체가 활용되는 경우에도 응용 프로그램을 변경하지 않고 자유롭게 공급업체를 전환하거나 지원을 중단할 수 있습니다.
 
-* With an evolutionary delivery approach, open source is usually up and running in hours instead of weeks or months.
+* 오픈 소스는 기술에 대한 독점적인 액세스가 없기 때문에 컨설팅, 교육 및 지원 비용도 지원합니다. 종종 공급업체로부터 다중 소스 지원을 받거나 활기찬 개발자 커뮤니티로부터 지원을 받을 수도 있습니다. 많은 회사에서 커뮤니티에서 개발자를 고용하여 구현을 지원하고 업스트림 프로젝트에 수정 사항을 제공합니다.
 
-### Why Is Open Source Lower Cost?
+* 활동적인 커뮤니티는 상용 지원 계약보다 더 높은 품질의 지원을 제공하는 경우가 많으며 무료입니다.
 
-Using open source software can significantly reduce development costs in a number of proven ways:
+### 오픈 소스가 더 유연한 이유는 무엇입니까?
 
-* A recent [Red Hat study](https://www.redhat.com/cms/managed-files/rh-enterprise-open-source-report-detail-f21756-202002-en.pdf) has shown that open source has a 30% lower total cost of ownership compared to commercial/closed source solutions
+오픈 소스는 타사 소프트웨어 대안 중 가장 높은 유연성을 제공합니다:
 
-* With open source you can avoid functionality overkill. Many closed source products have an overload of capabilities that clients rarely use, need, or even want.  And they are often bundled so that they must be paid for anyway.
+* 오픈 소스를 사용하면 공급업체, 비용, 구매 구조 또는 재배포 조건에 얽매이지 않습니다. 오픈 소스는 벤더 독립성과 경쟁력 있는 옵션을 가능하게 합니다.
 
-* Open source helps prevent vendor lock in and promotes competition.  Even where commercial open source vendors are utilized, you have the freedom to switch vendors or even drop support without changing your application.
+* 오픈 소스는 배포에 대해 매우 자유로운 계약상 제한이 있는 경우가 많으므로 플랫폼, 사용자 수, 프로세서 수에 대해 최대한의 유연성을 가질 수 있습니다.
 
-* Open source also helps with consulting, training and support costs because there is no exclusive access to the technology.  You can often multi-source support from vendors or even receive support from a vibrant community of developers. Many companies hire developers from the community to support their implementations, and contribute fixes back to the upstream project.
+* 소스 코드에 액세스할 수 있으므로 필요한 사용자 지정을 만들 수 있으며 다른 사용자에게 가치가 있는 경우 커뮤니티에서 향후 릴리스에서 이를 지원할 수 있습니다.
 
-* Active communities often provide higher quality support than commercial support agreements, and what’s more, it’s free.
+* 오픈 소스 커뮤니티는 특정 사용 사례에 대한 솔루션을 확장하거나 다른 제품과 통합하기 쉽게 하는 사용자 지정을 장려하고 촉진합니다.
 
-### Why Is Open Source More Flexible?
+* 건강한 오픈 소스 커뮤니티는 지속적인 지원을 제공하고 개선을 위한 의견과 제안을 장려합니다.
 
-Open source offers the most flexibility of any 3rd party software alternative:
+### 오픈 소스는 혁신을 어떻게 지원합니까?
 
-* With open source you are never locked into a vendor, their costs, their buying structures or their re-distribution terms.  Open source enables vendor independence and competitive options.
+오픈 소스 소프트웨어는 원래 협업을 통해 개발과 혁신을 촉진하는 방법으로 생각되었습니다.
 
-* Open source often has very liberal contractual limits on deployment, if any, so you have the greatest possible flexibility on platforms, numbers of users, number of processors.
+오픈 소스 접근 방식은 혁신에 매우 효과적인 것으로 입증되어 많은 첨단 소프트웨어 기술이 오픈 소스 커뮤니티에 의해 주도되고 있습니다. 예를 들어:
 
-* Because you have access to the source code, you may create any customizations you need, and if they are of value to others, the community may support them in a future release.
+* 인터넷은 주로 오픈 소스 프로젝트의 대규모 모음으로 개발되었습니다.
 
-* Open source communities encourage and facilitate customization making it easier to extend the solution for particular use cases or to integrate with other products
+* 소프트웨어 개발 도구 혁신 및 통합은 대부분 오픈 소스 영역입니다.
 
-* Healthy open source communities provide ongoing support and encourage input and suggestions for improvements.
+* 모바일 통신 분야의 놀라운 혁신 속도는 오픈 소스를 통해서만 가능합니다. Android가 주요 예이지만 Apple의 iOS와 같은 폐쇄형 소스 플랫폼도 수백 개의 오픈 소스 소프트웨어 라이브러리 및 구성 요소를 사용하여 대부분 구축됩니다.
 
-### How Does Open Source Support Innovation?
+* 인터넷의 나머지 부분과 마찬가지로 소셜 미디어 소프트웨어 플랫폼은 오픈 소스 소프트웨어에서 등장하고 이를 통해 성장했습니다.
 
-Open source software was originally conceived as a way to facilitate development and innovation through collaboration.
+* 과학 컴퓨팅과 대규모 병렬 컴퓨팅의 영역은 거의 독점적으로 오픈 소스 영역입니다.
 
-The open source approach has proven so effective for innovation that many leading edge software technologies are driven by open source communities.  For instance:
+많은 오픈 소스 커뮤니티는 참여를 통해 활용하여 혁신을 가속화할 수 있는 급속한 발전을 보여줍니다. 상향식 능력주의의 오픈 소스 정신은 소유권과 책임을 개발 팀으로 되돌립니다.
 
-* The Internet has been developed primarily as a large collection of open source projects
+새로운 소프트웨어 아이디어를 도입하고, 새로운 기능을 테스트하고, 활성 사용자 기반을 확장하는 가장 좋은 방법 중 하나는 오픈 소스 커뮤니티를 이용하는 것입니다.
 
-* Software development tool innovation and integration is largely an open source domain
+마지막으로 오픈 소스가 가능하게 하는 혁신은 단순한 기술 혁신이 아닙니다. 오픈 소스 라이선스에서 계약상의 제약이 없기 때문에 창의적이고 새로운 사용, 새로운 배포 계획, 유연하고 창의적인 패키징 및 가격 접근 방식, 기타 형태의 비즈니스 및 시장 혁신이 가능합니다.
 
-* The incredible rate of innovation in the mobile communications space is only possible through open source.  Although Android is the primary example, even closed source platforms like Apple’s iOS are largely built using hundreds of open source software libraries and components.
+### 오픈 소스 소프트웨어의 보안 이점은 무엇입니까?
 
-* Like the rest of the Internet, social media software platforms have emerged from and grown through open source software.
+불행히도 공격자들은 전 세계의 소프트웨어 시스템을 표적으로 삼고 공격하고 있습니다. 오픈 소스 소프트웨어나 폐쇄형 소스 소프트웨어 모두 항상 더 안전하지는 않습니다. 보안은 소프트웨어의 설계, 구현, 검증(테스트 포함) 및 배포 방법과 같은 여러 요소에 따라 달라집니다.
 
-* The arena of scientific computing and massively parallel computing are almost exclusively open source domains
+그러나 오픈 소스 소프트웨어는 폐쇄형 소스 소프트웨어에 비해 *잠재적인* 근본적인 보안 이점이 있습니다. 보안 소프트웨어 설계의 핵심 원칙 중 하나는 "개방형 설계"입니다. 즉, 보안 소프트웨어 설계는 모든 사람이 보호 메커니즘이 작동하는 방식을 알고 있다고 가정해야 합니다. 이렇게 하면 전 세계적으로 대규모 피어 리뷰를 통해 보안 취약점을 찾아 소프트웨어가 배포되기 전에 수정할 수 있습니다.
 
-Many open source communities exhibit rapid evolution that can be harnessed through participation to speed your own innovation.The open source ethos of bottom-up meritocracy directs ownership and accountability back to development teams
+물론 가능성이 항상 실현되는 것은 아닙니다. 보안을 유지하려면 오픈 소스 소프트웨어 프로젝트를 보안을 염두에 두고 개발하고 실제로 검토하고 소프트웨어를 배포하기 전에 이러한 문제를 수정해야 합니다. 많은 오픈 소스 소프트웨어 프로젝트는 이미 이러한 잠재적 이점을 활용하기 위한 조치를 취하고 있으며 Linux Foundation은 다양한 오픈 소스 소프트웨어 프로젝트와 협력하여 이러한 이점을 활용할 수 있도록 돕고 있습니다.
 
-One of the best ways to introduce a new software idea, test new capabilities and grow an active user base is through an open source community
+### 오픈 소스는 어떻게 비즈니스 이점을 제공합니까?
 
-And finally, the innovation that open source enables is not just technical innovation.  The lack of contractual constraints in open source licensing allows for creative new uses, new distribution schemes, flexible and creative packaging and pricing approaches and other forms of business and market innovation.
+위의 모든 요소는 조직의 소프트웨어 경쟁 우위에 추가됩니다.
 
-### What are the Security Advantages of Open Source Software?
+* 오늘날과 같이 빠르게 진화하는 시장에서 가장 저렴한 비용으로 가장 빠르게 소프트웨어 솔루션을 지속적으로 생산하는 회사가 승리합니다.
 
-Unfortunately attackers are targeting and attacking software systems around the world. Neither open source software nor closed source software is always more secure. Security depends on many factors, such as how the software was designed, implemented, verified (including testing), and deployed.
+* 이 시점에서 오픈 소스 소프트웨어는 오픈 소스를 효과적으로 **사용하지 않으면** 조직이 불리한 위치에 놓이게 될 정도로 주류 현상이 되었습니다.
 
-However, open source software does come with a *potential* fundamental security advantage over closed source software. One of the key principles of secure software design is "open design", that is, secure software design should presume that everyone knows how its protection mechanism works. Doing this enables mass worldwide peer review to find security vulnerabilities and fix them before the software is deployed.
+리서치 회사 Gartner는 오픈 소스에 대해 다음과 같이 말했습니다:
 
-Of course, potential is not always realized. To be secure, open source software projects must be developed with security in mind, actually be reviewed, and have those problems fixed before the software is deployed. Many open source software projects already take steps to employ this potential advantage, and the Linux Foundation is working with various open source software projects to help them take advantage of it as well.
+"**오픈 소스는 유비쿼터스이며 불가피합니다…** 오픈 소스에 반대하는 정책을 갖는 것은 비현실적이며 **경쟁에서 불리합니다**.
 
-### How Does Open Source Provide a Business Advantage?
+최근 [McKinsey & Co. 보고서](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)에 따르면 업계 상위 4분위 기업의 "가장 큰 차별화 요소"는 사용자에서 기여자로 전환한 "오픈 소스 채택"이었습니다. 보고서의 데이터에 따르면 상위 4분위 기업의 오픈 소스 채택은 다른 4분위 기업보다 혁신에 3배의 영향을 미칩니다.
 
-All of the factors above add up to a software competitive advantage for your organization.  
+### 오픈 소스와 개방형 표준 연결
 
-* In today’s rapidly evolving markets, the company that consistently produces software solutions the most quickly at lowest cost will win.  
+지난 몇 년 동안 표준 세계와 더 나은 협력 방법을 찾으려는 오픈 소스 생태계의 추세가 증가했습니다. 때때로 문제가 있지만(주로 두 그룹의 실행 속도 불일치와 관련하여), 둘 사이의 긴밀한 관계를 계속 옹호해야 하는 충분한 이유가 있습니다.
 
-* At this point, open source software has become such a mainstream phenomenon that **not using** open source effectively will almost certainly place your organization in a disadvantaged position.
+이미 존재하거나 이미 동작하는 프로젝트의 몇 가지 좋은 예가 있습니다:
 
-Research firm Gartner had this to say about open source:
+* Linux Foundation의 JDF([Joint Development Foundation](https://www.jointdevelopment.org/)) 노력 - 특히 GraphQL
 
-"**Open source is ubiquitous, it’s unavoidable… having a policy against open source is impractical and places you at a **competitive disadvantage"**
+* 사이버 위협 데이터 공유를 위한 기존 개방형 표준의 오픈 소스 참조 구현을 제공하는 OASIS Open의 [Open Cybersecurity Alliance](https://opencybersecurityalliance.org/)
 
-As a recent [McKinsey & Co. report ](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/developer-velocity-how-software-excellence-fuels-business-performance)described, the "biggest differentiator" for top-quartile companies in an industry vertical was “open source adoption,” where they shifted from users to contributors. The report’s data shows that top-quartile company adoption of open source has three times the impact on innovation than companies in other quartiles.
+* [IETF](https://www.ietf.org/)의 "대략적인 합의 및 실행 코드"의 만트라는 OpenDaylight, OPNFV, OpenStack 등과 같은 오픈 소스 프로젝트와 협력하는 많은 개방형 표준으로 이어졌습니다.
 
-### Bridging Open Source and Open Standards
+표준과 오픈 소스는 서로 다른 속도로 움직이고 서로 다른 방식으로 상호 운용성을 위해 노력하지만 개방형 표준의 오픈 소스 구현을 구축할 수 있다는 것은 예를 들어, 금융 및 NGO처럼 전통적으로 주로 표준에 의존해 온 고객 공급망에서 더 많은 오픈 소스 사용을 유도하는 데 도움이 됩니다.
 
-There has been a growing trend in the last several years of both the standards world and the open source ecosystem attempting to find better ways of working together.  While there are sometimes challenges (primarily around the execution speed mismatch of the two groups), there are many good reasons to continue to advocate for a closer relationship between the two.
-
-There are some good examples of projects where this is or already has worked:
-
-* The Linux Foundation's JDF ([Joint Development Foundation](https://www.jointdevelopment.org/)) efforts - GraphQL among others
-
-* OASIS Open’s [Open Cybersecurity Alliance](https://opencybersecurityalliance.org/), which is providing open source reference implementations of existing open standards for sharing cyber threat data
-
-* [IETF](https://www.ietf.org/)’s mantra of "rough consensus and running code" has led to many open standards collaborating with open source projects such as OpenDaylight, OPNFV, OpenStack, and others.
-
-Standards and open source move at different paces, and work on interoperability in different ways, but being able to build open source implementations of open standards helps drive more open source usage in customer supply chains that have traditionally relied primarily on standards - areas like government, finance and NGOs, for example.
-
-Additionally, by supporting standards, the open source ecosystem gets the ability to interoperate even with closed source software, which provides businesses with more choices and more flexibility.
+또한 표준을 지원함으로써 오픈 소스 생태계는 폐쇄형 소스 소프트웨어와도 상호 운용할 수 있는 능력을 갖게 되어 기업에 더 많은 선택권과 유연성을 제공합니다.
 

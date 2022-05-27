@@ -1,66 +1,70 @@
-# OSPO 101 Training Modules
+# OSPO 101 교육 모듈
 
 <img src="ospo101.svg">
 
-OSPO 101 is a course on everything you need to know about open source program office management.
+OSPO 101은 오픈 소스 프로그램 오피스 관리에 대해 알아야 할 모든 것에 대한 과정입니다.
 
-It is intended to be modularized so the content is reusable in a piecemeal fashion:
+콘텐츠를 단편적으로 재사용할 수 있도록 모듈화하기 위한 것입니다.
 
-* [Open Source Introduction](module1/README.md)
-* [Open Source Business Strategy](module2/README.md)
-* [Effective Open Source Program (OSPO) Management](module3/README.md)
-* [Open Source Development Practices](module4/README.md)
-* [Open Source Compliance Programs](module5/README.md)
-* [Collaborating Effectively with Open Source Projects](module6/README.md)
-* [Creating Open Source Projects](module7/README.md)
+* [오픈 소스 소개](module1/README.md)
+* [오픈 소스 비즈니스 전략](module2/README.md)
+* [효과적인 오픈 소스 프로그램(OSPO) 관리](module3/README.md)
+* [오픈 소스 개발 사례](module4/README.md)
+* [오픈 소스 준수 프로그램](module5/README.md)
+* [오픈 소스 프로젝트와 효과적인 협업](module6/README.md)
+* [오픈 소스 프로젝트 만들기](module7/README.md)
 
-The OSPO 101 course material is also available on LF Training as a full fledged packaged course for your organization:
+OSPO 101 과정 자료는 조직을 위한 본격적인 패키지 과정으로 LF 교육에서도 사용할 수 있습니다.
 
 https://training.linuxfoundation.org/training/open-source-management-and-strategy/
 
-## Course Outline
+## 강의 개요
 
-* [Open Source Introduction](module1/README.md)
-  * [Introducing Open Source](module1/README.md#section-introducing-open-source)
-  * [A Short History of Open Source Software](module1/README.md#section-a-short-history-of-open-source-software)
-  * [Reasons to Use Open Source](module1/README.md#section-reasons-to-use-open-source)
+* [오픈 소스 소개](module1/README.md)
+  * [오픈 소스 소개](module1/README.md#섹션-오픈-소스-소개)
+  * [오픈 소스 소프트웨어의 간략한 역사](module1/README.md#섹션-오픈-소스-소프트웨어의-짧은-역사)
+  * [오픈 소스를 사용하는 이유](module1/README.md#섹션-오픈-소스를-사용하는-이유)
 
-* [Open Source Business Strategy](module2/README.md)
-  * [Introducing Open Source Business Models](module2/README.md#section-introducing-open-source-business-models)
-  * [Developing an Open Source Strategy](module2/README.md#section-developing-an-open-source-strategy)
-  * [Developing Open Source Policies](module2/README.md#section-developing-open-source-policies)
-  * [Introducing the Open Source Program Office (OSPO)](module2/README.md#section-introducing-the-open-source-program-office)
+* [오픈 소스 비즈니스 전략](module2/README.md)
+  * [오픈 소스 비즈니스 모델 소개](module2/README.md#섹션-오픈-소스-비즈니스-모델-소개)
+  * [오픈 소스 전략 개발](module2/README.md#섹션-오픈-소스-전략-만들기)
+  * [오픈 소스 정책 개발](module2/README.md#섹션-오픈-소스-정책-개발)
+  * [오픈 소스 프로그램 오피스(OSPO) 소개](module2/README.md#섹션-오픈-소스-프로그램-오피스-소개)
 
-* [Effective Open Source Program (OSPO) Management](module3/README.md)
-  * [Open Source Program Offices & Your Organization](module3/README.md#open-source-program-offices-ospo-and-your-organization)
-  * [Building an Effective Open Source Program Office](module3/README.md#building-an-effective-open-source-program-office)
-  * [Additional Information & Case Studies](module3/README.md#additional-resources)
+* [효과적인 오픈 소스 프로그램(OSPO) 관리](module3/README.md)
+  * [오픈 소스 프로그램 오피스 및 조직](module3/README.md#오픈-소스-프로그램-오피스ospo-및-조직)
+  * [효과적인 오픈 소스 프로그램 오피스 구축](module3/README.md#효과적인-오픈-소스-프로그램-오피스-구축)
+  * [추가 정보 및 사례 연구](module3/README.md#추가-정보-및-사례-연구)
 
-* [Open Source Development Practices](module4/README.md)
-  * [Effective Open Source Development & Participation](module4/README.md#effective-open-source-development--participation)
-  * [The Role of Continuous Integration & Testing](module4/README.md#the-role-of-continuous-integration--testing)
-  * [Applying Open Source Methodologies Internally](module4/README.md#applying-open-source-methodologies-internally)
+* [오픈 소스 개발 사례](module4/README.md)
+  * [효과적인 오픈 소스 개발 및 참여](module4/README.md#효과적인-오픈 소스-개발-및-참여)
+  * [지속적 통합 및 테스트의 역할](module4/README.md#지속적인-통합-및-테스트의-역할)
+  * [내부적으로 오픈 소스 방법론 적용](module4/README.md#내부적으로-오픈-소스-방법론-적용)
 
-* [Open Source Compliance Programs](module5/README.md)
-  * [Open Source Licensing and Compliance Basics](module5/README.md#open-source-licensing-and-compliance-basics)
-  * [Building an Effective Compliance Program](module5/README.md#section-building-an-effective-compliance-program)
-  * [Choosing the Right License Compliance Tool](module5/README.md#section-choosing-the-right-license-compliance-tool)
-  * [The Role of Open Source Audits During M&A Activities](module5/README.md#section-the-role-of-open-source-audits-during-ma-activities)
+* [오픈 소스 준수 프로그램](module5/README.md)
+  * [오픈 소스 라이선스 및 규정 준수 기본 사항](module5/README.md#오픈-소스-라이선스-및-규정-준수-기본-사항)
+  * [효과적인 규정 준수 프로그램 구축](module5/README.md#섹션-효과적인-규정-준수-프로그램-구축)
+  * [올바른 라이선스 준수 도구 선택](module5/README.md#섹션-올바른-라이선스-준수-도구-선택)
+  * [M&A 활동 중 오픈 소스 감사의 역할](module5/README.md#섹션-ma-활동-중-오픈-소스-감사의-역할)
 
-* [Collaborating Effectively with Open Source Projects](module6/README.md)
-  * [Understanding Upstream Open Source Projects](module6/README.md#understanding-upstream-open-source-projects)
-  * [Effective Upstream Contribution Strategies](module6/README.md#section-effective-upstream-contribution-strategies)
-  * [Upstream Development Practices](module6/README.md#section-upstream-development-practices)
+* [오픈 소스 프로젝트와 효과적인 협업](module6/README.md)
+  * [업스트림 오픈 소스 프로젝트 이해하기](module6/README.md#업스트림-오픈-소스-프로젝트-이해)
+  * [효과적인 업스트림 기여 전략](module6/README.md#섹션-효과적인-업스트림-기여-전략)
+  * [업스트림 개발 사례](module6/README.md#섹션-업스트림-개발-관행)
 
-* [Creating Open Source Projects](module7/README.md)
-  * [Open Source Project Creation Overview](module7/README.md#open-source-project-creation-overview)
-  * [New Project Preparations](module7/README.md#section-new-project-preparations)
-  * [Successful Project Launch & Sustainment](module7/README.md##section-successful-project-launch-and-sustainment)
+* [오픈 소스 프로젝트 만들기](module7/README.md)
+  * [오픈 소스 프로젝트 생성 개요](module7/README.md#오픈-소스-프로젝트-생성-개요)
+  * [새로운 프로젝트 준비](module7/README.md#섹션-새로운-프로젝트-준비)
+  * [성공적인 프로젝트 시작 및 유지](module7/README.md#섹션-성공적인-프로젝트-시작-및-유지)
 
-## Acknowledgements
+## 감사의 말
 
-We would like to thank [Guy Martin](https://twitter.com/guyma) for helping seed the initial content for the course. The course was converted to friendly markdown format by the TODO Group community, including contributions from [Chris Aniszczyk](https://twitter.com/cra) and Greg Back.
+과정의 초기 콘텐츠를 시드하는 데 도움을 준 [Guy Martin](https://twitter.com/guyma)에 감사드립니다. 코스는 [Chris Aniszczyk](https://twitter.com/cra) 및 Greg Back의 기여를 포함하여 TODO 그룹 커뮤니티에 의해 친숙한 마크다운 형식으로 변환되었습니다.
 
-## License
+## 라이선스
 
-All code is offered under the Apache 2.0 and documentation is offered under the Creative Commons Attribution 4.0 International License: http://creativecommons.org/licenses/by/4.0/
+모든 코드는 Apache 2.0에서 제공되며 설명서는 크리에이티브 커먼즈 저작자표시 4.0 국제 (CC BY 4.0) 라이선스: http://creativecommons.org/licenses/by/4.0/ 에 따라 제공됩니다.
+
+## 이 문서의 출처
+
+이 Repository의 문서는 [리눅스 재단(Linux Foundation)](https://www.linuxfoundation.org/)의 [Todo Group](https://todogroup.org/)에서 만든 것으로 원본(영어) 문서는 https://github.com/todogroup/ospo101 에서 보실 수 있습니다.
